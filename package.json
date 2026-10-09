@@ -1,0 +1,21 @@
+{
+  "name": "millenium-belarusian-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node tools/extract.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.tools.json && tsc -p tsconfig.json",
+    "dev": "starlight watch",
+    "build": "starlight pack",
+    "prepare": "starlight lsp"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "^1.1.6",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

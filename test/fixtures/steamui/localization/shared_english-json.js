@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksteamui=self.webpackChunksteamui||[]).push([[2664],{36717:e=>{e.exports=JSON.parse('{"language":"english","Button_Back":"Back","Quote":"Don\'t \\"stop\\"","Path":"C:\\\\Steam","Multi":"Line1\\nLine2","Fmt":"%1$s of %2$s","Tag":"Click <1>here</1>","Item":"%1$s item","Item_Plural":"%1$s items"}')}}]);

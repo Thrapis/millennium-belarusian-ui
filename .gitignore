@@ -1,0 +1,5 @@
+node_modules/
+/.millennium
+/build/
+*.star
+/l10n/

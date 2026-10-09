@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksteamui=self.webpackChunksteamui||[]).push([[2664],{36717:e=>{e.exports=JSON.parse('{"language":"russian","Button_Back":"Назад","Quote":"Не \\"стоп\\"","Path":"C:\\\\Steam","Multi":"Строка1\\nСтрока2","Fmt":"%1$s из %2$s","Tag":"Нажмите <1>сюда</1>","Item":"%1$s предмет","Item_Plural":"%1$s предметов","OnlyRu":"x"}')}}]);

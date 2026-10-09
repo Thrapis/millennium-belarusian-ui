@@ -1,0 +1,13 @@
+[plugin]
+id = "by.thrapis.belarusian-ui"
+name = "Belarusian UI"
+version = "0.1.0"
+author = "Thrapis"
+description = "Belarusian translation of the Steam client UI."
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+# auto = detect the Millennium install and install the plugin there
+output_path = "auto"
