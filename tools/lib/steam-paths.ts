@@ -32,13 +32,17 @@ export interface LocModule {
   paths: Record<string, string>;
 }
 
-/** Modules (steamui, shared, friendsui…) that have a file for every requested language. */
-export function listLocFiles(steamDir: string, languages: string[]): LocModule[] {
+/**
+ * Modules (steamui, shared, friendsui…) that have a file for every required language,
+ * with the optional languages' files added where they exist.
+ */
+export function listLocFiles(steamDir: string, languages: string[], optional: string[] = []): LocModule[] {
   const dir = join(steamDir, LOC_SUBDIR);
+  const wanted = [...languages, ...optional];
   const byModule = new Map<string, Record<string, string>>();
   for (const name of readdirSync(dir)) {
     const m = LOC_FILE.exec(name);
-    if (!m?.groups || !languages.includes(m.groups["language"]!)) continue;
+    if (!m?.groups || !wanted.includes(m.groups["language"]!)) continue;
     const mod = m.groups["module"]!;
     const paths = byModule.get(mod) ?? {};
     paths[m.groups["language"]!] = join(dir, name);

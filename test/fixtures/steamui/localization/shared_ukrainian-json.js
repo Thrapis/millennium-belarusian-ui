@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksteamui=self.webpackChunksteamui||[]).push([[2664],{36717:e=>{e.exports=JSON.parse('{"language":"ukrainian","Button_Back":"Назад","Item":"%1$s предмет","Item_Plural":"%1$s предметів"}')}}]);

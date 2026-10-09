@@ -59,4 +59,10 @@ describe("listLocFiles", () => {
     expect(files.map((f) => f.module)).toEqual(["shared"]);
     expect(Object.keys(files[0]!.paths).sort()).toEqual(["english", "russian"]);
   });
+
+  // Proves optional languages are included when present and don't exclude a module when absent.
+  it("includes optional languages when present", () => {
+    const files = listLocFiles(FIXTURE_STEAM, ["english", "russian"], ["ukrainian", "polish"]);
+    expect(Object.keys(files[0]!.paths).sort()).toEqual(["english", "russian", "ukrainian"]);
+  });
 });

@@ -18,4 +18,8 @@ writeFileSync(new URL("shared_russian-json.js", dir), chunk({
   Multi: "Строка1\nСтрока2", Fmt: "%1$s из %2$s", Tag: "Нажмите <1>сюда</1>",
   Item: "%1$s предмет", Item_Plural: "%1$s предметов", OnlyRu: "x",
 }));
+// Ukrainian is present but partial; Polish is deliberately absent (optional languages).
+writeFileSync(new URL("shared_ukrainian-json.js", dir), chunk({
+  language: "ukrainian", Button_Back: "Назад", Item: "%1$s предмет", Item_Plural: "%1$s предметів",
+}));
 writeFileSync(new URL("shared_german-json.js", dir), chunk({ language: "german", Button_Back: "Zurück" }));

@@ -8,7 +8,8 @@
     "typecheck": "tsc -p tsconfig.tools.json && tsc -p tsconfig.json",
     "dev": "starlight watch",
     "build": "starlight pack",
-    "prepare": "starlight lsp"
+    "prepare": "starlight lsp",
+    "xliff": "node tools/make-xliff.ts"
   },
   "devDependencies": {
     "@steambrew/starlight": "^1.1.6",

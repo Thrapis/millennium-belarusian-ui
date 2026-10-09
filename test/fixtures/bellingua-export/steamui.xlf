@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="steamui" source-language="ru" target-language="be" datatype="plaintext">
+    <body>
+      <trans-unit id="MainTabsLibrary" xml:space="preserve">
+        <source>Библиотека</source>
+        <target state="final">Бібліятэка</target>
+      </trans-unit>
+      <trans-unit id="Reorder" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> из <ph id="2">%2$s</ph></source>
+        <target state="translated"><ph id="2">garbage</ph> з <x id="1"/></target>
+      </trans-unit>
+      <trans-unit id="Escapes" xml:space="preserve">
+        <source>&#34;Стоп&#34; &amp; &lt;сразу&gt;&#xA;ещё</source>
+        <target state="needs-review-translation">&#34;Стоп&#34; &amp; &lt;адразу&gt;&#xA;яшчэ</target>
+        <note>Context &amp; note</note>
+      </trans-unit>
+      <trans-unit id="Untranslated" xml:space="preserve">
+        <source>Новости</source>
+      </trans-unit>
+      <trans-unit id="BrokenTags" xml:space="preserve">
+        <source>Нажмите <ph id="1">&lt;1&gt;</ph>сюда<ph id="2">&lt;/1&gt;</ph></source>
+        <target state="translated">Націсніце сюды<ph id="2">&lt;/1&gt;</ph></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
