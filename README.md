@@ -69,7 +69,7 @@ inside Steam or ships in the plugin.
 | `docs/screenshots/` | Screenshots used in this README. |
 | `test/` | Tests for the plugin and the tools. |
 
-Most of the hand-written lines are tooling and tests, not plugin code. Steam changes its strings
+Most of the code in this repository is tooling and tests, not plugin code. Steam changes its strings
 often, and these tools make keeping up with it manageable for one person.
 
 ## Translation workflow
@@ -79,15 +79,9 @@ languages. Translation happens in [bellingua](https://github.com/Thrapis/belling
 project that imports and exports XLIFF 1.2. This repository produces the files bellingua imports
 and builds the plugin from what it exports.
 
-```
-Steam install ──extract──▶ l10n/source ──xliff──▶ l10n/xliff (ru → be) + reference-{en,uk,pl}
-                                                      │
-                                              import into bellingua, translate
-                                                      │
-translations/be (committed export) ◀──export──────────┘
-        │
-        └──compile──▶ frontend/generated/translations.ts ──build──▶ plugin
-```
+<p align="center">
+  <img src="docs/workflow.svg" alt="Translation workflow: extract Steam strings, generate XLIFF, translate in bellingua, export to translations/be, compile into the plugin" width="880">
+</p>
 
 Steam is found through `--steam <dir>`, then the `STEAM_DIR` environment variable, then the
 registry. `npm run compile -- --min-state translated|approved` ships only reviewed strings; the

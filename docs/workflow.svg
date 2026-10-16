@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="920" height="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Translation workflow</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="919" height="299" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+
+  <!-- row 1 -->
+  <g stroke-width="1.5">
+    <rect x="30" y="50" width="170" height="64" rx="8" fill="#ddf4ff" stroke="#54aeff"/>
+    <rect x="260" y="50" width="170" height="64" rx="8" fill="#f6f8fa" stroke="#8c959f"/>
+    <rect x="490" y="50" width="170" height="64" rx="8" fill="#f6f8fa" stroke="#8c959f"/>
+    <rect x="720" y="50" width="170" height="64" rx="8" fill="#ddf4ff" stroke="#54aeff"/>
+  </g>
+  <g text-anchor="middle" fill="#1f2328">
+    <text x="115" y="79" font-size="14" font-weight="600">Steam install</text>
+    <text x="115" y="98" font-size="12" fill="#57606a">steamui/localization</text>
+    <text x="345" y="79" font-size="14" font-weight="600">l10n/source</text>
+    <text x="345" y="98" font-size="12" fill="#57606a">English + Russian JSON</text>
+    <text x="575" y="79" font-size="14" font-weight="600">XLIFF trees</text>
+    <text x="575" y="98" font-size="12" fill="#57606a">ru → be, refs en / uk / pl</text>
+    <text x="805" y="79" font-size="14" font-weight="600">bellingua</text>
+    <text x="805" y="98" font-size="12" fill="#57606a">translate (separate app)</text>
+  </g>
+
+  <!-- row 1 arrows -->
+  <g stroke="#57606a" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <path d="M200 82 H258"/>
+    <path d="M430 82 H488"/>
+    <path d="M660 82 H718"/>
+  </g>
+  <g text-anchor="middle" font-size="12" fill="#57606a">
+    <text x="230" y="72">extract</text>
+    <text x="460" y="72">xliff</text>
+    <text x="690" y="72">import</text>
+  </g>
+
+  <!-- bellingua -> translations/be -->
+  <path d="M805 114 V152 H115 V188" stroke="#57606a" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="460" y="144" text-anchor="middle" font-size="12" fill="#57606a">export</text>
+
+  <!-- row 2 -->
+  <g stroke-width="1.5">
+    <rect x="30" y="190" width="170" height="64" rx="8" fill="#dafbe1" stroke="#4ac26b"/>
+    <rect x="260" y="190" width="170" height="64" rx="8" fill="#f6f8fa" stroke="#8c959f"/>
+    <rect x="490" y="190" width="170" height="64" rx="8" fill="#dafbe1" stroke="#4ac26b"/>
+  </g>
+  <g text-anchor="middle" fill="#1f2328">
+    <text x="115" y="219" font-size="14" font-weight="600">translations/be</text>
+    <text x="115" y="238" font-size="12" fill="#57606a">committed export</text>
+    <text x="345" y="219" font-size="14" font-weight="600">translations.ts</text>
+    <text x="345" y="238" font-size="12" fill="#57606a">generated, not committed</text>
+    <text x="575" y="219" font-size="14" font-weight="600">Plugin</text>
+    <text x="575" y="238" font-size="12" fill="#57606a">frontend/ + translations</text>
+  </g>
+
+  <!-- row 2 arrows -->
+  <g stroke="#57606a" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <path d="M200 222 H258"/>
+    <path d="M430 222 H488"/>
+  </g>
+  <g text-anchor="middle" font-size="12" fill="#57606a">
+    <text x="230" y="212">compile</text>
+    <text x="460" y="212">build</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="12" fill="#57606a">
+    <rect x="720" y="208" width="14" height="14" rx="3" fill="#ddf4ff" stroke="#54aeff"/>
+    <text x="742" y="219">outside this repo</text>
+    <rect x="720" y="232" width="14" height="14" rx="3" fill="#dafbe1" stroke="#4ac26b"/>
+    <text x="742" y="243">committed / shipped</text>
+  </g>
+</svg>
