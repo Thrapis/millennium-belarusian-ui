@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="steampops" source-language="ru" target-language="be" datatype="plaintext">
+    <body>
+      <trans-unit id="sdrpop_aae1" xml:space="preserve">
+        <source>Гонконг|Amazon|ap-east-1</source>
+        <target state="needs-review-translation">Ганконг|Amazon|ap-east-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aan1" xml:space="preserve">
+        <source>Токио, Япония|Amazon|ap-northeast-1</source>
+        <target state="needs-review-translation">Токіо, Японія|Amazon|ap-northeast-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aan2" xml:space="preserve">
+        <source>Сеул, Южная Корея|Amazon|ap-northeast-2</source>
+        <target state="needs-review-translation">Сеул, Паўднёвая Карэя|Amazon|ap-northeast-2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aas1" xml:space="preserve">
+        <source>Сингапур|Amazon|ap-southeast-1</source>
+        <target state="needs-review-translation">Сінгапур|Amazon|ap-southeast-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aas2" xml:space="preserve">
+        <source>Сидней, Австралия|Amazon|ap-southeast-2</source>
+        <target state="needs-review-translation">Сіднэй, Аўстралія|Amazon|ap-southeast-2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aec1" xml:space="preserve">
+        <source>Франкфурт-на-Майне, Германия|Amazon|eu-central-1</source>
+        <target state="needs-review-translation">Франкфурт-на-Майне, Германія|Amazon|eu-central-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aew2" xml:space="preserve">
+        <source>Лондон, Великобритания|Amazon|eu-west-2</source>
+        <target state="needs-review-translation">Лондан, Вялікабрытанія|Amazon|eu-west-2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ame1" xml:space="preserve">
+        <source>Бахрейн|Amazon|me-south-1</source>
+        <target state="needs-review-translation">Бахрэйн|Amazon|me-south-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ams" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Valve|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ams4" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Multiplay|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_amsm" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Multiplay|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ase1" xml:space="preserve">
+        <source>Сан-Паулу, Бразилия|Amazon|sa-east-1</source>
+        <target state="needs-review-translation">Сан-Паўлу, Бразілія|Amazon|sa-east-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_atl" xml:space="preserve">
+        <source>Атланта, штат Джорджия, США|Valve|</source>
+        <target state="needs-review-translation">Атланта, штат Джорджыя, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aue1" xml:space="preserve">
+        <source>Штат Вирджиния, США|Amazon|us-east-1</source>
+        <target state="needs-review-translation">Штат Вірджынія, ЗША|Amazon|us-east-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_aue2" xml:space="preserve">
+        <source>Штат Огайо, США|Amazon|us-east-2</source>
+        <target state="needs-review-translation">Штат Агаё, ЗША|Amazon|us-east-2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_auw1" xml:space="preserve">
+        <source>Штат Калифорния, США|Amazon|us-west-1</source>
+        <target state="needs-review-translation">Штат Каліфорнія, ЗША|Amazon|us-west-1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_auw2" xml:space="preserve">
+        <source>Штат Орегон, США|Amazon|us-west-2</source>
+        <target state="needs-review-translation">Штат Арэгон, ЗША|Amazon|us-west-2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_bl2" xml:space="preserve">
+        <source>Белвью, штат Вашингтон, США|Valve|Белвью 2 — только ретрансляция</source>
+        <target state="translated">Белв&#39;ю, штат Вашынгтон, ЗША|Valve|Белв&#39;ю 2 — толькі рэтрансляцыя</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_blv" xml:space="preserve">
+        <source>Белвью, штат Вашингтон, США|Valve|Белвью 1 — ретрансляция и игровые серверы</source>
+        <target state="translated">Белв&#39;ю, штат Вашынгтон, ЗША|Valve|Белв&#39;ю 1 — рэтрансляцыя і гульнявыя серверы</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_blv1" xml:space="preserve">
+        <source>Белвью, штат Вашингтон, США|Valve|Белвью 1 — ретрансляция и игровые серверы</source>
+        <target state="translated">Белв&#39;ю, штат Вашынгтон, ЗША|Valve|Белв&#39;ю 1 — рэтрансляцыя і гульнявыя серверы</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_blv2" xml:space="preserve">
+        <source>Белвью, штат Вашингтон, США|Valve|Белвью 2 — только ретрансляция</source>
+        <target state="translated">Белв&#39;ю, штат Вашынгтон, ЗША|Valve|Белв&#39;ю 2 — толькі рэтрансляцыя</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_bom" xml:space="preserve">
+        <source>Мумбаи, Индия|Valve|</source>
+        <target state="needs-review-translation">Мумбаі, Індыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_bom2" xml:space="preserve">
+        <source>Мумбаи, Индия|Valve|</source>
+        <target state="needs-review-translation">Мумбаі, Індыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_can" xml:space="preserve">
+        <source>Гуандун, Китай|Perfect World|Гуандун 2</source>
+        <target state="needs-review-translation">Гуандун, Кітай|Perfect World|Гуандун 2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_canm" xml:space="preserve">
+        <source>Гуандун, Китай|Perfect World|Гуандун 2 — Mobile</source>
+        <target state="translated">Гуандун, Кітай|Perfect World|Гуандун 2 — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_cant" xml:space="preserve">
+        <source>Гуандун, Китай|Perfect World|Гуандун 2 — Telecom</source>
+        <target state="translated">Гуандун, Кітай|Perfect World|Гуандун 2 — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_canu" xml:space="preserve">
+        <source>Гуандун, Китай|Perfect World|Гуандун 2 — Unicom</source>
+        <target state="translated">Гуандун, Кітай|Perfect World|Гуандун 2 — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_chi" xml:space="preserve">
+        <source>Тест — Китай|Perfect World|</source>
+        <target state="translated">Тэст — Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ctu" xml:space="preserve">
+        <source>Чэнду, Китай|Alibaba Cloud|</source>
+        <target state="needs-review-translation">Чэнду, Кітай|Alibaba Cloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ctum" xml:space="preserve">
+        <source>Чэнду, Китай|Alibaba Cloud|Чэнду — Mobile</source>
+        <target state="translated">Чэнду, Кітай|Alibaba Cloud|Чэнду — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ctut" xml:space="preserve">
+        <source>Чэнду, Китай|Alibaba Cloud|Чэнду — Telecom</source>
+        <target state="translated">Чэнду, Кітай|Alibaba Cloud|Чэнду — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ctuu" xml:space="preserve">
+        <source>Чэнду, Китай|Alibaba Cloud|Чэнду — Unicom</source>
+        <target state="translated">Чэнду, Кітай|Alibaba Cloud|Чэнду — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_dfw" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Valve|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_dfw2" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Multiplay|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_dfwm" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Multiplay|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_dumy" xml:space="preserve">
+        <source>Нигде|Valve|</source>
+        <target state="needs-review-translation">Нідзе|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_dxb" xml:space="preserve">
+        <source>Дубай, Объединённые Арабские Эмираты|Valve|</source>
+        <target state="needs-review-translation">Дубай, Аб&#39;яднаныя Арабскія Эміраты|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_eat" xml:space="preserve">
+        <source>Мозес-Лейк, штат Вашингтон, США|Valve|</source>
+        <target state="needs-review-translation">Мазэс-Лэйк, штат Вашынгтон, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_eze" xml:space="preserve">
+        <source>Буэнос-Айрес, Аргентина|Valve|</source>
+        <target state="needs-review-translation">Буэнас-Айрэс, Аргенціна|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_fra" xml:space="preserve">
+        <source>Франкфурт-на-Майне, Германия|Valve|</source>
+        <target state="needs-review-translation">Франкфурт-на-Майне, Германія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gash" xml:space="preserve">
+        <source>Ашберн, штат Вирджиния, США|Google|us-east4</source>
+        <target state="needs-review-translation">Ашберн, штат Вірджынія, ЗША|Google|us-east4</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gcmh" xml:space="preserve">
+        <source>Колумбус, штат Огайо, США|Google|us-east5</source>
+        <target state="needs-review-translation">Калюмбус, штат Агаё, ЗША|Google|us-east5</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gdel" xml:space="preserve">
+        <source>Дели, Индия|Google|asia-south2</source>
+        <target state="needs-review-translation">Дэлі, Індыя|Google|asia-south2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gdfw" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Google|us-south1</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Google|us-south1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_geem" xml:space="preserve">
+        <source>Эмсхавен, Нидерланды|Google|europe-west4</source>
+        <target state="needs-review-translation">Эмсхавен, Нідэрланды|Google|europe-west4</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gew1" xml:space="preserve">
+        <source>Сен-Гилен, Бельгия|Google|europe-west1</source>
+        <target state="needs-review-translation">Сен-Гілен, Бельгія|Google|europe-west1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gfra" xml:space="preserve">
+        <source>Франкфурт-на-Майне, Германия|Google|europe-west3</source>
+        <target state="needs-review-translation">Франкфурт-на-Майне, Германія|Google|europe-west3</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ggru" xml:space="preserve">
+        <source>Сан-Паулу, Бразилия|Google|southamerica-east1</source>
+        <target state="needs-review-translation">Сан-Паўлу, Бразілія|Google|southamerica-east1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gham" xml:space="preserve">
+        <source>Хамина, Финляндия|Google|europe-north1</source>
+        <target state="needs-review-translation">Хаміна, Фінляндыя|Google|europe-north1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ghkg" xml:space="preserve">
+        <source>Гонконг|Google|asia-east2</source>
+        <target state="needs-review-translation">Ганконг|Google|asia-east2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gjak" xml:space="preserve">
+        <source>Джакарта, Индонезия|Google|asia-southeast2</source>
+        <target state="needs-review-translation">Джакарта, Інданезія|Google|asia-southeast2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_glas" xml:space="preserve">
+        <source>Лас-Вегас, штат Невада, США|Google|us-west4</source>
+        <target state="needs-review-translation">Лас-Вегас, штат Невада, ЗША|Google|us-west4</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_glax" xml:space="preserve">
+        <source>Лос-Анджелес, штат Калифорния, США|Google|us-west2</source>
+        <target state="needs-review-translation">Лос-Анджэлес, штат Каліфорнія, ЗША|Google|us-west2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_glhr" xml:space="preserve">
+        <source>Лондон, Соединённое Королевство|Google|europe-west2</source>
+        <target state="needs-review-translation">Лондан, Злучанае Каралеўства|Google|europe-west2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gmad" xml:space="preserve">
+        <source>Мадрид, Испания|Google|europe-southwest1</source>
+        <target state="needs-review-translation">Мадрыд, Іспанія|Google|europe-southwest1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gmel" xml:space="preserve">
+        <source>Мельбурн, Австралия|Google|australia-southeast2</source>
+        <target state="needs-review-translation">Мэльбурн, Аўстралія|Google|australia-southeast2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gmks" xml:space="preserve">
+        <source>Монкс-Корнер, штат Южная Каролина, США|Google|us-east1</source>
+        <target state="needs-review-translation">Монкс-Корнер, штат Паўднёвая Караліна, ЗША|Google|us-east1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gmum" xml:space="preserve">
+        <source>Мумбаи, Индия|Google|asia-south1</source>
+        <target state="needs-review-translation">Мумбаі, Індыя|Google|asia-south1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gmxp" xml:space="preserve">
+        <source>Милан, Италия|Google|europe-west8</source>
+        <target state="needs-review-translation">Мілан, Італія|Google|europe-west8</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gosa" xml:space="preserve">
+        <source>Осака, Япония|Google|asia-northeast2</source>
+        <target state="needs-review-translation">Осака, Японія|Google|asia-northeast2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gpar" xml:space="preserve">
+        <source>Париж, Франция|Google|europe-west9</source>
+        <target state="needs-review-translation">Парыж, Францыя|Google|europe-west9</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gru" xml:space="preserve">
+        <source>Сан-Паулу, Бразилия|Valve|</source>
+        <target state="needs-review-translation">Сан-Паўлу, Бразілія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gscl" xml:space="preserve">
+        <source>Сантьяго, Чили|Google|southamerica-west1</source>
+        <target state="needs-review-translation">Сант&#39;яга, Чылі|Google|southamerica-west1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gseo" xml:space="preserve">
+        <source>Сеул, Южная Корея|Google|asia-northeast3</source>
+        <target state="needs-review-translation">Сеул, Паўднёвая Карэя|Google|asia-northeast3</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gsgp" xml:space="preserve">
+        <source>Сингапур|Google|asia-southeast1</source>
+        <target state="needs-review-translation">Сінгапур|Google|asia-southeast1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gslc" xml:space="preserve">
+        <source>Солт-Лейк-Сити, штат Юта, США|Google|us-west3</source>
+        <target state="needs-review-translation">Солт-Лэйк-Сіці, штат Юта, ЗША|Google|us-west3</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gsyd" xml:space="preserve">
+        <source>Сидней, Австралия|Google|australia-southeast1</source>
+        <target state="needs-review-translation">Сіднэй, Аўстралія|Google|australia-southeast1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gtko" xml:space="preserve">
+        <source>Токио, Япония|Google|asia-northeast1</source>
+        <target state="needs-review-translation">Токіо, Японія|Google|asia-northeast1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gtpe" xml:space="preserve">
+        <source>Тайвань|Google|asia-east1</source>
+        <target state="needs-review-translation">Тайвань|Google|asia-east1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_guc1" xml:space="preserve">
+        <source>Каунсил-Блафс, штат Айова, США|Google|us-central1</source>
+        <target state="needs-review-translation">Каўнсіл-Блафс, штат Аёва, ЗША|Google|us-central1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_guw1" xml:space="preserve">
+        <source>Даллес, штат Орегон, США|Google|us-west1</source>
+        <target state="needs-review-translation">Далес, штат Арэгон, ЗША|Google|us-west1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gwaw" xml:space="preserve">
+        <source>Варшава, Польша|Google|europe-central2</source>
+        <target state="needs-review-translation">Варшава, Польшча|Google|europe-central2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gyul" xml:space="preserve">
+        <source>Монреаль, Канада|Google|northamerica-northeast1</source>
+        <target state="needs-review-translation">Манрэаль, Канада|Google|northamerica-northeast1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gyyz" xml:space="preserve">
+        <source>Торонто, Канада|Google|northamerica-northeast2</source>
+        <target state="needs-review-translation">Таронта, Канада|Google|northamerica-northeast2</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_gzur" xml:space="preserve">
+        <source>Цюрих, Швейцария|Google|europe-west6</source>
+        <target state="needs-review-translation">Цюрых, Швейцарыя|Google|europe-west6</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_hel" xml:space="preserve">
+        <source>Хельсинки, Финляндия|Valve|</source>
+        <target state="needs-review-translation">Хельсінкі, Фінляндыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_helm" xml:space="preserve">
+        <source>Хельсинки, Финляндия|Valve|</source>
+        <target state="needs-review-translation">Хельсінкі, Фінляндыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_hkg" xml:space="preserve">
+        <source>Гонконг|Valve|</source>
+        <target state="needs-review-translation">Ганконг|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_hkg4" xml:space="preserve">
+        <source>Гонконг|Multiplay|</source>
+        <target state="needs-review-translation">Ганконг|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_hkgm" xml:space="preserve">
+        <source>Гонконг|Multiplay|</source>
+        <target state="needs-review-translation">Ганконг|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_iad" xml:space="preserve">
+        <source>Стерлинг, штат Вирджиния, США|Valve|</source>
+        <target state="needs-review-translation">Стэрлінг, штат Вірджынія, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_jfk" xml:space="preserve">
+        <source>Нью-Йорк|Valve|</source>
+        <target state="needs-review-translation">Нью-Ёрк|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_jnb" xml:space="preserve">
+        <source>Йоханнесбург, Южная Африка|Valve|</source>
+        <target state="needs-review-translation">Ёханэсбург, Паўднёвая Афрыка|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_lax" xml:space="preserve">
+        <source>Лос-Анджелес, штат Калифорния|Valve|</source>
+        <target state="needs-review-translation">Лос-Анджэлес, штат Каліфорнія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_lhr" xml:space="preserve">
+        <source>Лондон, Великобритания|Valve|</source>
+        <target state="needs-review-translation">Лондан, Вялікабрытанія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_lim" xml:space="preserve">
+        <source>Лима, Перу|Valve|</source>
+        <target state="needs-review-translation">Ліма, Перу|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_maa" xml:space="preserve">
+        <source>Ченнаи, Индия|Valve|Ченнаи — Тируверкаду</source>
+        <target state="translated">Чэнэі, Індыя|Valve|Чэнэі  — Тыруверкаду </target>
+      </trans-unit>
+      <trans-unit id="sdrpop_maa2" xml:space="preserve">
+        <source>Ченнаи, Индия|Valve|Ченнаи — Амбаттур</source>
+        <target state="translated">Чэнаі, Індыя|Valve|Чэнаі — Амбаттур</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mad" xml:space="preserve">
+        <source>Мадрид, Испания|Valve|</source>
+        <target state="needs-review-translation">Мадрыд, Іспанія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mam1" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Multiplay|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mam2" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Multiplay|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mam2 amsm" xml:space="preserve">
+        <source>Амстердам, Нидерланды|Multiplay|</source>
+        <target state="needs-review-translation">Амстэрдам, Нідэрланды|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mas1" xml:space="preserve">
+        <source>Ашберн, штат Вирджиния, США|Multiplay|</source>
+        <target state="translated">Ашберн, штат Вірджынія, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mat1" xml:space="preserve">
+        <source>Атланта, штат Джорджия, США|Multiplay|</source>
+        <target state="needs-review-translation">Атланта, штат Джорджыя, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mch1" xml:space="preserve">
+        <source>Чикаго, штат Иллинойс|Multiplay|</source>
+        <target state="needs-review-translation">Чыкага, штат Ілінойс|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mdb1" xml:space="preserve">
+        <source>Дубай, Объединённые Арабские Эмираты|Multiplay|</source>
+        <target state="needs-review-translation">Дубай, Аб&#39;яднаныя Арабскія Эміраты|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mdc1" xml:space="preserve">
+        <source>Вашингтон, округ Колумбия, США|Multiplay|</source>
+        <target state="needs-review-translation">Вашынгтон, акруга Калумбія, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mdf1" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Multiplay|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mdf2" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Multiplay|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mdf2 dfwm" xml:space="preserve">
+        <source>Даллас, штат Техас, США|Multiplay|</source>
+        <target state="needs-review-translation">Далас, штат Тэхас, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mfr1" xml:space="preserve">
+        <source>Франкфурт-на-Майне, Германия|Multiplay|</source>
+        <target state="needs-review-translation">Франкфурт-на-Майне, Германія|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mhk1" xml:space="preserve">
+        <source>Гонконг|Multiplay|</source>
+        <target state="needs-review-translation">Ганконг|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mhk2" xml:space="preserve">
+        <source>Гонконг|Multiplay|</source>
+        <target state="needs-review-translation">Ганконг|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mhk2 hkgm" xml:space="preserve">
+        <source>Гонконг|Multiplay|</source>
+        <target state="needs-review-translation">Ганконг|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mla1" xml:space="preserve">
+        <source>Лос-Анджелес, штат Калифорния|Multiplay|</source>
+        <target state="needs-review-translation">Лос-Анджэлес, штат Каліфорнія|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mln1" xml:space="preserve">
+        <source>Лондон, Соединённое Королевство|Multiplay|</source>
+        <target state="needs-review-translation">Лондан, Злучанае Каралеўства|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mlx1" xml:space="preserve">
+        <source>Люксембург|Multiplay|</source>
+        <target state="needs-review-translation">Люксембург|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mmi1" xml:space="preserve">
+        <source>Майами, штат Флорида, США|Multiplay|</source>
+        <target state="needs-review-translation">Маямі, штат Фларыда, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mmo1" xml:space="preserve">
+        <source>Монреаль, Канада|Multiplay|</source>
+        <target state="needs-review-translation">Манрэаль, Канада|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mny1" xml:space="preserve">
+        <source>Нью-Йорк|Multiplay|</source>
+        <target state="needs-review-translation">Нью-Ёрк|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mpx1" xml:space="preserve">
+        <source>Финикс, штат Аризона, США|Multiplay|</source>
+        <target state="needs-review-translation">Фінікс, штат Арызона, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msa1" xml:space="preserve">
+        <source>Солт-Лейк-Сити, штат Юта, США|Multiplay|</source>
+        <target state="needs-review-translation">Солт-Лэйк-Сіці, штат Юта, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msg1" xml:space="preserve">
+        <source>Сингапур|Multiplay|</source>
+        <target state="needs-review-translation">Сінгапур|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msj1" xml:space="preserve">
+        <source>Сан-Хосе, штат Калифорния, США|Multiplay|</source>
+        <target state="needs-review-translation">Сан-Хасэ, штат Каліфорнія, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msl1" xml:space="preserve">
+        <source>Сент-Луис, штат Миссури, США|Multiplay|</source>
+        <target state="needs-review-translation">Сэнт-Луіс, штат Місуры, ЗША|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msp1" xml:space="preserve">
+        <source>Сан-Паулу, Бразилия|Multiplay|</source>
+        <target state="needs-review-translation">Сан-Паўлу, Бразілія|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mst1" xml:space="preserve">
+        <source>Страсбург, Франция|Multiplay|</source>
+        <target state="needs-review-translation">Страсбург, Францыя|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_msy1" xml:space="preserve">
+        <source>Сидней, Австралия|Multiplay|</source>
+        <target state="needs-review-translation">Сіднэй, Аўстралія|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mto1" xml:space="preserve">
+        <source>Торонто, Канада|Multiplay|</source>
+        <target state="needs-review-translation">Таронта, Канада|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mtp1" xml:space="preserve">
+        <source>Тайвань|Multiplay|</source>
+        <target state="needs-review-translation">Тайвань|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mty1" xml:space="preserve">
+        <source>Токио, Япония|Multiplay|</source>
+        <target state="needs-review-translation">Токіо, Японія|Multiplay|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_mwh" xml:space="preserve">
+        <source>Мозес-Лейк, штат Вашингтон, США|Valve|</source>
+        <target state="needs-review-translation">Мазэс-Лэйк, штат Вашынгтон, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ogr1" xml:space="preserve">
+        <source>Гравлин, Франция|OVHCloud|</source>
+        <target state="needs-review-translation">Граўлін, Францыя|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ohi1" xml:space="preserve">
+        <source>Хилсборо, штат Орегон, США|OVHCloud|</source>
+        <target state="needs-review-translation">Хілзбара, штат Арэгон, ЗША|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_oln1" xml:space="preserve">
+        <source>Лондон, Соединённое Королевство|OVHCloud|</source>
+        <target state="needs-review-translation">Лондан, Злучанае Каралеўства|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_omo1" xml:space="preserve">
+        <source>Монреаль, Канада|OVHCloud|</source>
+        <target state="needs-review-translation">Манрэаль, Канада|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_ord" xml:space="preserve">
+        <source>Чикаго, Иллинойс|Valve|</source>
+        <target state="needs-review-translation">Чыкага, Ілінойс|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_osd1" xml:space="preserve">
+        <source>Сидней, Австралия|OVHCloud|</source>
+        <target state="needs-review-translation">Сіднэй, Аўстралія|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_osg1" xml:space="preserve">
+        <source>Сингапур|OVHCloud|</source>
+        <target state="needs-review-translation">Сінгапур|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_owa1" xml:space="preserve">
+        <source>Варшава, Польша|OVHCloud|</source>
+        <target state="needs-review-translation">Варшава, Польшча|OVHCloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_par" xml:space="preserve">
+        <source>Париж, Франция|Valve|</source>
+        <target state="needs-review-translation">Парыж, Францыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pek" xml:space="preserve">
+        <source>Пекин, Китай|Alibaba Cloud|</source>
+        <target state="needs-review-translation">Пекін, Кітай|Alibaba Cloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pekm" xml:space="preserve">
+        <source>Пекин, Китай|Alibaba Cloud|Пекин — Mobile</source>
+        <target state="translated">Пекін, Кітай|Alibaba Cloud|Пекін — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pekt" xml:space="preserve">
+        <source>Пекин, Китай|Alibaba Cloud|Пекин — Telecom</source>
+        <target state="translated">Пекін, Кітай|Alibaba Cloud|Пекін — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_peku" xml:space="preserve">
+        <source>Пекин, Китай|Alibaba Cloud|Пекин — Unicom</source>
+        <target state="translated">Пекін, Кітай|Alibaba Cloud|Пекін — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pvg" xml:space="preserve">
+        <source>Шанхай, Китай|Alibaba Cloud|</source>
+        <target state="needs-review-translation">Шанхай, Кітай|Alibaba Cloud|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pvgm" xml:space="preserve">
+        <source>Шанхай, Китай|Alibaba Cloud|Шанхай — Mobile</source>
+        <target state="translated">Шанхай, Кітай|Alibaba Cloud|Шанхай — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pvgt" xml:space="preserve">
+        <source>Шанхай, Китай|Alibaba Cloud|Шанхай — Telecom</source>
+        <target state="translated">Шанхай, Кітай|Alibaba Cloud|Шанхай — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pvgu" xml:space="preserve">
+        <source>Шанхай, Китай|Alibaba Cloud|Шанхай — Unicom</source>
+        <target state="translated">Шанхай, Кітай|Alibaba Cloud|Шанхай — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pwg" xml:space="preserve">
+        <source>Гуандун, Китай|Perfect World|Гуандун 1</source>
+        <target state="needs-review-translation">Гуандун, Кітай|Perfect World|Гуандун 1</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pwj" xml:space="preserve">
+        <source>Тяньцзинь, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Цяньцзінь, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pwt" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|(sha-4) — магистраль</source>
+        <target state="translated">Шанхай, Кітай|Perfect World|(sha-4) — магістраль</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pwu" xml:space="preserve">
+        <source>Хэбэй, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Хэбэй, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pww" xml:space="preserve">
+        <source>Ухань, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Ухань, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_pwz" xml:space="preserve">
+        <source>Чжэцзян, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Чжэцзян, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_scl" xml:space="preserve">
+        <source>Сантьяго, Чили|Valve|</source>
+        <target state="needs-review-translation">Сант&#39;яга, Чылі|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sea" xml:space="preserve">
+        <source>Сиэтл, штат Вашингтон, США|Valve|</source>
+        <target state="needs-review-translation">Сіэтл, штат Вашынгтон, ЗША|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_seo" xml:space="preserve">
+        <source>Сеул, Южная Корея|Valve|</source>
+        <target state="needs-review-translation">Сеул, Паўднёвая Карэя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sgp" xml:space="preserve">
+        <source>Сингапур|Valve|</source>
+        <target state="needs-review-translation">Сінгапур|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sha" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Шанхай, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sham" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|Шанхай — Mobile</source>
+        <target state="translated">Шанхай, Кітай|Perfect World|Шанхай — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_shat" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|Шанхай — Telecom</source>
+        <target state="translated">Шанхай, Кітай|Perfect World|Шанхай — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_shau" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|Шанхай — Unicom</source>
+        <target state="translated">Шанхай, Кітай|Perfect World|Шанхай — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_shb" xml:space="preserve">
+        <source>Шанхай, Китай|Perfect World|(sha-4) — магистраль</source>
+        <target state="translated">Шанхай, Кітай|Perfect World|(sha-4) — магістраль</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sto" xml:space="preserve">
+        <source>Стокгольм, Швеция|Valve|Стокгольм — Чиста</source>
+        <target state="translated">Стакгольм, Швецыя|Valve|Стакгольм — Чыста</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_sto2" xml:space="preserve">
+        <source>Стокгольм, Швеция|Valve|Стокгольм — Бромма</source>
+        <target state="translated">Стакгольм, Швецыя|Valve|Стакгольм — Бромма</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_syd" xml:space="preserve">
+        <source>Сидней, Австралия|Valve|</source>
+        <target state="needs-review-translation">Сіднэй, Аўстралія|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tgd" xml:space="preserve">
+        <source>Гуанчжоу, Китай|Tencent|</source>
+        <target state="needs-review-translation">Гуанчжоу, Кітай|Tencent|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tgdm" xml:space="preserve">
+        <source>Гуанчжоу, Китай|Tencent|Гуанчжоу — Mobile</source>
+        <target state="translated">Гуанчжоу, Кітай|Tencent|Гуанчжоу — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tgdt" xml:space="preserve">
+        <source>Гуанчжоу, Китай|Tencent|Гуанчжоу — Telecom</source>
+        <target state="translated">Гуанчжоу, Кітай|Tencent|Гуанчжоу — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tgdu" xml:space="preserve">
+        <source>Гуанчжоу, Китай|Tencent|Гуанчжоу — Unicom</source>
+        <target state="translated">Гуанчжоу, Кітай|Tencent|Гуанчжоу — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tsn" xml:space="preserve">
+        <source>Тяньцзинь, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Цяньцзінь, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tsnm" xml:space="preserve">
+        <source>Тяньцзинь, Китай|Perfect World|Тянцзинь — Mobile</source>
+        <target state="translated">Цяньцзінь, Кітай|Perfect World|Цяньцзінь — Mobile</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tsnt" xml:space="preserve">
+        <source>Тяньцзинь, Китай|Perfect World|Тянцзинь — Telecom</source>
+        <target state="translated">Цяньцзінь, Кітай|Perfect World|Цяньцзінь — Telecom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tsnu" xml:space="preserve">
+        <source>Тяньцзинь, Китай|Perfect World|Тянцзинь — Unicom</source>
+        <target state="translated">Цяньцзінь, Кітай|Perfect World|Цяньцзінь — Unicom</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tyo" xml:space="preserve">
+        <source>Токио, Япония|Valve|Токио, Кото</source>
+        <target state="translated">Токіо, Японія|Valve|Токіо, Кото</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tyo1" xml:space="preserve">
+        <source>Токио, Япония|Valve|Токио, Кото</source>
+        <target state="translated">Токіо, Японія|Valve|Токіо, Кото</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tyo2" xml:space="preserve">
+        <source>Токио, Япония|Valve|Токио, Кото</source>
+        <target state="translated">Токіо, Японія|Valve|Токіо, Кото</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_tyo3" xml:space="preserve">
+        <source>Токио, Япония|Valve|Токио, Кото</source>
+        <target state="translated">Токіо, Японія|Valve|Токіо, Кото</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_vie" xml:space="preserve">
+        <source>Вена, Австрия|Valve|</source>
+        <target state="needs-review-translation">Вена, Аўстрыя|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_waw" xml:space="preserve">
+        <source>Варшава, Польша|Valve|</source>
+        <target state="needs-review-translation">Варшава, Польшча|Valve|</target>
+      </trans-unit>
+      <trans-unit id="sdrpop_wuh" xml:space="preserve">
+        <source>Ухань, Китай|Perfect World|</source>
+        <target state="needs-review-translation">Ухань, Кітай|Perfect World|</target>
+      </trans-unit>
+      <trans-unit id="shared_dummy" xml:space="preserve">
+        <source>dont translate</source>
+        <target state="needs-review-translation">dont translate</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

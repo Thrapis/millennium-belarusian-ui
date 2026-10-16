@@ -5,6 +5,24 @@ import { decodeJsSingleQuoted, parseLocFile } from "../tools/lib/steam-locfile.t
 import { listLocFiles } from "../tools/lib/steam-paths.ts";
 
 const FIXTURE_STEAM = join(import.meta.dirname, "fixtures");
+
+// Encodes text as a JS string literal the way Steam's bundler does since Oct 2026:
+// backslash, the quote and "${" escaped; everything outside ASCII as \uXXXX.
+// (Built from character codes so no editor can decode the escapes in this file.)
+const BS = String.fromCharCode(92);
+function jsLiteral(text: string, quote: "'" | '"' | "`"): string {
+  let out = "";
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i]!;
+    const code = c.charCodeAt(0);
+    if (c === BS || c === quote) out += BS + c;
+    else if (quote === "`" && c === "$" && text[i + 1] === "{") out += BS + c;
+    else if (c === "\n") out += BS + "n";
+    else if (code > 0x7e) out += BS + "u" + code.toString(16).toUpperCase().padStart(4, "0");
+    else out += c;
+  }
+  return quote + out + quote;
+}
 const fixture = (name: string) =>
   readFileSync(join(FIXTURE_STEAM, "steamui", "localization", name), "utf8");
 
@@ -45,10 +63,33 @@ describe("parseLocFile", () => {
     expect(parseLocFile(fixture("shared_english-json.js"))).not.toHaveProperty("language");
   });
 
+  // Proves the Oct 2026 Steam build format parses: a template literal argument with
+  // \uXXXX-escaped Cyrillic, an IIFE wrapper and a trailing sourceMappingURL comment.
+  it("parses template-literal chunks", () => {
+    const tokens = { language: "russian", Button_Back: "Назад", Quote: "Don't \"stop\" ` ${x}", Multi: "A\nB" };
+    const src =
+      '"use strict";(()=>{(self.webpackChunksteamui=self.webpackChunksteamui||[]).push([[2664],{36717:(e=>{e.exports=JSON.parse(' +
+      jsLiteral(JSON.stringify(tokens), "`") +
+      ")})}]);})();\n//# sourceMappingURL=file:///x.js.map\n";
+    expect(src).toContain(BS + "u041D"); // really escaped, like Steam's files
+    expect(parseLocFile(src)).toEqual({ Button_Back: "Назад", Quote: "Don't \"stop\" ` ${x}", Multi: "A\nB" });
+  });
+
+  // Proves double-quoted arguments (the bundler's third choice) parse too.
+  it("parses double-quoted chunks", () => {
+    expect(parseLocFile(`e.exports=JSON.parse(${jsLiteral(JSON.stringify({ A: "а'" }), '"')})`)).toEqual({ A: "а'" });
+  });
+
+  // Proves an unescaped ${ (a real interpolation, not data) is refused rather than mis-read.
+  it("refuses template interpolation", () => {
+    expect(() => parseLocFile('JSON.parse(`{"A":"${x}"}`)')).toThrow(/interpolation/);
+  });
+
   // Proves we fail loudly if Steam changes the chunk format, instead of extracting nothing.
   it("throws on an unrecognised file", () => {
     expect(() => parseLocFile("console.log(1)")).toThrow(/JSON\.parse/);
     expect(() => parseLocFile("JSON.parse('{}');JSON.parse('{}')")).toThrow(/exactly one/);
+    expect(() => parseLocFile("JSON.parse(`{}`);JSON.parse('{}')")).toThrow(/exactly one/);
   });
 });
 

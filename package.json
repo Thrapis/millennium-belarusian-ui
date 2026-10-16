@@ -7,9 +7,15 @@
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.tools.json && tsc -p tsconfig.json",
     "dev": "starlight watch",
-    "build": "starlight pack",
+    "build": "npm run compile && starlight pack",
     "prepare": "starlight lsp",
-    "xliff": "node tools/make-xliff.ts"
+    "xliff": "node tools/make-xliff.ts",
+    "compile": "node tools/compile.ts",
+    "migrate": "node tools/migrate.ts",
+    "update-strings": "npm run extract && npm run xliff && npm run migrate",
+    "check": "node tools/check-steam.ts",
+    "schedule": "node tools/schedule.ts",
+    "pack": "npm run compile && starlight pack -o build"
   },
   "devDependencies": {
     "@steambrew/starlight": "^1.1.6",

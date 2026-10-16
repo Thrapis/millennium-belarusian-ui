@@ -1,0 +1,694 @@
+{
+  "sdrpop_aae1": {
+    "en": "Hong Kong|Amazon|ap-east-1",
+    "ru": "Гонконг|Amazon|ap-east-1"
+  },
+  "sdrpop_aan1": {
+    "en": "Tokyo, Japan|Amazon|ap-northeast-1",
+    "ru": "Токио, Япония|Amazon|ap-northeast-1"
+  },
+  "sdrpop_aan2": {
+    "en": "Seoul, South Korea|Amazon|ap-northeast-2",
+    "ru": "Сеул, Южная Корея|Amazon|ap-northeast-2"
+  },
+  "sdrpop_aas1": {
+    "en": "Singapore|Amazon|ap-southeast-1",
+    "ru": "Сингапур|Amazon|ap-southeast-1"
+  },
+  "sdrpop_aas2": {
+    "en": "Sydney, Australia|Amazon|ap-southeast-2",
+    "ru": "Сидней, Австралия|Amazon|ap-southeast-2"
+  },
+  "sdrpop_aec1": {
+    "en": "Frankfurt, Germany|Amazon|eu-central-1",
+    "ru": "Франкфурт-на-Майне, Германия|Amazon|eu-central-1"
+  },
+  "sdrpop_aew2": {
+    "en": "London, England|Amazon|eu-west-2",
+    "ru": "Лондон, Великобритания|Amazon|eu-west-2"
+  },
+  "sdrpop_ame1": {
+    "en": "Bahrain|Amazon|me-south-1",
+    "ru": "Бахрейн|Amazon|me-south-1"
+  },
+  "sdrpop_ams": {
+    "en": "Amsterdam, Netherlands|Valve|",
+    "ru": "Амстердам, Нидерланды|Valve|"
+  },
+  "sdrpop_ams4": {
+    "en": "Amsterdam, Netherlands|Multiplay|",
+    "ru": "Амстердам, Нидерланды|Multiplay|"
+  },
+  "sdrpop_amsm": {
+    "en": "Amsterdam, Netherlands|Multiplay|",
+    "ru": "Амстердам, Нидерланды|Multiplay|"
+  },
+  "sdrpop_ase1": {
+    "en": "São Paulo, Brazil|Amazon|sa-east-1",
+    "ru": "Сан-Паулу, Бразилия|Amazon|sa-east-1"
+  },
+  "sdrpop_atl": {
+    "en": "Atlanta, Georgia|Valve|",
+    "ru": "Атланта, штат Джорджия, США|Valve|"
+  },
+  "sdrpop_aue1": {
+    "en": "Virginia, US|Amazon|us-east-1",
+    "ru": "Штат Вирджиния, США|Amazon|us-east-1"
+  },
+  "sdrpop_aue2": {
+    "en": "Ohio, US|Amazon|us-east-2",
+    "ru": "Штат Огайо, США|Amazon|us-east-2"
+  },
+  "sdrpop_auw1": {
+    "en": "California, US|Amazon|us-west-1",
+    "ru": "Штат Калифорния, США|Amazon|us-west-1"
+  },
+  "sdrpop_auw2": {
+    "en": "Oregon, US|Amazon|us-west-2",
+    "ru": "Штат Орегон, США|Amazon|us-west-2"
+  },
+  "sdrpop_bl2": {
+    "en": "Bellevue, Washington|Valve|Bellevue 2 - relays only",
+    "ru": "Белвью, штат Вашингтон, США|Valve|Белвью 2 — только ретрансляция"
+  },
+  "sdrpop_blv": {
+    "en": "Bellevue, Washington|Valve|Bellevue 1 - relays and gameservers",
+    "ru": "Белвью, штат Вашингтон, США|Valve|Белвью 1 — ретрансляция и игровые серверы"
+  },
+  "sdrpop_blv1": {
+    "en": "Bellevue, Washington|Valve|Bellevue 1 - relays and gameservers",
+    "ru": "Белвью, штат Вашингтон, США|Valve|Белвью 1 — ретрансляция и игровые серверы"
+  },
+  "sdrpop_blv2": {
+    "en": "Bellevue, Washington|Valve|Bellevue 2 - relays only",
+    "ru": "Белвью, штат Вашингтон, США|Valve|Белвью 2 — только ретрансляция"
+  },
+  "sdrpop_bom": {
+    "en": "Mumbai, India|Valve|",
+    "ru": "Мумбаи, Индия|Valve|"
+  },
+  "sdrpop_bom2": {
+    "en": "Mumbai, India|Valve|",
+    "ru": "Мумбаи, Индия|Valve|"
+  },
+  "sdrpop_can": {
+    "en": "Guangdong, China|Perfect World|Guangdong 2",
+    "ru": "Гуандун, Китай|Perfect World|Гуандун 2"
+  },
+  "sdrpop_canm": {
+    "en": "Guangdong, China|Perfect World|Guangdong 2 - Mobile",
+    "ru": "Гуандун, Китай|Perfect World|Гуандун 2 — Mobile"
+  },
+  "sdrpop_cant": {
+    "en": "Guangdong, China|Perfect World|Guangdong 2 - Telecom",
+    "ru": "Гуандун, Китай|Perfect World|Гуандун 2 — Telecom"
+  },
+  "sdrpop_canu": {
+    "en": "Guangdong, China|Perfect World|Guangdong 2 - Unicom",
+    "ru": "Гуандун, Китай|Perfect World|Гуандун 2 — Unicom"
+  },
+  "sdrpop_chi": {
+    "en": "Fake China|Perfect World|",
+    "ru": "Тест — Китай|Perfect World|"
+  },
+  "sdrpop_ctu": {
+    "en": "Chengdu, China|Alibaba Cloud|",
+    "ru": "Чэнду, Китай|Alibaba Cloud|"
+  },
+  "sdrpop_ctum": {
+    "en": "Chengdu, China|Alibaba Cloud|Chengdu - Mobile",
+    "ru": "Чэнду, Китай|Alibaba Cloud|Чэнду — Mobile"
+  },
+  "sdrpop_ctut": {
+    "en": "Chengdu, China|Alibaba Cloud|Chengdu - Telecom",
+    "ru": "Чэнду, Китай|Alibaba Cloud|Чэнду — Telecom"
+  },
+  "sdrpop_ctuu": {
+    "en": "Chengdu, China|Alibaba Cloud|Chengdu - Unicom",
+    "ru": "Чэнду, Китай|Alibaba Cloud|Чэнду — Unicom"
+  },
+  "sdrpop_dfw": {
+    "en": "Dallas, Texas|Valve|",
+    "ru": "Даллас, штат Техас, США|Valve|"
+  },
+  "sdrpop_dfw2": {
+    "en": "Dallas, Texas|Multiplay|",
+    "ru": "Даллас, штат Техас, США|Multiplay|"
+  },
+  "sdrpop_dfwm": {
+    "en": "Dallas, Texas|Multiplay|",
+    "ru": "Даллас, штат Техас, США|Multiplay|"
+  },
+  "sdrpop_dumy": {
+    "en": "Nowhere|Valve|",
+    "ru": "Нигде|Valve|"
+  },
+  "sdrpop_dxb": {
+    "en": "Dubai, United Arab Emirates|Valve|",
+    "ru": "Дубай, Объединённые Арабские Эмираты|Valve|"
+  },
+  "sdrpop_eat": {
+    "en": "Moses Lake, Washington|Valve|",
+    "ru": "Мозес-Лейк, штат Вашингтон, США|Valve|"
+  },
+  "sdrpop_eze": {
+    "en": "Buenos Aires, Argentina|Valve|",
+    "ru": "Буэнос-Айрес, Аргентина|Valve|"
+  },
+  "sdrpop_fra": {
+    "en": "Frankfurt, Germany|Valve|",
+    "ru": "Франкфурт-на-Майне, Германия|Valve|"
+  },
+  "sdrpop_gash": {
+    "en": "Ashburn, Virginia|Google|us-east4",
+    "ru": "Ашберн, штат Вирджиния, США|Google|us-east4"
+  },
+  "sdrpop_gcmh": {
+    "en": "Columbus, Ohio|Google|us-east5",
+    "ru": "Колумбус, штат Огайо, США|Google|us-east5"
+  },
+  "sdrpop_gdel": {
+    "en": "Delhi, India|Google|asia-south2",
+    "ru": "Дели, Индия|Google|asia-south2"
+  },
+  "sdrpop_gdfw": {
+    "en": "Dallas, Texas|Google|us-south1",
+    "ru": "Даллас, штат Техас, США|Google|us-south1"
+  },
+  "sdrpop_geem": {
+    "en": "Eemshaven, Netherlands|Google|europe-west4",
+    "ru": "Эмсхавен, Нидерланды|Google|europe-west4"
+  },
+  "sdrpop_gew1": {
+    "en": "St. Ghislain, Belgium|Google|europe-west1",
+    "ru": "Сен-Гилен, Бельгия|Google|europe-west1"
+  },
+  "sdrpop_gfra": {
+    "en": "Frankfurt, Germany|Google|europe-west3",
+    "ru": "Франкфурт-на-Майне, Германия|Google|europe-west3"
+  },
+  "sdrpop_ggru": {
+    "en": "São Paulo, Brazil|Google|southamerica-east1",
+    "ru": "Сан-Паулу, Бразилия|Google|southamerica-east1"
+  },
+  "sdrpop_gham": {
+    "en": "Hamina, Finland|Google|europe-north1",
+    "ru": "Хамина, Финляндия|Google|europe-north1"
+  },
+  "sdrpop_ghkg": {
+    "en": "Hong Kong|Google|asia-east2",
+    "ru": "Гонконг|Google|asia-east2"
+  },
+  "sdrpop_gjak": {
+    "en": "Jakarta, Indonesia|Google|asia-southeast2",
+    "ru": "Джакарта, Индонезия|Google|asia-southeast2"
+  },
+  "sdrpop_glas": {
+    "en": "Las Vegas, Nevada|Google|us-west4",
+    "ru": "Лас-Вегас, штат Невада, США|Google|us-west4"
+  },
+  "sdrpop_glax": {
+    "en": "Los Angeles, California|Google|us-west2",
+    "ru": "Лос-Анджелес, штат Калифорния, США|Google|us-west2"
+  },
+  "sdrpop_glhr": {
+    "en": "London, UK|Google|europe-west2",
+    "ru": "Лондон, Соединённое Королевство|Google|europe-west2"
+  },
+  "sdrpop_gmad": {
+    "en": "Madrid, Spain|Google|europe-southwest1",
+    "ru": "Мадрид, Испания|Google|europe-southwest1"
+  },
+  "sdrpop_gmel": {
+    "en": "Melbourne, Australia|Google|australia-southeast2",
+    "ru": "Мельбурн, Австралия|Google|australia-southeast2"
+  },
+  "sdrpop_gmks": {
+    "en": "Moncks Corner, South Carolina|Google|us-east1",
+    "ru": "Монкс-Корнер, штат Южная Каролина, США|Google|us-east1"
+  },
+  "sdrpop_gmum": {
+    "en": "Mumbai, India|Google|asia-south1",
+    "ru": "Мумбаи, Индия|Google|asia-south1"
+  },
+  "sdrpop_gmxp": {
+    "en": "Milan, Italy|Google|europe-west8",
+    "ru": "Милан, Италия|Google|europe-west8"
+  },
+  "sdrpop_gosa": {
+    "en": "Osaka, Japan|Google|asia-northeast2",
+    "ru": "Осака, Япония|Google|asia-northeast2"
+  },
+  "sdrpop_gpar": {
+    "en": "Paris, France|Google|europe-west9",
+    "ru": "Париж, Франция|Google|europe-west9"
+  },
+  "sdrpop_gru": {
+    "en": "São Paulo, Brazil|Valve|",
+    "ru": "Сан-Паулу, Бразилия|Valve|"
+  },
+  "sdrpop_gscl": {
+    "en": "Santiago, Chile|Google|southamerica-west1",
+    "ru": "Сантьяго, Чили|Google|southamerica-west1"
+  },
+  "sdrpop_gseo": {
+    "en": "Seoul, South Korea|Google|asia-northeast3",
+    "ru": "Сеул, Южная Корея|Google|asia-northeast3"
+  },
+  "sdrpop_gsgp": {
+    "en": "Singapore|Google|asia-southeast1",
+    "ru": "Сингапур|Google|asia-southeast1"
+  },
+  "sdrpop_gslc": {
+    "en": "Salt Lake City, Utah|Google|us-west3",
+    "ru": "Солт-Лейк-Сити, штат Юта, США|Google|us-west3"
+  },
+  "sdrpop_gsyd": {
+    "en": "Sydney, Australia|Google|australia-southeast1",
+    "ru": "Сидней, Австралия|Google|australia-southeast1"
+  },
+  "sdrpop_gtko": {
+    "en": "Tokyo, Japan|Google|asia-northeast1",
+    "ru": "Токио, Япония|Google|asia-northeast1"
+  },
+  "sdrpop_gtpe": {
+    "en": "Taiwan|Google|asia-east1",
+    "ru": "Тайвань|Google|asia-east1"
+  },
+  "sdrpop_guc1": {
+    "en": "Council Bluffs, Iowa|Google|us-central1",
+    "ru": "Каунсил-Блафс, штат Айова, США|Google|us-central1"
+  },
+  "sdrpop_guw1": {
+    "en": "The Dalles, Oregon|Google|us-west1",
+    "ru": "Даллес, штат Орегон, США|Google|us-west1"
+  },
+  "sdrpop_gwaw": {
+    "en": "Warsaw, Poland|Google|europe-central2",
+    "ru": "Варшава, Польша|Google|europe-central2"
+  },
+  "sdrpop_gyul": {
+    "en": "Montreal, Canada|Google|northamerica-northeast1",
+    "ru": "Монреаль, Канада|Google|northamerica-northeast1"
+  },
+  "sdrpop_gyyz": {
+    "en": "Toronto, Canada|Google|northamerica-northeast2",
+    "ru": "Торонто, Канада|Google|northamerica-northeast2"
+  },
+  "sdrpop_gzur": {
+    "en": "Zurich, Switzerland|Google|europe-west6",
+    "ru": "Цюрих, Швейцария|Google|europe-west6"
+  },
+  "sdrpop_hel": {
+    "en": "Helsinki, Finland|Valve|",
+    "ru": "Хельсинки, Финляндия|Valve|"
+  },
+  "sdrpop_helm": {
+    "en": "Helsinki, Finland|Valve|",
+    "ru": "Хельсинки, Финляндия|Valve|"
+  },
+  "sdrpop_hkg": {
+    "en": "Hong Kong|Valve|",
+    "ru": "Гонконг|Valve|"
+  },
+  "sdrpop_hkg4": {
+    "en": "Hong Kong|Multiplay|",
+    "ru": "Гонконг|Multiplay|"
+  },
+  "sdrpop_hkgm": {
+    "en": "Hong Kong|Multiplay|",
+    "ru": "Гонконг|Multiplay|"
+  },
+  "sdrpop_iad": {
+    "en": "Sterling, Virginia|Valve|",
+    "ru": "Стерлинг, штат Вирджиния, США|Valve|"
+  },
+  "sdrpop_jfk": {
+    "en": "New York|Valve|",
+    "ru": "Нью-Йорк|Valve|"
+  },
+  "sdrpop_jnb": {
+    "en": "Johannesburg, South Africa|Valve|",
+    "ru": "Йоханнесбург, Южная Африка|Valve|"
+  },
+  "sdrpop_lax": {
+    "en": "Los Angeles, California|Valve|",
+    "ru": "Лос-Анджелес, штат Калифорния|Valve|"
+  },
+  "sdrpop_lhr": {
+    "en": "London, England|Valve|",
+    "ru": "Лондон, Великобритания|Valve|"
+  },
+  "sdrpop_lim": {
+    "en": "Lima, Peru|Valve|",
+    "ru": "Лима, Перу|Valve|"
+  },
+  "sdrpop_maa": {
+    "en": "Chennai, India|Valve|Chennai - Thiruverkadu",
+    "ru": "Ченнаи, Индия|Valve|Ченнаи — Тируверкаду"
+  },
+  "sdrpop_maa2": {
+    "en": "Chennai, India|Valve|Chennai - Ambattur",
+    "ru": "Ченнаи, Индия|Valve|Ченнаи — Амбаттур"
+  },
+  "sdrpop_mad": {
+    "en": "Madrid, Spain|Valve|",
+    "ru": "Мадрид, Испания|Valve|"
+  },
+  "sdrpop_mam1": {
+    "en": "Amsterdam, Netherlands|Multiplay|",
+    "ru": "Амстердам, Нидерланды|Multiplay|"
+  },
+  "sdrpop_mam2": {
+    "en": "Amsterdam, Netherlands|Multiplay|",
+    "ru": "Амстердам, Нидерланды|Multiplay|"
+  },
+  "sdrpop_mam2 amsm": {
+    "en": "Amsterdam, Netherlands|Multiplay|",
+    "ru": "Амстердам, Нидерланды|Multiplay|"
+  },
+  "sdrpop_mas1": {
+    "en": "Ashburn, Virginia|Multiplay|",
+    "ru": "Ашберн, штат Вирджиния, США|Multiplay|"
+  },
+  "sdrpop_mat1": {
+    "en": "Atlanta, Georgia|Multiplay|",
+    "ru": "Атланта, штат Джорджия, США|Multiplay|"
+  },
+  "sdrpop_mch1": {
+    "en": "Chicago, Illinois|Multiplay|",
+    "ru": "Чикаго, штат Иллинойс|Multiplay|"
+  },
+  "sdrpop_mdb1": {
+    "en": "Dubai, United Arab Emirates|Multiplay|",
+    "ru": "Дубай, Объединённые Арабские Эмираты|Multiplay|"
+  },
+  "sdrpop_mdc1": {
+    "en": "Washington DC|Multiplay|",
+    "ru": "Вашингтон, округ Колумбия, США|Multiplay|"
+  },
+  "sdrpop_mdf1": {
+    "en": "Dallas, Texas|Multiplay|",
+    "ru": "Даллас, штат Техас, США|Multiplay|"
+  },
+  "sdrpop_mdf2": {
+    "en": "Dallas, Texas|Multiplay|",
+    "ru": "Даллас, штат Техас, США|Multiplay|"
+  },
+  "sdrpop_mdf2 dfwm": {
+    "en": "Dallas, Texas|Multiplay|",
+    "ru": "Даллас, штат Техас, США|Multiplay|"
+  },
+  "sdrpop_mfr1": {
+    "en": "Frankfurt, Germany|Multiplay|",
+    "ru": "Франкфурт-на-Майне, Германия|Multiplay|"
+  },
+  "sdrpop_mhk1": {
+    "en": "Hong Kong|Multiplay|",
+    "ru": "Гонконг|Multiplay|"
+  },
+  "sdrpop_mhk2": {
+    "en": "Hong Kong|Multiplay|",
+    "ru": "Гонконг|Multiplay|"
+  },
+  "sdrpop_mhk2 hkgm": {
+    "en": "Hong Kong|Multiplay|",
+    "ru": "Гонконг|Multiplay|"
+  },
+  "sdrpop_mla1": {
+    "en": "Los Angeles, California|Multiplay|",
+    "ru": "Лос-Анджелес, штат Калифорния|Multiplay|"
+  },
+  "sdrpop_mln1": {
+    "en": "London, UK|Multiplay|",
+    "ru": "Лондон, Соединённое Королевство|Multiplay|"
+  },
+  "sdrpop_mlx1": {
+    "en": "Luxembourg City|Multiplay|",
+    "ru": "Люксембург|Multiplay|"
+  },
+  "sdrpop_mmi1": {
+    "en": "Miami, Florida|Multiplay|",
+    "ru": "Майами, штат Флорида, США|Multiplay|"
+  },
+  "sdrpop_mmo1": {
+    "en": "Montreal, Canada|Multiplay|",
+    "ru": "Монреаль, Канада|Multiplay|"
+  },
+  "sdrpop_mny1": {
+    "en": "New York|Multiplay|",
+    "ru": "Нью-Йорк|Multiplay|"
+  },
+  "sdrpop_mpx1": {
+    "en": "Phoenix, Arizona|Multiplay|",
+    "ru": "Финикс, штат Аризона, США|Multiplay|"
+  },
+  "sdrpop_msa1": {
+    "en": "Salt Lake City, Utah|Multiplay|",
+    "ru": "Солт-Лейк-Сити, штат Юта, США|Multiplay|"
+  },
+  "sdrpop_msg1": {
+    "en": "Singapore|Multiplay|",
+    "ru": "Сингапур|Multiplay|"
+  },
+  "sdrpop_msj1": {
+    "en": "San Jose, California|Multiplay|",
+    "ru": "Сан-Хосе, штат Калифорния, США|Multiplay|"
+  },
+  "sdrpop_msl1": {
+    "en": "St. Louis, Missouri|Multiplay|",
+    "ru": "Сент-Луис, штат Миссури, США|Multiplay|"
+  },
+  "sdrpop_msp1": {
+    "en": "São Paulo, Brazil|Multiplay|",
+    "ru": "Сан-Паулу, Бразилия|Multiplay|"
+  },
+  "sdrpop_mst1": {
+    "en": "Strasbourg, France|Multiplay|",
+    "ru": "Страсбург, Франция|Multiplay|"
+  },
+  "sdrpop_msy1": {
+    "en": "Sydney, Australia|Multiplay|",
+    "ru": "Сидней, Австралия|Multiplay|"
+  },
+  "sdrpop_mto1": {
+    "en": "Toronto, Canada|Multiplay|",
+    "ru": "Торонто, Канада|Multiplay|"
+  },
+  "sdrpop_mtp1": {
+    "en": "Taiwan|Multiplay|",
+    "ru": "Тайвань|Multiplay|"
+  },
+  "sdrpop_mty1": {
+    "en": "Tokyo, Japan|Multiplay|",
+    "ru": "Токио, Япония|Multiplay|"
+  },
+  "sdrpop_mwh": {
+    "en": "Moses Lake, Washington|Valve|",
+    "ru": "Мозес-Лейк, штат Вашингтон, США|Valve|"
+  },
+  "sdrpop_ogr1": {
+    "en": "Gravelines, France|OVHCloud|",
+    "ru": "Гравлин, Франция|OVHCloud|"
+  },
+  "sdrpop_ohi1": {
+    "en": "Hillsboro, Oregon|OVHCloud|",
+    "ru": "Хилсборо, штат Орегон, США|OVHCloud|"
+  },
+  "sdrpop_oln1": {
+    "en": "London, UK|OVHCloud|",
+    "ru": "Лондон, Соединённое Королевство|OVHCloud|"
+  },
+  "sdrpop_omo1": {
+    "en": "Montreal, Canada|OVHCloud|",
+    "ru": "Монреаль, Канада|OVHCloud|"
+  },
+  "sdrpop_ord": {
+    "en": "Chicago, Illinois|Valve|",
+    "ru": "Чикаго, Иллинойс|Valve|"
+  },
+  "sdrpop_osd1": {
+    "en": "Sydney, Australia|OVHCloud|",
+    "ru": "Сидней, Австралия|OVHCloud|"
+  },
+  "sdrpop_osg1": {
+    "en": "Singapore|OVHCloud|",
+    "ru": "Сингапур|OVHCloud|"
+  },
+  "sdrpop_owa1": {
+    "en": "Warsaw, Poland|OVHCloud|",
+    "ru": "Варшава, Польша|OVHCloud|"
+  },
+  "sdrpop_par": {
+    "en": "Paris, France|Valve|",
+    "ru": "Париж, Франция|Valve|"
+  },
+  "sdrpop_pek": {
+    "en": "Beijing, China|Alibaba Cloud|",
+    "ru": "Пекин, Китай|Alibaba Cloud|"
+  },
+  "sdrpop_pekm": {
+    "en": "Beijing, China|Alibaba Cloud|Beijing - Mobile",
+    "ru": "Пекин, Китай|Alibaba Cloud|Пекин — Mobile"
+  },
+  "sdrpop_pekt": {
+    "en": "Beijing, China|Alibaba Cloud|Beijing - Telecom",
+    "ru": "Пекин, Китай|Alibaba Cloud|Пекин — Telecom"
+  },
+  "sdrpop_peku": {
+    "en": "Beijing, China|Alibaba Cloud|Beijing - Unicom",
+    "ru": "Пекин, Китай|Alibaba Cloud|Пекин — Unicom"
+  },
+  "sdrpop_pvg": {
+    "en": "Shanghai, China|Alibaba Cloud|",
+    "ru": "Шанхай, Китай|Alibaba Cloud|"
+  },
+  "sdrpop_pvgm": {
+    "en": "Shanghai, China|Alibaba Cloud|Shanghai - Mobile",
+    "ru": "Шанхай, Китай|Alibaba Cloud|Шанхай — Mobile"
+  },
+  "sdrpop_pvgt": {
+    "en": "Shanghai, China|Alibaba Cloud|Shanghai - Telecom",
+    "ru": "Шанхай, Китай|Alibaba Cloud|Шанхай — Telecom"
+  },
+  "sdrpop_pvgu": {
+    "en": "Shanghai, China|Alibaba Cloud|Shanghai - Unicom",
+    "ru": "Шанхай, Китай|Alibaba Cloud|Шанхай — Unicom"
+  },
+  "sdrpop_pwg": {
+    "en": "Guangdong, China|Perfect World|Guangdong 1",
+    "ru": "Гуандун, Китай|Perfect World|Гуандун 1"
+  },
+  "sdrpop_pwj": {
+    "en": "Tianjin, China|Perfect World|",
+    "ru": "Тяньцзинь, Китай|Perfect World|"
+  },
+  "sdrpop_pwt": {
+    "en": "Shanghai, China|Perfect World|(sha-4) Backbone",
+    "ru": "Шанхай, Китай|Perfect World|(sha-4) — магистраль"
+  },
+  "sdrpop_pwu": {
+    "en": "Hebei, China|Perfect World|",
+    "ru": "Хэбэй, Китай|Perfect World|"
+  },
+  "sdrpop_pww": {
+    "en": "Wuhan, China|Perfect World|",
+    "ru": "Ухань, Китай|Perfect World|"
+  },
+  "sdrpop_pwz": {
+    "en": "Zhejiang, China|Perfect World|",
+    "ru": "Чжэцзян, Китай|Perfect World|"
+  },
+  "sdrpop_scl": {
+    "en": "Santiago, Chile|Valve|",
+    "ru": "Сантьяго, Чили|Valve|"
+  },
+  "sdrpop_sea": {
+    "en": "Seattle, Washington|Valve|",
+    "ru": "Сиэтл, штат Вашингтон, США|Valve|"
+  },
+  "sdrpop_seo": {
+    "en": "Seoul, South Korea|Valve|",
+    "ru": "Сеул, Южная Корея|Valve|"
+  },
+  "sdrpop_sgp": {
+    "en": "Singapore|Valve|",
+    "ru": "Сингапур|Valve|"
+  },
+  "sdrpop_sha": {
+    "en": "Shanghai, China|Perfect World|",
+    "ru": "Шанхай, Китай|Perfect World|"
+  },
+  "sdrpop_sham": {
+    "en": "Shanghai, China|Perfect World|Shanghai - Mobile",
+    "ru": "Шанхай, Китай|Perfect World|Шанхай — Mobile"
+  },
+  "sdrpop_shat": {
+    "en": "Shanghai, China|Perfect World|Shanghai - Telecom",
+    "ru": "Шанхай, Китай|Perfect World|Шанхай — Telecom"
+  },
+  "sdrpop_shau": {
+    "en": "Shanghai, China|Perfect World|Shanghai - Unicom",
+    "ru": "Шанхай, Китай|Perfect World|Шанхай — Unicom"
+  },
+  "sdrpop_shb": {
+    "en": "Shanghai, China|Perfect World|(sha-4) Backbone",
+    "ru": "Шанхай, Китай|Perfect World|(sha-4) — магистраль"
+  },
+  "sdrpop_sto": {
+    "en": "Stockholm, Sweden|Valve|Stockholm - Kista",
+    "ru": "Стокгольм, Швеция|Valve|Стокгольм — Чиста"
+  },
+  "sdrpop_sto2": {
+    "en": "Stockholm, Sweden|Valve|Stockholm - Bromma",
+    "ru": "Стокгольм, Швеция|Valve|Стокгольм — Бромма"
+  },
+  "sdrpop_syd": {
+    "en": "Sydney, Australia|Valve|",
+    "ru": "Сидней, Австралия|Valve|"
+  },
+  "sdrpop_tgd": {
+    "en": "Guangzhou, China|Tencent|",
+    "ru": "Гуанчжоу, Китай|Tencent|"
+  },
+  "sdrpop_tgdm": {
+    "en": "Guangzhou, China|Tencent|Guangzhou - Mobile",
+    "ru": "Гуанчжоу, Китай|Tencent|Гуанчжоу — Mobile"
+  },
+  "sdrpop_tgdt": {
+    "en": "Guangzhou, China|Tencent|Guangzhou - Telecom",
+    "ru": "Гуанчжоу, Китай|Tencent|Гуанчжоу — Telecom"
+  },
+  "sdrpop_tgdu": {
+    "en": "Guangzhou, China|Tencent|Guangzhou - Unicom",
+    "ru": "Гуанчжоу, Китай|Tencent|Гуанчжоу — Unicom"
+  },
+  "sdrpop_tsn": {
+    "en": "Tianjin, China|Perfect World|",
+    "ru": "Тяньцзинь, Китай|Perfect World|"
+  },
+  "sdrpop_tsnm": {
+    "en": "Tianjin, China|Perfect World|Tianjin - Mobile",
+    "ru": "Тяньцзинь, Китай|Perfect World|Тянцзинь — Mobile"
+  },
+  "sdrpop_tsnt": {
+    "en": "Tianjin, China|Perfect World|Tianjin - Telecom",
+    "ru": "Тяньцзинь, Китай|Perfect World|Тянцзинь — Telecom"
+  },
+  "sdrpop_tsnu": {
+    "en": "Tianjin, China|Perfect World|Tianjin - Unicom",
+    "ru": "Тяньцзинь, Китай|Perfect World|Тянцзинь — Unicom"
+  },
+  "sdrpop_tyo": {
+    "en": "Tokyo, Japan|Valve|Tokyo Koto City",
+    "ru": "Токио, Япония|Valve|Токио, Кото"
+  },
+  "sdrpop_tyo1": {
+    "en": "Tokyo, Japan|Valve|Tokyo Koto City",
+    "ru": "Токио, Япония|Valve|Токио, Кото"
+  },
+  "sdrpop_tyo2": {
+    "en": "Tokyo, Japan|Valve|Tokyo Koto City",
+    "ru": "Токио, Япония|Valve|Токио, Кото"
+  },
+  "sdrpop_tyo3": {
+    "en": "Tokyo, Japan|Valve|Tokyo Koto City",
+    "ru": "Токио, Япония|Valve|Токио, Кото"
+  },
+  "sdrpop_vie": {
+    "en": "Vienna, Austria|Valve|",
+    "ru": "Вена, Австрия|Valve|"
+  },
+  "sdrpop_waw": {
+    "en": "Warsaw, Poland|Valve|",
+    "ru": "Варшава, Польша|Valve|"
+  },
+  "sdrpop_wuh": {
+    "en": "Wuhan, China|Perfect World|",
+    "ru": "Ухань, Китай|Perfect World|"
+  },
+  "shared_dummy": {
+    "en": "dont translate",
+    "ru": "dont translate"
+  }
+}

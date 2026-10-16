@@ -1,0 +1,4878 @@
+{
+  "AboutSettings_Title": {
+    "en": "About",
+    "ru": "Информация"
+  },
+  "ActiveVoiceChat": {
+    "en": "VOICE CHAT:",
+    "ru": "ГОЛОСОВОЙ ЧАТ:"
+  },
+  "ActiveVoicePushToMute": {
+    "en": "Push %1$s to mute",
+    "ru": "Нажмите %1$s, чтобы выключить микрофон"
+  },
+  "ActiveVoicePushToTalk": {
+    "en": "Push %1$s to talk",
+    "ru": "Нажмите %1$s, чтобы говорить"
+  },
+  "Alert_YouWereBannedDescription": {
+    "en": "You were banned from chatroom '%1$s'",
+    "ru": "Вас заблокировали в чате «%1$s»"
+  },
+  "Alert_YouWereBannedTitle": {
+    "en": "Banned!",
+    "ru": "Вас заблокировали!"
+  },
+  "Alert_YouWereKickedDescription": {
+    "en": "You were kicked from chatroom '%1$s'",
+    "ru": "Вас выгнали из чата «%1$s»"
+  },
+  "Alert_YouWereKickedTitle": {
+    "en": "Kicked!",
+    "ru": "Вас выгнали!"
+  },
+  "AssociatedApp_ViewOnStore": {
+    "en": "View on Store",
+    "ru": "Показать в магазине"
+  },
+  "BBCode_Failed": {
+    "en": "Failed to load",
+    "ru": "Ошибка загрузки"
+  },
+  "BBCode_Loading": {
+    "en": "Loading",
+    "ru": "Загрузка"
+  },
+  "BBTag_Spoiler": {
+    "en": "Spoiler",
+    "ru": "Спойлер"
+  },
+  "Broadcast_AutomaticResolution": {
+    "en": "Automatic",
+    "ru": "Автоматически"
+  },
+  "Broadcast_CSGO_Stage1": {
+    "en": "Challengers Stage - September 5 – 9",
+    "ru": "Этап претендентов — с 5 по 9 сентября"
+  },
+  "Broadcast_CSGO_Stage2": {
+    "en": "Legends Stage - September 12 – 16",
+    "ru": "Этап легенд — с 12 по 16 сентября"
+  },
+  "Broadcast_CSGO_Stage3": {
+    "en": "Champions Stage - September 20 – 23",
+    "ru": "Этап чемпионов — с 20 по 23 сентября"
+  },
+  "Broadcast_ChannelLive": {
+    "en": "%1$s is now live on SteamTV",
+    "ru": "%1$s в прямом эфире на SteamTV"
+  },
+  "Broadcast_Chat_GroupChatTab": {
+    "en": "%1$s Chat",
+    "ru": "Чат %1$s"
+  },
+  "Broadcast_Chat_PublicChatTab": {
+    "en": "Public Chat",
+    "ru": "Общий чат"
+  },
+  "Broadcast_ChineseA": {
+    "en": "Chinese A",
+    "ru": "Китайская A"
+  },
+  "Broadcast_ChineseB": {
+    "en": "Chinese B",
+    "ru": "Китайская B"
+  },
+  "Broadcast_ChineseC": {
+    "en": "Chinese C",
+    "ru": "Китайская C"
+  },
+  "Broadcast_ChineseD": {
+    "en": "Chinese D",
+    "ru": "Китайская D"
+  },
+  "Broadcast_ChineseMain": {
+    "en": "Chinese",
+    "ru": "Китайский"
+  },
+  "Broadcast_ChineseNewbie": {
+    "en": "Chinese - Newcomer",
+    "ru": "Китайский: для новичков"
+  },
+  "Broadcast_CreateWatchParty": {
+    "en": "Create a Watch Party",
+    "ru": "Смотреть вместе"
+  },
+  "Broadcast_CreateWatchParty_Description": {
+    "en": "Watch a broadcast with friends",
+    "ru": "Смотреть трансляцию с друзьями"
+  },
+  "Broadcast_EndWatchParty": {
+    "en": "End Watch Party",
+    "ru": "Прекратить совместный просмотр"
+  },
+  "Broadcast_EndWatchPartyPrompt": {
+    "en": "Are you sure you want to end this watch party?",
+    "ru": "Вы уверены, что хотите прекратить совместный просмотр?"
+  },
+  "Broadcast_EnglishA": {
+    "en": "English A",
+    "ru": "Английская A"
+  },
+  "Broadcast_EnglishB": {
+    "en": "English B",
+    "ru": "Английская B"
+  },
+  "Broadcast_EnglishC": {
+    "en": "English C",
+    "ru": "Английская C"
+  },
+  "Broadcast_EnglishD": {
+    "en": "English D",
+    "ru": "Английская D"
+  },
+  "Broadcast_EnglishMain": {
+    "en": "English",
+    "ru": "Английский"
+  },
+  "Broadcast_EnglishNewbie": {
+    "en": "English - Newcomer",
+    "ru": "Английский: для новичков"
+  },
+  "Broadcast_LinkBroadcastToGroup": {
+    "en": "Link broadcast with group you own",
+    "ru": "Связать трансляцию с вашей группой"
+  },
+  "Broadcast_LinkBroadcastToGroup_New": {
+    "en": "Watch with friends in a new group",
+    "ru": "Смотреть с друзьями в новой группе"
+  },
+  "Broadcast_NowWatching": {
+    "en": "Now watching:",
+    "ru": "Смотрит:"
+  },
+  "Broadcast_RussianA": {
+    "en": "Russian A",
+    "ru": "Русская A"
+  },
+  "Broadcast_RussianB": {
+    "en": "Russian B",
+    "ru": "Русская B"
+  },
+  "Broadcast_RussianC": {
+    "en": "Russian C",
+    "ru": "Русская C"
+  },
+  "Broadcast_RussianD": {
+    "en": "Russian D",
+    "ru": "Русская D"
+  },
+  "Broadcast_RussianMain": {
+    "en": "Russian",
+    "ru": "Русский"
+  },
+  "Broadcast_Stream1": {
+    "en": "Stream 1",
+    "ru": "Трансляция 1"
+  },
+  "Broadcast_Stream2": {
+    "en": "Stream 2",
+    "ru": "Трансляция 2"
+  },
+  "Broadcast_Stream3": {
+    "en": "Stream 3",
+    "ru": "Трансляция 3"
+  },
+  "Broadcast_Stream4": {
+    "en": "Stream 4",
+    "ru": "Трансляция 4"
+  },
+  "Broadcast_Stream5": {
+    "en": "Stream 5",
+    "ru": "Трансляция 5"
+  },
+  "Broadcast_Stream6": {
+    "en": "Stream 6",
+    "ru": "Трансляция 6"
+  },
+  "Broadcast_ToggleChat": {
+    "en": "Toggle Chat",
+    "ru": "Открыть/закрыть чат"
+  },
+  "Broadcast_WatchAlone": {
+    "en": "Watch in public channel",
+    "ru": "Смотреть в общем канале"
+  },
+  "Broadcast_WatchParty_Viewers": {
+    "en": "%1$s person watching this broadcast",
+    "ru": "Зрителей: %1$s"
+  },
+  "Broadcast_WatchParty_Viewers_NoneActive": {
+    "en": "Watching a broadcast",
+    "ru": "Смотрит трансляцию"
+  },
+  "Broadcast_WatchParty_Viewers_Plural": {
+    "en": "%1$s people watching this broadcast",
+    "ru": "Зрителей: %1$s"
+  },
+  "Broadcast_WatchPrompt": {
+    "en": "How would you like to watch?",
+    "ru": "Как вы хотите смотреть?"
+  },
+  "Broadcast_WatchStream": {
+    "en": "Watch Stream",
+    "ru": "Смотреть трансляцию"
+  },
+  "Broadcast_WatchWith": {
+    "en": "Watch with %1$s",
+    "ru": "Смотреть с %1$s"
+  },
+  "Broadcast_WatchWithExistingWatchParty": {
+    "en": "Watch with group",
+    "ru": "Смотреть с группой"
+  },
+  "Broadcast_WatchWithFriends": {
+    "en": "Watch with friends",
+    "ru": "Смотреть с друзьями"
+  },
+  "Broadcast_WatchWith_Description": {
+    "en": "Creates a watch party",
+    "ru": "Начнётся совместный просмотр"
+  },
+  "Broadcast_Watching": {
+    "en": "Watching:",
+    "ru": "Смотрит:"
+  },
+  "Button_Accept": {
+    "en": "Accept",
+    "ru": "Принять"
+  },
+  "Button_Block": {
+    "en": "Block",
+    "ru": "Заблокировать"
+  },
+  "Button_Cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "Button_Decline": {
+    "en": "Decline",
+    "ru": "Отклонить"
+  },
+  "Button_Done": {
+    "en": "Done",
+    "ru": "Готово"
+  },
+  "Button_Ignore": {
+    "en": "Ignore",
+    "ru": "Отклонить"
+  },
+  "Button_OK": {
+    "en": "OK",
+    "ru": "OK"
+  },
+  "Button_Share": {
+    "en": "Share",
+    "ru": "Поделиться"
+  },
+  "Button_Skip": {
+    "en": "Skip",
+    "ru": "Пропустить"
+  },
+  "Button_Yes": {
+    "en": "Yes",
+    "ru": "Да"
+  },
+  "ChangePersona_Change": {
+    "en": "Change profile name to",
+    "ru": "Изменить имя профиля на"
+  },
+  "ChangePersona_Description": {
+    "en": "Your avatar and profile name are how you are represented on Steam.",
+    "ru": "Другие пользователи Steam видят ваши аватар и имя профиля."
+  },
+  "ChangePersona_PlaceHolder": {
+    "en": "Enter a profile name",
+    "ru": "Введите имя профиля"
+  },
+  "ChangePersona_Title": {
+    "en": "Edit Profile Name",
+    "ru": "Изменить имя профиля"
+  },
+  "ChatEntryButton_SendBalloons": {
+    "en": "Launch balloons!",
+    "ru": "Запустить шарики!"
+  },
+  "ChatEntryButton_SendConfetti": {
+    "en": "Use confetti!",
+    "ru": "Запустить конфетти!"
+  },
+  "ChatEntryButton_SendFirework": {
+    "en": "Launch fireworks!",
+    "ru": "Запустить фейерверк!"
+  },
+  "ChatEntryButton_SendGoldfetti": {
+    "en": "Use gold confetti!",
+    "ru": "Запустить золотое конфетти!"
+  },
+  "ChatEntryButton_SendLny2020_confetti": {
+    "en": "Use Lunar New Year confetti!",
+    "ru": "Запустить конфетти лунного Нового года!"
+  },
+  "ChatEntryButton_SendLny2020_firework": {
+    "en": "Launch Lunar New Year fireworks!",
+    "ru": "Запустить фейерверк лунного Нового года!"
+  },
+  "ChatEntryButton_SendLny2020_lanterns": {
+    "en": "Launch Lunar New Year lanterns!",
+    "ru": "Запустить фонарики лунного Нового года!"
+  },
+  "ChatEntryButton_SendSnow": {
+    "en": "Make it snow!",
+    "ru": "Пусть идёт снег!"
+  },
+  "ChatEntryButton_SendSnowball": {
+    "en": "Throw a snowball!",
+    "ru": "Бросить снежок!"
+  },
+  "ChatEntryButton_SendSnowfall": {
+    "en": "Make it snow!",
+    "ru": "Пусть идёт снег!"
+  },
+  "ChatEntryButton_SendSticker": {
+    "en": "Send an animated sticker",
+    "ru": "Отправить анимированный стикер"
+  },
+  "ChatEntry_ChooseFromLibrary": {
+    "en": "Choose Photo From Library",
+    "ru": "Выбрать изображение из библиотеки"
+  },
+  "ChatEntry_SendTradeURL": {
+    "en": "Share Your Trade Offer URL",
+    "ru": "Поделиться ссылкой на обмен"
+  },
+  "ChatEntry_TagAsSpoiler": {
+    "en": "Tag as Spoiler",
+    "ru": "Пометить как спойлер"
+  },
+  "ChatEntry_TakePhoto": {
+    "en": "Take Photo",
+    "ru": "Сделать снимок"
+  },
+  "ChatEntry_UploadImage": {
+    "en": "Upload an Image",
+    "ru": "Загрузить изображение"
+  },
+  "ChatEntry_UploadLastScreenshot": {
+    "en": "Upload Last Screenshot",
+    "ru": "Загрузить последний скриншот"
+  },
+  "ChatMentionSuggest_ManyMatches": {
+    "en": "+ %1$s More Match",
+    "ru": "+ ещё %1$s совпадение"
+  },
+  "ChatMentionSuggest_ManyMatchesPlural": {
+    "en": "+ %1$s More Matches",
+    "ru": "+ ещё совпадений: %1$s"
+  },
+  "ChatMentionSuggest_MembersMatching": {
+    "en": "Chat members matching @%1$s",
+    "ru": "Участники чата, совпадающие с @%1$s"
+  },
+  "ChatMentionSuggest_NoMatches": {
+    "en": "No matches",
+    "ru": "Совпадений нет"
+  },
+  "ChatMentionSuggest_NoPermission": {
+    "en": "you don't have permission to mention",
+    "ru": "у вас нет разрешения упоминать"
+  },
+  "ChatRoomRole_Description": {
+    "en": "You can edit the role of anyone below your highest assigned role. To assign roles, right-click members in the Group Members list, and under Manage, check the roles you wish to assign. You can assign more than one role per person.",
+    "ru": "Вы можете изменять роли ниже ваших по статусу. Чтобы назначить роли, нажмите правой кнопкой мыши по пользователю в списке участников группы и отметьте нужные роли. Одному пользователю можно назначить несколько ролей."
+  },
+  "ChatRoomRole_Description_Clan": {
+    "en": "From here you can manage what each group role is allowed to do in chat.  To manage who is assigned to each role, use this group's %1$s.",
+    "ru": "Здесь вы можете изменить разрешения ролей. Чтобы изменить роли участников чата, перейдите на %1$s."
+  },
+  "ChatRoomRole_Description_ClanLink": {
+    "en": "Manage Members Page",
+    "ru": "страницу управления участниками"
+  },
+  "ChatRoomRole_Description_NoEdit": {
+    "en": "The roles listed here are set and assigned by the group owner and anyone the owner has given permission to.",
+    "ru": "Указанные здесь роли назначаются владельцем группы и пользователями, у которых есть разрешения."
+  },
+  "ChatRoomRole_Description_NoEditCanAssign": {
+    "en": "To assign roles, right-click members in the Group Members list, and under Manage, check the roles you wish to assign. You can assign more than one role per person.",
+    "ru": "Чтобы назначить роли, нажмите правой кнопкой мыши на пользователя в списке участников группы и отметьте нужные роли. Одному пользователю можно назначить несколько ролей."
+  },
+  "ChatRoomRole_Guest": {
+    "en": "Guests",
+    "ru": "Гости"
+  },
+  "ChatRoomRole_Member": {
+    "en": "Everyone",
+    "ru": "Все участники"
+  },
+  "ChatRoomRole_Moderator": {
+    "en": "Moderators",
+    "ru": "Модераторы"
+  },
+  "ChatRoomRole_Officer": {
+    "en": "Officers",
+    "ru": "Офицеры"
+  },
+  "ChatRoomRole_Owner": {
+    "en": "Owner",
+    "ru": "Владелец"
+  },
+  "ChatRoomRole_OwnerSubtitle": {
+    "en": "Owner has all permissions",
+    "ru": "У владельца есть все разрешения"
+  },
+  "ChatRoom_BroadcastInvite_Dismiss": {
+    "en": "Dismiss",
+    "ru": "Скрыть"
+  },
+  "ChatRoom_BroadcastInvite_Expired": {
+    "en": "%1$s invited you to watch their broadcast of %2$s",
+    "ru": "%1$s приглашает вас на свою трансляцию %2$s"
+  },
+  "ChatRoom_BroadcastInvite_Expired_NoAppID": {
+    "en": "%1$s invited you to watch their broadcast",
+    "ru": "%1$s приглашает вас на свою трансляцию"
+  },
+  "ChatRoom_BroadcastInvite_Invite": {
+    "en": "%1$s invited you to watch their broadcast",
+    "ru": "%1$s приглашает вас на свою трансляцию"
+  },
+  "ChatRoom_BroadcastInvite_Watch": {
+    "en": "Watch",
+    "ru": "Смотреть"
+  },
+  "ChatRoom_BroadcastInvite_WatchGame": {
+    "en": "Watch %1$s's broadcast",
+    "ru": "Смотреть трансляцию пользователя %1$s"
+  },
+  "ChatRoom_BroadcastInvite_YouInvited": {
+    "en": "You invited %1$s to watch your broadcast of %2$s",
+    "ru": "Вы пригласили пользователя %1$s на свою трансляцию %2$s"
+  },
+  "ChatRoom_BroadcastInvite_YouInvited_NoAppID": {
+    "en": "You invited %1$s to watch your broadcast",
+    "ru": "Вы пригласили пользователя %1$s на свою трансляцию"
+  },
+  "ChatRoom_BroadcastViewRequest_Accept": {
+    "en": "Accept",
+    "ru": "Разрешить"
+  },
+  "ChatRoom_BroadcastViewRequest_Accepted": {
+    "en": "You accepted %1$s's request to watch your broadcast of %2$s",
+    "ru": "Вы дали пользователю %1$s доступ к трансляции %2$s"
+  },
+  "ChatRoom_BroadcastViewRequest_Dismissed": {
+    "en": "You declined %1$s's request to watch your broadcast of %2$s",
+    "ru": "Вы отказали пользователю %1$s в доступе к трансляции %2$s"
+  },
+  "ChatRoom_BroadcastViewRequest_Expired": {
+    "en": "%1$s asked to watch your broadcast of %2$s",
+    "ru": "%1$s просит доступ к трансляции %2$s"
+  },
+  "ChatRoom_BroadcastViewRequest_Invite": {
+    "en": "%1$s would like permission to view your broadcast of %2$s",
+    "ru": "%1$s просит доступ к трансляции %2$s"
+  },
+  "ChatRoom_GameInviteRemotePlay_Accept": {
+    "en": "Connect",
+    "ru": "Подключиться"
+  },
+  "ChatRoom_GameInviteRemotePlay_Accepted": {
+    "en": "You accepted an invitation to play %1$s%2$s via Steam Remote Play",
+    "ru": "Вы приняли приглашение в %1$s%2$s через Steam Remote Play"
+  },
+  "ChatRoom_GameInviteRemotePlay_CantAccept": {
+    "en": "%1$s invited you to play %2$s%3$s via Steam Remote Play, but it is not available in your country",
+    "ru": "%1$s приглашает вас сыграть в %2$s%3$s через Steam Remote Play, но эта игра недоступна в вашей стране"
+  },
+  "ChatRoom_GameInviteRemotePlay_Dismissed": {
+    "en": "%1$s invited you to play %2$s%3$s via Steam Remote Play",
+    "ru": "%1$s приглашает вас сыграть в %2$s%3$s через Steam Remote Play"
+  },
+  "ChatRoom_GameInviteRemotePlay_Invite": {
+    "en": "%1$s invited you using Remote Play Together",
+    "ru": "%1$s приглашает вас сыграть, используя Remote Play Together"
+  },
+  "ChatRoom_GameInviteRemotePlay_YouInvited": {
+    "en": "You invited %1$s to play %2$s%3$s via Steam Remote Play",
+    "ru": "Вы пригласили %1$s сыграть в %2$s%3$s через Steam Remote Play"
+  },
+  "ChatRoom_GameInvite_Accept": {
+    "en": "Play Game",
+    "ru": "Играть"
+  },
+  "ChatRoom_GameInvite_AcceptOnPC": {
+    "en": "You can accept this invite from your PC.",
+    "ru": "Вы можете принять это приглашение со своего ПК."
+  },
+  "ChatRoom_GameInvite_Accept_And_Voice_Chat": {
+    "en": "Play & Voice Chat",
+    "ru": "Играть с голосовым чатом"
+  },
+  "ChatRoom_GameInvite_Accepted": {
+    "en": "You accepted an invitation to play %1$s%2$s",
+    "ru": "Вы приняли приглашение в %1$s%2$s"
+  },
+  "ChatRoom_GameInvite_Dismissed": {
+    "en": "%1$s invited you to play %2$s%3$s",
+    "ru": "%1$s приглашает вас в %2$s%3$s"
+  },
+  "ChatRoom_GameInvite_Family_View": {
+    "en": "This game has not been approved in Family View.",
+    "ru": "Эта игра не одобрена для семейного просмотра."
+  },
+  "ChatRoom_GameInvite_Invite": {
+    "en": "%1$s invited you to play",
+    "ru": "%1$s приглашает вас в игру"
+  },
+  "ChatRoom_GameInvite_InviteTime": {
+    "en": "Invited at ",
+    "ru": "Приглашение отправлено в "
+  },
+  "ChatRoom_GameInvite_PartyMore": {
+    "en": "+ %1$s More",
+    "ru": "и ещё %1$s"
+  },
+  "ChatRoom_GameInvite_PlayingWith": {
+    "en": "playing with:",
+    "ru": "играет c:"
+  },
+  "ChatRoom_GameInvite_UnreleasedGame": {
+    "en": "Unreleased Game",
+    "ru": "Невыпущенная игра"
+  },
+  "ChatRoom_GameInvite_YouInvited": {
+    "en": "You invited %1$s to play %2$s%3$s",
+    "ru": "Вы пригласили %1$s в %2$s%3$s"
+  },
+  "ChatRoom_GenericEmpty": {
+    "en": "(empty chat)",
+    "ru": "(пустой чат)"
+  },
+  "ChatRoom_GenericWithOthers": {
+    "en": "Chat with %1$s members",
+    "ru": "Чат с другими участниками (%1$s)"
+  },
+  "ChatRoom_InviteMessage_Failed_Banned": {
+    "en": "You've been banned",
+    "ru": "Вы заблокированы"
+  },
+  "ChatRoom_InviteMessage_Failed_Kicked": {
+    "en": "You've been kicked until %1$s",
+    "ru": "Вас выгнали до %1$s"
+  },
+  "ChatRoom_InviteMessage_Header": {
+    "en": "Unable to accept invite",
+    "ru": "Не удалось принять приглашение"
+  },
+  "ChatRoom_InviteMessage_Not_Found": {
+    "en": "The chatroom no longer exists",
+    "ru": "Чат больше не существует"
+  },
+  "ChatRoom_Invite_Accept": {
+    "en": "Join Group Chat",
+    "ru": "Присоединиться к групповому чату"
+  },
+  "ChatRoom_Invite_Accept_Inviter": {
+    "en": "Go to Group Chat",
+    "ru": "Открыть групповой чат"
+  },
+  "ChatRoom_List_Item_Create_Voice": {
+    "en": "Create Voice Channel",
+    "ru": "Создать голосовой канал"
+  },
+  "ChatRoom_New_Messages": {
+    "en": "New messages since %1$s",
+    "ru": "Новые сообщения (%1$s)"
+  },
+  "ChatRoom_NoMessages": {
+    "en": "There are no messages in this channel.",
+    "ru": "В этом канале нет сообщений."
+  },
+  "ChatRoom_OneFriend": {
+    "en": "%1$s",
+    "ru": "%1$s"
+  },
+  "ChatRoom_OneFriendPlusMore": {
+    "en": "%1$s and %2$s more",
+    "ru": "%1$s и ещё %2$s"
+  },
+  "ChatRoom_PlayestInvite_Invite": {
+    "en": "%1$s invited you to a Steam Playtest",
+    "ru": "%1$s приглашает вас принять участие в тестировании"
+  },
+  "ChatRoom_PlayestInvite_ViewInvite": {
+    "en": "View Invite",
+    "ru": "Открыть приглашение"
+  },
+  "ChatRoom_PlaytestInvite_YouInvited": {
+    "en": "You invited %1$s to the Steam Playtest %2$s%3$s",
+    "ru": "Вы пригласили %1$s принять участие в тестировании %2$s%3$s"
+  },
+  "ChatRoom_PlaytestInvite_YouInvited_FullApp": {
+    "en": "You invited %1$s to the Steam Playtest for %2$s%3$s",
+    "ru": "Вы пригласили %1$s принять участие в тестировании %2$s%3$s"
+  },
+  "ChatRoom_ReplayRoomEffect": {
+    "en": "Replay effect",
+    "ru": "Повторить эффект"
+  },
+  "ChatRoom_RoomEffectBalloons": {
+    "en": "%1$s launched balloons!",
+    "ru": "%1$s запускает воздушные шарики!"
+  },
+  "ChatRoom_RoomEffectConfetti": {
+    "en": "%1$s used confetti!",
+    "ru": "%1$s запускает конфетти!"
+  },
+  "ChatRoom_RoomEffectFirework": {
+    "en": "%1$s launched fireworks!",
+    "ru": "%1$s запускает фейерверк!"
+  },
+  "ChatRoom_RoomEffectGoldfetti": {
+    "en": "%1$s used gold confetti!",
+    "ru": "%1$s запускает золотое конфетти!"
+  },
+  "ChatRoom_RoomEffectLny2020_confetti": {
+    "en": "%1$s used Lunar New Year confetii!",
+    "ru": "%1$s запускает конфетти лунного Нового года!"
+  },
+  "ChatRoom_RoomEffectLny2020_firework": {
+    "en": "%1$s used Lunar New Year fireworks!",
+    "ru": "%1$s запускает фейерверк лунного Нового года!"
+  },
+  "ChatRoom_RoomEffectLny2020_lanterns": {
+    "en": "%1$s released lanterns!",
+    "ru": "%1$s запускает фонарики!"
+  },
+  "ChatRoom_RoomEffectSnow": {
+    "en": "%1$s made it snow!",
+    "ru": "%1$s пускает снежок!"
+  },
+  "ChatRoom_RoomEffectSnowball": {
+    "en": "%1$s threw a snowball!",
+    "ru": "%1$s бросает снежок!"
+  },
+  "ChatRoom_ServerMessageMultiple_Separator": {
+    "en": ", ",
+    "ru": ", "
+  },
+  "ChatRoom_ServerMessage_ChatRoomAvatarChanged": {
+    "en": "%1$s changed the group chat avatar",
+    "ru": "%1$s изменяет аватар группового чата"
+  },
+  "ChatRoom_ServerMessage_ChatRoomTaglineChanged": {
+    "en": "%2$s changed chat tagline to: %1$s",
+    "ru": "%2$s изменяет слоган чата на «%1$s»"
+  },
+  "ChatRoom_ServerMessage_ChatRoomTaglineRemoved": {
+    "en": "%1$s removed chat tagline",
+    "ru": "%1$s удаляет слоган чата"
+  },
+  "ChatRoom_ServerMessage_Invited": {
+    "en": "%1$s has been invited by %2$s",
+    "ru": "%2$s приглашает %1$s"
+  },
+  "ChatRoom_ServerMessage_Invited_Multiple": {
+    "en": "%1$s have been invited by %2$s",
+    "ru": "%2$s приглашает %1$s"
+  },
+  "ChatRoom_ServerMessage_Invited_Number": {
+    "en": "%1$s people were invited to the chat",
+    "ru": "Нескольких пользователей (%1$s) пригласили в чат"
+  },
+  "ChatRoom_ServerMessage_Invited_NumberSingle": {
+    "en": "1 person was invited to the chat",
+    "ru": "Одного пользователя пригласили в чат"
+  },
+  "ChatRoom_ServerMessage_Joined": {
+    "en": "%1$s joined the chat",
+    "ru": "%1$s присоединяется к чату"
+  },
+  "ChatRoom_ServerMessage_Joined_Multiple": {
+    "en": "%1$s and %2$s joined the chat",
+    "ru": "%1$s и %2$s присоединяются к чату"
+  },
+  "ChatRoom_ServerMessage_Joined_Number": {
+    "en": "%1$s people joined the chat",
+    "ru": "Несколько пользователей (%1$s) присоединяются к чату"
+  },
+  "ChatRoom_ServerMessage_Joined_NumberSingle": {
+    "en": "1 person joined the chat",
+    "ru": "Один пользователь присоединился к чату"
+  },
+  "ChatRoom_ServerMessage_Kicked": {
+    "en": "%1$s was kicked from the chat by %2$s",
+    "ru": "%2$s выгоняет %1$s из чата"
+  },
+  "ChatRoom_ServerMessage_MultipleJoined_MultipleParted": {
+    "en": "%1$s people joined the chat and %2$s people left the chat",
+    "ru": "Несколько пользователей (%1$s) присоединяются к чату, а %2$s — покидают чат"
+  },
+  "ChatRoom_ServerMessage_MultipleJoined_NumberSingleParted": {
+    "en": "%1$s people joined the chat and 1 person left the chat",
+    "ru": "Несколько пользователей (%1$s) присоединились к чату, а один — покинул его"
+  },
+  "ChatRoom_ServerMessage_MultipleJoined_SingleParted": {
+    "en": "%1$s people joined the chat and %2$s left the chat",
+    "ru": "Несколько пользователей (%1$s) присоединяются к чату, а %2$s покидает чат"
+  },
+  "ChatRoom_ServerMessage_NumberSingleJoined_MultipleParted": {
+    "en": "1 person joined the chat and %2$s people left the chat",
+    "ru": "Один пользователь присоединился к чату, и несколько (%2$s) — покинули его"
+  },
+  "ChatRoom_ServerMessage_NumberSingleJoined_NumberSingleParted": {
+    "en": "1 person joined the chat and 1 person left the chat",
+    "ru": "Один пользователь присоединился к чату, а один — покинул его"
+  },
+  "ChatRoom_ServerMessage_Parted": {
+    "en": "%1$s left the chat",
+    "ru": "%1$s покидает чат"
+  },
+  "ChatRoom_ServerMessage_Parted_Multiple": {
+    "en": "%1$s and %2$s left the chat",
+    "ru": "%1$s и %2$s покидают чат"
+  },
+  "ChatRoom_ServerMessage_Parted_Number": {
+    "en": "%1$s people left the chat",
+    "ru": "Несколько пользователей (%1$s) покидают чат"
+  },
+  "ChatRoom_ServerMessage_Parted_NumberSingle": {
+    "en": "1 person left the chat",
+    "ru": "Один пользователь покинул чат"
+  },
+  "ChatRoom_ServerMessage_RenameChatRoom": {
+    "en": "%2$s renamed chat room to: %1$s",
+    "ru": "%2$s переименовывает комнату чата в «%1$s»"
+  },
+  "ChatRoom_ServerMessage_SingleJoined_MultipleParted": {
+    "en": "%1$s joined the chat and %2$s people left the chat",
+    "ru": "%1$s присоединяется к чату, а несколько пользователей (%2$s) покидают чат"
+  },
+  "ChatRoom_ServerMessage_SingleJoined_SingleParted": {
+    "en": "%1$s joined the chat and %2$s left the chat",
+    "ru": "%1$s присоединяется к чату, %2$s покидает чат"
+  },
+  "ChatRoom_ServerMessage_Unhandled": {
+    "en": "Unknown Server Message format",
+    "ru": "Неизвестный формат серверного сообщения"
+  },
+  "ChatRoom_ThreeFriends": {
+    "en": "%1$s, %2$s, and %3$s",
+    "ru": "%1$s, %2$s и %3$s"
+  },
+  "ChatRoom_Timestamp_InvalidDate": {
+    "en": "Invalid date",
+    "ru": "Недопустимая дата"
+  },
+  "ChatRoom_Timestamp_Yesterday": {
+    "en": "Yesterday, %1$s",
+    "ru": "Вчера, %1$s"
+  },
+  "ChatRoom_TwoFriends": {
+    "en": "%1$s and %2$s",
+    "ru": "%1$s и %2$s"
+  },
+  "ChatRoom_TwoPlusMore": {
+    "en": "%1$s, %2$s, and %3$s more",
+    "ru": "%1$s, %2$s и ещё %3$s"
+  },
+  "Chat_Actions_AddMoreFriends": {
+    "en": "Add more friends",
+    "ru": "Добавить больше друзей"
+  },
+  "Chat_Actions_ChangeRoomName": {
+    "en": "Rename Channel",
+    "ru": "Переименовать канал"
+  },
+  "Chat_Actions_CreateInviteLink": {
+    "en": "Create Invite Link",
+    "ru": "Создать ссылку с приглашением"
+  },
+  "Chat_Actions_Delete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "Chat_Actions_DeleteChatMessage": {
+    "en": "Delete Message",
+    "ru": "Удалить сообщение"
+  },
+  "Chat_Actions_DeleteChatMessage_Confirm": {
+    "en": "Are you sure you want to delete this message from %1$s?",
+    "ru": "Вы уверены, что хотите удалить это сообщение пользователя %1$s?"
+  },
+  "Chat_Actions_DeleteChatMessage_Fail": {
+    "en": "An error occurred while trying to delete messages from %1$s. Please try again.",
+    "ru": "Ошибка. Не удалось удалить сообщения пользователя %1$s. Пожалуйста, попробуйте ещё раз."
+  },
+  "Chat_Actions_DeleteChatMessage_FailAccess": {
+    "en": "You do not have the required permissions to delete %1$s's messages.",
+    "ru": "У вас нет разрешений, чтобы удалять сообщения %1$s."
+  },
+  "Chat_Actions_DeleteChatMessages": {
+    "en": "Delete Messages",
+    "ru": "Удалить сообщения"
+  },
+  "Chat_Actions_DeleteChatMessages_Confirm": {
+    "en": "Are you sure you want to delete these messages from %1$s?",
+    "ru": "Вы уверены, что хотите удалить сообщения пользователя %1$s?"
+  },
+  "Chat_Actions_DropGroupInvite_1v2_Confirm": {
+    "en": "Invite %1$s to group chat with %3$s and %2$s?",
+    "ru": "Пригласить %1$s в групповой чат с %3$s и %2$s?"
+  },
+  "Chat_Actions_DropGroupInvite_Confirm": {
+    "en": "Invite %1$s to the group chat '%2$s'?",
+    "ru": "Пригласить %1$s в групповой чат %2$s?"
+  },
+  "Chat_Actions_DropGroupInvite_Denied": {
+    "en": "Invite Failed",
+    "ru": "Ошибка приглашения"
+  },
+  "Chat_Actions_DropGroupInvite_Denied_Description": {
+    "en": "You do not have permission to invite new members to this Group Chat.",
+    "ru": "У вас нет разрешения приглашать новых участников в этот групповой чат."
+  },
+  "Chat_Actions_DropGroupInvite_Member_Confirm": {
+    "en": "%1$s is already a member of '%2$s'",
+    "ru": "%1$s уже является участником %2$s"
+  },
+  "Chat_Actions_DropGroupInvite_Title": {
+    "en": "Invite to Group Chat",
+    "ru": "Пригласить в групповой чат"
+  },
+  "Chat_Actions_DropVoiceInvite_Confirm": {
+    "en": "Invite %1$s to the voice channel '%2$s'?",
+    "ru": "Пригласить %1$s в голосовой чат %2$s?"
+  },
+  "Chat_Actions_FindGamesToPlay": {
+    "en": "Find Games to Play Together",
+    "ru": "Найти совместные игры"
+  },
+  "Chat_Actions_InviteFriend": {
+    "en": "Invite to Group Chat",
+    "ru": "Пригласить в групповой чат"
+  },
+  "Chat_Actions_InviteFriend_Capital": {
+    "en": "INVITE TO GROUP CHAT",
+    "ru": "ПРИГЛАСИТЬ В ГРУППОВОЙ ЧАТ"
+  },
+  "Chat_Actions_InviteFriend_StartChatting": {
+    "en": "Start chatting",
+    "ru": "Начать чат"
+  },
+  "Chat_Actions_InviteFriend_VoiceChat": {
+    "en": "Invite to Voice Channel",
+    "ru": "Пригласить в голосовой канал"
+  },
+  "Chat_Actions_InviteFriendtoGroupChat": {
+    "en": "Invite Friend to Group Chat",
+    "ru": "Пригласить друга в групповой чат"
+  },
+  "Chat_Actions_InviteFriendtoVoice": {
+    "en": "Invite Friend to Voice",
+    "ru": "Пригласить друга в голосовой канал"
+  },
+  "Chat_Actions_LeaveChatRoom": {
+    "en": "Leave Chat",
+    "ru": "Выйти из чата"
+  },
+  "Chat_Actions_LeaveChatRoomGroup": {
+    "en": "Leave Group Chat",
+    "ru": "Выйти из группового чата"
+  },
+  "Chat_Actions_LeaveChatRoomGroup_ClanConfirm": {
+    "en": "Are you sure you want to leave the Group Chat: '%1$s'?",
+    "ru": "Вы уверены, что хотите выйти из группового чата «%1$s»?"
+  },
+  "Chat_Actions_LeaveChatRoomGroup_Confirm": {
+    "en": "Are you sure you want to leave the Group Chat: '%1$s'? You will need to be invited back if you wish to chat again.",
+    "ru": "Вы уверены, что хотите покинуть групповой чат «%1$s»? Вы не сможете в него вернуться без приглашения."
+  },
+  "Chat_Actions_OpenChat": {
+    "en": "Open chat window",
+    "ru": "Открыть окно чата"
+  },
+  "Chat_Actions_OwnerLeaveChatRoomGroup_Confirm": {
+    "en": "Are you sure you want to leave the Group Chat: '%1$s'? You will no longer be the owner and you will need to be invited back if you wish to chat again.",
+    "ru": "Вы уверены, что хотите покинуть групповой чат «%1$s»? Вы перестанете быть его владельцем и не сможете в него вернуться без приглашения."
+  },
+  "Chat_Actions_React": {
+    "en": "React",
+    "ru": "Отреагировать"
+  },
+  "Chat_Actions_RemoveRoom": {
+    "en": "Delete Channel",
+    "ru": "Удалить канал"
+  },
+  "Chat_Actions_RemoveRoom_Action": {
+    "en": "Remove",
+    "ru": "Удалить"
+  },
+  "Chat_Actions_RemoveRoom_Confirm": {
+    "en": "Are you sure you want to delete this channel? This channel's chat history will be lost.",
+    "ru": "Вы уверены, что хотите удалить этот канал? История сообщений в нём будет утеряна."
+  },
+  "Chat_Actions_Report": {
+    "en": "Report",
+    "ru": "Пожаловаться"
+  },
+  "Chat_Actions_ReportGroup": {
+    "en": "Report Group Chat",
+    "ru": "Пожаловаться на групповой чат"
+  },
+  "Chat_Actions_SaveChannel": {
+    "en": "Save Voice Channel",
+    "ru": "Сохранить голосовой канал"
+  },
+  "Chat_Actions_Select_Message": {
+    "en": "Select Message",
+    "ru": "Выделить сообщение"
+  },
+  "Chat_AddFriend_Hint": {
+    "en": "Add a friend to make a group chat",
+    "ru": "Добавить друга и создать групповой чат"
+  },
+  "Chat_AddTextChat": {
+    "en": "Add Text Channel",
+    "ru": "Добавить текстовый канал"
+  },
+  "Chat_AddVoiceChat": {
+    "en": "Add Voice Channel",
+    "ru": "Добавить голосовой канал"
+  },
+  "Chat_BroadcastViewRequest_Notification": {
+    "en": "would like to watch your broadcast",
+    "ru": "хочет посмотреть вашу трансляцию"
+  },
+  "Chat_ChannelOptions": {
+    "en": "Channel Options",
+    "ru": "Параметры канала"
+  },
+  "Chat_ChatRoomGroup_EndVoiceChat": {
+    "en": "Leave Voice Channel",
+    "ru": "Покинуть голосовой канал"
+  },
+  "Chat_ChatRoomGroup_JoinVoiceChat": {
+    "en": "Join Voice Channel",
+    "ru": "Войти в голосовой канал"
+  },
+  "Chat_ChatRoomGroup_Options": {
+    "en": "Options",
+    "ru": "Опции"
+  },
+  "Chat_ChatRoomGroup_Requesting": {
+    "en": "Requesting group chat information...",
+    "ru": "Запрос информации о групповом чате..."
+  },
+  "Chat_ChatRoomGroup_StartVoiceChat": {
+    "en": "Create Voice Channel",
+    "ru": "Создать голосовой канал"
+  },
+  "Chat_ChatRoomGroup_ViewVoiceChats": {
+    "en": "View Voice Channels",
+    "ru": "Показать голосовые каналы"
+  },
+  "Chat_ChatRoomListO_OpenGroupCollapse": {
+    "en": "Less voice channel information",
+    "ru": "Скрыть информацию о канале"
+  },
+  "Chat_ChatRoomListO_OpenGroupExpand": {
+    "en": "More voice channel information",
+    "ru": "Показать информацию о канале"
+  },
+  "Chat_ChatRoomList_Collapse": {
+    "en": "Hide Group Chats",
+    "ru": "Скрыть групповые чаты"
+  },
+  "Chat_ChatRoomList_Empty": {
+    "en": "Any group chats you are part of will be listed here.",
+    "ru": "Здесь будут перечислены ваши групповые чаты."
+  },
+  "Chat_ChatRoomList_Empty_How": {
+    "en": "You can start a chat with friends or %1$s",
+    "ru": "Вы можете создать чат с друзьями или %1$s."
+  },
+  "Chat_ChatRoomList_Empty_HowLink": {
+    "en": "join a Steam group chat.",
+    "ru": "присоединиться к групповому чату"
+  },
+  "Chat_ChatRoomList_Empty_StartNew": {
+    "en": "Start a new group chat",
+    "ru": "Создать групповой чат"
+  },
+  "Chat_ChatRoomList_Empty_StartNew_SteamDeck": {
+    "en": "Create Group Chat",
+    "ru": "Создать чат группы"
+  },
+  "Chat_ChatRoomList_Empty_SteamDeck": {
+    "en": "You can start a chat with friends.",
+    "ru": "Вы можете создать чат с друзьями."
+  },
+  "Chat_ChatRoomList_Expand": {
+    "en": "View Group Chats",
+    "ru": "Показать групповые чаты"
+  },
+  "Chat_CloseTabAction": {
+    "en": "Close Tab",
+    "ru": "Закрыть вкладку"
+  },
+  "Chat_CloseTabAction_SteamDeck": {
+    "en": "End Chat",
+    "ru": "Закрыть чат"
+  },
+  "Chat_CloseTooltip": {
+    "en": "Close this tab",
+    "ru": "Закрыть вкладку"
+  },
+  "Chat_Copy": {
+    "en": "Copy",
+    "ru": "Копировать"
+  },
+  "Chat_Copy_Clipboard": {
+    "en": "Copy to Clipboard",
+    "ru": "Копировать в буфер обмена"
+  },
+  "Chat_Copy_Link_Clipboard": {
+    "en": "Copy Link to Clipboard",
+    "ru": "Копировать ссылку в буфер обмена"
+  },
+  "Chat_Create": {
+    "en": "Create a new Steam chat",
+    "ru": "Создать чат Steam"
+  },
+  "Chat_CreateChatChannel_DefaultName": {
+    "en": "Voice Channel",
+    "ru": "Голосовой канал"
+  },
+  "Chat_CreateChatRoom": {
+    "en": "Create a new chat",
+    "ru": "Создать чат"
+  },
+  "Chat_CreateChatRoom_And": {
+    "en": " and ",
+    "ru": " и "
+  },
+  "Chat_CreateChatRoom_Button": {
+    "en": "Create chat",
+    "ru": "Создать чат"
+  },
+  "Chat_CreateChatRoom_Button_wFriends": {
+    "en": "Create chat with friends",
+    "ru": "Создать чат с друзьями"
+  },
+  "Chat_CreateChatRoom_GenericError": {
+    "en": "There was a problem creating the chat",
+    "ru": "Не удалось создать чат"
+  },
+  "Chat_CreateChatRoom_InviteFriends": {
+    "en": "Invite Friends",
+    "ru": "Пригласить друзей"
+  },
+  "Chat_CreateChatRoom_InviteFriendsToChat": {
+    "en": "Invite Friends to Chat",
+    "ru": "Пригласить друга в групповой чат"
+  },
+  "Chat_CreateChatRoom_With": {
+    "en": "Invite friends to chat with ",
+    "ru": "Пригласить друзей в чат с "
+  },
+  "Chat_CreateChatRoom_You": {
+    "en": " you ",
+    "ru": " вами "
+  },
+  "Chat_CreateGroupChat": {
+    "en": "Add New Group Chat",
+    "ru": "Добавить новый групповой чат"
+  },
+  "Chat_CreateTextChannel_DefaultName": {
+    "en": "Text Channel",
+    "ru": "Текстовый канал"
+  },
+  "Chat_DefaultChannelName": {
+    "en": "Home",
+    "ru": "Основной"
+  },
+  "Chat_DropGroupToInviteFriend": {
+    "en": "Invite to Group Chat",
+    "ru": "Пригласить в групповой чат"
+  },
+  "Chat_DropToInvite": {
+    "en": "Drop to invite",
+    "ru": "Перетащите, чтобы пригласить"
+  },
+  "Chat_DropToInviteGroup": {
+    "en": "Invite to group chat",
+    "ru": "Пригласить в групповой чат"
+  },
+  "Chat_EmptyDialogsWindowGamePadUIMsg": {
+    "en": "Select a friend or group to start",
+    "ru": "Чтобы начать, выберите друга или группу"
+  },
+  "Chat_EmptyDialogsWindowMsg": {
+    "en": "Click a Friend or Group Chat to start!",
+    "ru": "Чтобы начать, нажмите на друга или на групповой чат!"
+  },
+  "Chat_ErrorPermissionDenied": {
+    "en": "You do not have permission to chat in this group.",
+    "ru": "У вас нет разрешения на отправку сообщений в этом чате"
+  },
+  "Chat_ErrorSending": {
+    "en": "Failed to send message.  Please try again later.",
+    "ru": "Невозможно отправить сообщение. Повторите попытку позже."
+  },
+  "Chat_ErrorSending_Action_Cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "Chat_ErrorSending_Action_Remove": {
+    "en": "Remove",
+    "ru": "Удалить"
+  },
+  "Chat_ErrorSending_Action_Retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "Chat_ErrorSending_NotFriends": {
+    "en": "Your account does not have permission to send messages to non-friends.",
+    "ru": "У вас нет разрешения отправлять сообщения пользователям, которых нет в списке ваших друзей."
+  },
+  "Chat_ErrorSending_RateLimitExceeded": {
+    "en": "You have been sending too many messages in a short period of time.  Please wait and try again later.",
+    "ru": "За последнее время вы отправили слишком много сообщений. Повторите попытку чуть позже."
+  },
+  "Chat_ErrorSending_Title": {
+    "en": "Failed to send message",
+    "ru": "Не удалось отправить сообщение"
+  },
+  "Chat_Exporting": {
+    "en": "Exporting: %1$s",
+    "ru": "Экспорт: %1$s"
+  },
+  "Chat_Invite": {
+    "en": "Invite",
+    "ru": "Пригласить"
+  },
+  "Chat_InviteFriend_SomeUnavailable": {
+    "en": "During the Steam Chat beta, group chats are only available with friends who are also in the beta.",
+    "ru": "Во время бета-тестирования чатов Steam можно создавать групповые чаты только с теми пользователями, которые также используют бета-версию Steam."
+  },
+  "Chat_InviteFriend_SomeUnavailable_Released": {
+    "en": "Some of the friends you've selected aren't running the latest Steam Client.  They'll see your invite once they've updated.",
+    "ru": "У некоторых из выбранных друзей не установлена последняя версия клиента Steam. Они увидят приглашение, когда обновят клиент."
+  },
+  "Chat_InviteFriend_Unavailable": {
+    "en": "During the Steam Chat beta, group chats are only available with friends who are also in the beta.  %1$s is not currently using the Steam Chat beta.",
+    "ru": "Во время бета-тестирования чатов Steam можно создавать групповые чаты только с теми пользователями, которые также используют бета-версию Steam. %1$s её не использует."
+  },
+  "Chat_InviteFriend_Unavailable_Released": {
+    "en": "%1$s isn't running the latest Steam Client, and may not have access to the new chat features.  You can continue to invite them, they'll see your invite once they update their Steam Client.",
+    "ru": "У пользователя %1$s не установлена последняя версия клиента Steam, и ему недоступны новые возможности чата. Отправленное приглашение будет видно только после обновления клиента."
+  },
+  "Chat_InviteFriend_Unavailable_Short": {
+    "en": "%1$s can't be invited, they are not currently in the Steam Chat beta.",
+    "ru": "Пользователь %1$s не использует бета-версию чата Steam, поэтому пригласить его не получится."
+  },
+  "Chat_InviteFriend_Unavailable_Short_InvitedTo": {
+    "en": "Group chat can't be started because %1$s is not currently in the Steam Chat beta.",
+    "ru": "Поскольку %1$s не использует бета-версию Steam Chat, групповой чат создать не получится."
+  },
+  "Chat_InviteFriend_Unavailable_Short_NoBetas": {
+    "en": "Group chat can't be started because neither of your friends are currently in the Steam Chat beta.",
+    "ru": "Никто из ваших друзей не использует бета-версию чата Steam, создать групповой чат не получится."
+  },
+  "Chat_InviteFriends": {
+    "en": "Select from your Friends List",
+    "ru": "Выбрать из списка друзей"
+  },
+  "Chat_InviteFriends_DropInvite": {
+    "en": "Add others to the invite list",
+    "ru": "Добавить других пользователей к списку приглашений"
+  },
+  "Chat_InviteFriends_DropInvite_Pre": {
+    "en": "Inviting",
+    "ru": "Приглашаем..."
+  },
+  "Chat_InviteFriends_OR_Separator": {
+    "en": "or",
+    "ru": "или"
+  },
+  "Chat_InviteGroupMembers": {
+    "en": "Select from Group Members",
+    "ru": "Выбрать из участников группы"
+  },
+  "Chat_Invite_Capital": {
+    "en": "INVITE",
+    "ru": "ПРИГЛАСИТЬ"
+  },
+  "Chat_Invite_ExpiresOneDay": {
+    "en": "Expires: 1 day",
+    "ru": "Действует: 1 день"
+  },
+  "Chat_Invite_ExpiresSetting": {
+    "en": "Expires: %1$s",
+    "ru": "Истекает %1$s"
+  },
+  "Chat_Invite_Linkheader": {
+    "en": "Send a link",
+    "ru": "Отправить ссылку"
+  },
+  "Chat_Invite_Loading": {
+    "en": "Loading...",
+    "ru": "Загрузка..."
+  },
+  "Chat_Loading": {
+    "en": "Loading Older Messages...",
+    "ru": "Загрузка предыдущих сообщений..."
+  },
+  "Chat_MemberGroup_Guests": {
+    "en": "Guests",
+    "ru": "Гости"
+  },
+  "Chat_MemberGroup_Online": {
+    "en": "Group members",
+    "ru": "Участники"
+  },
+  "Chat_MemberGroup_PartyBeacon": {
+    "en": "Wants To Play",
+    "ru": "Хочет играть"
+  },
+  "Chat_MemberGroup_VoiceChatting": {
+    "en": "Voice Active",
+    "ru": "Голосовой чат запущен"
+  },
+  "Chat_Members": {
+    "en": "1 member",
+    "ru": "Участников: 1"
+  },
+  "Chat_Members_Capital": {
+    "en": "1 MEMBER",
+    "ru": "1 УЧАСТНИК"
+  },
+  "Chat_Members_Capital_Plural": {
+    "en": "%1$s MEMBERS",
+    "ru": "УЧАСТНИКОВ: %1$s"
+  },
+  "Chat_Members_InGame_Tooltip": {
+    "en": "1 member in-game",
+    "ru": "В игре: 1"
+  },
+  "Chat_Members_InGame_Tooltip_Plural": {
+    "en": "%1$s members in-game",
+    "ru": "В игре: %1$s"
+  },
+  "Chat_Members_Online_Tooltip": {
+    "en": "1 member online",
+    "ru": "В сети: 1"
+  },
+  "Chat_Members_Online_Tooltip_Plural": {
+    "en": "%1$s members online",
+    "ru": "В сети: %1$s"
+  },
+  "Chat_Members_Plural": {
+    "en": "%1$s members",
+    "ru": "Участников: %1$s"
+  },
+  "Chat_MessageContextMenu": {
+    "en": "Options",
+    "ru": "Опции"
+  },
+  "Chat_MessageDeleted": {
+    "en": "Message Deleted",
+    "ru": "Сообщение удалено"
+  },
+  "Chat_MessageRenderError": {
+    "en": "There was a problem displaying this message.",
+    "ru": "Произошла ошибка при отображении этого сообщения."
+  },
+  "Chat_NewChat_Capital": {
+    "en": "NEW CHAT",
+    "ru": "НОВЫЙ ЧАТ"
+  },
+  "Chat_SaveVoiceRoom": {
+    "en": "Save this voice channel",
+    "ru": "Сохранить голосовой канал"
+  },
+  "Chat_SaveVoiceRoom_Description": {
+    "en": "You can save this voice channel by giving it a name. All text entered into this channel's quick chat will be preserved and the channel will be available to all users, even if empty.",
+    "ru": "Вы можете сохранить голосовой канал, дав ему название. Он будет доступен для всех пользователей, даже если останется пустым, а все сообщения в его чате будут сохраняться."
+  },
+  "Chat_SaveVoiceRoom_Error_EmptyName": {
+    "en": "Please specify a name for this channel",
+    "ru": "Пожалуйста, укажите название канала"
+  },
+  "Chat_SaveVoiceRoom_Name": {
+    "en": "Name for this channel:",
+    "ru": "Название канала:"
+  },
+  "Chat_Scratch_Pad": {
+    "en": "Quick Chat",
+    "ru": "Быстрый чат"
+  },
+  "Chat_Scratch_Pad_Desc": {
+    "en": "Messages will clear when voice channel is gone",
+    "ru": "При закрытии голосового канала сообщения будут удалены"
+  },
+  "Chat_ScrollToBottom": {
+    "en": "Scroll to bottom",
+    "ru": "Прокрутить вниз"
+  },
+  "Chat_SelectChatWindow": {
+    "en": "Select",
+    "ru": "Выбрать"
+  },
+  "Chat_SendLink": {
+    "en": "Send Link",
+    "ru": "Отправить ссылку"
+  },
+  "Chat_Settings_Error_AccessDenied": {
+    "en": "Bad session",
+    "ru": "Неудачная сессия"
+  },
+  "Chat_Settings_Error_FailedToUpload": {
+    "en": "Image failed to upload",
+    "ru": "Не удалось отправить изображение"
+  },
+  "Chat_Settings_Error_FileTooLarge": {
+    "en": "Image too large",
+    "ru": "Изображение слишком большое"
+  },
+  "Chat_Settings_Error_InvalidImage": {
+    "en": "Invalid image",
+    "ru": "Недопустимый файл изображения"
+  },
+  "Chat_Settings_Error_LimitedUser": {
+    "en": "Limited users cannot upload images",
+    "ru": "Пользователи с ограниченными аккаунтами не могут загружать изображения"
+  },
+  "Chat_Settings_Error_LimitedUserInvite": {
+    "en": "Limited users cannot send invite links",
+    "ru": "Аккаунт с ограниченными правами не может отправлять ссылки-приглашения"
+  },
+  "Chat_Settings_Error_NotAdmin": {
+    "en": "Only group admins can perform this action",
+    "ru": "Это действие могут выполнить только администраторы группы"
+  },
+  "Chat_Settings_Error_NotLoggedOn": {
+    "en": "Not logged on",
+    "ru": "Вы не вошли в аккаунт"
+  },
+  "Chat_Settings_Error_Unknown": {
+    "en": "Image failed to upload",
+    "ru": "Не удалось отправить изображение"
+  },
+  "Chat_Settings_General_AddIcon": {
+    "en": "Add Icon",
+    "ru": "Добавить иконку"
+  },
+  "Chat_Settings_General_ChangeIcon": {
+    "en": "Change Icon",
+    "ru": "Изменить иконку"
+  },
+  "Chat_Settings_General_Chat_Name": {
+    "en": "Group Chat Name",
+    "ru": "Название группового чата"
+  },
+  "Chat_Settings_General_Icon": {
+    "en": "Icon",
+    "ru": "Иконка"
+  },
+  "Chat_Settings_General_NoIcon": {
+    "en": "No Icon",
+    "ru": "Нет иконки"
+  },
+  "Chat_Settings_General_Owner": {
+    "en": "Group Chat Owner",
+    "ru": "Владелец группового чата"
+  },
+  "Chat_Settings_General_Tagline": {
+    "en": "Tagline",
+    "ru": "Слоган"
+  },
+  "Chat_Settings_No_Owner": {
+    "en": "No Owner",
+    "ru": "Нет владельца"
+  },
+  "Chat_Settings_Permission_Denied": {
+    "en": "You do not have permission to modify this page",
+    "ru": "У вас нет прав для изменения этой страницы"
+  },
+  "Chat_Settings_Permission_Denied_Permissions": {
+    "en": "You only have permission to view role details",
+    "ru": "Вы можете только просматривать роли"
+  },
+  "Chat_Settings_Permission_Denied_Some": {
+    "en": "You can only edit roles below your highest assigned role",
+    "ru": "Вы можете изменять только роли ниже ваших по статусу"
+  },
+  "Chat_Settings_Permission_DirectMessages": {
+    "en": "Allow group members to send you direct messages",
+    "ru": "Разрешить участникам группы отправлять вам личные сообщения"
+  },
+  "Chat_Settings_Permissions_Change_Failed": {
+    "en": "Unable to change permissions",
+    "ru": "Не удалось изменить разрешения"
+  },
+  "Chat_Settings_Permissions_Enable_Channel_CreateRename": {
+    "en": "Allow members to create/delete channels",
+    "ru": "Разрешить участникам создавать/удалять каналы"
+  },
+  "Chat_Settings_Room_Name": {
+    "en": "Chat Name",
+    "ru": "Название чата"
+  },
+  "Chat_StillInVoiceDialog_Desc1": {
+    "en": "Voice chat continues even if you close the associated chat window.",
+    "ru": "Голосовой чат продолжит работать, даже если вы закроете окно связанного с ним чата."
+  },
+  "Chat_StillInVoiceDialog_Desc2": {
+    "en": "Use the 'Leave Voice Chat' button in the friends list or within the voice channel to stop talking.",
+    "ru": "Чтобы прекратить разговор, нажмите «Выйти из голосового чата» в списке друзей или в голосовом канале."
+  },
+  "Chat_StillInVoiceDialog_KeepChatting": {
+    "en": "Continue",
+    "ru": "Продолжить"
+  },
+  "Chat_StillInVoiceDialog_LeaveNow": {
+    "en": "Leave voice chat now",
+    "ru": "Выйти из голосового чата"
+  },
+  "Chat_StillInVoiceDialog_Title": {
+    "en": "Voice Still Active",
+    "ru": "Голосовой чат всё ещё работает"
+  },
+  "Chat_Tab_ContextMenu": {
+    "en": "Options",
+    "ru": "Настройки"
+  },
+  "Chat_TextFilter_Active": {
+    "en": "Some content is being obscured in Steam Chat. You can adjust this in [url=%1$s]chat filtering settings[/url]",
+    "ru": "Некоторый контент в чате Steam скрывается. Это можно изменить в [url=%1$s]настройках фильтрации чата[/url]"
+  },
+  "Chat_Tooltip_FindGamesToPlay_UserCountRestriction_Channel": {
+    "en": "You need %1$s-%2$s people in the channel to use this feature",
+    "ru": "Чтобы использовать эту функцию, количество людей в канале должно быть от %1$s до %2$s."
+  },
+  "Chat_Tooltip_FindGamesToPlay_UserCountRestriction_ChatGroup": {
+    "en": "You need %1$s-%2$s people in the chat to use this feature",
+    "ru": "Чтобы использовать эту функцию, количество людей в чате должно быть от %1$s до %2$s."
+  },
+  "Chat_UnreadMessages": {
+    "en": "1 new message",
+    "ru": "Новых сообщений: 1"
+  },
+  "Chat_UnreadMessages_Plural": {
+    "en": "%1$s new messages",
+    "ru": "Новых сообщений: %1$s"
+  },
+  "Chat_Upload": {
+    "en": "Upload",
+    "ru": "Отправить"
+  },
+  "Chat_Upload_ErrorAction_Close": {
+    "en": "Close",
+    "ru": "Закрыть"
+  },
+  "Chat_Upload_ErrorAction_Retry": {
+    "en": "Retry",
+    "ru": "Повторить"
+  },
+  "Chat_Upload_ErrorCommit": {
+    "en": "Failed to finish upload: %1$s",
+    "ru": "Не удалось завершить загрузку: %1$s"
+  },
+  "Chat_Upload_ErrorStart": {
+    "en": "Failed to start upload: %1$s",
+    "ru": "Не удалось начать загрузку: %1$s"
+  },
+  "Chat_Uploading": {
+    "en": "Uploading: %1$s",
+    "ru": "Отправка: %1$s"
+  },
+  "Chat_VideoLoadError": {
+    "en": "Failed to load video. URL: %1$s",
+    "ru": "Не удалось загрузить видео. Ссылка: %1$s"
+  },
+  "Chat_Visit_Link": {
+    "en": "Open",
+    "ru": "Открыть"
+  },
+  "Chat_VoiceEmptyChannel": {
+    "en": "No one else in this voice channel",
+    "ru": "В этом канале никого нет"
+  },
+  "Chat_You": {
+    "en": "you",
+    "ru": "вами"
+  },
+  "Chat_rank_guest": {
+    "en": "Guest",
+    "ru": "Гость"
+  },
+  "Chat_rank_member": {
+    "en": "Member",
+    "ru": "Участник"
+  },
+  "Chat_rank_moderator": {
+    "en": "Moderator",
+    "ru": "Модератор"
+  },
+  "Chat_rank_officer": {
+    "en": "Officer",
+    "ru": "Офицер"
+  },
+  "Chat_rank_owner": {
+    "en": "Owner",
+    "ru": "Владелец"
+  },
+  "Chat_rank_unknown": {
+    "en": "Unknown",
+    "ru": "Неизвестно"
+  },
+  "Chat_rank_viewer": {
+    "en": "Viewer",
+    "ru": "Зритель"
+  },
+  "Community_RemoveLink_Tooltip": {
+    "en": "The URL that was linked here has been flagged by our filters.  Usually this is done to prevent phishing and malware attacks.",
+    "ru": "Наши фильтры пометили эту ссылку как подозрительную. Как правило, это делается для защиты от взлома и фишинга."
+  },
+  "ConnectionTrouble_Connecting": {
+    "en": "Connecting to Steam...",
+    "ru": "Подключение к Steam..."
+  },
+  "ConnectionTrouble_CurrentlyDisconnected": {
+    "en": "Disconnected",
+    "ru": "Соединение прервано"
+  },
+  "ConnectionTrouble_DisconnectedFinal": {
+    "en": "Disconnected.",
+    "ru": "Отключено."
+  },
+  "ConnectionTrouble_FailedToLogIn": {
+    "en": "Failed to log in to Steam",
+    "ru": "Не удалось войти в Steam"
+  },
+  "ConnectionTrouble_LoggedOnElsewhere": {
+    "en": "Your account is logged in to Steam in too many locations.",
+    "ru": "В ваш аккаунт Steam вошли со слишком большого числа устройств."
+  },
+  "ConnectionTrouble_LoggingIn": {
+    "en": "Logging in to Steam...",
+    "ru": "Вход в Steam…"
+  },
+  "ConnectionTrouble_LoginAgain": {
+    "en": "Log in",
+    "ru": "Войти"
+  },
+  "ConnectionTrouble_LoginChanged": {
+    "en": "You have logged in to the Steam Community with a different Steam account. Click the button below to change to the new account.",
+    "ru": "Вы уже вошли в сообщество Steam с другого аккаунта. Нажмите кнопку ниже, чтобы сменить аккаунт Steam."
+  },
+  "ConnectionTrouble_LoginChanged_Reload": {
+    "en": "Change Accounts",
+    "ru": "Сменить аккаунт"
+  },
+  "ConnectionTrouble_LoginLost": {
+    "en": "You have been logged out of Steam.",
+    "ru": "Не удалось войти в аккаунт Steam."
+  },
+  "ConnectionTrouble_LoginProblem": {
+    "en": "There was a problem logging you in.",
+    "ru": "При входе в аккаунт произошла ошибка."
+  },
+  "ConnectionTrouble_ReconnectNow": {
+    "en": "Reconnect Now",
+    "ru": "Подключиться сейчас"
+  },
+  "ConnectionTrouble_ReconnectingInSeconds": {
+    "en": "Will automatically reconnect in 1 second",
+    "ru": "Автоматическое подключение через 1 сек."
+  },
+  "ConnectionTrouble_ReconnectingInSeconds_Plural": {
+    "en": "Will automatically reconnect in %1$s seconds",
+    "ru": "Автоматическое подключение через %1$s сек."
+  },
+  "ConnectionTrouble_RetrievingLogin": {
+    "en": "Verifying Login...",
+    "ru": "Проверка аккаунта..."
+  },
+  "Contacts_Search_Placeholder": {
+    "en": "Search Friends and Groups",
+    "ru": "Поиск по друзьям и группам"
+  },
+  "Contacts_Search_Title": {
+    "en": "Search",
+    "ru": "Поиск"
+  },
+  "CopyVoiceChatLogs": {
+    "en": "Copy Voice Logs To Clipboard",
+    "ru": "Скопировать журнал ошибок голосового чата в буфер обмена"
+  },
+  "CopyVoiceChatLogs_Production": {
+    "en": "(VOICE LOGS)",
+    "ru": "(ЖУРНАЛ ОШИБОК)"
+  },
+  "CopyVoiceChatLogs_ToolTip": {
+    "en": "Copy Voice Chat logs to System Clipboard",
+    "ru": "Скопировать журнал ошибок голосового чата в буфер обмена"
+  },
+  "Dialog_AreYouSure": {
+    "en": "Are you sure?",
+    "ru": "Вы уверены?"
+  },
+  "Dialog_DontShowMeAgain": {
+    "en": "Don't show this message again",
+    "ru": "Больше не показывать это сообщение"
+  },
+  "DirectMessageFromNonFriend": {
+    "en": "Message from a user that is not your friend",
+    "ru": "Сообщение от пользователя, который не является вашим другом"
+  },
+  "EmoticonPicker_EffectHeading": {
+    "en": "Room effects",
+    "ru": "Эффекты комнаты"
+  },
+  "EmoticonPicker_GetFestivitiesInTheStore": {
+    "en": "Get animated stickers and room effects in the %1$s.",
+    "ru": "Купите анимированные стикеры и эффекты на %1$s."
+  },
+  "EmoticonPicker_GetFestivitiesLinkText": {
+    "en": "Holiday Market",
+    "ru": "праздничном рынке"
+  },
+  "EmoticonPicker_RecentlyUsed": {
+    "en": "Recently Used",
+    "ru": "Использовано недавно"
+  },
+  "EmoticonPicker_StickerHeading": {
+    "en": "Animated stickers",
+    "ru": "Анимированные стикеры"
+  },
+  "FamilyView_BadPIN": {
+    "en": "Nice try. Please enter the correct PIN.",
+    "ru": "Почти. Пожалуйста, введите правильный ПИН-код."
+  },
+  "FamilyView_Title": {
+    "en": "Family View",
+    "ru": "Семейный просмотр"
+  },
+  "FamilyView_TooManyAttempts": {
+    "en": "Too many failed attempts.  Please restart Steam to try again",
+    "ru": "Слишком много неудачных попыток. Пожалуйста, перезапустите Steam, чтобы попробовать ещё раз"
+  },
+  "FamilyView_Unlock_Instructions": {
+    "en": "Enter your PIN below to exit Family View.",
+    "ru": "Введите ПИН-код ниже, чтобы выйти из семейного просмотра."
+  },
+  "FriendChat_NoMessages": {
+    "en": "You have no recent messages with this friend.",
+    "ru": "Нет недавней переписки с этим другом."
+  },
+  "FriendGroup_AllIgnore": {
+    "en": "Ignore All",
+    "ru": "Отклонить все"
+  },
+  "FriendGroup_Categorize_AddNew": {
+    "en": "ADD NEW CATEGORY",
+    "ru": "ДОБАВИТЬ КАТЕГОРИЮ"
+  },
+  "FriendGroup_Categorize_Categories": {
+    "en": "CATEGORIES",
+    "ru": "КАТЕГОРИИ"
+  },
+  "FriendGroup_Categorize_Title": {
+    "en": "MANAGE CATEGORIES FOR",
+    "ru": "УПРАВЛЕНИЕ КАТЕГОРИЯМИ"
+  },
+  "FriendGroup_CategoryMembers": {
+    "en": "Friends in Category",
+    "ru": "Друзья в категории"
+  },
+  "FriendGroup_CategoryName": {
+    "en": "Category Name",
+    "ru": "Название категории"
+  },
+  "FriendGroup_ChangeSort": {
+    "en": "Change Sort Order",
+    "ru": "Изменить порядок сортировки"
+  },
+  "FriendGroup_Close": {
+    "en": "Back to Friends",
+    "ru": "Вернуться к списку друзей"
+  },
+  "FriendGroup_CloseGamepadUI": {
+    "en": "Hide Friend Invites",
+    "ru": "Скрыть приглашения в друзья"
+  },
+  "FriendGroup_Collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "FriendGroup_ConfirmAllIgnore_Body": {
+    "en": "Are you sure you want to ignore all pending friend requests?",
+    "ru": "Вы уверены, что хотите отклонить все приглашения в друзья?"
+  },
+  "FriendGroup_ConfirmAllIgnore_OK": {
+    "en": "Confirm",
+    "ru": "Подтвердить"
+  },
+  "FriendGroup_ConfirmAllIgnore_Title": {
+    "en": "Ignore All Friend Requests",
+    "ru": "Отклонить все приглашения в друзья"
+  },
+  "FriendGroup_ConfirmInvites": {
+    "en": "Confirm",
+    "ru": "Подтвердить"
+  },
+  "FriendGroup_CreateGroup": {
+    "en": "Organize your Friends list with categories. Enter a name for your new category below:",
+    "ru": "Вы можете сгруппировать друзей по категориям. Введите название новой категории ниже:"
+  },
+  "FriendGroup_CreateGroup_ErrorFailed": {
+    "en": "There was an error creating the category.",
+    "ru": "При создании категории произошла ошибка."
+  },
+  "FriendGroup_CreateGroup_ErrorNeedName": {
+    "en": "The name cannot be blank.",
+    "ru": "Поле названия не должно быть пустым."
+  },
+  "FriendGroup_Expand": {
+    "en": "Expand",
+    "ru": "Развернуть"
+  },
+  "FriendGroup_Favorites": {
+    "en": "Favorites",
+    "ru": "Избранные"
+  },
+  "FriendGroup_InGame": {
+    "en": "In Game",
+    "ru": "В игре"
+  },
+  "FriendGroup_InGame_NonSteam": {
+    "en": "Non-Steam Games",
+    "ru": "Сторонние игры"
+  },
+  "FriendGroup_InGame_Others": {
+    "en": "Other Games",
+    "ru": "Другие игры"
+  },
+  "FriendGroup_IncomingInvites": {
+    "en": "Incoming Friend Requests",
+    "ru": "Приглашения в друзья"
+  },
+  "FriendGroup_IncomingInvites_Block": {
+    "en": "Block User?",
+    "ru": "Заблокировать пользователя?"
+  },
+  "FriendGroup_IncomingInvites_Block_desc": {
+    "en": "Ignore further requests",
+    "ru": "Отклонять дальнейшие запросы"
+  },
+  "FriendGroup_IncomingInvites_NoIncomingInvites": {
+    "en": "No pending invites",
+    "ru": "Нет приглашений"
+  },
+  "FriendGroup_ManageGroup_ErrorFailed": {
+    "en": "There was an error modifying the category.",
+    "ru": "При изменении категории произошла ошибка."
+  },
+  "FriendGroup_Menu_Categorize": {
+    "en": "Categorize...",
+    "ru": "Добавить в категорию..."
+  },
+  "FriendGroup_Menu_CreateGroup": {
+    "en": "Create Category",
+    "ru": "Создать категорию"
+  },
+  "FriendGroup_Menu_Manage": {
+    "en": "Manage Category",
+    "ru": "Настроить категорию"
+  },
+  "FriendGroup_Menu_RecentConfig": {
+    "en": "Recent Chats Settings",
+    "ru": "Настройки недавних чатов"
+  },
+  "FriendGroup_Menu_Remove": {
+    "en": "Remove Category",
+    "ru": "Удалить категорию"
+  },
+  "FriendGroup_MutualFriends_Others": {
+    "en": "+ %1$s other friend",
+    "ru": "+ ещё %1$s друг"
+  },
+  "FriendGroup_MutualFriends_Others_Plural": {
+    "en": "+ %1$s other friends",
+    "ru": "+ ещё друзей: %1$s"
+  },
+  "FriendGroup_MutualFriends_Title": {
+    "en": "Mutual friends",
+    "ru": "Общие друзья"
+  },
+  "FriendGroup_NoMutualFriends": {
+    "en": "No mutual friends",
+    "ru": "Нет общих друзей"
+  },
+  "FriendGroup_Offline": {
+    "en": "Offline",
+    "ru": "Не в сети"
+  },
+  "FriendGroup_Online": {
+    "en": "Online Friends",
+    "ru": "Друзья в сети"
+  },
+  "FriendGroup_Options": {
+    "en": "Options",
+    "ru": "Настройки"
+  },
+  "FriendGroup_Other": {
+    "en": "All Friends",
+    "ru": "Все друзья"
+  },
+  "FriendGroup_Outgoing": {
+    "en": "Invitations Sent",
+    "ru": "Отправленные приглашения"
+  },
+  "FriendGroup_PlayerGroupFooter_Label": {
+    "en": "Playing with %1$s other people",
+    "ru": "С ещё %1$s игроками"
+  },
+  "FriendGroup_PlayerGroupFooter_Label_PlusYou": {
+    "en": "Playing with you and %1$s other people",
+    "ru": "С вами и ещё %1$s игроками"
+  },
+  "FriendGroup_PlayerGroupFooter_Label_PlusYouOnly": {
+    "en": "Playing with you",
+    "ru": "Играет с вами"
+  },
+  "FriendGroup_PlayerGroupFooter_Label_PlusYou_Singular": {
+    "en": "Playing with you and %1$s other person",
+    "ru": "С вами и ещё %1$s игроком"
+  },
+  "FriendGroup_PlayerGroupFooter_Label_Singular": {
+    "en": "Playing with %1$s other person",
+    "ru": "С ещё %1$s игроком"
+  },
+  "FriendGroup_Recent": {
+    "en": "Recent Chats",
+    "ru": "Недавние чаты"
+  },
+  "FriendGroup_RecentChats": {
+    "en": "Recent Chats",
+    "ru": "Недавние чаты"
+  },
+  "FriendGroup_Search_CantFind": {
+    "en": "Can't find who you're looking for?",
+    "ru": "Не нашли того, кого искали?"
+  },
+  "FriendGroup_Search_Link": {
+    "en": "Search across all of Steam",
+    "ru": "Поиск по всему Steam"
+  },
+  "FriendGroup_Search_NoResults": {
+    "en": "no results found for '%1$s'",
+    "ru": "нет результатов по запросу «%1$s»"
+  },
+  "FriendGroup_Tip_Accept": {
+    "en": "Accept Request",
+    "ru": "Принять"
+  },
+  "FriendGroup_Tip_Accept_Invite": {
+    "en": "Accept Invite",
+    "ru": "Принять"
+  },
+  "FriendGroup_Tip_Decline": {
+    "en": "Ignore Request",
+    "ru": "Отклонить"
+  },
+  "FriendGroup_Tip_Decline_Invite": {
+    "en": "Ignore Invite",
+    "ru": "Отклонить"
+  },
+  "FriendGroup_Tip_SortByAlphabet": {
+    "en": "Sorting alphabetically",
+    "ru": "Сортировка по алфавиту"
+  },
+  "FriendGroup_Tip_SortByRecent": {
+    "en": "Sorting by most recent",
+    "ru": "Сортировка по дате"
+  },
+  "FriendGroup_UnreadMessages": {
+    "en": "Unread Messages",
+    "ru": "Непрочитанные сообщения"
+  },
+  "FriendGroup_UnreadMessagesViolator": {
+    "en": "1 Unread Message",
+    "ru": "Непрочитанных сообщений: 1"
+  },
+  "FriendGroup_UnreadMessagesViolatorPlural": {
+    "en": "%1$s Unread Messages",
+    "ru": "Непрочитанных сообщений: %1$s"
+  },
+  "FriendGroup_YesMutualFriends": {
+    "en": "mutual friend",
+    "ru": "общий друг"
+  },
+  "FriendGroup_YesMutualFriends_Plural": {
+    "en": "mutual friends",
+    "ru": "— общих друзей"
+  },
+  "FriendInviteLink_AddFriend": {
+    "en": "Add Friend",
+    "ru": "Добавить в друзья"
+  },
+  "FriendInviteLink_AlreadyFriends": {
+    "en": "You are already friends with %1$s",
+    "ru": "%1$s уже в вашем списке друзей"
+  },
+  "FriendInviteLink_Copied": {
+    "en": "Link Copied!",
+    "ru": "Ссылка скопирована!"
+  },
+  "FriendInviteLink_CreatedTime": {
+    "en": "Created %1$s",
+    "ru": "Создана %1$s"
+  },
+  "FriendInviteLink_DeleteLink_Prompt": {
+    "en": "Are you sure you want to delete this invite link?",
+    "ru": "Вы уверены, что хотите удалить это приглашение?"
+  },
+  "FriendInviteLink_DeleteLink_Title": {
+    "en": "Delete link",
+    "ru": "Удалить ссылку"
+  },
+  "FriendInviteLink_FailedToLoadLinks": {
+    "en": "Failed to load invite links!",
+    "ru": "Не удалось загрузить ссылки!"
+  },
+  "FriendInviteLink_Generate": {
+    "en": "Generate a link",
+    "ru": "Создать ссылку"
+  },
+  "FriendInviteLink_InvalidLink": {
+    "en": "Invalid Link",
+    "ru": "Нерабочая ссылка"
+  },
+  "FriendInviteLink_MobileDescription": {
+    "en": "Generate a link you can drop into a text message or email.",
+    "ru": "Создайте ссылку, которую можно кому-нибудь отправить."
+  },
+  "FriendInviteLink_Note": {
+    "en": "When someone clicks on the link, you'll be added to each other's Friends List.",
+    "ru": "Если человек нажмёт на ссылку, он добавится в ваш список друзей."
+  },
+  "FriendInviteLink_RedeemError": {
+    "en": "There was a problem accepting this invite.",
+    "ru": "Не удалось принять приглашение."
+  },
+  "FriendInviteLink_SelfLink": {
+    "en": "You followed a valid friend invite for your own account.",
+    "ru": "Вы пытаетесь добавить в друзья свой же аккаунт."
+  },
+  "FriendInviteLink_SingleUse": {
+    "en": "Links are single-use and don't expire.",
+    "ru": "Эти ссылки одноразовые и действуют бессрочно."
+  },
+  "FriendInvites_AddFriend_Description": {
+    "en": "Enter your friend's Friend Code to invite them to connect.",
+    "ru": "Введите код дружбы того, кому хотите отправить приглашение."
+  },
+  "FriendInvites_AddFriend_Placeholder": {
+    "en": "Enter a Friend Code",
+    "ru": "Введите код дружбы"
+  },
+  "FriendInvites_AddFriend_Title": {
+    "en": "Add a Friend",
+    "ru": "Добавление друга"
+  },
+  "FriendInvites_YourFriendCode": {
+    "en": "Your Friend Code",
+    "ru": "Ваш код дружбы"
+  },
+  "FriendMenu_SendTradeOffer": {
+    "en": "Send a Trade Offer",
+    "ru": "Отправить предложение обмена"
+  },
+  "FriendMenu_Trading": {
+    "en": "Trading",
+    "ru": "Обмен"
+  },
+  "FriendMenu_ViewInventory": {
+    "en": "View Inventory",
+    "ru": "Открыть инвентарь"
+  },
+  "FriendMsg_VoiceChannelEnded": {
+    "en": "The voice chat has ended.",
+    "ru": "Голосовой чат завершён."
+  },
+  "FriendMsg_VoiceChannelEndedExplicit": {
+    "en": "%1$s has ended voice chat.",
+    "ru": "%1$s завершает голосовой чат."
+  },
+  "FriendMsg_VoiceChannelInvite": {
+    "en": "%1$s has opened voice chat. Waiting on %2$s to join.",
+    "ru": "%1$s начинает голосовой чат и ожидает пользователя %2$s."
+  },
+  "FriendNotifications_Instructions": {
+    "en": "Notification options for %1$s",
+    "ru": "Параметры уведомлений — %1$s"
+  },
+  "FriendNotifications_UseDefaults": {
+    "en": "Use my default notifications settings",
+    "ru": "Использовать настройки уведомлений по умолчанию"
+  },
+  "FriendPicker_StartTyping": {
+    "en": "Start typing a name...",
+    "ru": "Начните набирать имя..."
+  },
+  "FriendSetting_ChatFontDefault": {
+    "en": "Default",
+    "ru": "Стандартный"
+  },
+  "FriendSetting_ChatFontLarge": {
+    "en": "Large",
+    "ru": "Крупный"
+  },
+  "FriendSetting_ChatFontSmall": {
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  "FriendSetting_Notification_PushLabel": {
+    "en": "MOBILE PUSH NOTIFICATIONS",
+    "ru": "PUSH-УВЕДОМЛЕНИЯ"
+  },
+  "FriendSettings_AlwaysNewChatWindow": {
+    "en": "Open a new window for new chats (rather than a tab)",
+    "ru": "Открывать новые чаты в новом окне, а не в новой вкладке"
+  },
+  "FriendSettings_AlwaysUse24HourClock": {
+    "en": "Always display timestamps in 24-hour format",
+    "ru": "Показывать время в 24-часовом формате"
+  },
+  "FriendSettings_AnimatedAvatars": {
+    "en": "Enable Animated Avatars & Animated Avatar Frames in your Friends List and Chat",
+    "ru": "Включить анимированные аватары и анимированные рамки аватаров для списка друзей и чата"
+  },
+  "FriendSettings_CategorizeInGameFriendsByGame": {
+    "en": "Group friends together by game",
+    "ru": "Группировать друзей по игре"
+  },
+  "FriendSettings_Chat": {
+    "en": "Chat",
+    "ru": "Чат"
+  },
+  "FriendSettings_ChatFontSize": {
+    "en": "Chat Font Size",
+    "ru": "Размер шрифта в чатах"
+  },
+  "FriendSettings_CompactFriendsAndChat": {
+    "en": "Compact friends list & chat view",
+    "ru": "Компактный вид списка друзей и чатов"
+  },
+  "FriendSettings_CompactQuickAccess": {
+    "en": "Compact favorites area",
+    "ru": "Компактный вид для избранных"
+  },
+  "FriendSettings_DisableEmbedInlining": {
+    "en": "Don't embed images and other media in-line",
+    "ru": "Не встраивать изображения и другие медиафайлы"
+  },
+  "FriendSettings_DisableRoomEffects": {
+    "en": "Disable animated room effects",
+    "ru": "Отключить анимированные эффекты"
+  },
+  "FriendSettings_DisableSpellcheck": {
+    "en": "Disable spellcheck in chat message entry",
+    "ru": "Отключить проверку орфографии в чате"
+  },
+  "FriendSettings_DockChats": {
+    "en": "Dock chats to the friends list",
+    "ru": "Прикреплять чаты к списку друзей"
+  },
+  "FriendSettings_ExampleFriend": {
+    "en": "Example Friend",
+    "ru": "Пример друга"
+  },
+  "FriendSettings_ExampleNickname": {
+    "en": "Nickname",
+    "ru": "Ник"
+  },
+  "FriendSettings_Flash_Always": {
+    "en": "Always",
+    "ru": "Всегда"
+  },
+  "FriendSettings_Flash_Header": {
+    "en": "Flash window when I receive a chat message:",
+    "ru": "Если мне отправили сообщение, окно мигает:"
+  },
+  "FriendSettings_Flash_Minimized": {
+    "en": "Only when minimized",
+    "ru": "Только в свёрнутом виде"
+  },
+  "FriendSettings_Flash_Never": {
+    "en": "Never",
+    "ru": "Никогда"
+  },
+  "FriendSettings_FriendNotification_FriendJoins": {
+    "en": "When this friend joins a game",
+    "ru": "Когда этот друг заходит в игру"
+  },
+  "FriendSettings_FriendNotification_FriendOnline": {
+    "en": "When this friend comes online",
+    "ru": "Когда этот друг подключается к сети"
+  },
+  "FriendSettings_Friends": {
+    "en": "Friends List",
+    "ru": "Список друзей"
+  },
+  "FriendSettings_HideCategorizedFriends": {
+    "en": "Hide categorized friends in Online/Offline Friends",
+    "ru": "Скрыть друзей с категорией из списков «В сети» и «Не в сети»"
+  },
+  "FriendSettings_HideOfflineFriendsInCategories": {
+    "en": "Hide offline friends in custom categories",
+    "ru": "Скрывать друзей не в сети из своих категорий"
+  },
+  "FriendSettings_Mobile_BlockDesc": {
+    "en": "They'll see you as offline and you won't receive chat messages from them",
+    "ru": "Этот пользователь будет видеть, что вы не в сети, и не сможет отправлять вам сообщения"
+  },
+  "FriendSettings_Mobile_FavoritesDesc": {
+    "en": "Display this person at the top of my friends list so they're easy to find",
+    "ru": "Отображать этого пользователя вверху списка друзей, чтобы его было легко найти"
+  },
+  "FriendSettings_Mobile_InlineEmbedOnWifiOnly": {
+    "en": "Only embed images and other media when on Wi-Fi",
+    "ru": "Встраивать изображения и другие файлы только при подключении по Wi-Fi"
+  },
+  "FriendSettings_Mobile_Notifications": {
+    "en": "Mobile Notifications",
+    "ru": "Мобильные уведомления"
+  },
+  "FriendSettings_Mobile_SaveImageCaptures": {
+    "en": "Save image captures",
+    "ru": "Сохранить скриншоты"
+  },
+  "FriendSettings_Mobile_SaveImageCaptures_Desc": {
+    "en": "Images you capture within the app will be saved to your device's camera roll.",
+    "ru": "Скриншоты приложения будут сохранены в галерее изображений вашего устройства."
+  },
+  "FriendSettings_Mobile_Title": {
+    "en": "Friend Settings",
+    "ru": "Настройки друзей"
+  },
+  "FriendSettings_Mobile_UploadCurrentLogs": {
+    "en": "Upload Current Session Logs",
+    "ru": "Загрузить журналы текущей сессии"
+  },
+  "FriendSettings_Mobile_UploadPreviousLogs": {
+    "en": "Upload Previous Session Logs",
+    "ru": "Загрузить журналы предыдущей сессии"
+  },
+  "FriendSettings_Notification_ChatMessage": {
+    "en": "When I receive a direct chat message",
+    "ru": "Когда я получаю личное сообщение"
+  },
+  "FriendSettings_Notification_ChatMessageDesc": {
+    "en": "Disable push notifications from friends that don't have friend specific settings",
+    "ru": "Отключить уведомления от друзей без особых настроек"
+  },
+  "FriendSettings_Notification_ChatRoomNotification": {
+    "en": "When I receive a chat room notification",
+    "ru": "Когда мне пишут в групповом чате"
+  },
+  "FriendSettings_Notification_ChatRoomNotificationDesc": {
+    "en": "Disable all push notifications from group chats",
+    "ru": "Отключить все уведомления групповых чатов"
+  },
+  "FriendSettings_Notification_DirectChat": {
+    "en": "Notify me when I receive a direct message",
+    "ru": "Уведомлять о личных сообщениях"
+  },
+  "FriendSettings_Notification_DirectChatDescOff": {
+    "en": "You're only receiving notifications from friends you've specifically allowed",
+    "ru": "Вы получаете уведомления о сообщениях только от друзей, которых разрешили"
+  },
+  "FriendSettings_Notification_DirectChatDescOn": {
+    "en": "Unless I have specific settings for that friend",
+    "ru": "Если нет особых настроек для того друга"
+  },
+  "FriendSettings_Notification_Explanation": {
+    "en": "We'll try not to send you notifications if you're using Steam somewhere else.",
+    "ru": "Мы постараемся не отправлять вам уведомления, если вы пользуетесь Steam на компьютере."
+  },
+  "FriendSettings_Notification_FriendJoins": {
+    "en": "When a friend joins a game",
+    "ru": "Когда друг заходит в игру"
+  },
+  "FriendSettings_Notification_FriendOnline": {
+    "en": "When a friend comes online",
+    "ru": "Когда друг подключается к сети"
+  },
+  "FriendSettings_Notification_GroupChat": {
+    "en": "Notify me for group chat activity",
+    "ru": "Уведомлять о сообщениях в групповом чате"
+  },
+  "FriendSettings_Notification_GroupChatDescOff": {
+    "en": "You're not receiving notifications for group chats",
+    "ru": "Вы не получаете уведомления групповых чатов"
+  },
+  "FriendSettings_Notification_GroupChatDescOn": {
+    "en": "Unless I have specific settings for that group chat",
+    "ru": "Если нет особых настроек для того чата"
+  },
+  "FriendSettings_Notification_GroupEvent": {
+    "en": "Group events and announcements",
+    "ru": "События или объявления в группах"
+  },
+  "FriendSettings_Notification_Table_Label": {
+    "en": "Friend Notifications",
+    "ru": "Уведомления от друзей"
+  },
+  "FriendSettings_Notification_Table_Play": {
+    "en": "Play a sound",
+    "ru": "Воспроизводить звук"
+  },
+  "FriendSettings_Notification_Table_Show": {
+    "en": "Show a notification",
+    "ru": "Показывать уведомления"
+  },
+  "FriendSettings_Notifications": {
+    "en": "Notifications",
+    "ru": "Уведомления"
+  },
+  "FriendSettings_ParenthesizeNicknames": {
+    "en": "Append nicknames to friends' names",
+    "ru": "Добавлять ники после имён друзей"
+  },
+  "FriendSettings_ParenthesizeNicknames_Desc": {
+    "en": "Display nicknames after friends' names instead of replacing them completely",
+    "ru": "Показывать ники после имён друзей, а не заменять их полностью"
+  },
+  "FriendSettings_RememberOpenChats": {
+    "en": "Remember my open chats",
+    "ru": "Запоминать открытые чаты"
+  },
+  "FriendSettings_RememberOpenChats_Desc": {
+    "en": "Restores tabs for chats that were previously open when you launch Steam.",
+    "ru": "При запуске Steam восстанавливает вкладки ранее открытых чатов."
+  },
+  "FriendSettings_RememberOpenChats_DescClient": {
+    "en": "Restores tabs for chats that were previously open when you launch Steam. This option does not apply if Steam starts when your computer starts.",
+    "ru": "При запуске Steam восстанавливает вкладки ранее открытых чатов. Эта функция не работает, если Steam запускается при запуске компьютера."
+  },
+  "FriendSettings_SignInToFriends": {
+    "en": "Sign in to friends when Steam Client starts",
+    "ru": "Входить в систему друзей при запуске клиента Steam"
+  },
+  "FriendSettings_SizeAndScaling": {
+    "en": "Size & Scaling",
+    "ru": "Размер и масштаб"
+  },
+  "FriendSettings_SortFriendsByStatus": {
+    "en": "Ignore 'Away' status when sorting friends",
+    "ru": "Игнорировать статус «Нет на месте» при сортировке друзей"
+  },
+  "FriendSettings_Title": {
+    "en": "Friends List Settings",
+    "ru": "Настройки друзей"
+  },
+  "FriendSettings_Voice": {
+    "en": "Voice",
+    "ru": "Голосовые чаты"
+  },
+  "Friend_AcceptClanInvite": {
+    "en": "Accept Clan Invite",
+    "ru": "Принять приглашение в группу"
+  },
+  "Friend_AcceptClanInvite_Error": {
+    "en": "There was an error accepting the group invitation.",
+    "ru": "Ошибка. Не удалось принять приглашение в группу."
+  },
+  "Friend_Ban": {
+    "en": "Ban",
+    "ru": "Заблокировать в чате"
+  },
+  "Friend_Ban_Button": {
+    "en": "Ban",
+    "ru": "Заблокировать"
+  },
+  "Friend_Ban_Confirm": {
+    "en": "Are you sure you want to ban %1$s?",
+    "ru": "Вы уверены, что хотите заблокировать в чате пользователя %1$s?"
+  },
+  "Friend_BlockIncomingInvite_Error": {
+    "en": "There was an error blocking the friend request from %1$s.",
+    "ru": "Ошибка! Не удалось заблокировать приглашение в друзья от %1$s."
+  },
+  "Friend_Block_Confirm": {
+    "en": "Are you sure you want to block all communication with %1$s?  You won't be able to send or receive direct messages, won't receive notifications about incoming messages or calls from them, and won't be able to see their messages in chat rooms.",
+    "ru": "Вы точно хотите заблокировать %1$s? Вы не сможете писать друг другу, не будете получать оповещения о сообщениях и звонках пользователя, а также видеть его сообщения в групповых чатах."
+  },
+  "Friend_CancelInvitation_Confirm": {
+    "en": "Are you sure you want to cancel your invitation to %1$s?",
+    "ru": "Вы уверены, что хотите отменить приглашение в %1$s?"
+  },
+  "Friend_CancelInvitation_Error": {
+    "en": "There was a problem canceling your invitation to %1$s.",
+    "ru": "Не удалось отменить приглашение в %1$s."
+  },
+  "Friend_Chat_Blocked": {
+    "en": "You have blocked this user.",
+    "ru": "Вы заблокировали этого пользователя."
+  },
+  "Friend_Chat_CommunityBanned": {
+    "en": "This user has been banned by a community administrator.",
+    "ru": "Этого пользователя заблокировал администратор сообщества."
+  },
+  "Friend_Chat_OpenError_Blocked": {
+    "en": "Blocked Communication",
+    "ru": "Обмен сообщениями заблокирован"
+  },
+  "Friend_Chat_OpenError_BlockedBody": {
+    "en": "You cannot chat with anyone you've blocked all communication with.",
+    "ru": "Вы не можете общаться с пользователями, которых заблокировали."
+  },
+  "Friend_Chat_SentGameInvite": {
+    "en": "%1$s invited you to play",
+    "ru": "%1$s приглашает вас в игру"
+  },
+  "Friend_Chat_SentMessage": {
+    "en": "%1$s sent a message",
+    "ru": "Сообщение от %1$s"
+  },
+  "Friend_Chat_Typing": {
+    "en": "%1$s is typing a message...",
+    "ru": "%1$s набирает сообщение..."
+  },
+  "Friend_DeclineClanInvite": {
+    "en": "Ignore Clan Invite",
+    "ru": "Отклонить приглашение в группу"
+  },
+  "Friend_DeclineClanInvite_Error": {
+    "en": "There was an error ignoring the group invitation.",
+    "ru": "Ошибка. Не удалось проигнорировать приглашение в группу."
+  },
+  "Friend_Emote_Note": {
+    "en": "Note: This is a user generated emote using /me.  This is not a server message.",
+    "ru": "Обратите внимание: это смайлик, созданный пользователем с помощью /me, а не серверное сообщение."
+  },
+  "Friend_IgnoreIncomingInvite_Error": {
+    "en": "There was an error ignoring the friend request from %1$s.",
+    "ru": "Ошибка! Не удалось отклонить приглашение в друзья от %1$s."
+  },
+  "Friend_IgnoreIncomingInvite_Success": {
+    "en": "The friend request from %1$s has been ignored.",
+    "ru": "Приглашение в друзья от %1$s отклонено."
+  },
+  "Friend_InviteError": {
+    "en": "There was an error adding %1$s to your friends list.",
+    "ru": "Не удалось добавить %1$s в друзья."
+  },
+  "Friend_InviteError_AccessDenied": {
+    "en": "There was an error adding %1$s to your friends list. Their friends list is full.",
+    "ru": "Не удалось добавить %1$s в друзья: список друзей этого пользователя полон."
+  },
+  "Friend_InviteError_Blocked": {
+    "en": "There was an error adding %1$s to your friends list. Communication between you and this user has been blocked.",
+    "ru": "Не удалось добавить %1$s в друзья: этот пользователь вас заблокировал."
+  },
+  "Friend_InviteError_InvalidState": {
+    "en": "You are blocking all communication with %1$s. Before communicating with this user, you must unblock them by visiting their Steam Community Profile.",
+    "ru": "Вы заблокировали %1$s. Чтобы снова связаться с пользователем, откройте его профиль в сообществе Steam и разблокируйте его."
+  },
+  "Friend_InviteError_LimitExceeded": {
+    "en": "%1$s cannot be added to your friends list as your friends list is full.",
+    "ru": "Не удалось добавить %1$s в ваш список друзей, поскольку он полон."
+  },
+  "Friend_InviteError_LimitedUser": {
+    "en": "Your account does not meet the requirements to use this feature.",
+    "ru": "Ваш аккаунт не отвечает необходимым требованиям для использования этой функции."
+  },
+  "Friend_InviteError_LimitedUserLink": {
+    "en": "Your account does not meet the requirements to use this feature. %1$s for more information.",
+    "ru": "Ваш аккаунт не отвечает необходимым требованиям для использования этой функции. %1$s, чтобы узнать больше."
+  },
+  "Friend_InviteError_RateLimitExceeded": {
+    "en": "It looks like you've sent too many friend invites recently. To prevent spam, you'll have to wait before you can invite more friends. Please note that other players can still add you during this time.",
+    "ru": "Похоже, вы приглашаете в друзья слишком много пользователей. Чтобы предотвратить спам, мы ограничили возможность добавлять друзей некоторое время. Другие пользователи по-прежнему могут отправлять вам приглашения."
+  },
+  "Friend_InviteError_VisitSteamSupport": {
+    "en": "Visit Steam Support",
+    "ru": "Посетите сайт поддержки Steam"
+  },
+  "Friend_InviteSent": {
+    "en": "Friend invite sent.  They will appear as a friend once they have accepted your invite.",
+    "ru": "Приглашение отправлено. Когда пользователь его примет, он появится в вашем списке друзей."
+  },
+  "Friend_Invites_CancelInvite": {
+    "en": "Cancel Invite",
+    "ru": "Отменить приглашение"
+  },
+  "Friend_Invites_FailedToDecline": {
+    "en": "Failed to ignore %1$s invite.",
+    "ru": "Не удалось отклонить приглашение (%1$s)."
+  },
+  "Friend_Invites_FailedToDecline_Plural": {
+    "en": "Failed to ignore %1$s invites.",
+    "ru": "Не удалось отклонить приглашения (%1$s)."
+  },
+  "Friend_Invites_IgnoreAllDescription": {
+    "en": "Ignore these %1$s invites?",
+    "ru": "Отклонить эти предложения дружбы (%1$s)?"
+  },
+  "Friend_Invites_IgnoreAllTitle": {
+    "en": "Ignore All?",
+    "ru": "Отклонить все?"
+  },
+  "Friend_Invites_MutualFriends": {
+    "en": "Mutual Friends",
+    "ru": "Общие друзья"
+  },
+  "Friend_Invites_NotFound": {
+    "en": "No results for the friend code you entered.",
+    "ru": "По этому коду дружбы ничего не найдено."
+  },
+  "Friend_Invites_SearchTitle": {
+    "en": "Friend code: %1$s",
+    "ru": "Код дружбы: %1$s"
+  },
+  "Friend_Invites_ViewMutual": {
+    "en": "View mutual friends",
+    "ru": "Показать общих друзей"
+  },
+  "Friend_JoinGameWait_Cancel": {
+    "en": "Cancel",
+    "ru": "Отмена"
+  },
+  "Friend_JoinGameWait_Desc": {
+    "en": "Waiting for connection information...",
+    "ru": "Ожидание информации о подключении..."
+  },
+  "Friend_JoinGameWait_Title": {
+    "en": "Joining Game",
+    "ru": "Присоединяется к игре"
+  },
+  "Friend_Kick": {
+    "en": "Kick",
+    "ru": "Выгнать"
+  },
+  "Friend_Kick_Button": {
+    "en": "Kick",
+    "ru": "Выгнать"
+  },
+  "Friend_Kick_Confirm": {
+    "en": "Are you sure you want to kick %1$s?",
+    "ru": "Вы уверены, что хотите выгнать %1$s?"
+  },
+  "Friend_Kick_Day": {
+    "en": "A day (24 hours)",
+    "ru": "на 1 день (24 часа)"
+  },
+  "Friend_Kick_Hour": {
+    "en": "An hour",
+    "ru": "на 1 час"
+  },
+  "Friend_Kick_How_Long": {
+    "en": "How long?",
+    "ru": "На какой срок?"
+  },
+  "Friend_Kick_Week": {
+    "en": "A week",
+    "ru": "на 1 неделю"
+  },
+  "Friend_Menu_AcceptAll": {
+    "en": "Accept All",
+    "ru": "Принять все"
+  },
+  "Friend_Menu_AcceptIncomingInvite": {
+    "en": "Accept Friend Request",
+    "ru": "Принять приглашение"
+  },
+  "Friend_Menu_AddNickname": {
+    "en": "Add Nickname",
+    "ru": "Добавить ник"
+  },
+  "Friend_Menu_AddToFriendsList": {
+    "en": "Add Friend",
+    "ru": "Добавить в друзья"
+  },
+  "Friend_Menu_AddToQuickAccess": {
+    "en": "Add to Favorites",
+    "ru": "Добавить в избранные"
+  },
+  "Friend_Menu_Ban": {
+    "en": "Ban",
+    "ru": "Заблокировать в чате"
+  },
+  "Friend_Menu_BlockAllCommunication": {
+    "en": "Block All Communication",
+    "ru": "Заблокировать"
+  },
+  "Friend_Menu_BlockIncomingInvite": {
+    "en": "Block Friend Request",
+    "ru": "Заблокировать приглашение"
+  },
+  "Friend_Menu_CancelAllRemotePlay": {
+    "en": "End Remote Play Streams",
+    "ru": "Прекратить трансляции Remote Play"
+  },
+  "Friend_Menu_CancelInvitation": {
+    "en": "Cancel Invitation",
+    "ru": "Отменить приглашение"
+  },
+  "Friend_Menu_CancelRemotePlay": {
+    "en": "Cancel Remote Play",
+    "ru": "Остановить Remote Play"
+  },
+  "Friend_Menu_ChangeMyName": {
+    "en": "Edit Profile Name",
+    "ru": "Изменить имя профиля"
+  },
+  "Friend_Menu_ChangeNickname": {
+    "en": "Change Nickname",
+    "ru": "Изменить ник"
+  },
+  "Friend_Menu_DeclineAll": {
+    "en": "Decline All",
+    "ru": "Отклонить все"
+  },
+  "Friend_Menu_EditProfile": {
+    "en": "Edit Avatar / Profile",
+    "ru": "Изменить аватар/профиль"
+  },
+  "Friend_Menu_EditRoles": {
+    "en": "Edit Roles",
+    "ru": "Изменить роли"
+  },
+  "Friend_Menu_GameCommunityHub": {
+    "en": "Game Community Hub",
+    "ru": "Открыть центр сообщества"
+  },
+  "Friend_Menu_GamesToPlayTogether": {
+    "en": "Find Games to Play Together",
+    "ru": "Найти совместные игры"
+  },
+  "Friend_Menu_GotoMyProfile": {
+    "en": "View my Profile",
+    "ru": "Мой профиль"
+  },
+  "Friend_Menu_HasLeftChat": {
+    "en": "No Longer in Chat",
+    "ru": "Больше не в чате"
+  },
+  "Friend_Menu_IgnoreIncomingInvite": {
+    "en": "Ignore Friend Request",
+    "ru": "Отклонить приглашение"
+  },
+  "Friend_Menu_IgnoreRecent": {
+    "en": "Clear Recent Chat",
+    "ru": "Удалить недавние сообщения"
+  },
+  "Friend_Menu_IncomingInviteLabel": {
+    "en": "Incoming Friend Request",
+    "ru": "Приглашение в друзья"
+  },
+  "Friend_Menu_InviteToGame": {
+    "en": "Invite to Play",
+    "ru": "Пригласить в игру"
+  },
+  "Friend_Menu_InviteToLobby": {
+    "en": "Invite to Game",
+    "ru": "Пригласить в игру"
+  },
+  "Friend_Menu_InviteToRemotePlay": {
+    "en": "Remote Play Together",
+    "ru": "Пригласить в Remote Play"
+  },
+  "Friend_Menu_InviteToWatch": {
+    "en": "Invite to Watch",
+    "ru": "Пригласить на трансляцию"
+  },
+  "Friend_Menu_JoinFriendGame": {
+    "en": "Join Game",
+    "ru": "Присоединиться к игре"
+  },
+  "Friend_Menu_JoinFriendPartyBeacon": {
+    "en": "Join Game",
+    "ru": "Войти в игру"
+  },
+  "Friend_Menu_KickFromChatRoom": {
+    "en": "Kick",
+    "ru": "Выгнать"
+  },
+  "Friend_Menu_LaunchFriendGame": {
+    "en": "Launch Game",
+    "ru": "Запустить игру"
+  },
+  "Friend_Menu_LaunchGame": {
+    "en": "Launch ",
+    "ru": "Запустить "
+  },
+  "Friend_Menu_Manage": {
+    "en": "Manage",
+    "ru": "Управление"
+  },
+  "Friend_Menu_Notifications": {
+    "en": "Notifications",
+    "ru": "Уведомления"
+  },
+  "Friend_Menu_NotificationsTitle": {
+    "en": "Friend Notifications",
+    "ru": "Уведомления от друга"
+  },
+  "Friend_Menu_Open": {
+    "en": "Options",
+    "ru": "Опции"
+  },
+  "Friend_Menu_RecentAliases": {
+    "en": "Recent Names",
+    "ru": "Предыдущие имена"
+  },
+  "Friend_Menu_RecentAliases_Loading": {
+    "en": "Loading...",
+    "ru": "Загрузка…"
+  },
+  "Friend_Menu_RecentAliases_None": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "Friend_Menu_RemotePlay": {
+    "en": "Remote Play Together",
+    "ru": "Remote Play Together"
+  },
+  "Friend_Menu_RemoveFromFriendsList": {
+    "en": "Remove as Friend",
+    "ru": "Удалить из друзей"
+  },
+  "Friend_Menu_RemoveFromQuickAccess": {
+    "en": "Remove from Favorites",
+    "ru": "Убрать из избранных"
+  },
+  "Friend_Menu_SendMessage": {
+    "en": "Send Message",
+    "ru": "Отправить сообщение"
+  },
+  "Friend_Menu_ShowInSteam": {
+    "en": "Show in Steam",
+    "ru": "Открыть в Steam"
+  },
+  "Friend_Menu_StartVoiceChat": {
+    "en": "Start Voice Chat",
+    "ru": "Начать голосовой чат"
+  },
+  "Friend_Menu_StopVoiceChat": {
+    "en": "Stop Voice Chat",
+    "ru": "Закончить голосовой чат"
+  },
+  "Friend_Menu_UnblockAllCommunication": {
+    "en": "Unblock All Communication",
+    "ru": "Разблокировать"
+  },
+  "Friend_Menu_ViewCommunityHub": {
+    "en": "Community Hub",
+    "ru": "Центр сообщества"
+  },
+  "Friend_Menu_ViewGameInLibrary": {
+    "en": "View Game in Library",
+    "ru": "Открыть игру в библиотеке"
+  },
+  "Friend_Menu_ViewGameInfo": {
+    "en": "Game Info",
+    "ru": "Об игре"
+  },
+  "Friend_Menu_ViewGameStorePage": {
+    "en": "Store Page",
+    "ru": "Страница игры в магазине"
+  },
+  "Friend_Menu_ViewGameStorePageGameName": {
+    "en": "%1$s",
+    "ru": "%1$s"
+  },
+  "Friend_Menu_ViewProfile": {
+    "en": "View Profile",
+    "ru": "Открыть профиль"
+  },
+  "Friend_Menu_ViewRoles": {
+    "en": "View Roles",
+    "ru": "Роли"
+  },
+  "Friend_Menu_WatchFriendGame": {
+    "en": "Watch Game",
+    "ru": "Смотреть игру"
+  },
+  "Friend_MutualInviteSent": {
+    "en": "%1$s has been added to your friends list.",
+    "ru": "%1$s теперь в списке ваших друзей."
+  },
+  "Friend_Notification_GameInvite": {
+    "en": "%1$s invited you to play %2$s",
+    "ru": "%1$s приглашает вас в игру %2$s"
+  },
+  "Friend_Notification_GameInviteRemotePlay": {
+    "en": "%1$s invited you to play %2$s via Steam Remote Play",
+    "ru": "%1$s приглашает вас сыграть в %2$s через Steam Remote Play"
+  },
+  "Friend_Notification_GameInviteYouInvited": {
+    "en": "You invited %1$s to play %2$s",
+    "ru": "Вы пригласили %1$s в %2$s"
+  },
+  "Friend_Notification_Invite": {
+    "en": "%1$s invited you to chat in '%2$s'",
+    "ru": "%1$s приглашает вас в чат %2$s"
+  },
+  "Friend_Notification_InviteVoice": {
+    "en": "%1$s invited you to voice chat in '%2$s'",
+    "ru": "%1$s приглашает вас в голосовой чат %2$s"
+  },
+  "Friend_PendingClanInvites": {
+    "en": "Incoming Steam Group Invites",
+    "ru": "Входящие приглашения в группы"
+  },
+  "Friend_PendingClanInvitesButton": {
+    "en": "Manage Group Invites",
+    "ru": "Управление приглашениями в группу"
+  },
+  "Friend_RemoveFromFriendsList_Confirm": {
+    "en": "Are you sure you want to remove %1$s from your friends list?",
+    "ru": "Вы уверены, что хотите удалить %1$s из друзей?"
+  },
+  "Friend_RemoveFromFriendsList_Error": {
+    "en": "There was a problem removing %1$s from your friends list.",
+    "ru": "Ошибка! Не удалось удалить %1$s из друзей."
+  },
+  "Friend_RequestingOneOnOneChat": {
+    "en": "%1$s has opened voice chat and is waiting on you.",
+    "ru": "%1$s начинает голосовой чат и ожидает вас."
+  },
+  "Friend_StateChange_InGame": {
+    "en": "is now playing %1$s",
+    "ru": "сейчас играет в %1$s"
+  },
+  "Friend_StateChange_Online": {
+    "en": "is now online",
+    "ru": "сейчас в сети"
+  },
+  "Friend_Unblock_Confirm": {
+    "en": "Are you sure you want to allow communication with %1$s again?",
+    "ru": "Вы точно хотите разблокировать %1$s?"
+  },
+  "FriendsList_ExpandButton": {
+    "en": "Open Friends List",
+    "ru": "Открыть список друзей"
+  },
+  "FriendsList_Favorites_Hint": {
+    "en": "Drag Friends & Chats here for easy access",
+    "ru": "Перетащите сюда избранных друзей и чаты"
+  },
+  "FriendsList_TitleArea_SingleWindowButton": {
+    "en": "Toggle chat window docking",
+    "ru": "Стыковка окон чатов"
+  },
+  "Friends_ConfirmUpdate_Body": {
+    "en": "The version of Steam Friends running is %1$s out of date.  All friends and chat windows will be refreshed with the latest update.",
+    "ru": "Запущенная версия системы друзей в Steam устарела (%1$s). Все окна друзей и чатов обновятся по последней версии."
+  },
+  "Friends_ConfirmUpdate_Ok": {
+    "en": "Update Now",
+    "ru": "Обновить"
+  },
+  "Friends_ConfirmUpdate_Title": {
+    "en": "Update Steam Friends",
+    "ru": "Обновить список друзей"
+  },
+  "Friends_Empty01": {
+    "en": "Your friends will show up here.",
+    "ru": "Здесь будут ваши друзья."
+  },
+  "Friends_Empty02": {
+    "en": "You can easily add friends by using an %1$s.",
+    "ru": "Чтобы добавить друзей, используйте %1$s."
+  },
+  "Friends_Empty02_Filler": {
+    "en": "Invite Link",
+    "ru": "ссылку-приглашение"
+  },
+  "Friends_NameChangeCooldown_Info": {
+    "en": "You are currently unable to set a profile name.",
+    "ru": "В данный момент вы не можете задать имя профиля."
+  },
+  "Friends_NameChangeDenied_Info": {
+    "en": "Invalid profile name. Please choose another name and try again.",
+    "ru": "Недопустимое имя профиля. Пожалуйста, введите другое имя и повторите попытку."
+  },
+  "Friends_NameChangeFailed_Info": {
+    "en": "Failed to change profile name. Please try again in a few minutes.",
+    "ru": "Не удалось изменить имя профиля. Повторите попытку через несколько минут."
+  },
+  "Friends_NameChangeInvalid_Info": {
+    "en": "Invalid profile name. Please choose another name and try again.",
+    "ru": "Недопустимое имя профиля. Пожалуйста, введите другое имя и повторите попытку."
+  },
+  "Friends_NameChangeThrottled_Info": {
+    "en": "Very frequent changes to  profile names are not allowed. Please try again in a few minutes.",
+    "ru": "Вы изменяете имя профиля слишком часто. Повторите попытку через несколько минут."
+  },
+  "Friends_Reconnecting_Msg": {
+    "en": "Re-connecting to Friends & Chat - Friends state may be out of date",
+    "ru": "Переподключение к разделу «Друзья и чат»: возможно, статус друзей устарел"
+  },
+  "Generic_Edit": {
+    "en": "Edit",
+    "ru": "Изменить"
+  },
+  "Generic_Error": {
+    "en": "Error",
+    "ru": "Ошибка"
+  },
+  "Generic_Got_It": {
+    "en": "Got It!",
+    "ru": "Ясно!"
+  },
+  "Generic_New": {
+    "en": "New!",
+    "ru": "Новинка!"
+  },
+  "Generic_View": {
+    "en": "View",
+    "ru": "Посмотреть"
+  },
+  "GiveFeedback": {
+    "en": "Give Feedback",
+    "ru": "Оставить отзыв"
+  },
+  "GiveFeedbackToSteam_Desc": {
+    "en": " GIVE %1$s TO STEAM",
+    "ru": " %1$s О БЕТА-ВЕРСИИ"
+  },
+  "GiveFeedbackToSteam_URL": {
+    "en": "BETA FEEDBACK",
+    "ru": "ПОДЕЛИТЕСЬ СВОИМ МНЕНИЕМ"
+  },
+  "GiveFeedback_Desc": {
+    "en": "GIVE %1$s FEEDBACK",
+    "ru": "ОСТАВИТЬ ОТЗЫВ %1$s"
+  },
+  "GiveFeedback_URL": {
+    "en": "BETA",
+    "ru": "О БЕТА-ВЕРСИИ"
+  },
+  "GroupSettings": {
+    "en": "Group Settings",
+    "ru": "Настройки чата"
+  },
+  "GroupSettings_Bans_AccessDenied": {
+    "en": "Viewing the list of banned accounts is disabled because you do not have permission to ban people from this group chat.",
+    "ru": "Просмотр списка заблокированных аккаунтов недоступен, поскольку у вас нет разрешения блокировать людей в этом групповом чате."
+  },
+  "GroupSettings_Bans_BannedDate": {
+    "en": "Banned on",
+    "ru": "Дата блокировки:"
+  },
+  "GroupSettings_Bans_Failed": {
+    "en": "Unable to get list of bans",
+    "ru": "Не удалось получить список блокировок"
+  },
+  "GroupSettings_Bans_InvitedHeader": {
+    "en": "Account",
+    "ru": "Аккаунт"
+  },
+  "GroupSettings_Bans_Loading": {
+    "en": "Loading...",
+    "ru": "Загрузка…"
+  },
+  "GroupSettings_Bans_NoOneBanned": {
+    "en": "No one has been banned",
+    "ru": "Никто не заблокирован"
+  },
+  "GroupSettings_Bans_RevokeBan": {
+    "en": "Unban",
+    "ru": "Разблокировать"
+  },
+  "GroupSettings_Bans_Section": {
+    "en": "Bans",
+    "ru": "Блокировки"
+  },
+  "GroupSettings_Bans_UnbanBody": {
+    "en": "Are you sure you want to unban this user?",
+    "ru": "Вы уверены, что хотите разблокировать этого пользователя?"
+  },
+  "GroupSettings_Bans_UnbanConfirm": {
+    "en": "Unban",
+    "ru": "Разблокировать"
+  },
+  "GroupSettings_Bans_UnbanGenericError": {
+    "en": "An error occurred while unbanning this user",
+    "ru": "При разблокировании пользователя произошла ошибка"
+  },
+  "GroupSettings_Bans_UnbanTitle": {
+    "en": "Unban User",
+    "ru": "Разблокировать"
+  },
+  "GroupSettings_Channels_ActiveVoiceChannels": {
+    "en": "Active Channels",
+    "ru": "Активные каналы"
+  },
+  "GroupSettings_Channels_CreateText": {
+    "en": "Create new text channel",
+    "ru": "Создать текстовый канал"
+  },
+  "GroupSettings_Channels_CreateVoice": {
+    "en": "Create new voice channel",
+    "ru": "Создать голосовой канал"
+  },
+  "GroupSettings_Channels_Delete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "GroupSettings_Channels_DeleteButtonLabel": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "GroupSettings_Channels_DeleteChannel": {
+    "en": "Delete channel",
+    "ru": "Удалить канал"
+  },
+  "GroupSettings_Channels_DeleteConfirm": {
+    "en": "Are you sure you want to delete this channel?",
+    "ru": "Вы уверены, что хотите удалить этот канал?"
+  },
+  "GroupSettings_Channels_HomeChannelDeleteLabel": {
+    "en": "Home channel",
+    "ru": "Канал Home"
+  },
+  "GroupSettings_Channels_InactiveVoiceChannels": {
+    "en": "Empty Channels",
+    "ru": "Пустые каналы"
+  },
+  "GroupSettings_Channels_NoVoiceChannels": {
+    "en": "No saved voice channels",
+    "ru": "Нет сохранённых голосовых каналов"
+  },
+  "GroupSettings_Channels_Section": {
+    "en": "Channels",
+    "ru": "Каналы"
+  },
+  "GroupSettings_Channels_TextChannels": {
+    "en": "Text Channels",
+    "ru": "Текстовые каналы"
+  },
+  "GroupSettings_Channels_VoiceChannels": {
+    "en": "Voice channels",
+    "ru": "Голосовые каналы"
+  },
+  "GroupSettings_Channels_VoiceQuickChatRoom": {
+    "en": "Quick Chat: %1$s",
+    "ru": "Быстрый чат: %1$s"
+  },
+  "GroupSettings_CreateRole_Description": {
+    "en": "Name for this Role:",
+    "ru": "Название роли:"
+  },
+  "GroupSettings_CreateRole_GenericError": {
+    "en": "There was a problem creating the Role.",
+    "ru": "При создании роли произошла ошибка."
+  },
+  "GroupSettings_CreateRole_Title": {
+    "en": "Add a new Role",
+    "ru": "Добавить новую роль"
+  },
+  "GroupSettings_DeleteRole_GenericError": {
+    "en": "There was a problem deleting the Role.",
+    "ru": "При удалении роли произошла ошибка."
+  },
+  "GroupSettings_General_Section": {
+    "en": "General",
+    "ru": "Общие"
+  },
+  "GroupSettings_Invite_Code": {
+    "en": "Invite code",
+    "ru": "Код приглашения"
+  },
+  "GroupSettings_Invite_ConfirmDelete": {
+    "en": "Are you sure you want to delete this Invite Link?",
+    "ru": "Вы уверены, что хотите удалить это приглашение?"
+  },
+  "GroupSettings_Invite_ConfirmDeleteButton": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "GroupSettings_Invite_ConfirmDeleteTitle": {
+    "en": "Delete Invite",
+    "ru": "Удалить приглашение"
+  },
+  "GroupSettings_Invite_Delete": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "GroupSettings_Invite_Denied": {
+    "en": "Viewing invite links is disabled because you do not have permission to invite people to this group chat.",
+    "ru": "Вы не можете просматривать ссылки с приглашениями, поскольку у вас нет разрешения приглашать людей в этот групповой чат."
+  },
+  "GroupSettings_Invite_Expiration": {
+    "en": "Expiration",
+    "ru": "Срок действия"
+  },
+  "GroupSettings_Invite_Failed": {
+    "en": "Unable to get list of invites",
+    "ru": "Не удалось получить список приглашений"
+  },
+  "GroupSettings_Invite_Loading": {
+    "en": "Loading...",
+    "ru": "Загрузка…"
+  },
+  "GroupSettings_Invite_NeverExpires": {
+    "en": "Never",
+    "ru": "Никогда"
+  },
+  "GroupSettings_Invite_NoInvites": {
+    "en": "There are no invites",
+    "ru": "Приглашений нет"
+  },
+  "GroupSettings_Invite_Section": {
+    "en": "Invite Links",
+    "ru": "Приглашения"
+  },
+  "GroupSettings_InvitedUsers_Failed": {
+    "en": "Unable to get the list of invited users",
+    "ru": "Не удалось получить список приглашённых пользователей"
+  },
+  "GroupSettings_InvitedUsers_InvitedDate": {
+    "en": "Invited on",
+    "ru": "Приглашение отправлено"
+  },
+  "GroupSettings_InvitedUsers_InvitedHeader": {
+    "en": "Account",
+    "ru": "Аккаунт"
+  },
+  "GroupSettings_InvitedUsers_Loading": {
+    "en": "Loading...",
+    "ru": "Загрузка…"
+  },
+  "GroupSettings_InvitedUsers_Noone": {
+    "en": "No one has been invited",
+    "ru": "Никто не приглашён"
+  },
+  "GroupSettings_InvitedUsers_RevokeBody": {
+    "en": "Are you sure you want to revoke this invite?",
+    "ru": "Вы уверены, что хотите отозвать это приглашение?"
+  },
+  "GroupSettings_InvitedUsers_RevokeConfirm": {
+    "en": "Revoke",
+    "ru": "Отозвать"
+  },
+  "GroupSettings_InvitedUsers_RevokeGenericError": {
+    "en": "An error occurred while revoking this invite",
+    "ru": "При отмене приглашения произошла ошибка"
+  },
+  "GroupSettings_InvitedUsers_RevokeInvite": {
+    "en": "Revoke",
+    "ru": "Отозвать"
+  },
+  "GroupSettings_InvitedUsers_RevokeTitle": {
+    "en": "Revoke Invite",
+    "ru": "Отозвать приглашение"
+  },
+  "GroupSettings_InvitedUsers_Section": {
+    "en": "Invited Accounts",
+    "ru": "Приглашённые пользователи"
+  },
+  "GroupSettings_Leave_Button": {
+    "en": "Leave",
+    "ru": "Выйти"
+  },
+  "GroupSettings_Leave_Confirm": {
+    "en": "Are you sure you want to leave this Group Chat?",
+    "ru": "Вы уверены, что хотите выйти из группового чата?"
+  },
+  "GroupSettings_Leave_Section": {
+    "en": "Leave Group Chat",
+    "ru": "Выйти из чата"
+  },
+  "GroupSettings_Mobile_FavoritesDesc": {
+    "en": "Display this group at the top of my friends list so it's easy to find",
+    "ru": "Отображать эту группу вверху списка друзей, чтобы её было легко найти"
+  },
+  "GroupSettings_Permissions_BackButton": {
+    "en": "Back to Permissions",
+    "ru": "Назад"
+  },
+  "GroupSettings_Permissions_Ban": {
+    "en": "Ban Members",
+    "ru": "Блокировать участников"
+  },
+  "GroupSettings_Permissions_ChangeGroupRoles": {
+    "en": "Edit Roles",
+    "ru": "Изменять роли"
+  },
+  "GroupSettings_Permissions_ChangeTaglineAvatarName": {
+    "en": "Change Group Name / Tagline / Avatar",
+    "ru": "Изменять название, слоган и аватар группы"
+  },
+  "GroupSettings_Permissions_ChangeUserRoles": {
+    "en": "Assign Roles",
+    "ru": "Назначать роли"
+  },
+  "GroupSettings_Permissions_Chat": {
+    "en": "Send Messages",
+    "ru": "Отправлять сообщения"
+  },
+  "GroupSettings_Permissions_ConfirmDelete": {
+    "en": "Are you sure you want to delete this Role?",
+    "ru": "Вы уверены, что хотите удалить эту роль?"
+  },
+  "GroupSettings_Permissions_ConfirmDeleteButton": {
+    "en": "Delete",
+    "ru": "Удалить"
+  },
+  "GroupSettings_Permissions_ConfirmDeleteTitle": {
+    "en": "Delete Role",
+    "ru": "Удалить роль"
+  },
+  "GroupSettings_Permissions_CreateNew": {
+    "en": "Add New Role",
+    "ru": "Добавить новую роль"
+  },
+  "GroupSettings_Permissions_CreateRenameDeleteChannel": {
+    "en": "Create and Delete Channels",
+    "ru": "Создавать и удалять каналы"
+  },
+  "GroupSettings_Permissions_DeleteRoleButton": {
+    "en": "Delete Role",
+    "ru": "Удалить роль"
+  },
+  "GroupSettings_Permissions_Heading_General": {
+    "en": "General Settings",
+    "ru": "Общие настройки"
+  },
+  "GroupSettings_Permissions_Heading_MembersAndRoles": {
+    "en": "Members & Roles",
+    "ru": "Участники и роли"
+  },
+  "GroupSettings_Permissions_Heading_RoomManagement": {
+    "en": "Chat Room Management",
+    "ru": "Управление комнатами чата"
+  },
+  "GroupSettings_Permissions_Invite": {
+    "en": "Invite New Members",
+    "ru": "Приглашать новых участников"
+  },
+  "GroupSettings_Permissions_Kick": {
+    "en": "Kick Members",
+    "ru": "Выгонять участников"
+  },
+  "GroupSettings_Permissions_MentionAll": {
+    "en": "Mention all members with @all and @online",
+    "ru": "Упоминать всех участников с помощью @all и @online"
+  },
+  "GroupSettings_Permissions_RoleName": {
+    "en": "Role Name",
+    "ru": "Название роли"
+  },
+  "GroupSettings_Permissions_RolesTitle": {
+    "en": "Roles",
+    "ru": "Роли"
+  },
+  "GroupSettings_Permissions_Saved": {
+    "en": "Saved",
+    "ru": "Сохранено"
+  },
+  "GroupSettings_Permissions_Saving": {
+    "en": "Saving",
+    "ru": "Сохранение"
+  },
+  "GroupSettings_Permissions_Section": {
+    "en": "Permissions",
+    "ru": "Разрешения"
+  },
+  "GroupSettings_Permissions_SetWatchingBroadcast": {
+    "en": "Link and Unlink Broadcasts",
+    "ru": "Привязывать и отвязывать трансляции"
+  },
+  "GroupSettings_Permissions_ViewHistory": {
+    "en": "View History",
+    "ru": "Просматривать историю"
+  },
+  "GroupSettings_Save_Desc": {
+    "en": "Saving this Group Chat allows you to",
+    "ru": "Сохранив групповой чат, вы сможете"
+  },
+  "GroupSettings_Save_Feature_1": {
+    "en": "Name the group",
+    "ru": "Дать группе название"
+  },
+  "GroupSettings_Save_Feature_2": {
+    "en": "Choose an avatar and tagline for the group",
+    "ru": "Выбрать для группы аватар и слоган"
+  },
+  "GroupSettings_Save_Feature_3": {
+    "en": "Set permissions per member and choose admins",
+    "ru": "Задать разрешения для участников и выбрать администраторов"
+  },
+  "GroupSettings_Save_Feature_4": {
+    "en": "Create additional text channels",
+    "ru": "Создать дополнительные текстовые каналы"
+  },
+  "GroupSettings_Save_GenericError": {
+    "en": "An error occurred while saving this group",
+    "ru": "При сохранении группы произошла ошибка"
+  },
+  "GroupSettings_Save_NameError": {
+    "en": "The provided name is not valid",
+    "ru": "Введённое название недопустимо"
+  },
+  "GroupSettings_Save_NameGroup": {
+    "en": "Name this chat:",
+    "ru": "Введите название чата:"
+  },
+  "GroupSettings_Save_Section": {
+    "en": "Save Group Chat",
+    "ru": "Сохранить групповой чат"
+  },
+  "GroupSettings_meKey_Desc": {
+    "en": "indicates a role you are assigned",
+    "ru": "отражает назначенную вам роль"
+  },
+  "GroupSettings_meKey_Desc_Owner": {
+    "en": "You are the owner of this group chat",
+    "ru": "Вы — владелец этого группового чата"
+  },
+  "Hide_Spoiler": {
+    "en": "Hide spoiler",
+    "ru": "Скрыть спойлер"
+  },
+  "InfoSettings_Title": {
+    "en": "Information",
+    "ru": "Информация"
+  },
+  "InterfaceSettings_DefaultHomeTab_Title": {
+    "en": "Default Tab",
+    "ru": "Вкладка по умолчанию"
+  },
+  "InterfaceSettings_Title": {
+    "en": "Interface",
+    "ru": "Интерфейс"
+  },
+  "InviteLanding_AccountMismatch": {
+    "en": "We've detected your running Steam Client is logged in with a different account than you are logged in with here in your browser.",
+    "ru": "По нашим данным, вы вошли в клиент Steam и в браузер через разные аккаунты."
+  },
+  "InviteLanding_ExpiredOrInvalid": {
+    "en": "The invite link you followed is no longer valid.",
+    "ru": "Приглашение больше не действует."
+  },
+  "InviteLanding_OpenInSteam": {
+    "en": "Open in Steam",
+    "ru": "Открыть в Steam"
+  },
+  "InviteLanding_OpenInSteam_Help": {
+    "en": "We've attempted to open the invite link in the Steam Client.  You may be prompted by your browser to allow the Steam Client to launch.",
+    "ru": "Мы попытались открыть ссылку с приглашением в клиенте Steam. Возможно, браузер запросит разрешение на запуск клиента Steam."
+  },
+  "InviteLanding_OpenInWebChat": {
+    "en": "Open in web chat",
+    "ru": "Открыть в браузере"
+  },
+  "InviteLanding_SentToSteam": {
+    "en": "We've sent the invite info to your Steam Client.",
+    "ru": "Мы отправили информацию о приглашении в клиент Steam."
+  },
+  "InviteLanding_SentToSteam_Desc": {
+    "en": "You can continue the invite process there.  If you'd like to open this invite in the web chat instead, %1$s.",
+    "ru": "Вы можете продолжить процесс там.  Если вы хотите открыть это приглашение в браузере, %1$s."
+  },
+  "InviteLanding_SentToSteam_Desc_LaunchWebChat": {
+    "en": "click here",
+    "ru": "нажмите здесь"
+  },
+  "InviteLink_ChatInvite": {
+    "en": "Chat Invite",
+    "ru": "Приглашение в чат"
+  },
+  "InviteLink_Copied": {
+    "en": "Copied",
+    "ru": "Скопировано"
+  },
+  "InviteLink_ExpireDropDownLabel": {
+    "en": "Expire this link in:",
+    "ru": "Срок действия ссылки:"
+  },
+  "InviteLink_ExpiresDay_Long": {
+    "en": "This link will expire within one day",
+    "ru": "Ссылка станет неактивной через 1 день"
+  },
+  "InviteLink_ExpiresDay_Short": {
+    "en": "One Day",
+    "ru": "1 день"
+  },
+  "InviteLink_ExpiresHour_Long": {
+    "en": "This link will expire within one hour",
+    "ru": "Ссылка станет неактивной через 1 час"
+  },
+  "InviteLink_ExpiresHour_Short": {
+    "en": "One Hour",
+    "ru": "1 час"
+  },
+  "InviteLink_ExpiresNever_Long": {
+    "en": "This link will never expire",
+    "ru": "Эта ссылка всегда будет активной"
+  },
+  "InviteLink_ExpiresNever_Short": {
+    "en": "Never",
+    "ru": "Без ограничений"
+  },
+  "Label_Chats": {
+    "en": "Chats",
+    "ru": "Чаты"
+  },
+  "Label_Friends": {
+    "en": "Friends",
+    "ru": "Друзья"
+  },
+  "Label_Groups": {
+    "en": "Groups",
+    "ru": "Группы"
+  },
+  "LanguageSettings_ConfirmDescription": {
+    "en": "Changing the language requires restarting Steam Chat.\n\nContinue?",
+    "ru": "Чтобы изменить язык, нужно перезапустить чат Steam.\n\nПродолжить?"
+  },
+  "LanguageSettings_ConfirmTitle": {
+    "en": "Change Language",
+    "ru": "Изменить язык"
+  },
+  "LanguageSettings_Label": {
+    "en": "Language",
+    "ru": "Язык"
+  },
+  "LanguageSettings_SystemDefault": {
+    "en": "System Default",
+    "ru": "Системные настройки"
+  },
+  "Menu_AddAFriend_Capital": {
+    "en": "ADD A FRIEND",
+    "ru": "ДОБАВИТЬ ДРУГА"
+  },
+  "Menu_FriendInvite": {
+    "en": "Friend Invite",
+    "ru": "Приглашение в друзья"
+  },
+  "Menu_FriendInvites": {
+    "en": "Friend Invites",
+    "ru": "Приглашения в друзья"
+  },
+  "Menu_FriendInvitesCount": {
+    "en": "%1$s Friend Invite",
+    "ru": "Предложений дружбы: %1$s"
+  },
+  "Menu_FriendInvitesCount_Plural": {
+    "en": "%1$s Friend Invites",
+    "ru": "Предложений дружбы: %1$s"
+  },
+  "Menu_Help_Capital": {
+    "en": "HELP",
+    "ru": "ПОМОЩЬ"
+  },
+  "Menu_InviteLink_Capital": {
+    "en": "INVITE LINK",
+    "ru": "ПРИГЛАШЕНИЕ"
+  },
+  "Menu_InviteToChat": {
+    "en": "Invite to chat",
+    "ru": "Пригласить в чат"
+  },
+  "Menu_LogOut": {
+    "en": "Sign Out",
+    "ru": "Выйти"
+  },
+  "Menu_LogOut_Prompt": {
+    "en": "Are you sure you want to sign out?",
+    "ru": "Вы уверены, что хотите выйти?"
+  },
+  "Menu_MembersCount_Capital": {
+    "en": "MEMBERS (%1$s)",
+    "ru": "УЧАСТНИКИ (%1$s)"
+  },
+  "Menu_PendingInvites_Capital": {
+    "en": "PENDING INVITES (%1$s)",
+    "ru": "НОВЫЕ ПРИГЛАШЕНИЯ (%1$s)"
+  },
+  "Menu_SearchMembers": {
+    "en": "Search members",
+    "ru": "Поиск по участникам"
+  },
+  "MessageReaction_Description1": {
+    "en": "%1$s reacted with %2$s",
+    "ru": "Реакция %1$s: %2$s"
+  },
+  "MessageReaction_Description1You": {
+    "en": "You reacted with %1$s",
+    "ru": "Ваша реакция: %1$s"
+  },
+  "MessageReaction_Description2": {
+    "en": "%1$s and %2$s reacted with %3$s",
+    "ru": "Реакция %1$s и %2$s: %3$s"
+  },
+  "MessageReaction_Description2You": {
+    "en": "You and %1$s reacted with %2$s",
+    "ru": "Ваша реакция и реакция %1$s: %2$s"
+  },
+  "MessageReaction_Description3": {
+    "en": "%1$s, %2$s, and %3$s reacted with %4$s",
+    "ru": "Реакция %1$s, %2$s и %3$s: %4$s"
+  },
+  "MessageReaction_Description3You": {
+    "en": "You, %1$s, and %2$s reacted with %3$s",
+    "ru": "Ваша реакция, реакция %1$s и %2$s: %3$s"
+  },
+  "MessageReaction_DescriptionCountOnly": {
+    "en": "A user reacted with %1$s",
+    "ru": "Реакция пользователя: %2$s"
+  },
+  "MessageReaction_DescriptionCountOnly_Plural": {
+    "en": "%1$s users reacted with %2$s",
+    "ru": "Реакция пользователей (%1$s): %2$s"
+  },
+  "MessageReaction_DescriptionMany": {
+    "en": "%1$s, %2$s, and %3$s other users reacted with %4$s",
+    "ru": "Реакция %1$s, %2$s и других пользователей (%3$s): %4$s"
+  },
+  "MessageReaction_DescriptionManyYou": {
+    "en": "You, %1$s, and %2$s other users reacted with %3$s",
+    "ru": "Ваша реакция, реакция %1$s, %2$s и других пользователей: %3$s"
+  },
+  "MessageReaction_DescriptionYouAndCount": {
+    "en": "You and %1$s other user reacted with %2$s",
+    "ru": "Ваша реакция и реакция другого пользователя (%1$s): %2$s"
+  },
+  "MessageReaction_DescriptionYouAndCount_Plural": {
+    "en": "You and %1$s other users reacted with %2$s",
+    "ru": "Ваша реакция и реакция других пользователей (%1$s): %2$s"
+  },
+  "MobileChatUploadLogs": {
+    "en": "Upload Logs",
+    "ru": "Загрузить журналы"
+  },
+  "MobileChatUploadLogsDesc": {
+    "en": "Would you like to upload your app logs to help us diagnose this issue?",
+    "ru": "Хотите загрузить журналы, чтобы помочь нам определить неполадку?"
+  },
+  "MobileDisconnect_Loading": {
+    "en": "Friends Network Loading",
+    "ru": "Сеть друзей загружается"
+  },
+  "MobileDisconnect_Reconnecting": {
+    "en": "Reconnecting",
+    "ru": "Подключение"
+  },
+  "MobilePage_LoadFail": {
+    "en": "Oops, something went wrong while loading this page.",
+    "ru": "Ой! При загрузке страницы произошла ошибка."
+  },
+  "MobilePermission_ChoosePhoto": {
+    "en": "Oops, looks like your device was told to deny us photo library access!",
+    "ru": "Ой! Кажется, ваше устройство запрещает нам доступ к галерее изображений!"
+  },
+  "MobilePermission_Ensure": {
+    "en": "Please ensure your device grants us the necessary permissions and try again.",
+    "ru": "Пожалуйста, проверьте разрешения и повторите попытку."
+  },
+  "MobilePermission_TakePhoto": {
+    "en": "Oops, looks like your device was told to deny us camera or photo library access!",
+    "ru": "Ой! Кажется, настройки вашего устройства запрещают нам доступ к камере или галерее изображений!"
+  },
+  "MobileWelcomePage_Chat_Body": {
+    "en": "Check in with friends, coordinate a time to play with your group, or check out official game chats.",
+    "ru": "Свяжитесь с друзьями, назначьте время встречи со своей группой или загляните в официальный чат игры."
+  },
+  "MobileWelcomePage_Chat_Title": {
+    "en": "Chat with friends and groups",
+    "ru": "Общайтесь с друзьями и группами"
+  },
+  "MobileWelcomePage_FriendLink_Body": {
+    "en": "Adding a friend on Steam is now as easy as texting or emailing a custom link.",
+    "ru": "Добавить друга в Steam легче лёгкого: отправьте свою ссылку сообщением или по электронной почте."
+  },
+  "MobileWelcomePage_FriendLink_Title": {
+    "en": "Add friends with a link",
+    "ru": "Добавляйте друзей по ссылке"
+  },
+  "MobileWelcomePage_Friends_Body": {
+    "en": "Quickly see who is playing or is ready to play, so you never miss an opportunity.",
+    "ru": "Мгновенно узнайте, кто готов играть или уже играет, чтобы не упустить шанс присоединиться."
+  },
+  "MobileWelcomePage_Friends_Title": {
+    "en": "See who's playing now",
+    "ru": "Посмотрите, кто в игре"
+  },
+  "Mobile_SaveImageCaptures_AlertBody": {
+    "en": "We've saved the image to your device's camera roll.\n\nYou can disable this behavior in Settings > Interface.",
+    "ru": "Мы сохранили изображение в галерее вашего устройства.\n\nЭту настройку можно отключить, перейдя в «Настройки» > «Интерфейс»."
+  },
+  "Mobile_SaveImageCaptures_AlertTitle": {
+    "en": "Image Saved",
+    "ru": "Изображение сохранено"
+  },
+  "Nickname_AddANickname": {
+    "en": "Add a persistent nickname to keep track of this friend.",
+    "ru": "Чтобы не потерять друга, назначьте ему постоянный ник."
+  },
+  "Nickname_EditNickname": {
+    "en": "Change the nickname you've selected for this friend.",
+    "ru": "Изменить ник, который вы присвоили этому другу."
+  },
+  "Nickname_NickNameAsDialog": {
+    "en": "current nickname set as",
+    "ru": "текущий ник:"
+  },
+  "Nickname_PlaceHolderNickName": {
+    "en": "No nickname",
+    "ru": "Ник отсутствует"
+  },
+  "Nickname_PlaceHolderNickNameFresh": {
+    "en": "Enter a nickname",
+    "ru": "Введите ник"
+  },
+  "NonFriendAction_Allow": {
+    "en": "Allow Communications",
+    "ru": "Разрешить сообщения"
+  },
+  "NonFriendAction_Block": {
+    "en": "Block Communications",
+    "ru": "Запретить сообщения"
+  },
+  "NotificationBrowserWarning": {
+    "en": "Welcome to Steam Chat. Please allow notifications for the best chat experience.",
+    "ru": "Добро пожаловать в чат Steam. Чтобы пользоваться всеми его возможностями, разрешите оповещения в браузере."
+  },
+  "NotificationSetting_AllMessages": {
+    "en": "Every message",
+    "ru": "Обо всех сообщениях"
+  },
+  "NotificationSetting_AnyMention": {
+    "en": "@all, @online, and @mentions only",
+    "ru": "Только об @all, @online и @упоминаниях"
+  },
+  "NotificationSetting_ChannelOverrides": {
+    "en": "Channel overrides:",
+    "ru": "Особые настройки канала:"
+  },
+  "NotificationSetting_DefaultLabel": {
+    "en": "Default Group Chat Notifications ~ Notify me for:",
+    "ru": "Стандартные уведомления группового чата ~ Уведомлять меня:"
+  },
+  "NotificationSetting_DirectMention": {
+    "en": "Direct @mentions only",
+    "ru": "Только об @упоминаниях"
+  },
+  "NotificationSetting_Footer_Desc": {
+    "en": "Edit notification alert types from %1$s",
+    "ru": "Изменить типы уведомлений можно в меню «%1$s»"
+  },
+  "NotificationSetting_Footer_Desc2": {
+    "en": "Edit more notification types in %1$s",
+    "ru": "Другие типы уведомлений можно изменить в меню «%1$s»"
+  },
+  "NotificationSetting_Indicator": {
+    "en": "Display an indicator when there are any unread messages",
+    "ru": "Показывать значок непрочитанных сообщений"
+  },
+  "NotificationSetting_Inherit": {
+    "en": "Don't override",
+    "ru": "Не заменять настройки"
+  },
+  "NotificationSetting_Label": {
+    "en": "Notify me for:",
+    "ru": "Уведомлять меня:"
+  },
+  "NotificationSetting_None": {
+    "en": "None",
+    "ru": "Никогда"
+  },
+  "NotificationSetting_ShortLabel": {
+    "en": "Setting override:",
+    "ru": "Заменять настройки:"
+  },
+  "NotificationSettings_General": {
+    "en": "General",
+    "ru": "Общие"
+  },
+  "NotificationSettings_SubTitle": {
+    "en": "for chatroom %1$s",
+    "ru": "для чата «%1$s»"
+  },
+  "NotificationSettings_Title": {
+    "en": "Notifications",
+    "ru": "Уведомления"
+  },
+  "Notification_Spoiler": {
+    "en": "<spoiler>",
+    "ru": "<спойлер>"
+  },
+  "OpenSourceLicense_FieldLabel": {
+    "en": "License:",
+    "ru": "Лицензия:"
+  },
+  "OpenSourceLicense_NoText": {
+    "en": "Failed to load license text",
+    "ru": "Не удалось загрузить текст лицензии"
+  },
+  "OpenSourceLicenses_Label": {
+    "en": "Licenses",
+    "ru": "Лицензии"
+  },
+  "OpenSourceLicenses_Title": {
+    "en": "Open Source Licenses",
+    "ru": "Открытые лицензии"
+  },
+  "PersonaStateDoNotDisturbDescriptor": {
+    "en": "Disables all chat notifications",
+    "ru": "Отключает все уведомления в чатах"
+  },
+  "PersonaStateInvisible": {
+    "en": "Invisible",
+    "ru": "Невидимка"
+  },
+  "PersonaStateInvisibleDescription": {
+    "en": "Friends can't see you (you'll appear offline), but you can see them.",
+    "ru": "Друзья не будут видеть вас (для них вы будете вне сети), но вы будете их видеть."
+  },
+  "PersonaStateInvisibleDescriptor": {
+    "en": "Appear offline, but you can still chat",
+    "ru": "Вы будете показываться как «Не в сети», но по-прежнему сможете пользоваться чатом"
+  },
+  "PersonaStateInvisibleNote": {
+    "en": "Chat and notifications are still on.",
+    "ru": "Чат и уведомления останутся включёнными."
+  },
+  "PersonaStateOfflineDescriptor": {
+    "en": "Sign out of Friends & Chat",
+    "ru": "Выйти из системы друзей и чатов"
+  },
+  "PersonaStateOfflineSignOut": {
+    "en": "Offline/Sign Out",
+    "ru": "Не в сети / выйти"
+  },
+  "PersonaStateOnlineIngame": {
+    "en": "Online/In Game",
+    "ru": "В сети / в игре"
+  },
+  "PersonaStatePartyBeacon": {
+    "en": "Wants to Play",
+    "ru": "Хочет играть"
+  },
+  "PersonaStateWatchingBroadcast_Player": {
+    "en": "%1$s's broadcast",
+    "ru": "Трансляция %1$s"
+  },
+  "PersonaStateWatchingBroadcast_PlayerGame": {
+    "en": "%1$s's %2$s broadcast",
+    "ru": "%1$s транслирует %2$s"
+  },
+  "PushSettings_Title": {
+    "en": "Push Notifications",
+    "ru": "Push-уведомления"
+  },
+  "RecentChats_Empty": {
+    "en": "Recent chats will show up here.",
+    "ru": "Здесь будут недавние чаты."
+  },
+  "RecentChats_Hide": {
+    "en": "Hide",
+    "ru": "Скрыть"
+  },
+  "RecentChats_HideFriend_Description1": {
+    "en": "This chat will be hidden from the list until a new message is sent to the chat.",
+    "ru": "Этот чат будет скрыт до тех пор, пока в нём не появится новое сообщение."
+  },
+  "RecentChats_HideFriend_Description2": {
+    "en": "You can still access it from the friends list.",
+    "ru": "Если нужно, вы сможете найти его в списке друзей."
+  },
+  "RecentChats_HideGroup_Description1": {
+    "en": "This chat will be hidden from the list until you interact with it again.",
+    "ru": "Этот чат будет скрыт до тех пор, пока вы не совершите с ним какое-нибудь действие."
+  },
+  "RecentChats_HideGroup_Description2": {
+    "en": "You can still access it from the groups list.",
+    "ru": "Если нужно, вы сможете найти его в списке групп."
+  },
+  "RemotePlayTogether_QuickAccessTitle": {
+    "en": "Remote Play Together",
+    "ru": "Remote Play Together"
+  },
+  "RemotePlay_AddGuest_ButtonText": {
+    "en": "Add",
+    "ru": "Добавить"
+  },
+  "RemotePlay_AdditionalLinkCopy_Explanation": {
+    "en": "Create another link in order to invite an additional guest player.",
+    "ru": "Создать дополнительную ссылку, чтобы пригласить ещё одного игрока."
+  },
+  "RemotePlay_AdditionalLinkCopy_Title": {
+    "en": "Add Another Guest",
+    "ru": "Добавить гостя"
+  },
+  "RemotePlay_CancelInvite": {
+    "en": "Cancel Invite",
+    "ru": "Отменить приглашение"
+  },
+  "RemotePlay_ChangeControllerOrder": {
+    "en": "Edit Controllers",
+    "ru": "Изменить порядок расположения контроллеров"
+  },
+  "RemotePlay_ClientQuality": {
+    "en": "Quality",
+    "ru": "Качество"
+  },
+  "RemotePlay_ClientQualityName_Automatic": {
+    "en": "Automatic",
+    "ru": "Автоматически"
+  },
+  "RemotePlay_ClientQualityName_Balanced": {
+    "en": "Balanced",
+    "ru": "Сбалансировано"
+  },
+  "RemotePlay_ClientQualityName_Beautiful": {
+    "en": "Beautiful",
+    "ru": "Красиво"
+  },
+  "RemotePlay_ClientQualityName_Fast": {
+    "en": "Fast",
+    "ru": "Быстро"
+  },
+  "RemotePlay_ClientQuality_HostOverride": {
+    "en": "The host has set the streaming quality.",
+    "ru": "Источник задал качество трансляции."
+  },
+  "RemotePlay_ClientQuality_WithValue": {
+    "en": "Quality (%1$s)",
+    "ru": "Качество (%1$s)"
+  },
+  "RemotePlay_ControllerOrder": {
+    "en": "Controller Order",
+    "ru": "Порядок расположения контроллеров"
+  },
+  "RemotePlay_ControllerSlot_Empty": {
+    "en": "Empty",
+    "ru": "Пусто"
+  },
+  "RemotePlay_Controllers": {
+    "en": "Controllers",
+    "ru": "Контроллеры"
+  },
+  "RemotePlay_CopyLink_ButtonText": {
+    "en": "Copy",
+    "ru": "Скопировать"
+  },
+  "RemotePlay_CreateSession": {
+    "en": "Create Session",
+    "ru": "Создать сессию"
+  },
+  "RemotePlay_DeactivateController": {
+    "en": "Deactivate Controller",
+    "ru": "Выключить контроллер"
+  },
+  "RemotePlay_DisableIncomingAudio": {
+    "en": "Disable Incoming Audio",
+    "ru": "Отключить входящий звук"
+  },
+  "RemotePlay_EndSession": {
+    "en": "End Session",
+    "ru": "Закончить сессию"
+  },
+  "RemotePlay_Error": {
+    "en": "Remote Play Error",
+    "ru": "Ошибка Remote Play"
+  },
+  "RemotePlay_ErrorInviteFailed_BroadcastingActive": {
+    "en": "Remote Play Together invite failed because a broadcast is active.",
+    "ru": "Приглашение в Remote Play Together не отправлено: включена другая трансляция."
+  },
+  "RemotePlay_ErrorInviteFailed_Disabled": {
+    "en": "Remote Play Together invite failed because Remote Play is disabled in settings.",
+    "ru": "Приглашение в Remote Play Together не отправлено: функция Remote Play выключена в настройках."
+  },
+  "RemotePlay_ErrorInviteFailed_DriversNotInstalled": {
+    "en": "Remote Play Together requires additional driver installation, follow the Steam prompts to install drivers.",
+    "ru": "Для Remote Play Together требуются дополнительные драйверы. Следуйте инструкциям Steam, чтобы установить их."
+  },
+  "RemotePlay_ErrorInviteFailed_Failed": {
+    "en": "Remote Play Together invite failed, couldn't start streaming session.",
+    "ru": "Приглашение в Remote Play Together не отправлено: не удалось начать трансляцию."
+  },
+  "RemotePlay_ErrorInviteFailed_Invisible": {
+    "en": "Remote Play Together invite can't be sent while you are Invisible.",
+    "ru": "Вы не можете отправить приглашение Remote Play Together, находясь в режиме «Невидимка»."
+  },
+  "RemotePlay_ErrorInviteFailed_ParentalUnlockFailed": {
+    "en": "Remote Play Together invite failed because this game has not been approved in Family View.",
+    "ru": "Приглашение в Remote Play Together не отправлено: эта игра не одобрена для семейного просмотра."
+  },
+  "RemotePlay_ErrorInviteFailed_RestrictedCountry": {
+    "en": "Remote Play Together invite failed because this game is not available in your country.",
+    "ru": "Приглашение в Remote Play Together не отправлено: эта игра недоступна в вашей стране."
+  },
+  "RemotePlay_ErrorInviteFailed_ScreenLocked": {
+    "en": "Remote Play Together invite failed because the screen is locked.",
+    "ru": "Приглашение в Remote Play Together не отправлено: экран заблокирован."
+  },
+  "RemotePlay_ErrorInviteFailed_TransportUnavailable": {
+    "en": "Remote Play Together invite failed because Remote Play networking is not currently available, try again later.",
+    "ru": "Приглашение в Remote Play Together не отправлено: функция Remote Play в данный момент недоступна. Повторите попытку позже."
+  },
+  "RemotePlay_ErrorInviteFailed_VRActive": {
+    "en": "Remote Play Together invite failed because VR is active.",
+    "ru": "Приглашение в Remote Play Together не отправлено: включён VR-режим."
+  },
+  "RemotePlay_FriendsToInvite": {
+    "en": "Friends To Invite",
+    "ru": "Кого пригласить?"
+  },
+  "RemotePlay_GameMasterVolume": {
+    "en": "Game Volume",
+    "ru": "Громкость игры"
+  },
+  "RemotePlay_GameSettings": {
+    "en": "Game Settings",
+    "ru": "Настройки игры"
+  },
+  "RemotePlay_Guest_CopyHint": {
+    "en": "Copy & Share!",
+    "ru": "Скопировать и поделиться!"
+  },
+  "RemotePlay_Guest_CopyHint_Copied": {
+    "en": "Copied Link",
+    "ru": "Ссылка скопирована"
+  },
+  "RemotePlay_Host": {
+    "en": "Host",
+    "ru": "Хост"
+  },
+  "RemotePlay_IdentifyController": {
+    "en": "Identify Controller",
+    "ru": "Найти контроллер"
+  },
+  "RemotePlay_InactiveControllers": {
+    "en": "Inactive Controllers",
+    "ru": "Неактивные контроллеры"
+  },
+  "RemotePlay_InviteFriend": {
+    "en": "Add Friend",
+    "ru": "+ друг"
+  },
+  "RemotePlay_InviteFriend_ShortDescription": {
+    "en": "Invite one or more people from your Friend List!",
+    "ru": "Пригласите одного или нескольких своих друзей!"
+  },
+  "RemotePlay_InviteFriend_Verbose": {
+    "en": "Invite a Friend",
+    "ru": "Пригласить друга"
+  },
+  "RemotePlay_InviteGuest": {
+    "en": "Add Guest",
+    "ru": "+ гость"
+  },
+  "RemotePlay_InviteGuest_Verbose": {
+    "en": "Invite a Guest",
+    "ru": "Пригласить гостя"
+  },
+  "RemotePlay_Invited": {
+    "en": "Invite Sent",
+    "ru": "Приглашение отправлено"
+  },
+  "RemotePlay_Kick": {
+    "en": "Kick Player",
+    "ru": "Выгнать игрока"
+  },
+  "RemotePlay_LeaveStream": {
+    "en": "Leave Stream",
+    "ru": "Покинуть трансляцию"
+  },
+  "RemotePlay_LinkCopyExplanation": {
+    "en": "Share a link with %1$s and they can join your game using Remote Play Together.",
+    "ru": "Поделитесь ссылкой %1$s, чтобы к вашей игре можно было присоединиться с помощью Remote Play Together."
+  },
+  "RemotePlay_LinkCopyExplanation_Anyone": {
+    "en": "anyone",
+    "ru": "с кем угодно"
+  },
+  "RemotePlay_LinkCopyTitle": {
+    "en": "invite anyone to play",
+    "ru": "пригласить в игру кого угодно"
+  },
+  "RemotePlay_LinkCopy_Button": {
+    "en": "Copy Link",
+    "ru": "Скопировать ссылку"
+  },
+  "RemotePlay_LinkCopy_ShortDescription": {
+    "en": "Invite anyone with just a link!",
+    "ru": "Пригласите всех, кого хотите, с помощью ссылки!"
+  },
+  "RemotePlay_NoGameRunning": {
+    "en": "No Game Running",
+    "ru": "Нет запущенных игр"
+  },
+  "RemotePlay_NowPlaying": {
+    "en": "Now Playing",
+    "ru": "Сейчас в игре"
+  },
+  "RemotePlay_NumberedGuest": {
+    "en": "Guest %1$s",
+    "ru": "Гость %1$s"
+  },
+  "RemotePlay_Options": {
+    "en": "Options",
+    "ru": "Параметры"
+  },
+  "RemotePlay_PlayerNoInputWarning": {
+    "en": "This player has no input",
+    "ru": "У игрока нет способа ввода"
+  },
+  "RemotePlay_PlayerNoInputWarning_Concise": {
+    "en": "No player input",
+    "ru": "У игрока нет способа ввода"
+  },
+  "RemotePlay_Player_Invited": {
+    "en": "Invited",
+    "ru": "Приглашение отправлено"
+  },
+  "RemotePlay_Players": {
+    "en": "Players",
+    "ru": "Игроки"
+  },
+  "RemotePlay_ReactivateController": {
+    "en": "Reactivate Controller",
+    "ru": "Включить контроллер"
+  },
+  "RemotePlay_SharedInput": {
+    "en": "Shared Input",
+    "ru": "Общий ввод"
+  },
+  "RemotePlay_ShowProfile": {
+    "en": "View Profile",
+    "ru": "Открыть профиль"
+  },
+  "RemotePlay_SteamLinkNumberedGuest_Invited": {
+    "en": "Guest #%1$s (invite link active)",
+    "ru": "Гость %1$s (активная ссылка-приглашение)"
+  },
+  "RemotePlay_SteamLinkNumberedGuest_Joined": {
+    "en": "Guest #%1$s (joined via invite link)",
+    "ru": "Гость %1$s (присоединился по приглашению-ссылке)"
+  },
+  "RemotePlay_StreamPaused": {
+    "en": "Stream Is Paused (Return to game to resume)",
+    "ru": "Трансляция приостановлена (чтобы продолжить её, вернитесь в игру)"
+  },
+  "RemotePlay_ToggleDesktopAllowed": {
+    "en": "Pause Stream When Viewing Desktop",
+    "ru": "Приостановить трансляцию при просмотре рабочего стола"
+  },
+  "RemotePlay_UnknownGame": {
+    "en": "Unknown Game",
+    "ru": "Неизвестная игра"
+  },
+  "Reveal_Spoiler": {
+    "en": "Reveal spoiler",
+    "ru": "Показать спойлер"
+  },
+  "SearchByName": {
+    "en": "Filter by Name",
+    "ru": "Найти по имени"
+  },
+  "SearchError": {
+    "en": "An error occurred while searching",
+    "ru": "Во время поиска возникла ошибка"
+  },
+  "SearchFriends": {
+    "en": "Search Friends",
+    "ru": "Поиск по друзьям"
+  },
+  "Search_NonFriend01": {
+    "en": "Searching for someone who isn't a friend yet?",
+    "ru": "Ищете кого-то, кого нет у вас в друзьях?"
+  },
+  "Search_NonFriend02": {
+    "en": "The best way to add friends on Steam is with an %1$s.",
+    "ru": "Лучший способ добавлять друзей в Steam — это %1$s."
+  },
+  "Search_NonFriend02_Filler": {
+    "en": "Invite Link",
+    "ru": "ссылка-приглашение"
+  },
+  "Settings": {
+    "en": "Settings",
+    "ru": "Настройки"
+  },
+  "Settings_Capital": {
+    "en": "SETTINGS",
+    "ru": "НАСТРОЙКИ"
+  },
+  "SlashCommandCoinFlip_Result_heads": {
+    "en": "Heads",
+    "ru": "Орёл"
+  },
+  "SlashCommandCoinFlip_Result_tails": {
+    "en": "Tails",
+    "ru": "Решка"
+  },
+  "SlashCommandDescription_Code": {
+    "en": "Formats text as a block of code",
+    "ru": "Форматирует текст как блок кода"
+  },
+  "SlashCommandDescription_Flip": {
+    "en": "Flip a coin",
+    "ru": "Подбрасывает монетку"
+  },
+  "SlashCommandDescription_Giphy": {
+    "en": "Post a random animated gif by searching Giphy with your text",
+    "ru": "Отправляет случайную анимированную гифку, найденную с помощью вашего текста в сервисе Giphy"
+  },
+  "SlashCommandDescription_Me": {
+    "en": "Displays text as an action",
+    "ru": "Отображает текст в виде действия"
+  },
+  "SlashCommandDescription_Pre": {
+    "en": "Formats text in a fixed-width font, preserving whitespace",
+    "ru": "Шрифт текста изменяется на шрифт фиксированной ширины с сохранением пробелов"
+  },
+  "SlashCommandDescription_Quote": {
+    "en": "Formats text as a quote block",
+    "ru": "Форматирует текст как блок с цитатой"
+  },
+  "SlashCommandDescription_Random": {
+    "en": "Pick a random number ( i.e. /random 1000 or /random 500-1000 )",
+    "ru": "Выбирает случайное число (то есть /random 1000 или /random 500-1000)"
+  },
+  "SlashCommandDescription_Spoiler": {
+    "en": "Hides the content of a message until it is hovered",
+    "ru": "Скрывает содержимое сообщения, если не навести на него мышь"
+  },
+  "SlashCommandDescription_Store": {
+    "en": "Send a link to a game on the Steam Store",
+    "ru": "Отправить ссылку на страницу игры в магазине"
+  },
+  "SuspiciousMessage_Explanation": {
+    "en": "This chat looks suspicious. Do not sign into any account, including Steam, from links provided by this person. Steam representatives will NEVER contact you via chat or external programs. Links are disabled until this message is dismissed.",
+    "ru": "Эта переписка выглядит подозрительно. Не входите ни в какие свои аккаунты, включая Steam, по ссылкам от этого пользователя. Представители Steam НИКОГДА не свяжутся с вами через чат или сторонние программы. Ссылки не будут работать, пока вы не закроете это сообщение."
+  },
+  "SuspiciousMessage_Header": {
+    "en": "Suspicious Chat",
+    "ru": "Подозрительная переписка в чате"
+  },
+  "SuspiciousSender_Dialog_Block": {
+    "en": "Block %1$s",
+    "ru": "Заблокировать %1$s"
+  },
+  "SuspiciousSender_Dialog_Description1": {
+    "en": "Do not sign into any account, including Steam, from links in these messages. Steam representatives will NEVER contact you via chat or external programs. <1>Learn more</1> about Steam Security Recommendations.",
+    "ru": "Не входите ни в какие свои аккаунты, включая Steam, по ссылкам из этих сообщений. Представители Steam НИКОГДА не свяжутся с вами через чат или сторонние программы. Подробные рекомендации по защите аккаунта Steam читайте <1>здесь</1>."
+  },
+  "SuspiciousSender_Dialog_Description2": {
+    "en": "Links from this user will be disabled in this group until you dismiss this warning.",
+    "ru": "Ссылки от этого пользователя в группе не будут работать, пока вы не отмените предупреждение."
+  },
+  "SuspiciousSender_Dialog_Description3": {
+    "en": "Reporting these messages helps Steam take action and detect this type of content in the future.",
+    "ru": "Пожаловавшись на эти сообщения, вы поможете Steam принять меры и выявлять подобный контент в будущем."
+  },
+  "SuspiciousSender_Dialog_Dismiss": {
+    "en": "Dismiss Warning",
+    "ru": "Отменить предупреждение"
+  },
+  "SuspiciousSender_Dialog_Report": {
+    "en": "Report Messages",
+    "ru": "Пожаловаться на сообщения"
+  },
+  "SuspiciousSender_Dialog_Title": {
+    "en": "Suspicious Messages",
+    "ru": "Подозрительные сообщения"
+  },
+  "SuspiciousSender_MessageWarning": {
+    "en": "These messages look suspicious",
+    "ru": "Эти сообщения выглядят подозрительно"
+  },
+  "SuspiciousSender_ViewOptions": {
+    "en": "Click for options...",
+    "ru": "Открыть опции..."
+  },
+  "TapToReveal_Spoiler": {
+    "en": "Tap to reveal spoiler",
+    "ru": "Нажмите, чтобы открыть спойлер"
+  },
+  "TextFilterStatus_ChangeSettings": {
+    "en": "Change chat filtering preferences",
+    "ru": "Изменить настройки фильтрации чата"
+  },
+  "TextFilterStatus_Disabled": {
+    "en": "Currently set to allow strong profanity and slurs",
+    "ru": "Текущая настройка: показывать ругательства и оскорбления"
+  },
+  "TextFilterStatus_Enabled": {
+    "en": "Currently set to filter strong profanity and slurs",
+    "ru": "Текущая настройка: скрывать ругательства и оскорбления"
+  },
+  "TextFilterStatus_EnabledAllowProfanity": {
+    "en": "Currently set to allow strong profanity, but filter slurs",
+    "ru": "Текущая настройка: показывать ругательства, но скрывать оскорбления"
+  },
+  "TextFilterStatus_EnabledAllowProfanity_IgnoreFriends": {
+    "en": "Currently set to allow strong profanity, but filter slurs from everyone except friends",
+    "ru": "Текущая настройка: показывать ругательства, но скрывать оскорбления ото всех, кроме друзей"
+  },
+  "TextFilterStatus_Enabled_IgnoreFriends": {
+    "en": "Currently set to filter strong profanity and slurs from everyone except friends",
+    "ru": "Текущая настройка: скрывать ругательства и оскорбления ото всех, кроме друзей"
+  },
+  "TextFilterStatus_SteamLabOptedOut": {
+    "en": "Now available through Steam Labs",
+    "ru": "Новинка из лабораторий Steam уже доступна"
+  },
+  "ToggleLocalMicEcho": {
+    "en": "Toggle Local Mic Echo",
+    "ru": "Включить локальное эхо микрофона"
+  },
+  "ToggleVoiceConsoleLog": {
+    "en": "Toggle Voice Log To Console",
+    "ru": "Записывать чат в консоль"
+  },
+  "Tooltip_FriendsListUpdate": {
+    "en": "A new version of Steam Friends is ready to use",
+    "ru": "Доступна новая версия системы друзей в Steam"
+  },
+  "Tooltip_FriendsListUpdate_VeryOld": {
+    "en": "A new version of Steam Friends is ready to use, this version is more than a week old",
+    "ru": "Доступна новая версия системы друзей в Steam. С выхода текущей версии прошло больше недели"
+  },
+  "Tooltip_NotificationSettings": {
+    "en": "Manage notification settings",
+    "ru": "Настройки уведомлений"
+  },
+  "Tooltip_RemotePlayControllerAssignments": {
+    "en": "Rearrange controller assignments by dragging into slots",
+    "ru": "Изменяйте назначения контроллеров, перетаскивая их в ячейки"
+  },
+  "Tooltip_RemotePlayDisableController": {
+    "en": "Allowing Controllers",
+    "ru": "Контроллеры разрешены"
+  },
+  "Tooltip_RemotePlayDisableKeyboard": {
+    "en": "Sharing Host Keyboard",
+    "ru": "Используется клавиатура хоста"
+  },
+  "Tooltip_RemotePlayDisableMouse": {
+    "en": "Sharing Host Mouse",
+    "ru": "Используется мышь хоста"
+  },
+  "Tooltip_RemotePlayEnableController": {
+    "en": "Controllers Disabled",
+    "ru": "Контроллеры выключены"
+  },
+  "Tooltip_RemotePlayEnableKeyboard": {
+    "en": "Keyboard Disabled",
+    "ru": "Клавиатура выключена"
+  },
+  "Tooltip_RemotePlayEnableMouse": {
+    "en": "Mouse Disabled",
+    "ru": "Мышь выключена"
+  },
+  "Tooltip_RemotePlayOtherController": {
+    "en": "%1$s's Controller",
+    "ru": "Контроллер %1$s"
+  },
+  "Tooltip_RemotePlay_ConnectionQuality": {
+    "en": "Connection Quality",
+    "ru": "Качество соединения"
+  },
+  "Tooltip_RemotePlay_ControllersDisabled": {
+    "en": "Controllers Disabled",
+    "ru": "Контроллеры выключены"
+  },
+  "Tooltip_RemotePlay_ControllersEnabled": {
+    "en": "Controllers Enabled",
+    "ru": "Контроллеры включены"
+  },
+  "Tooltip_RemotePlay_CreateInvite": {
+    "en": "Create Invite",
+    "ru": "Создать приглашение"
+  },
+  "Tooltip_RemotePlay_DisableControllers": {
+    "en": "Drag to a slot below to reassign. Click to disable.",
+    "ru": "Перетащите в ячейку ниже для переназначения. Нажмите, чтобы выключить."
+  },
+  "Tooltip_RemotePlay_DisableControllers_Standalone": {
+    "en": "Disable Controllers",
+    "ru": "Выключить контроллеры"
+  },
+  "Tooltip_RemotePlay_DisableKeyboard": {
+    "en": "Disable Keyboard Control",
+    "ru": "Выключить управление клавиатурой"
+  },
+  "Tooltip_RemotePlay_DisableMouse": {
+    "en": "Disable Mouse Control",
+    "ru": "Выключить управление мышью"
+  },
+  "Tooltip_RemotePlay_EnableControllers": {
+    "en": "Drag to a slot below to reassign. Click to enable.",
+    "ru": "Перетащите в ячейку ниже для переназначения. Нажмите, чтобы включить."
+  },
+  "Tooltip_RemotePlay_EnableControllers_Standalone": {
+    "en": "Enable Controllers",
+    "ru": "Включить контроллеры"
+  },
+  "Tooltip_RemotePlay_EnableKeyboard": {
+    "en": "Enable Keyboard Control",
+    "ru": "Включить управление клавиатурой"
+  },
+  "Tooltip_RemotePlay_EnableMouse": {
+    "en": "Enable Mouse Control",
+    "ru": "Включить управление мышью"
+  },
+  "Tooltip_RemotePlay_KeyboardDisabled": {
+    "en": "Keyboard Disabled",
+    "ru": "Клавиатура выключена"
+  },
+  "Tooltip_RemotePlay_KeyboardEnabled": {
+    "en": "Keyboard Enabled",
+    "ru": "Клавиатура включена"
+  },
+  "Tooltip_RemotePlay_MouseDisabled": {
+    "en": "Mouse Disabled",
+    "ru": "Мышь выключена"
+  },
+  "Tooltip_RemotePlay_MouseEnabled": {
+    "en": "Mouse Enabled",
+    "ru": "Мышь включена"
+  },
+  "TradeOfferLink_Label": {
+    "en": "Trade Offer URL:",
+    "ru": "Предложение обмена:"
+  },
+  "TradeOfferLink_SendOffer": {
+    "en": "Send a trade offer",
+    "ru": "Отправить предложение обмена"
+  },
+  "TradeOfferLink_SendUserOffer": {
+    "en": "Send %1$s a trade offer",
+    "ru": "Отправить предложение обмена пользователю %1$s"
+  },
+  "TradeOfferLink_SharedTradeLink": {
+    "en": "%1$s is accepting trades",
+    "ru": "Пользователь %1$s готов обменяться"
+  },
+  "TradeOffer_FriendSentYou": {
+    "en": "%1$s sent you a new trade offer",
+    "ru": "%1$s отправляет вам предложение обмена"
+  },
+  "TradeOffer_ViewTradeOffer": {
+    "en": "View trade offer",
+    "ru": "Показать предложение"
+  },
+  "TradeOffer_YouSentFriend": {
+    "en": "You sent %1$s a new trade offer",
+    "ru": "Вы отправили предложение обмена пользователю %1$s"
+  },
+  "VoiceChatConnecting": {
+    "en": "Connecting...",
+    "ru": "Подключение…"
+  },
+  "VoiceChatConnectingHelp": {
+    "en": "Get help with Voice Chat connection issues",
+    "ru": "Помощь при проблемах подключения к голосовому чату"
+  },
+  "VoiceChatParterConnecting": {
+    "en": "Waiting on %1$s to connect...",
+    "ru": "%1$s подключается..."
+  },
+  "VoiceChatReconnecting": {
+    "en": "Reconnecting...",
+    "ru": "Переподключение..."
+  },
+  "VoiceChat_AdjustMicVolume": {
+    "en": "Adjust Mic Volume",
+    "ru": "Настроить громкость микрофона"
+  },
+  "VoiceChat_AdjustVoiceVolume": {
+    "en": "Adjust Voice Volume",
+    "ru": "Настроить громкость голосового чата"
+  },
+  "VoiceChat_AudioLevelDb": {
+    "en": "%1$s dB",
+    "ru": "%1$s дБ"
+  },
+  "VoiceChat_AudioSettings": {
+    "en": "Voice Chat Audio",
+    "ru": "Аудио голосового чата"
+  },
+  "VoiceChat_CallOnHold": {
+    "en": "Call On Hold...",
+    "ru": "Звонок удерживается..."
+  },
+  "VoiceChat_ChromeSampleRateTooHighMicExplainer": {
+    "en": "Your default playback device has a sample rate of more than 48000Hz, which is not currently supported in Chrome. Try in the Steam Client!",
+    "ru": "Частота вашего устройства воспроизведения по умолчанию составляет более 48 000 Гц и не поддерживается в Chrome. Воспользуйтесь клиентом Steam!"
+  },
+  "VoiceChat_DeniedMicrophoneAccess": {
+    "en": "Oops, looks like your browser was told to deny us microphone access!",
+    "ru": "Ой! Кажется, настройки вашего браузера запрещают нам доступ к микрофону!"
+  },
+  "VoiceChat_GoToAudioSettings": {
+    "en": "Audio Settings",
+    "ru": "Настройки звука"
+  },
+  "VoiceChat_InVoiceChat": {
+    "en": "In Voice Chat",
+    "ru": "В голосовом чате"
+  },
+  "VoiceChat_InviteOthers": {
+    "en": "Invite Others",
+    "ru": "Пригласить других"
+  },
+  "VoiceChat_InviteToChannel": {
+    "en": "Invite to Voice Channel",
+    "ru": "Пригласить в голосовой канал"
+  },
+  "VoiceChat_Join": {
+    "en": "Join Voice Chat",
+    "ru": "Войти в голосовой чат"
+  },
+  "VoiceChat_Leave": {
+    "en": "Leave Voice Chat",
+    "ru": "Выйти из голосового чата"
+  },
+  "VoiceChat_LeaveVoiceRoom": {
+    "en": "Leave Voice Room",
+    "ru": "Покинуть голосовую комнату"
+  },
+  "VoiceChat_ManageRoom": {
+    "en": "Manage Voice Room",
+    "ru": "Управление голосовой комнатой"
+  },
+  "VoiceChat_Mute": {
+    "en": "Mute",
+    "ru": "Выкл. микрофон"
+  },
+  "VoiceChat_MuteMic": {
+    "en": "Mute Microphone",
+    "ru": "Выключить микрофон"
+  },
+  "VoiceChat_MuteMic_Deck": {
+    "en": "Mute Mic",
+    "ru": "Выключить микрофон"
+  },
+  "VoiceChat_MuteSpeaker": {
+    "en": "Disable Incoming Audio",
+    "ru": "Отключить входящий звук"
+  },
+  "VoiceChat_MuteVoice_Deck": {
+    "en": "Mute Voice",
+    "ru": "Заглушить голосовой чат"
+  },
+  "VoiceChat_NoneActive": {
+    "en": "No Active Voice Chats",
+    "ru": "Нет активных голосовых чатов"
+  },
+  "VoiceChat_Options": {
+    "en": "Options",
+    "ru": "Параметры"
+  },
+  "VoiceChat_PendingRequests": {
+    "en": "Incoming Voice Call...",
+    "ru": "Входящий звонок..."
+  },
+  "VoiceChat_SendInviteMessage": {
+    "en": "Send Invite Message",
+    "ru": "Отправить приглашение"
+  },
+  "VoiceChat_Switch": {
+    "en": "Switch to Chat Room",
+    "ru": "Перейти в чат"
+  },
+  "VoiceChat_Unavailable_MobileChat": {
+    "en": "Voice chat is not supported on mobile.",
+    "ru": "Голосовой чат не поддерживается на мобильных устройствах."
+  },
+  "VoiceChat_Unavailable_NotFriend": {
+    "en": "Voice unavailable: %1$s is not on your friends list.",
+    "ru": "Голосовой чат недоступен: пользователя %1$s нет в списке ваших друзей."
+  },
+  "VoiceChat_Unavailable_NotInBeta": {
+    "en": "Voice unavailable: %1$s is not running the new chat beta.",
+    "ru": "Голосовой чат недоступен: %1$s не участвует в программе бета-тестирования чата."
+  },
+  "VoiceChat_Unavailable_NotOnline": {
+    "en": "Voice unavailable: %1$s is not currently online.",
+    "ru": "Голосовой чат недоступен: %1$s сейчас не в сети."
+  },
+  "VoiceChat_Unavailable_NotSupported": {
+    "en": "Not Supported",
+    "ru": "Не поддерживается"
+  },
+  "VoiceChat_Unmute": {
+    "en": "Unmute",
+    "ru": "Вкл. микрофон"
+  },
+  "VoiceChat_UnmuteMic": {
+    "en": "Unmute Microphone",
+    "ru": "Включить микрофон"
+  },
+  "VoiceChat_UnmuteMic_Deck": {
+    "en": "Unmute Mic",
+    "ru": "Включить микрофон"
+  },
+  "VoiceChat_UnmuteSpeaker": {
+    "en": "Enable Incoming Audio",
+    "ru": "Включить входящий звук"
+  },
+  "VoiceChat_UnmuteVoice_Deck": {
+    "en": "Unmute Voice",
+    "ru": "Включить голосовой чат"
+  },
+  "VoiceChat_ViewQuickChat": {
+    "en": "View Quick Chat",
+    "ru": "Открыть быстрый чат"
+  },
+  "Voice_Accept": {
+    "en": "Accept",
+    "ru": "Принять"
+  },
+  "Voice_ChannelActive": {
+    "en": "Voice chatting with %1$s",
+    "ru": "Голосовой чат с %1$s"
+  },
+  "Voice_ChannelAvailable": {
+    "en": "%1$s would like to voice chat",
+    "ru": "%1$s хочет начать голосовой чат"
+  },
+  "Voice_ChannelRejoinAvailable": {
+    "en": "%1$s is waiting on you to rejoin the voice chat",
+    "ru": "%1$s ожидает вас в голосовом чате"
+  },
+  "Voice_Decline": {
+    "en": "Decline",
+    "ru": "Отклонить"
+  },
+  "Voice_DeclineVoiceChat": {
+    "en": "Decline Voice Chat",
+    "ru": "Отклонить голосовой чат"
+  },
+  "Voice_DefaultCommunicationsDefault": {
+    "en": "Communications Device",
+    "ru": "Стандартное устройство"
+  },
+  "Voice_End": {
+    "en": "Hang Up",
+    "ru": "Завершить"
+  },
+  "Voice_EndVoice": {
+    "en": "End Voice Chat",
+    "ru": "Закончить звонок"
+  },
+  "Voice_LeftIdleVoiceChat_Body": {
+    "en": "Your voice session was disconnected after over one hour of inactivity.",
+    "ru": "Голосовая сессия завершена после часа бездействия."
+  },
+  "Voice_LeftIdleVoiceChat_OK": {
+    "en": "OK",
+    "ru": "ОК"
+  },
+  "Voice_LeftIdleVoiceChat_Title": {
+    "en": "Voice Chat Timed Out",
+    "ru": "Время ожидания истекло"
+  },
+  "Voice_LogsCopied_Body": {
+    "en": "Voice logs for this session have been copied to the system clipboard.",
+    "ru": "Журнал ошибок голосового чата для этой сессии скопирован в буфер обмена."
+  },
+  "Voice_LogsCopied_OK": {
+    "en": "OK",
+    "ru": "ОК"
+  },
+  "Voice_LogsCopied_Title": {
+    "en": "Voice Logs Copied",
+    "ru": "Журнал ошибок скопирован"
+  },
+  "Voice_Resume": {
+    "en": "Resume Call",
+    "ru": "Возобновить звонок"
+  },
+  "Voice_StartChat": {
+    "en": "Start Voice Chat",
+    "ru": "Начать голосовой чат"
+  },
+  "Voice_StartTalking": {
+    "en": "Start Talking",
+    "ru": "Начать разговор"
+  },
+  "Voice_StopTalking": {
+    "en": "Stop Talking",
+    "ru": "Закончить разговор"
+  },
+  "Voice_VoiceUnavailableInBrowser_Body": {
+    "en": "Steam Voice Chat is currently unsupported in %1$s.  Please use the Steam Client or Chrome to enable Voice Chat.",
+    "ru": "В данный момент голосовой чат Steam в %1$s не поддерживается. Пожалуйста, используйте клиент Steam или Chrome."
+  },
+  "Voice_VoiceUnavailableInBrowser_OK": {
+    "en": "OK",
+    "ru": "OK"
+  },
+  "Voice_VoiceUnavailableInBrowser_Title": {
+    "en": "Browser not supported",
+    "ru": "Браузер не поддерживается"
+  },
+  "Voice_WaitingForFriendToJoin": {
+    "en": "Waiting for %1$s to join",
+    "ru": "Ожидание пользователя %1$s"
+  },
+  "WelcomeScreen_Subtitle": {
+    "en": "to Steam Chat",
+    "ru": "Это чат Steam"
+  },
+  "WelcomeScreen_Title": {
+    "en": "Welcome",
+    "ru": "Привет!"
+  },
+  "WindowTitle_ChatTabTitle": {
+    "en": "%1$s + 1 Chat",
+    "ru": "%1$s и другие чаты"
+  },
+  "WindowTitle_ChatTabTitlePlural": {
+    "en": "%1$s + %2$s Chats",
+    "ru": "%1$s и другие чаты"
+  },
+  "WindowTitle_FriendsList": {
+    "en": "Friends List",
+    "ru": "Список друзей"
+  },
+  "WindowTitle_UnreadMessage": {
+    "en": "%1$s says...",
+    "ru": "%1$s пишет..."
+  },
+  "bbcode_community_publishedfile_vote_up": {
+    "en": "Rate",
+    "ru": "Оценить"
+  },
+  "bbcode_disable_embed_inlining_parenthetical": {
+    "en": "%1$s (%2$s)",
+    "ru": "%1$s (%2$s)"
+  },
+  "bbcode_disable_embed_inlining_steam_workshop": {
+    "en": "%1$s (Steam Workshop)",
+    "ru": "%1$s (мастерская Steam)"
+  },
+  "bbcode_disable_embed_inlining_tweet": {
+    "en": "%1$s on %2$s:",
+    "ru": "%1$s (%2$s):"
+  },
+  "bbcode_econ_ItemTitle": {
+    "en": "%1$s's %2$s",
+    "ru": "%2$s пользователя %1$s"
+  },
+  "bbcode_econ_LoadFail": {
+    "en": "Failed to load more information about this item",
+    "ru": "Не удалось загрузить информацию об этом предмете"
+  },
+  "bbcode_econ_TradeTitle": {
+    "en": "Trade",
+    "ru": "Обмен"
+  },
+  "bbcode_econ_TradeWithOwner": {
+    "en": "Trade with %1$s",
+    "ru": "Обмен с %1$s"
+  },
+  "bbcode_econ_UnknownItem": {
+    "en": "Unknown Item",
+    "ru": "Неизвестный предмет"
+  },
+  "bbcode_econ_ViewInMarket": {
+    "en": "View in Community Market",
+    "ru": "Найти на Торговой площадке"
+  },
+  "bbcode_flip_description": {
+    "en": "%1$s flipped a coin",
+    "ru": "%1$s подбрасывает монетку"
+  },
+  "bbcode_image_description": {
+    "en": "%1$s shared an image",
+    "ru": "%1$s делится изображением"
+  },
+  "bbcode_image_link_giphy": {
+    "en": "/GIPHY %1$s",
+    "ru": "/GIPHY %1$s"
+  },
+  "bbcode_image_minimized": {
+    "en": "Image hidden",
+    "ru": "Изображение скрыто"
+  },
+  "bbcode_image_minimized_URL": {
+    "en": "URL: ",
+    "ru": "Ссылка: "
+  },
+  "bbcode_image_popout": {
+    "en": "Image Popout",
+    "ru": "Всплывающее изображение"
+  },
+  "bbcode_image_tooltip_collapse": {
+    "en": "Hide image in chat",
+    "ru": "Скрыть изображение в чате"
+  },
+  "bbcode_image_tooltip_link": {
+    "en": "Open image in new window",
+    "ru": "Открыть изображение в новом окне"
+  },
+  "bbcode_image_tooltip_link_giphy": {
+    "en": "Open giphy in new window",
+    "ru": "Открыть изображение в новом окне"
+  },
+  "bbcode_image_tooltip_resize": {
+    "en": "Drag to resize image",
+    "ru": "Потащите, чтобы изменить размер изображения"
+  },
+  "bbcode_image_tooltip_restore": {
+    "en": "Restore to original size",
+    "ru": "Вернуть исходный размер"
+  },
+  "bbcode_image_tooltip_uncollapse": {
+    "en": "Unhide image in chat",
+    "ru": "Показать изображение в чате"
+  },
+  "bbcode_invite_already_group_member": {
+    "en": "Already a member",
+    "ru": "Уже в чате"
+  },
+  "bbcode_invite_already_group_member_long": {
+    "en": "You are already a member of this group",
+    "ru": "Вы уже состоите в этой группе"
+  },
+  "bbcode_invite_banned_forever": {
+    "en": "You are currently banned from this group",
+    "ru": "Вы заблокированы в этой группе"
+  },
+  "bbcode_invite_banned_until": {
+    "en": "You are banned from this group until: %1$s",
+    "ru": "Вы заблокированы в этой группе до %1$s"
+  },
+  "bbcode_invite_description": {
+    "en": "%1$s invited you to a group chat",
+    "ru": "%1$s приглашает вас в групповой чат"
+  },
+  "bbcode_invite_expires": {
+    "en": "Invite expires at %1$s, %2$s",
+    "ru": "Срок действия приглашения истекает в %1$s, %2$s"
+  },
+  "bbcode_invite_link": {
+    "en": "Click here to join",
+    "ru": "Нажмите, чтобы присоединиться"
+  },
+  "bbcode_invite_link_text_expired": {
+    "en": "EXPIRED",
+    "ru": "СРОК ДЕЙСТВИЯ ИСТЁК"
+  },
+  "bbcode_invite_never_expires": {
+    "en": "Invite does not expire",
+    "ru": "Срок действия приглашения не ограничен"
+  },
+  "bbcode_invite_no_longer_valid": {
+    "en": "A Group Chat invite was shared that is no longer valid",
+    "ru": "Отправленное приглашение в групповой чат уже недействительно"
+  },
+  "bbcode_invite_requesting_info": {
+    "en": "Requesting Info...",
+    "ru": "Информация запрашивается..."
+  },
+  "bbcode_invite_url_desc": {
+    "en": "URL:",
+    "ru": "Ссылка:"
+  },
+  "bbcode_invite_url_description": {
+    "en": "%1$s shared a group chat invite link",
+    "ru": "%1$s отправляет ссылку с приглашением в чат"
+  },
+  "bbcode_invite_voice_description": {
+    "en": "%1$s invited you to a voice channel in %2$s",
+    "ru": "%1$s приглашает вас в голосовой канал %2$s"
+  },
+  "bbcode_invite_voice_group_name": {
+    "en": "voice channel in %1$s",
+    "ru": "голосовой канал в %1$s"
+  },
+  "bbcode_invite_voice_url_description": {
+    "en": "%1$s shared a voice link from %2$s",
+    "ru": "%1$s делится голосовой ссылкой из %2$s"
+  },
+  "bbcode_invite_you_invited_friend": {
+    "en": "You invited %1$s to a group chat",
+    "ru": "Вы пригласили %1$s в групповой чат"
+  },
+  "bbcode_invite_you_invited_friend_voice": {
+    "en": "You invited %1$s to a voice channel in %2$s",
+    "ru": "Вы пригласили %1$s в голосовой канал %2$s"
+  },
+  "bbcode_invite_you_shared_invite_link": {
+    "en": "You shared a group chat invite link",
+    "ru": "Вы отправили ссылку с приглашением в групповой чат"
+  },
+  "bbcode_invite_you_shared_voice_link": {
+    "en": "You shared a voice link from %1$s",
+    "ru": "Вы поделились голосовой ссылкой из %1$s"
+  },
+  "bbcode_invite_youre_invited": {
+    "en": "You've been invited to a group chat",
+    "ru": "Вас пригласили в групповой чат"
+  },
+  "bbcode_inviteurl_description": {
+    "en": "%1$s shared an invite link",
+    "ru": "%1$s делится ссылкой с приглашением"
+  },
+  "bbcode_linkremoved": {
+    "en": "{LINK REMOVED}",
+    "ru": "{ССЫЛКА УДАЛЕНА}"
+  },
+  "bbcode_linkremoved_desc": {
+    "en": "WARNING: Suspicious URL: ",
+    "ru": "ВНИМАНИЕ! Подозрительная ссылка: "
+  },
+  "bbcode_oembed_author": {
+    "en": "by %1$s",
+    "ru": "автор: %1$s"
+  },
+  "bbcode_oembed_preview_hint": {
+    "en": "Click to activate",
+    "ru": "Нажмите, чтобы активировать"
+  },
+  "bbcode_random_description": {
+    "en": "%1$s generated a random number",
+    "ru": "%1$s генерирует случайное число"
+  },
+  "bbcode_steam_store_embed_Failed": {
+    "en": "%1$s sent a %2$s link that failed to load. (%3$s)",
+    "ru": "Ссылка на страницу «%2$s», отправленная пользователем %1$s, не загрузилась (%3$s)."
+  },
+  "bbcode_steam_store_embed_Failed_Steam_Store": {
+    "en": "Steam Store",
+    "ru": "Магазин Steam"
+  },
+  "bbcode_steam_store_embed_Filtered": {
+    "en": "A Steam product page was shared that does not pass your chosen content filter.",
+    "ru": "Пользователь поделился страницей продукта, который не прошёл ваш фильтр контента."
+  },
+  "bbcode_steam_store_embed_FreeToPlay": {
+    "en": "Free to Play",
+    "ru": "Бесплатно"
+  },
+  "bbcode_steam_store_embed_From": {
+    "en": "from ",
+    "ru": "от "
+  },
+  "bbcode_steam_store_embed_Image_Filtered": {
+    "en": "Hidden",
+    "ru": "Скрыто"
+  },
+  "bbcode_steam_store_embed_ReleaseDate": {
+    "en": "Release Date: ",
+    "ru": "Дата выпуска: "
+  },
+  "bbcode_steam_store_embed_ViewStorePage": {
+    "en": "View Store Page",
+    "ru": "Страница в магазине"
+  },
+  "bbcode_steam_store_embed_ViewStorePage_Filtered": {
+    "en": "Proceed to Store Page Anyway",
+    "ru": "Всё равно перейти на страницу в магазине"
+  },
+  "bbcode_sticker_description": {
+    "en": "%1$s sent a sticker",
+    "ru": "%1$s отправляет стикер"
+  },
+  "bbcode_video_description": {
+    "en": "%1$s shared a video",
+    "ru": "%1$s делится видео"
+  },
+  "bbcode_video_minimized": {
+    "en": "Video hidden",
+    "ru": "Видео скрыто"
+  },
+  "bbcode_video_pause": {
+    "en": "Pause",
+    "ru": "Приостановить"
+  },
+  "bbcode_video_play": {
+    "en": "Play",
+    "ru": "Воспроизвести"
+  },
+  "bbcode_video_tooltip_collapse": {
+    "en": "Hide video in chat",
+    "ru": "Скрыть видео в чате"
+  },
+  "bbcode_video_tooltip_link": {
+    "en": "Open video in new window",
+    "ru": "Открыть видео в новом окне"
+  },
+  "bbcode_video_tooltip_resize": {
+    "en": "Drag to resize video",
+    "ru": "Потащите, чтобы изменить размер видео"
+  },
+  "bbcode_video_tooltip_restore": {
+    "en": "Restore to original size",
+    "ru": "Вернуть исходный размер"
+  },
+  "bbcode_video_tooltip_uncollapse": {
+    "en": "Unhide video in chat",
+    "ru": "Показать видео в чате"
+  },
+  "bbcode_youtube_author": {
+    "en": "by %1$s",
+    "ru": "автор: %1$s"
+  },
+  "broadcastDetails_Playing": {
+    "en": "Playing",
+    "ru": "Воспроизведение"
+  },
+  "changeLog_UpdateItem54": {
+    "en": "Fixed a crash while playing some types of mp4 files.",
+    "ru": "Устранён сбой при воспроизведении некоторых файлов mp4."
+  },
+  "changeLog_UpdateItem55": {
+    "en": "Fixed tab switching shortcuts while using the new chat in the overlay on macOS.",
+    "ru": "Исправлено сочетание клавиш для переключения вкладок при использовании нового чата в оверлее на macOS."
+  },
+  "changeLog_UpdateItem56": {
+    "en": "Friends list and chat windows now snap to monitor edges on Windows.",
+    "ru": "Окна списка друзей и чата теперь выравниваются по краям монитора в Windows."
+  },
+  "changeLog_UpdateItem57": {
+    "en": "Fixed Friends and Chat windows not displaying in the in-game overlay on Linux and macOS.",
+    "ru": "Исправлена ошибка, из-за которой окна друзей и чата не отображались во внутриигровом оверлее на Linux и macOS."
+  },
+  "changeLog_WhatsNew": {
+    "en": "What's New",
+    "ru": "Что нового"
+  },
+  "tab_chats": {
+    "en": "Group Chats",
+    "ru": "Групповые чаты"
+  },
+  "tab_chats_capital": {
+    "en": "GROUPS",
+    "ru": "ГРУППЫ"
+  },
+  "tab_friends": {
+    "en": "Friends",
+    "ru": "Друзья"
+  },
+  "tab_friends_capital": {
+    "en": "FRIENDS",
+    "ru": "ДРУЗЬЯ"
+  }
+}

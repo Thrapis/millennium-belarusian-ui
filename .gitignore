@@ -3,3 +3,6 @@ node_modules/
 /build/
 *.star
 /l10n/
+/frontend/generated/
+/local.env
+/translations/be.*/
