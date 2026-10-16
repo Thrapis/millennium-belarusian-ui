@@ -12,7 +12,7 @@ function install(): void {
   const t0 = performance.now();
   const applied = installOverrides(mgr, translations);
   console.log(
-    `[belarusian-ui] applied ${applied} of ${mgr.m_mapTokens.size} tokens ` +
+    `[belarusian-ui] overrode ${applied.overridden} tokens, injected ${applied.injected} ` +
       `in ${(performance.now() - t0).toFixed(2)} ms`,
   );
 }

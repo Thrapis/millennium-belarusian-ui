@@ -31,23 +31,39 @@ function resolve(t: CompiledTranslations, id: string, loaded: string | undefined
   return (alt && Object.hasOwn(alt, loaded!) ? alt[loaded!] : undefined) ?? t.tokens[id];
 }
 
-/** Writes translations for every id already in the map. Returns how many were applied. */
-export function applyOverrides(map: Map<string, string>, t: CompiledTranslations): number {
-  let applied = 0;
-  for (const id in t.tokens) {
-    const loaded = map.get(id);
-    if (loaded === undefined) continue;
-    map.set(id, resolve(t, id, loaded)!);
-    applied++;
-  }
-  return applied;
+export interface ApplyResult {
+  /** Tokens Steam had loaded, replaced with Belarusian. */
+  overridden: number;
+  /** Tokens Steam had not loaded into the map, added. */
+  injected: number;
 }
 
 /**
- * Applies translations now and after every later AddTokens call (tokens Steam loads lazily).
- * Idempotent per manager. Returns the number of tokens overridden immediately.
+ * Writes the translation of every compiled token into the map. Tokens Steam did not load here
+ * are added too: its "shared" module lives in a separate store that LocalizeString only
+ * consults for tokens missing from this map, so only an entry in the map gets translated.
  */
-export function installOverrides(mgr: LocalizationManagerLike, t: CompiledTranslations): number {
+export function applyOverrides(map: Map<string, string>, t: CompiledTranslations): ApplyResult {
+  const r: ApplyResult = { overridden: 0, injected: 0 };
+  for (const id in t.tokens) {
+    const loaded = map.get(id);
+    map.set(id, resolve(t, id, loaded)!);
+    if (loaded === undefined) r.injected++;
+    else r.overridden++;
+  }
+  return r;
+}
+
+/** Adds the tokens a map lost (Steam clears it when it re-initialises); never touches present ones. */
+function injectMissing(map: Map<string, string>, t: CompiledTranslations): void {
+  for (const id in t.tokens) if (!map.has(id)) map.set(id, resolve(t, id, undefined)!);
+}
+
+/**
+ * Applies translations now and after every later AddTokens call (tokens Steam loads lazily,
+ * or loads again after clearing the map). Idempotent per manager.
+ */
+export function installOverrides(mgr: LocalizationManagerLike, t: CompiledTranslations): ApplyResult {
   const applied = applyOverrides(mgr.m_mapTokens, t);
   const marked = mgr as LocalizationManagerLike & { __beOverrides?: boolean };
   if (!marked.__beOverrides) {
@@ -62,6 +78,7 @@ export function installOverrides(mgr: LocalizationManagerLike, t: CompiledTransl
           if (be !== undefined) this.m_mapTokens.set(id, be);
         }
       }
+      injectMissing(this.m_mapTokens, t);
     };
   }
   mgr.m_cbkTokensChanged?.Dispatch();

@@ -26,15 +26,35 @@ const t = (tokens: Record<string, string>, byEnglish: CompiledTranslations["byEn
 });
 
 describe("installOverrides", () => {
-  // Proves already-loaded tokens are replaced, unknown ids are not injected, and React is told to re-render.
+  // Proves already-loaded tokens are replaced and React is told to re-render.
   it("overrides existing tokens and notifies", () => {
     const mgr = fakeManager({ MainTabsLibrary: "Library", Other: "Other" });
-    const applied = installOverrides(mgr, t({ MainTabsLibrary: "Бібліятэка", NotInSteam: "x" }));
-    expect(applied).toBe(1);
+    const r = installOverrides(mgr, t({ MainTabsLibrary: "Бібліятэка" }));
+    expect(r).toEqual({ overridden: 1, injected: 0 });
     expect(mgr.m_mapTokens.get("MainTabsLibrary")).toBe("Бібліятэка");
     expect(mgr.m_mapTokens.get("Other")).toBe("Other");
-    expect(mgr.m_mapTokens.has("NotInSteam")).toBe(false);
     expect(mgr.dispatch).toHaveBeenCalledOnce();
+  });
+
+  // Proves strings Steam keeps outside this manager (the "shared" module lives in a separate
+  // store that LocalizeString only consults for tokens missing from the map) are still shown
+  // translated: LocalizeString finds them in the map first.
+  it("injects tokens that Steam does not load into the map", () => {
+    const mgr = fakeManager({ MainTabsLibrary: "Library" });
+    const r = installOverrides(mgr, t({ MainTabsLibrary: "Бібліятэка", PersonaStateOnline: "У сетцы" }));
+    expect(r).toEqual({ overridden: 1, injected: 1 });
+    expect(mgr.m_mapTokens.get("PersonaStateOnline")).toBe("У сетцы");
+  });
+
+  // Proves injected tokens survive Steam clearing the map (language switch, InitDirect) and
+  // reloading it, which would otherwise drop them again.
+  it("restores injected tokens after the map is cleared", () => {
+    const mgr = fakeManager({});
+    installOverrides(mgr, t({ PersonaStateOnline: "У сетцы", Menu_View: "Выгляд" }));
+    mgr.m_mapTokens.clear();
+    mgr.AddTokens({ Menu_View: "View" });
+    expect(mgr.m_mapTokens.get("Menu_View")).toBe("Выгляд");
+    expect(mgr.m_mapTokens.get("PersonaStateOnline")).toBe("У сетцы");
   });
 
   // Proves tokens Steam loads later (re-init, lazy chunks) still come out translated.
@@ -62,7 +82,7 @@ describe("installOverrides", () => {
   // Proves inherited object keys can't be mistaken for translations.
   it("ignores prototype keys", () => {
     const mgr = fakeManager({ constructor: "Constructor", toString: "x" });
-    expect(installOverrides(mgr, t({}))).toBe(0);
+    expect(installOverrides(mgr, t({}))).toEqual({ overridden: 0, injected: 0 });
     expect(mgr.m_mapTokens.get("constructor")).toBe("Constructor");
   });
 
