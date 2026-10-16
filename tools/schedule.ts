@@ -25,7 +25,7 @@ export function registerScript(): string {
     `$a = New-ScheduledTaskAction -Execute 'conhost.exe' -Argument ('--headless "' + $env:BE_NODE + '" tools\\check-steam.ts') -WorkingDirectory $env:BE_REPO`,
     "$t = New-ScheduledTaskTrigger -Daily -At $env:BE_AT",
     "$s = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit (New-TimeSpan -Minutes 10)",
-    `Register-ScheduledTask -TaskName '${TASK_NAME}' -Action $a -Trigger $t -Settings $s -Description 'Daily check of Steam UI strings (millenium-belarusian-ui)' -Force | Out-Null`,
+    `Register-ScheduledTask -TaskName '${TASK_NAME}' -Action $a -Trigger $t -Settings $s -Description 'Daily check of Steam UI strings (millennium-belarusian-ui)' -Force | Out-Null`,
   ].join("\n");
 }
 
