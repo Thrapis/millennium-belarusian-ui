@@ -5,10 +5,10 @@
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parseArgs } from "node:util";
-import { extract } from "./extract.ts";
-import { diffSources, fingerprint, formatReport, isEmpty, summary, type Snapshot, type SnapshotDiff } from "./lib/source-diff.ts";
-import { findSteamDir } from "./lib/steam-paths.ts";
-import { showToast } from "./lib/windows-toast.ts";
+import { extract } from "../pipeline/extract.ts";
+import { diffSources, fingerprint, formatReport, isEmpty, summary, type Snapshot, type SnapshotDiff } from "./source-diff.ts";
+import { findSteamDir } from "../pipeline/lib/steam-paths.ts";
+import { showToast } from "./windows-toast.ts";
 
 export interface CheckState {
   fingerprint: string;

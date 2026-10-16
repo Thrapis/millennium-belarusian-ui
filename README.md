@@ -1,13 +1,83 @@
 # Belarusian UI for Steam
 
-A [Millennium](https://steambrew.app) plugin that shows the Steam client in Belarusian, plus the
-tooling to keep the translation up to date as Steam changes.
+A [Millennium](https://steambrew.app) plugin that shows the Steam client in Belarusian.
 
-Steam keeps running in English. At startup the plugin overwrites the values in Steam's own
-localization token table with Belarusian ones, so React renders Belarusian directly: no DOM
-walking, no per-frame work. The merge takes about 15 ms for roughly 15,000 strings.
+## Why this plugin exists
 
-## How it works
+Steam's client has no Belarusian language. This plugin fills the gap: it works on top of whichever
+language Steam is set to, and makes the client's own interface strings (menus, friends list,
+settings, dialogs) appear in Belarusian. A string without a translation shows as Steam wrote it,
+in the language Steam is set to.
+
+<p align="center">
+  <img src="docs/screenshots/library.webp" alt="Game library page in Belarusian" width="720">
+</p>
+<p align="center">
+  <img src="docs/screenshots/settings-notifications.png" alt="Notification settings in Belarusian" width="480">
+</p>
+<p align="center">
+  <img src="docs/screenshots/friends-status-menu.png" alt="Friends status menu in Belarusian" width="360">
+</p>
+
+Only the Steam client UI is translated. The Store and Community pages are localized by Steam's
+servers and are out of reach of a client plugin.
+
+## Install
+
+Enable "Belarusian UI" in Millennium once the plugin is installed. To build it from source you need
+Windows, Steam with Millennium, and Node.js 24 or newer:
+
+```bash
+npm install
+npm run build      # builds and installs into Millennium's plugins folder; restart Steam
+npm run pack       # or: build a .star package in build/
+```
+
+## How the plugin works
+
+The plugin itself is two small files, about 110 lines in total:
+[frontend/index.tsx](frontend/index.tsx) and [frontend/patch.ts](frontend/patch.ts).
+
+Steam renders every interface string through its `LocalizationManager`, which holds a table of
+`token id → text`. At startup the plugin:
+
+1. Checks that `window.LocalizationManager` has the shape it expects. If not, it logs an error and
+   leaves Steam untouched.
+2. Overwrites the values in the manager's token table (`m_mapTokens`) with the Belarusian ones, so
+   React renders Belarusian directly. There is no DOM walking, no observers and no work per frame.
+   The merge takes about 15 ms for roughly 15,000 strings.
+3. Wraps `AddTokens`, so strings that Steam loads later are translated too.
+4. Adds translations for the strings Steam keeps in a separate "shared" store, which the table
+   does not contain (the friends status menu is one example).
+
+The translations are plain data compiled into the plugin at build time
+(`frontend/generated/translations.ts`, not committed). Keys are Steam's own token ids, which stay
+stable across Steam updates. A few ids carry different English text in different Steam modules, so
+the plugin also looks strings up by their English text.
+
+## What else is in this repository
+
+Everything outside `frontend/` supports producing and maintaining the translation. None of it runs
+inside Steam or ships in the plugin.
+
+| Path | What it is |
+|---|---|
+| `frontend/` | **The plugin** (see above). |
+| `translations/be/` | **The data:** the Belarusian translation as XLIFF files, plus `source/`, the English and Russian Steam strings it is based on. |
+| `tools/pipeline/` | Scripts that extract strings from Steam, produce XLIFF for translators, migrate the translation to a new Steam version, and compile it for the plugin. |
+| `tools/steam-watch/` | An optional daily check of Steam's strings with a Windows notification. |
+| `docs/screenshots/` | Screenshots used in this README. |
+| `test/` | Tests for the plugin and the tools. |
+
+Most of the hand-written lines are tooling and tests, not plugin code. Steam changes its strings
+often, and these tools make keeping up with it manageable for one person.
+
+## Translation workflow
+
+Translators work from the Russian strings, with English, Ukrainian and Polish as reference
+languages. Translation happens in [bellingua](https://github.com/Thrapis/bellingua), a separate
+project that imports and exports XLIFF 1.2. This repository produces the files bellingua imports
+and builds the plugin from what it exports.
 
 ```
 Steam install ──extract──▶ l10n/source ──xliff──▶ l10n/xliff (ru → be) + reference-{en,uk,pl}
@@ -19,42 +89,13 @@ translations/be (committed export) ◀──export──────────
         └──compile──▶ frontend/generated/translations.ts ──build──▶ plugin
 ```
 
-- **Source language is Russian.** Translators work from the Russian strings, with English,
-  Ukrainian and Polish as reference languages.
-- **Translation happens in [bellingua](https://github.com/Thrapis/bellingua)**, which imports and
-  exports XLIFF 1.2. This repo produces the files it imports and builds the plugin from what it
-  exports.
-- **Keys are Steam's token ids**, which are stable across updates, not the English text.
-- **Fallback is English**: a string without a translation shows as Steam wrote it.
-
-## Requirements
-
-- Windows, Steam and [Millennium](https://steambrew.app) installed
-- Node.js 24 or newer (the scripts are TypeScript run directly by Node)
-
-```bash
-npm install
-```
-
 Steam is found through `--steam <dir>`, then the `STEAM_DIR` environment variable, then the
-registry.
+registry. `npm run compile -- --min-state translated|approved` ships only reviewed strings; the
+default, `mt`, includes machine translations.
 
-## Build and install the plugin
+## Tooling
 
-```bash
-npm run build
-```
-
-This compiles `translations/be` into the plugin and installs it into Millennium's plugins folder.
-Restart Steam and enable "Belarusian UI" in Millennium. `npm run pack` builds a `.star` package in
-`build/` instead.
-
-`npm run compile -- --min-state translated|approved` ships only reviewed strings. The default,
-`mt`, includes machine translations.
-
-## Keeping up with Steam updates
-
-Steam changes its strings often. Each update adds, removes and rewords some of them.
+### Updating to a new Steam version
 
 ```bash
 npm run update-strings
@@ -72,7 +113,7 @@ This extracts Steam's current strings, regenerates the XLIFF trees and migrates 
 Then import `translations/be` and the `l10n/reference-*` trees into bellingua, translate, export
 back into `translations/be`, and run `npm run build`.
 
-## Daily check
+### Daily check (optional)
 
 `npm run check` compares Steam's current strings with the ones `translations/be` is based on and
 shows a Windows notification when they differ. Clicking it opens a report. It stays quiet when
@@ -88,17 +129,7 @@ npm run schedule -- uninstall
 The task runs as the current user, only while logged in, and runs a missed check at the next login.
 After moving or renaming the repo, run `install` again.
 
-## Repository layout
-
-| Path | What it is |
-|---|---|
-| `frontend/` | The plugin: hooks Steam's `LocalizationManager` and applies the translations. |
-| `translations/be/` | The committed Belarusian translation (bellingua export) and `source/`, the English and Russian text it is based on. |
-| `tools/` | Extraction, XLIFF, migration, compile, the daily check and the scheduler. |
-| `l10n/` | Generated and not committed: extraction, XLIFF trees, reports, check log. |
-| `test/` | Vitest tests and fixtures. |
-
-## Development
+### Development
 
 ```bash
 npm test          # unit tests
@@ -108,14 +139,11 @@ npm run dev       # rebuild the plugin on change
 
 ## Notes
 
-- Only the Steam client UI is translated. The Store and Community pages are localized by Steam's
-  servers.
-- Steam's localization files and internal `LocalizationManager` are not a public API. The plugin
-  checks its hook at startup and leaves Steam untouched if it is missing.
+- Steam's localization files and internal `LocalizationManager` are not a public API. A Steam
+  update can break the hook, which is why the plugin checks it at startup.
 - `translations/` contains Valve's English and Russian strings as the translation's source text.
-- Belarusian has three plural forms, but Steam only switches between "one" and "many", so some
-  counted strings read imperfectly.
+  They remain Valve's and are not covered by the license below.
 
 ## License
 
-Not chosen yet.
+[MIT](LICENSE), for the code in this repository.

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { plain } from "../tools/lib/placeholders.ts";
-import { readXliff, writeXliff } from "../tools/lib/xliff.ts";
-import { buildModuleXliff } from "../tools/make-xliff.ts";
-import type { LangCode } from "../tools/extract.ts";
+import { plain } from "../../tools/pipeline/lib/placeholders.ts";
+import { readXliff, writeXliff } from "../../tools/pipeline/lib/xliff.ts";
+import { buildModuleXliff } from "../../tools/pipeline/make-xliff.ts";
+import type { LangCode } from "../../tools/pipeline/extract.ts";
 
 const tokens = {
   Item: { en: "%1$s item", ru: "%1$s предмет", uk: "%1$s предмет", pl: "%1$s przedmiot" },

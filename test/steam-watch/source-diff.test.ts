@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { diffSources, fingerprint, formatReport, isEmpty, summary, type Snapshot } from "../tools/lib/source-diff.ts";
+import { diffSources, fingerprint, formatReport, isEmpty, summary, type Snapshot } from "../../tools/steam-watch/source-diff.ts";
 
 const old: Snapshot = {
   shared: {

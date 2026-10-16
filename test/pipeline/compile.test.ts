@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { compileTranslations, stateRank, toModuleSource } from "../tools/compile.ts";
-import { toPieces } from "../tools/lib/placeholders.ts";
-import type { XliffFile } from "../tools/lib/xliff.ts";
+import { compileTranslations, stateRank, toModuleSource } from "../../tools/pipeline/compile.ts";
+import { toPieces } from "../../tools/pipeline/lib/placeholders.ts";
+import type { XliffFile } from "../../tools/pipeline/lib/xliff.ts";
 
 const file = (original: string, units: [id: string, ru: string, be: string | undefined, state?: string][]): XliffFile => ({
   original,

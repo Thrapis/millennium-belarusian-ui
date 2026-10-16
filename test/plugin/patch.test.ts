@@ -4,7 +4,7 @@ import {
   isLocalizationManager,
   type CompiledTranslations,
   type LocalizationManagerLike,
-} from "../frontend/patch.ts";
+} from "../../frontend/patch.ts";
 
 // Mirrors Steam's AddTokens: primary tokens overwrite, fallback only fills gaps.
 function fakeManager(initial: Record<string, string>): LocalizationManagerLike & { dispatch: ReturnType<typeof vi.fn> } {

@@ -2,7 +2,7 @@
 // Used by the daily check (is Steam different from what the translation is based on?)
 // and by the migration report.
 import { createHash } from "node:crypto";
-import type { SourceEntry } from "../extract.ts";
+import type { SourceEntry } from "../pipeline/extract.ts";
 
 export type Snapshot = Record<string, Record<string, SourceEntry>>;
 

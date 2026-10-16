@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseTime, registerScript, taskEnv, TASK_NAME } from "../tools/schedule.ts";
+import { parseTime, registerScript, taskEnv, TASK_NAME } from "../../tools/steam-watch/schedule.ts";
 
 describe("parseTime", () => {
   // Proves only a real HH:MM clock time reaches the task definition.

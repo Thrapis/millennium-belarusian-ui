@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { join } from "node:path";
-import { buildSnapshot, extract, findCollisions } from "../tools/extract.ts";
+import { buildSnapshot, extract, findCollisions } from "../../tools/pipeline/extract.ts";
 
-const FIXTURE_STEAM = join(import.meta.dirname, "fixtures");
+const FIXTURE_STEAM = join(import.meta.dirname, "..", "fixtures");
 
 describe("extract", () => {
   // Proves en and ru are joined per token id, and tokens missing in one language are kept.

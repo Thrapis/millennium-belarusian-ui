@@ -2,7 +2,7 @@
 // Its member names are not minified: m_mapTokens, AddTokens, m_cbkTokensChanged.
 // Keys in m_mapTokens have no leading '#'.
 
-/** Output of tools/compile.ts, bundled with the plugin. */
+/** Output of tools/pipeline/compile.ts, bundled with the plugin. */
 export interface CompiledTranslations {
   /** token id → Belarusian */
   tokens: Record<string, string>;

@@ -2,11 +2,11 @@ import { mkdirSync, mkdtempSync, readdirSync, readFileSync, writeFileSync, exist
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import type { SourceEntry } from "../tools/extract.ts";
-import { archiveName, migrateModule, migrateTree } from "../tools/migrate.ts";
-import { buildModuleXliff } from "../tools/make-xliff.ts";
-import { plain, toPieces } from "../tools/lib/placeholders.ts";
-import { readXliff, writeXliff, type XliffFile } from "../tools/lib/xliff.ts";
+import type { SourceEntry } from "../../tools/pipeline/extract.ts";
+import { archiveName, migrateModule, migrateTree } from "../../tools/pipeline/migrate.ts";
+import { buildModuleXliff } from "../../tools/pipeline/make-xliff.ts";
+import { plain, toPieces } from "../../tools/pipeline/lib/placeholders.ts";
+import { readXliff, writeXliff, type XliffFile } from "../../tools/pipeline/lib/xliff.ts";
 
 type Tokens = Record<string, SourceEntry>;
 const MT = "needs-review-translation";

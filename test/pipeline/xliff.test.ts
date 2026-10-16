@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { toPieces, plain } from "../tools/lib/placeholders.ts";
-import { readXliff, writeXliff, type XliffFile } from "../tools/lib/xliff.ts";
+import { toPieces, plain } from "../../tools/pipeline/lib/placeholders.ts";
+import { readXliff, writeXliff, type XliffFile } from "../../tools/pipeline/lib/xliff.ts";
 
 const sample = (): XliffFile => ({
   original: "steamui",
@@ -64,7 +64,7 @@ describe("readXliff", () => {
   // Proves a bellingua export parses: reordered/rewritten codes come back as the
   // source markup, entities decode, and broken tag sets are dropped and reported.
   it("reads a bellingua export", () => {
-    const xml = readFileSync(join(import.meta.dirname, "fixtures", "bellingua-export", "steamui.xlf"), "utf8");
+    const xml = readFileSync(join(import.meta.dirname, "..", "fixtures", "bellingua-export", "steamui.xlf"), "utf8");
     const { file, problems } = readXliff(xml);
     const byId = Object.fromEntries(file.units.map((u) => [u.id, u]));
     expect(file.targetLang).toBe("be");

@@ -1,4 +1,4 @@
-// Registers (or removes) the daily Task Scheduler job that runs tools/check-steam.ts.
+// Registers (or removes) the daily Task Scheduler job that runs tools/steam-watch/check-steam.ts.
 // Usage: npm run schedule -- install [--at HH:MM] | uninstall | status
 // The task belongs to the current user and runs only while they are logged in (toasts need that);
 // no password is stored. A run missed while the PC was off happens as soon as possible after.
@@ -22,7 +22,7 @@ export function registerScript(): string {
   return [
     "$ErrorActionPreference = 'Stop'",
     // conhost --headless runs the console program without opening a window.
-    `$a = New-ScheduledTaskAction -Execute 'conhost.exe' -Argument ('--headless "' + $env:BE_NODE + '" tools\\check-steam.ts') -WorkingDirectory $env:BE_REPO`,
+    `$a = New-ScheduledTaskAction -Execute 'conhost.exe' -Argument ('--headless "' + $env:BE_NODE + '" tools\\steam-watch\\check-steam.ts') -WorkingDirectory $env:BE_REPO`,
     "$t = New-ScheduledTaskTrigger -Daily -At $env:BE_AT",
     "$s = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit (New-TimeSpan -Minutes 10)",
     `Register-ScheduledTask -TaskName '${TASK_NAME}' -Action $a -Trigger $t -Settings $s -Description 'Daily check of Steam UI strings (millennium-belarusian-ui)' -Force | Out-Null`,

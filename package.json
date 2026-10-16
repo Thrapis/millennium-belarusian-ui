@@ -1,20 +1,21 @@
 {
   "name": "millennium-belarusian-ui",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
-    "extract": "node tools/extract.ts",
+    "extract": "node tools/pipeline/extract.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.tools.json && tsc -p tsconfig.json",
     "dev": "starlight watch",
     "build": "npm run compile && starlight pack",
     "prepare": "starlight lsp",
-    "xliff": "node tools/make-xliff.ts",
-    "compile": "node tools/compile.ts",
-    "migrate": "node tools/migrate.ts",
+    "xliff": "node tools/pipeline/make-xliff.ts",
+    "compile": "node tools/pipeline/compile.ts",
+    "migrate": "node tools/pipeline/migrate.ts",
     "update-strings": "npm run extract && npm run xliff && npm run migrate",
-    "check": "node tools/check-steam.ts",
-    "schedule": "node tools/schedule.ts",
+    "check": "node tools/steam-watch/check-steam.ts",
+    "schedule": "node tools/steam-watch/schedule.ts",
     "pack": "npm run compile && starlight pack -o build"
   },
   "devDependencies": {

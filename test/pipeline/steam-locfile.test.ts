@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { decodeJsSingleQuoted, parseLocFile } from "../tools/lib/steam-locfile.ts";
-import { listLocFiles } from "../tools/lib/steam-paths.ts";
+import { decodeJsSingleQuoted, parseLocFile } from "../../tools/pipeline/lib/steam-locfile.ts";
+import { listLocFiles } from "../../tools/pipeline/lib/steam-paths.ts";
 
-const FIXTURE_STEAM = join(import.meta.dirname, "fixtures");
+const FIXTURE_STEAM = join(import.meta.dirname, "..", "fixtures");
 
 // Encodes text as a JS string literal the way Steam's bundler does since Oct 2026:
 // backslash, the quote and "${" escaped; everything outside ASCII as \uXXXX.

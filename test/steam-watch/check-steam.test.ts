@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { decide, errorMessage } from "../tools/check-steam.ts";
-import { diffSources, type Snapshot } from "../tools/lib/source-diff.ts";
-import { toastCommand } from "../tools/lib/windows-toast.ts";
+import { decide, errorMessage } from "../../tools/steam-watch/check-steam.ts";
+import { diffSources, type Snapshot } from "../../tools/steam-watch/source-diff.ts";
+import { toastCommand } from "../../tools/steam-watch/windows-toast.ts";
 
 const base: Snapshot = { shared: { A: { en: "A", ru: "А" } } };
 const changed: Snapshot = { shared: { A: { en: "A", ru: "А" }, B: { en: "B", ru: "Б" } } };

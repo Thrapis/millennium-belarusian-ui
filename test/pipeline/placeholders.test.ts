@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { codesOf, plain, toPieces } from "../tools/lib/placeholders.ts";
+import { codesOf, plain, toPieces } from "../../tools/pipeline/lib/placeholders.ts";
 
 describe("toPieces", () => {
   // Proves the markup Steam substitutes at runtime becomes locked codes.
