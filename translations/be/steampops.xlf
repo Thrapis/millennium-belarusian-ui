@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="sdrpop_maa" xml:space="preserve">
         <source>Ченнаи, Индия|Valve|Ченнаи — Тируверкаду</source>
-        <target state="translated">Чэнэі, Індыя|Valve|Чэнэі  — Тыруверкаду </target>
+        <target state="translated">Чэнаі, Індыя|Valve|Чэнаі — Тыруверкаду</target>
       </trans-unit>
       <trans-unit id="sdrpop_maa2" xml:space="preserve">
         <source>Ченнаи, Индия|Valve|Ченнаи — Амбаттур</source>
@@ -564,7 +564,7 @@
       </trans-unit>
       <trans-unit id="sdrpop_pwj" xml:space="preserve">
         <source>Тяньцзинь, Китай|Perfect World|</source>
-        <target state="needs-review-translation">Цяньцзінь, Кітай|Perfect World|</target>
+        <target state="translated">Цяньцзінь, Кітай|Perfect World|</target>
       </trans-unit>
       <trans-unit id="sdrpop_pwt" xml:space="preserve">
         <source>Шанхай, Китай|Perfect World|(sha-4) — магистраль</source>
@@ -648,7 +648,7 @@
       </trans-unit>
       <trans-unit id="sdrpop_tsn" xml:space="preserve">
         <source>Тяньцзинь, Китай|Perfect World|</source>
-        <target state="needs-review-translation">Цяньцзінь, Кітай|Perfect World|</target>
+        <target state="translated">Цяньцзінь, Кітай|Perfect World|</target>
       </trans-unit>
       <trans-unit id="sdrpop_tsnm" xml:space="preserve">
         <source>Тяньцзинь, Китай|Perfect World|Тянцзинь — Mobile</source>

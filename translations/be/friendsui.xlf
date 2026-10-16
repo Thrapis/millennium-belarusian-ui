@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="ActiveVoicePushToTalk" xml:space="preserve">
         <source>Нажмите <ph id="1">%1$s</ph>, чтобы говорить</source>
-        <target state="needs-review-translation">Націсніце <ph id="1">%1$s</ph>, каб казаць</target>
+        <target state="translated">Націсніце <ph id="1">%1$s</ph>, каб гаварыць</target>
       </trans-unit>
       <trans-unit id="Alert_YouWereBannedDescription" xml:space="preserve">
         <source>Вас заблокировали в чате «<ph id="1">%1$s</ph>»</source>
@@ -290,7 +290,7 @@
       </trans-unit>
       <trans-unit id="ChangePersona_Change" xml:space="preserve">
         <source>Изменить имя профиля на</source>
-        <target state="needs-review-translation">Змяніць імя профілю на</target>
+        <target state="translated">Змяніць імя профіля на</target>
       </trans-unit>
       <trans-unit id="ChangePersona_Description" xml:space="preserve">
         <source>Другие пользователи Steam видят ваши аватар и имя профиля.</source>
@@ -298,7 +298,7 @@
       </trans-unit>
       <trans-unit id="ChangePersona_PlaceHolder" xml:space="preserve">
         <source>Введите имя профиля</source>
-        <target state="needs-review-translation">Увядзіце імя профілю</target>
+        <target state="translated">Увядзіце імя профіля</target>
       </trans-unit>
       <trans-unit id="ChangePersona_Title" xml:space="preserve">
         <source>Изменить имя профиля</source>
@@ -974,11 +974,11 @@
       </trans-unit>
       <trans-unit id="Chat_ChatRoomGroup_Options" xml:space="preserve">
         <source>Опции</source>
-        <target state="needs-review-translation">Опцыі</target>
+        <target state="translated">Параметры</target>
       </trans-unit>
       <trans-unit id="Chat_ChatRoomGroup_Requesting" xml:space="preserve">
         <source>Запрос информации о групповом чате...</source>
-        <target state="needs-review-translation">Запыт інфармацыі аб групавым чаце...</target>
+        <target state="translated">Запыт інфармацыі пра групавы чат...</target>
       </trans-unit>
       <trans-unit id="Chat_ChatRoomGroup_StartVoiceChat" xml:space="preserve">
         <source>Создать голосовой канал</source>
@@ -990,11 +990,11 @@
       </trans-unit>
       <trans-unit id="Chat_ChatRoomListO_OpenGroupCollapse" xml:space="preserve">
         <source>Скрыть информацию о канале</source>
-        <target state="needs-review-translation">Схаваць інфармацыю аб канале</target>
+        <target state="translated">Схаваць інфармацыю пра канал</target>
       </trans-unit>
       <trans-unit id="Chat_ChatRoomListO_OpenGroupExpand" xml:space="preserve">
         <source>Показать информацию о канале</source>
-        <target state="needs-review-translation">Паказаць інфармацыю аб канале</target>
+        <target state="translated">Паказаць інфармацыю пра канал</target>
       </trans-unit>
       <trans-unit id="Chat_ChatRoomList_Collapse" xml:space="preserve">
         <source>Скрыть групповые чаты</source>
@@ -1114,7 +1114,7 @@
       </trans-unit>
       <trans-unit id="Chat_DropToInvite" xml:space="preserve">
         <source>Перетащите, чтобы пригласить</source>
-        <target state="needs-review-translation">Перацягнеце, каб запрасіць</target>
+        <target state="translated">Перацягніце, каб запрасіць</target>
       </trans-unit>
       <trans-unit id="Chat_DropToInviteGroup" xml:space="preserve">
         <source>Пригласить в групповой чат</source>
@@ -1174,7 +1174,7 @@
       </trans-unit>
       <trans-unit id="Chat_InviteFriend_SomeUnavailable_Released" xml:space="preserve">
         <source>У некоторых из выбранных друзей не установлена последняя версия клиента Steam. Они увидят приглашение, когда обновят клиент.</source>
-        <target state="needs-review-translation">У некаторых з абраных сяброў не ўсталявана апошняя версія кліента Steam. Яны ўбачаць запрашэнне, калі абновяць кліент.</target>
+        <target state="translated">У некаторых з выбраных сяброў не ўсталявана апошняя версія кліента Steam. Яны ўбачаць запрашэнне, калі абновяць кліент.</target>
       </trans-unit>
       <trans-unit id="Chat_InviteFriend_Unavailable" xml:space="preserve">
         <source>Во время бета-тестирования чатов Steam можно создавать групповые чаты только с теми пользователями, которые также используют бета-версию Steam. <ph id="1">%1$s</ph> её не использует.</source>
@@ -1298,7 +1298,7 @@
       </trans-unit>
       <trans-unit id="Chat_MessageContextMenu" xml:space="preserve">
         <source>Опции</source>
-        <target state="needs-review-translation">Опцыі</target>
+        <target state="translated">Параметры</target>
       </trans-unit>
       <trans-unit id="Chat_MessageDeleted" xml:space="preserve">
         <source>Сообщение удалено</source>
@@ -1386,11 +1386,11 @@
       </trans-unit>
       <trans-unit id="Chat_Settings_General_AddIcon" xml:space="preserve">
         <source>Добавить иконку</source>
-        <target state="needs-review-translation">Дадаць абразок</target>
+        <target state="translated">Дадаць іконку</target>
       </trans-unit>
       <trans-unit id="Chat_Settings_General_ChangeIcon" xml:space="preserve">
         <source>Изменить иконку</source>
-        <target state="needs-review-translation">Змяніць абразок</target>
+        <target state="translated">Змяніць іконку</target>
       </trans-unit>
       <trans-unit id="Chat_Settings_General_Chat_Name" xml:space="preserve">
         <source>Название группового чата</source>
@@ -1398,7 +1398,7 @@
       </trans-unit>
       <trans-unit id="Chat_Settings_General_Icon" xml:space="preserve">
         <source>Иконка</source>
-        <target state="needs-review-translation">Абразок</target>
+        <target state="translated">Іконка</target>
       </trans-unit>
       <trans-unit id="Chat_Settings_General_NoIcon" xml:space="preserve">
         <source>Нет иконки</source>
@@ -1734,7 +1734,7 @@
       </trans-unit>
       <trans-unit id="FriendGroup_Collapse" xml:space="preserve">
         <source>Свернуть</source>
-        <target state="needs-review-translation">Скруціць</target>
+        <target state="translated">Згарнуць</target>
       </trans-unit>
       <trans-unit id="FriendGroup_ConfirmAllIgnore_Body" xml:space="preserve">
         <source>Вы уверены, что хотите отклонить все приглашения в друзья?</source>
@@ -2062,7 +2062,7 @@
       </trans-unit>
       <trans-unit id="FriendSetting_ChatFontLarge" xml:space="preserve">
         <source>Крупный</source>
-        <target state="needs-review-translation">Буйны</target>
+        <target state="translated">Вялікі</target>
       </trans-unit>
       <trans-unit id="FriendSetting_ChatFontSmall" xml:space="preserve">
         <source>Маленький</source>
@@ -2194,11 +2194,11 @@
       </trans-unit>
       <trans-unit id="FriendSettings_Mobile_UploadCurrentLogs" xml:space="preserve">
         <source>Загрузить журналы текущей сессии</source>
-        <target state="translated">Запампаваць часопісы бягучай сесіі</target>
+        <target state="translated">Запампаваць журналы бягучай сесіі</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Mobile_UploadPreviousLogs" xml:space="preserve">
         <source>Загрузить журналы предыдущей сессии</source>
-        <target state="translated">Запампаваць часопісы папярэдняй сесіі</target>
+        <target state="translated">Запампаваць журналы папярэдняй сесіі</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_ChatMessage" xml:space="preserve">
         <source>Когда я получаю личное сообщение</source>
@@ -2218,11 +2218,11 @@
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_DirectChat" xml:space="preserve">
         <source>Уведомлять о личных сообщениях</source>
-        <target state="needs-review-translation">Апавяшчаць аб асабістых паведамленнях</target>
+        <target state="translated">Апавяшчаць пра асабістыя паведамленні</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_DirectChatDescOff" xml:space="preserve">
         <source>Вы получаете уведомления о сообщениях только от друзей, которых разрешили</source>
-        <target state="translated">Вы атрымліваеце апавяшчэнні аб паведамленнях толькі ад дазволеных сяброў</target>
+        <target state="translated">Вы атрымліваеце апавяшчэнні пра паведамленні толькі ад дазволеных сяброў</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_DirectChatDescOn" xml:space="preserve">
         <source>Если нет особых настроек для того друга</source>
@@ -2242,7 +2242,7 @@
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_GroupChat" xml:space="preserve">
         <source>Уведомлять о сообщениях в групповом чате</source>
-        <target state="needs-review-translation">Апавяшчаць аб паведамленнях у групавым чаце</target>
+        <target state="translated">Апавяшчаць пра паведамленні ў групавым чаце</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Notification_GroupChatDescOff" xml:space="preserve">
         <source>Вы не получаете уведомления групповых чатов</source>
@@ -2302,7 +2302,7 @@
       </trans-unit>
       <trans-unit id="FriendSettings_SortFriendsByStatus" xml:space="preserve">
         <source>Игнорировать статус «Нет на месте» при сортировке друзей</source>
-        <target state="needs-review-translation">Ігнараваць статус «Не на месцы» пры сартаванні сяброў</target>
+        <target state="translated">Ігнараваць статус «Няма на месцы» пры сартаванні сяброў</target>
       </trans-unit>
       <trans-unit id="FriendSettings_Title" xml:space="preserve">
         <source>Настройки друзей</source>
@@ -2330,7 +2330,7 @@
       </trans-unit>
       <trans-unit id="Friend_Ban_Confirm" xml:space="preserve">
         <source>Вы уверены, что хотите заблокировать в чате пользователя <ph id="1">%1$s</ph>?</source>
-        <target state="translated">Вы ўпэўненыя, што хочаце заблакаваць у чаце карыстальніка <ph id="1">%1$s</ph>?</target>
+        <target state="translated">Вы ўпэўнены, што хочаце заблакаваць у чаце карыстальніка <ph id="1">%1$s</ph>?</target>
       </trans-unit>
       <trans-unit id="Friend_BlockIncomingInvite_Error" xml:space="preserve">
         <source>Ошибка! Не удалось заблокировать приглашение в друзья от <ph id="1">%1$s</ph>.</source>
@@ -2480,7 +2480,7 @@
       </trans-unit>
       <trans-unit id="Friend_JoinGameWait_Desc" xml:space="preserve">
         <source>Ожидание информации о подключении...</source>
-        <target state="needs-review-translation">Чаканне інфармацыі аб падключэнні...</target>
+        <target state="translated">Чаканне інфармацыі пра падключэнне...</target>
       </trans-unit>
       <trans-unit id="Friend_JoinGameWait_Title" xml:space="preserve">
         <source>Присоединяется к игре</source>
@@ -2656,7 +2656,7 @@
       </trans-unit>
       <trans-unit id="Friend_Menu_Open" xml:space="preserve">
         <source>Опции</source>
-        <target state="needs-review-translation">Опцыі</target>
+        <target state="translated">Параметры</target>
       </trans-unit>
       <trans-unit id="Friend_Menu_RecentAliases" xml:space="preserve">
         <source>Предыдущие имена</source>
@@ -2696,7 +2696,7 @@
       </trans-unit>
       <trans-unit id="Friend_Menu_StopVoiceChat" xml:space="preserve">
         <source>Закончить голосовой чат</source>
-        <target state="needs-review-translation">Скончыць галасавы чат</target>
+        <target state="translated">Завяршыць галасавы чат</target>
       </trans-unit>
       <trans-unit id="Friend_Menu_UnblockAllCommunication" xml:space="preserve">
         <source>Разблокировать</source>
@@ -2876,7 +2876,7 @@
       </trans-unit>
       <trans-unit id="GiveFeedbackToSteam_Desc" xml:space="preserve">
         <source> <ph id="1">%1$s</ph> О БЕТА-ВЕРСИИ</source>
-        <target state="translated"> <ph id="1">%1$s</ph> АБ БЭТА-ВЕРСІІ</target>
+        <target state="translated"> <ph id="1">%1$s</ph> ПРА БЭТА-ВЕРСІЮ</target>
       </trans-unit>
       <trans-unit id="GiveFeedbackToSteam_URL" xml:space="preserve">
         <source>ПОДЕЛИТЕСЬ СВОИМ МНЕНИЕМ</source>
@@ -2888,7 +2888,7 @@
       </trans-unit>
       <trans-unit id="GiveFeedback_URL" xml:space="preserve">
         <source>О БЕТА-ВЕРСИИ</source>
-        <target state="needs-review-translation">АБ БЭТА-ВЕРСІІ</target>
+        <target state="translated">ПРА БЭТА-ВЕРСІЮ</target>
       </trans-unit>
       <trans-unit id="GroupSettings" xml:space="preserve">
         <source>Настройки чата</source>
@@ -3240,7 +3240,7 @@
       </trans-unit>
       <trans-unit id="GroupSettings_Save_Feature_3" xml:space="preserve">
         <source>Задать разрешения для участников и выбрать администраторов</source>
-        <target state="needs-review-translation">Задаць дазволы для ўдзельнікаў і абраць адміністратараў</target>
+        <target state="translated">Задаць дазволы для ўдзельнікаў і выбраць адміністратараў</target>
       </trans-unit>
       <trans-unit id="GroupSettings_Save_Feature_4" xml:space="preserve">
         <source>Создать дополнительные текстовые каналы</source>
@@ -3308,7 +3308,7 @@
       </trans-unit>
       <trans-unit id="InviteLanding_SentToSteam" xml:space="preserve">
         <source>Мы отправили информацию о приглашении в клиент Steam.</source>
-        <target state="needs-review-translation">Мы адправілі інфармацыю аб запрашэнні ў кліент Steam.</target>
+        <target state="translated">Мы адправілі інфармацыю пра запрашэнне ў кліент Steam.</target>
       </trans-unit>
       <trans-unit id="InviteLanding_SentToSteam_Desc" xml:space="preserve">
         <source>Вы можете продолжить процесс там.  Если вы хотите открыть это приглашение в браузере, <ph id="1">%1$s</ph>.</source>
@@ -3490,11 +3490,11 @@
       </trans-unit>
       <trans-unit id="MobileChatUploadLogs" xml:space="preserve">
         <source>Загрузить журналы</source>
-        <target state="translated">Запампаваць часопісы</target>
+        <target state="translated">Запампаваць журналы</target>
       </trans-unit>
       <trans-unit id="MobileChatUploadLogsDesc" xml:space="preserve">
         <source>Хотите загрузить журналы, чтобы помочь нам определить неполадку?</source>
-        <target state="translated">Хочаце запампаваць часопісы, каб дапамагчы нам вызначыць непаладку?</target>
+        <target state="translated">Хочаце запампаваць журналы, каб дапамагчы нам вызначыць непаладку?</target>
       </trans-unit>
       <trans-unit id="MobileDisconnect_Loading" xml:space="preserve">
         <source>Сеть друзей загружается</source>
@@ -3586,7 +3586,7 @@
       </trans-unit>
       <trans-unit id="NotificationSetting_AllMessages" xml:space="preserve">
         <source>Обо всех сообщениях</source>
-        <target state="needs-review-translation">Аб усіх паведамленнях</target>
+        <target state="translated">Пра ўсе паведамленні</target>
       </trans-unit>
       <trans-unit id="NotificationSetting_AnyMention" xml:space="preserve">
         <source>Только об @all, @online и @упоминаниях</source>
@@ -3602,7 +3602,7 @@
       </trans-unit>
       <trans-unit id="NotificationSetting_DirectMention" xml:space="preserve">
         <source>Только об @упоминаниях</source>
-        <target state="needs-review-translation">Толькі аб @згадваннях</target>
+        <target state="translated">Толькі пра @згадванні</target>
       </trans-unit>
       <trans-unit id="NotificationSetting_Footer_Desc" xml:space="preserve">
         <source>Изменить типы уведомлений можно в меню «<ph id="1">%1$s</ph>»</source>
@@ -3670,7 +3670,7 @@
       </trans-unit>
       <trans-unit id="PersonaStateInvisible" xml:space="preserve">
         <source>Невидимка</source>
-        <target state="translated">Нябачнасць</target>
+        <target state="translated">Нябачны</target>
       </trans-unit>
       <trans-unit id="PersonaStateInvisibleDescription" xml:space="preserve">
         <source>Друзья не будут видеть вас (для них вы будете вне сети), но вы будете их видеть.</source>
@@ -3818,7 +3818,7 @@
       </trans-unit>
       <trans-unit id="RemotePlay_EndSession" xml:space="preserve">
         <source>Закончить сессию</source>
-        <target state="needs-review-translation">Скончыць сесію</target>
+        <target state="translated">Завяршыць сесію</target>
       </trans-unit>
       <trans-unit id="RemotePlay_Error" xml:space="preserve">
         <source>Ошибка Remote Play</source>
@@ -3842,7 +3842,7 @@
       </trans-unit>
       <trans-unit id="RemotePlay_ErrorInviteFailed_Invisible" xml:space="preserve">
         <source>Вы не можете отправить приглашение Remote Play Together, находясь в режиме «Невидимка».</source>
-        <target state="translated">Вы не можаце адправіць запрашэнне Remote Play Together, знаходзячыся ў рэжыме «Нябачнасць».</target>
+        <target state="translated">Вы не можаце адправіць запрашэнне Remote Play Together, знаходзячыся ў рэжыме «Нябачны».</target>
       </trans-unit>
       <trans-unit id="RemotePlay_ErrorInviteFailed_ParentalUnlockFailed" xml:space="preserve">
         <source>Приглашение в Remote Play Together не отправлено: эта игра не одобрена для семейного просмотра.</source>
@@ -4134,7 +4134,7 @@
       </trans-unit>
       <trans-unit id="SuspiciousSender_ViewOptions" xml:space="preserve">
         <source>Открыть опции...</source>
-        <target state="needs-review-translation">Адкрыць опцыі...</target>
+        <target state="translated">Адкрыць параметры...</target>
       </trans-unit>
       <trans-unit id="TapToReveal_Spoiler" xml:space="preserve">
         <source>Нажмите, чтобы открыть спойлер</source>
@@ -4238,7 +4238,7 @@
       </trans-unit>
       <trans-unit id="Tooltip_RemotePlay_DisableControllers" xml:space="preserve">
         <source>Перетащите в ячейку ниже для переназначения. Нажмите, чтобы выключить.</source>
-        <target state="needs-review-translation">Перацягнуць у вочка ніжэй для перапрызначэння. Націсніце, каб выключыць.</target>
+        <target state="translated">Перацягніце ў вочка ніжэй для перапрызначэння. Націсніце, каб выключыць.</target>
       </trans-unit>
       <trans-unit id="Tooltip_RemotePlay_DisableControllers_Standalone" xml:space="preserve">
         <source>Выключить контроллеры</source>
@@ -4254,7 +4254,7 @@
       </trans-unit>
       <trans-unit id="Tooltip_RemotePlay_EnableControllers" xml:space="preserve">
         <source>Перетащите в ячейку ниже для переназначения. Нажмите, чтобы включить.</source>
-        <target state="needs-review-translation">Перацягнуць у вочка ніжэй для перапрызначэння. Націсніце, каб уключыць.</target>
+        <target state="translated">Перацягніце ў вочка ніжэй для перапрызначэння. Націсніце, каб уключыць.</target>
       </trans-unit>
       <trans-unit id="Tooltip_RemotePlay_EnableControllers_Standalone" xml:space="preserve">
         <source>Включить контроллеры</source>
@@ -4350,7 +4350,7 @@
       </trans-unit>
       <trans-unit id="VoiceChat_ChromeSampleRateTooHighMicExplainer" xml:space="preserve">
         <source>Частота вашего устройства воспроизведения по умолчанию составляет более 48 000 Гц и не поддерживается в Chrome. Воспользуйтесь клиентом Steam!</source>
-        <target state="translated">Частата вашай прылады прайгравання па змаўчанні складае больш за 48 000 Гц і не падтрымліваецца ў Chrome. Скарыстайцеся кліентам Steam!</target>
+        <target state="translated">Частата вашай прылады прайгравання па змаўчанні складае больш за 48 000 Гц і не падтрымліваецца ў Chrome. Выкарыстайце кліент Steam!</target>
       </trans-unit>
       <trans-unit id="VoiceChat_DeniedMicrophoneAccess" xml:space="preserve">
         <source>Ой! Кажется, настройки вашего браузера запрещают нам доступ к микрофону!</source>
@@ -4510,7 +4510,7 @@
       </trans-unit>
       <trans-unit id="Voice_EndVoice" xml:space="preserve">
         <source>Закончить звонок</source>
-        <target state="needs-review-translation">Скончыць званок</target>
+        <target state="translated">Завяршыць званок</target>
       </trans-unit>
       <trans-unit id="Voice_LeftIdleVoiceChat_Body" xml:space="preserve">
         <source>Голосовая сессия завершена после часа бездействия.</source>
@@ -4615,7 +4615,7 @@
       </trans-unit>
       <trans-unit id="bbcode_econ_LoadFail" xml:space="preserve">
         <source>Не удалось загрузить информацию об этом предмете</source>
-        <target state="needs-review-translation">Не ўдалося загрузіць інфармацыю аб гэтым прадмеце</target>
+        <target state="translated">Не ўдалося загрузіць інфармацыю пра гэты прадмет</target>
       </trans-unit>
       <trans-unit id="bbcode_econ_TradeTitle" xml:space="preserve">
         <source>Обмен</source>
@@ -4671,7 +4671,7 @@
       </trans-unit>
       <trans-unit id="bbcode_image_tooltip_resize" xml:space="preserve">
         <source>Потащите, чтобы изменить размер изображения</source>
-        <target state="needs-review-translation">Пацягнеце, каб змяніць памер выявы</target>
+        <target state="translated">Пацягніце, каб змяніць памер выявы</target>
       </trans-unit>
       <trans-unit id="bbcode_image_tooltip_restore" xml:space="preserve">
         <source>Вернуть исходный размер</source>
@@ -4855,7 +4855,7 @@
       </trans-unit>
       <trans-unit id="bbcode_video_tooltip_resize" xml:space="preserve">
         <source>Потащите, чтобы изменить размер видео</source>
-        <target state="needs-review-translation">Пацягнеце, каб змяніць памер відэа</target>
+        <target state="translated">Пацягніце, каб змяніць памер відэа</target>
       </trans-unit>
       <trans-unit id="bbcode_video_tooltip_restore" xml:space="preserve">
         <source>Вернуть исходный размер</source>

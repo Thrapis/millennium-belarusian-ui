@@ -152,7 +152,7 @@
       </trans-unit>
       <trans-unit id="Account_Notification_Settings_Wishlist_Categories" xml:space="preserve">
         <source>Уведомлять меня только об этих категориях из списка желаемого</source>
-        <target state="needs-review-translation">Апавяшчаць мяне толькі аб гэтых катэгорыях са спісу жаданага</target>
+        <target state="translated">Апавяшчаць мяне толькі пра гэтыя катэгорыі са спісу жаданага</target>
       </trans-unit>
       <trans-unit id="Account_Safety_Header" xml:space="preserve">
         <source>Защитите свой аккаунт</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="ActionButtonLabelContextMenu" xml:space="preserve">
         <source>Опции</source>
-        <target state="needs-review-translation">Опцыі</target>
+        <target state="translated">Параметры</target>
       </trans-unit>
       <trans-unit id="ActionButtonLabelDismiss" xml:space="preserve">
         <source>Скрыть</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="AppHub_Nav_Guides" xml:space="preserve">
         <source>Руководства</source>
-        <target state="needs-review-translation">Кіраўніцтва</target>
+        <target state="translated">Кіраўніцтвы</target>
       </trans-unit>
       <trans-unit id="AppHub_Nav_News" xml:space="preserve">
         <source>Новости</source>
@@ -1212,7 +1212,7 @@
       </trans-unit>
       <trans-unit id="Button_Preview" xml:space="preserve">
         <source>Предпросмотр</source>
-        <target state="needs-review-translation">Прадпрагляд</target>
+        <target state="translated">Папярэдні прагляд</target>
       </trans-unit>
       <trans-unit id="Button_Publish" xml:space="preserve">
         <source>Отправить</source>
@@ -1536,7 +1536,7 @@
       </trans-unit>
       <trans-unit id="ClipExport_PreviewError" xml:space="preserve">
         <source>Не удалось получить информацию о ролике (<ph id="1">%1$s</ph>)</source>
-        <target state="needs-review-translation">Не ўдалося атрымаць інфармацыю аб роліку (<ph id="1">%1$s</ph>)</target>
+        <target state="translated">Не ўдалося атрымаць інфармацыю пра ролік (<ph id="1">%1$s</ph>)</target>
       </trans-unit>
       <trans-unit id="ClipExport_PreviewErrorTempClip" xml:space="preserve">
         <source>Не удалось создать временный ролик (<ph id="1">%1$s</ph>)</source>
@@ -1544,19 +1544,19 @@
       </trans-unit>
       <trans-unit id="ClipExport_PreviewError_ErrorReadingInput" xml:space="preserve">
         <source>Не удалось получить информацию для предпросмотра ролика из-за ошибки при чтении или декодировании исходных файлов записи.</source>
-        <target state="needs-review-translation">Не атрымалася атрымаць інфармацыю для прадпрагляду роліка з-за памылкі пры чытанні ці дэкадаванні зыходных файлаў запісу.</target>
+        <target state="translated">Не атрымалася атрымаць інфармацыю для папярэдняга прагляду роліка з-за памылкі пры чытанні ці дэкадаванні зыходных файлаў запісу.</target>
       </trans-unit>
       <trans-unit id="ClipExport_PreviewError_InputNotFound" xml:space="preserve">
         <source>Не удалось получить информацию для предпросмотра ролика, поскольку часть записи отсутствует. Запись могла быть перемещена или удалена.</source>
-        <target state="needs-review-translation">Не ўдалося атрымаць інфармацыю для прадпрагляду роліка, паколькі частка запісу адсутнічае. Запіс мог быць перамешчаны або выдалены.</target>
+        <target state="translated">Не ўдалося атрымаць інфармацыю для папярэдняга прагляду роліка, паколькі частка запісу адсутнічае. Запіс мог быць перамешчаны або выдалены.</target>
       </trans-unit>
       <trans-unit id="ClipExport_PreviewError_ResolutionTooLarge" xml:space="preserve">
         <source>Не удалось получить информацию для предпросмотра ролика, поскольку выбранное разрешение слишком велико для этого формата. Попробуйте экспортировать в более низком разрешении.</source>
-        <target state="translated">Не атрымалася атрымаць інфармацыю для прадпрагляду роліка, паколькі абраная раздзяляльнасць занадта вялікая для гэтага фармату. Паспрабуйце экспартаваць з ніжэйшай раздзяляльнасцю.</target>
+        <target state="translated">Не атрымалася атрымаць інфармацыю для папярэдняга прагляду роліка, паколькі выбраная раздзяляльнасць занадта вялікая для гэтага фармату. Паспрабуйце экспартаваць з ніжэйшай раздзяляльнасцю.</target>
       </trans-unit>
       <trans-unit id="ClipExport_PreviewError_UnsupportedSourceCodec" xml:space="preserve">
         <source>Не удалось получить информацию для предпросмотра ролика, поскольку эта запись использует неподдерживаемый формат видео.</source>
-        <target state="needs-review-translation">Не ўдалося атрымаць інфармацыю для прадпрагляду роліка, паколькі гэты запіс выкарыстоўвае непадтрымліваемы фармат відэа.</target>
+        <target state="translated">Не ўдалося атрымаць інфармацыю для папярэдняга прагляду роліка, паколькі гэты запіс выкарыстоўвае фармат відэа, які не падтрымліваецца.</target>
       </trans-unit>
       <trans-unit id="ClipExport_Preview_Length" xml:space="preserve">
         <source>Длительность</source>
@@ -1780,7 +1780,7 @@
       </trans-unit>
       <trans-unit id="ContentHub_Recommendation_TopSeller" xml:space="preserve">
         <source>Лидер продаж</source>
-        <target state="needs-review-translation">Лідэр продажаў</target>
+        <target state="translated">Лідар продажаў</target>
       </trans-unit>
       <trans-unit id="ContentHub_ReduceMotion" xml:space="preserve">
         <source>Отключить трейлеры</source>
@@ -1860,7 +1860,7 @@
       </trans-unit>
       <trans-unit id="ControllerActionKey_GR_Marker" xml:space="preserve">
         <source>Добавить отметку на временной шкале</source>
-        <target state="needs-review-translation">Дадаць адзнаку на часовай шкале</target>
+        <target state="translated">Дадаць пазнаку на часовай шкале</target>
       </trans-unit>
       <trans-unit id="ControllerActionKey_GR_Toggle" xml:space="preserve">
         <source>Вкл./выкл. запись вручную</source>
@@ -2036,7 +2036,7 @@
       </trans-unit>
       <trans-unit id="CreateLink_QRCodeDescription" xml:space="preserve">
         <source>Воспользуйтесь камерой своего телефона, чтобы отсканировать этот QR-код и открыть ролик в браузере.</source>
-        <target state="translated">Скарыстайцеся камерай свайго тэлефона, каб адсканаваць гэты QR-код і адкрыць ролік у браўзеры.</target>
+        <target state="translated">Навядзіце камеру свайго тэлефона на гэты QR-код, каб адкрыць ролік у браўзеры.</target>
       </trans-unit>
       <trans-unit id="CreateLink_QRCodePrompt" xml:space="preserve">
         <source>Наведите камеру телефона на QR-код, чтобы открыть ссылку прямо в браузере телефона.</source>
@@ -2056,7 +2056,7 @@
       </trans-unit>
       <trans-unit id="CreatorHome_Follow_tooltip" xml:space="preserve">
         <source>Подпишитесь на этого создателя, чтобы получать уведомления о его новых продуктах по электронной почте и в магазине Steam. Уведомления по электронной почте можно выключить.</source>
-        <target state="translated">Падпішыцеся на гэтага стваральніка, каб атрымліваць апавяшчэнні аб яго новых прадуктах па электроннай пошце і ў краме Steam. Апавяшчэнні па электроннай пошце можна выключыць.</target>
+        <target state="translated">Падпішыцеся на гэтага стваральніка, каб атрымліваць апавяшчэнні пра яго новыя прадукты па электроннай пошце і ў краме Steam. Апавяшчэнні па электроннай пошце можна выключыць.</target>
       </trans-unit>
       <trans-unit id="CreatorHome_Followers" xml:space="preserve">
         <source>Подписчики<ph id="1">&lt;br&gt;</ph><ph id="2">%1$s</ph></source>
@@ -2076,7 +2076,7 @@
       </trans-unit>
       <trans-unit id="CreatorHome_ThisGame" xml:space="preserve">
         <source>Об этой игре:</source>
-        <target state="needs-review-translation">Аб гэтай гульні:</target>
+        <target state="translated">Пра гэту гульню:</target>
       </trans-unit>
       <trans-unit id="DASHPlayerControls_ClickToPlay" xml:space="preserve">
         <source>Воспроизвести</source>
@@ -2120,7 +2120,7 @@
       </trans-unit>
       <trans-unit id="DASHPlayerStats_BandwidthNums" xml:space="preserve">
         <source>Мин./макс./ср. скорость (Мбит/с):</source>
-        <target state="translated">Мін./макс./пар. хуткасць (Мбіт/с):</target>
+        <target state="translated">Мін./макс./сяр. хуткасць (Мбіт/с):</target>
       </trans-unit>
       <trans-unit id="DASHPlayerStats_BandwidthRequired" xml:space="preserve">
         <source>Необходимая скорость (Мбит/с):</source>
@@ -2204,7 +2204,7 @@
       </trans-unit>
       <trans-unit id="DLCForYou_DLCAvailable" xml:space="preserve">
         <source>Доступный доп. контент</source>
-        <target state="translated">Даступнак дад. змесціва</target>
+        <target state="translated">Даступнае дад. змесціва</target>
       </trans-unit>
       <trans-unit id="DLCForYou_DLCInLibrary" xml:space="preserve">
         <source>Доп. контент в библиотеке</source>
@@ -2224,7 +2224,7 @@
       </trans-unit>
       <trans-unit id="DLCForYou_PreviewPlaceholder" xml:space="preserve">
         <source>Режим предпросмотра: в этом разделе нет доступного доп. контента (он виден только пользователям, владеющим основной игрой). Пустой раздел не появится на странице пользователя.</source>
-        <target state="translated">Рэжым прадпрагляду: у гэтым раздзеле няма даступнага дад. змесціва (яно бачна толькі карыстальнікам, якія валодаюць асноўнай гульнёй). Пусты раздзел не з&#39;явіцца на старонцы карыстальніка.</target>
+        <target state="translated">Рэжым папярэдняга прагляду: у гэтым раздзеле няма даступнага дад. змесціва (яно бачна толькі карыстальнікам, якія валодаюць асноўнай гульнёй). Пусты раздзел не з&#39;явіцца на старонцы карыстальніка.</target>
       </trans-unit>
       <trans-unit id="DLCForYou_SortTabs_LastPlayed" xml:space="preserve">
         <source>Недавно запущенные</source>
@@ -2256,7 +2256,7 @@
       </trans-unit>
       <trans-unit id="DateTimePicker_Enter_Date" xml:space="preserve">
         <source>Выберите дату</source>
-        <target state="needs-review-translation">Выберыце дату</target>
+        <target state="translated">Абярыце дату</target>
       </trans-unit>
       <trans-unit id="DateTimePicker_Enter_Time" xml:space="preserve">
         <source>Выберите время</source>
@@ -2410,7 +2410,7 @@
       </trans-unit>
       <trans-unit id="DiscoveryQueue_FriendsWishlisted_Single" xml:space="preserve">
         <source>Добавлено в список желаемого <ph id="1">%1$s</ph></source>
-        <target state="translated">Дададзена ў спіс жаданага: <ph id="1">%1$s</ph></target>
+        <target state="translated">Дададзена ў спіс жаданага <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DiscoveryQueue_IgnoreLink" xml:space="preserve">
         <source>Скрыть</source>
@@ -2732,11 +2732,11 @@
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_InLibraryEvents" xml:space="preserve">
         <source>Уведомления о событиях отдельных игр</source>
-        <target state="needs-review-translation">Апавяшчэнні аб падзеях асобных гульняў</target>
+        <target state="translated">Апавяшчэнні пра падзеі асобных гульняў</target>
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_InLibraryEvents_Desc" xml:space="preserve">
         <source>Иногда Steam отправляет уведомления о событиях в отдельных играх из вашей библиотеки или подписок. Вы можете отказаться от уведомлений отдельной игры, нажав «Скрыть» на её странице в магазине, либо добавив её в список ниже, либо нажав на ссылку в письме для отказа от подписки.</source>
-        <target state="translated">Часам Steam адпраўляе апавяшчэнні аб падзеях у асобных гульнях з вашай бібліятэкі ці падпісак. Вы можаце адмовіцца ад апавяшчэнняў асобнай гульні, націснуўшы «Схаваць» на яе старонцы ў краме, альбо дадаўшы яе ў спіс ніжэй, альбо націснуўшы на спасылку ў лісце для адмовы ад падпіскі.</target>
+        <target state="translated">Часам Steam адпраўляе апавяшчэнні пра падзеі ў асобных гульнях з вашай бібліятэкі ці падпісак. Вы можаце адмовіцца ад апавяшчэнняў асобнай гульні, націснуўшы «Схаваць» на яе старонцы ў краме, альбо дадаўшы яе ў спіс ніжэй, альбо націснуўшы на спасылку ў лісце для адмовы ад падпіскі.</target>
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_InLibraryEvents_Desc2" xml:space="preserve">
         <source>Скрытые игры можно просмотреть <ph id="1">&lt;1&gt;</ph>здесь<ph id="2">&lt;/1&gt;</ph>.</source>
@@ -2756,11 +2756,11 @@
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_PartnerMessages_Desc" xml:space="preserve">
         <source>Команда развития бизнеса Steam периодически рассылает сообщения о новых функциях Steam, которыми могут воспользоваться разработчики, а также приглашения принять участие в тематических или сезонных распродажах. Эти рассылки распространяются только на аккаунты разработчиков или издателей в Steamworks.</source>
-        <target state="needs-review-translation">Каманда развіцця бізнесу Steam перыядычна рассылае паведамленні аб новых функцыях Steam, якімі могуць скарыстацца распрацоўшчыкі, а таксама запрашэнні прыняць удзел у тэматычных або сезонных распродажах. Гэтыя рассылкі распаўсюджваюцца толькі на акаўнты распрацоўшчыкаў або выдаўцоў у Steamworks.</target>
+        <target state="translated">Каманда развіцця бізнесу Steam перыядычна рассылае паведамленні пра новыя функцыі Steam, якія могуць выкарыстоўваць распрацоўшчыкі, а таксама запрашэнні прыняць удзел у тэматычных або сезонных распродажах. Гэтыя рассылкі распаўсюджваюцца толькі на акаўнты распрацоўшчыкаў або выдаўцоў у Steamworks.</target>
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_PerAppPerClan_Desc" xml:space="preserve">
         <source>Вы отказались получать следующие письма: <ph id="1">%1$s</ph> об играх и <ph id="2">%2$s</ph> о разработчиках, издателях или сериях игр.</source>
-        <target state="needs-review-translation">Вы адмовіліся атрымліваць наступныя лісты: <ph id="1">%1$s</ph> аб гульнях і <ph id="2">%2$s</ph> аб распрацоўшчыках, выдаўцах або серыях гульняў.</target>
+        <target state="translated">Вы адмовіліся атрымліваць наступныя лісты: <ph id="1">%1$s</ph> пра гульні і <ph id="2">%2$s</ph> пра распрацоўшчыкаў, выдаўцоў або серыі гульняў.</target>
       </trans-unit>
       <trans-unit id="Email_OptOut_Send_RoadmapShip" xml:space="preserve">
         <source>У игры из моих подписок вышел новый контент, входящий в её план развития</source>
@@ -2868,7 +2868,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_CloseFilters" xml:space="preserve">
         <source>Новостной центр</source>
-        <target state="needs-review-translation">Навінавы цэнтр</target>
+        <target state="translated">Цэнтр навін</target>
       </trans-unit>
       <trans-unit id="EventCalendar_Collection_Halloween_Subtitle" xml:space="preserve">
         <source>Просмотрите жуткие хеллоуинские новости и события от игр в Steam</source>
@@ -2880,7 +2880,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_Collection_News_Subtitle" xml:space="preserve">
         <source>Получайте последние новости об играх из лучших источников. Подписывайтесь на кураторов новостей Steam, чтобы добавлять их новости и игровые рекомендации в свой новостной центр Steam.</source>
-        <target state="needs-review-translation">Атрымлівайце апошнія навіны аб гульнях з лепшых крыніц. Падпісвайцеся на куратараў навін Steam, каб дадаваць іх навіны і гульнявыя рэкамендацыі ў свой цэнтр навін Steam.</target>
+        <target state="translated">Атрымлівайце апошнія навіны пра гульні з лепшых крыніц. Падпісвайцеся на куратараў навін Steam, каб дадаваць іх навіны і гульнявыя рэкамендацыі ў свой цэнтр навін Steam.</target>
       </trans-unit>
       <trans-unit id="EventCalendar_Collection_News_Title" xml:space="preserve">
         <source>Находите кураторов новостей</source>
@@ -2892,7 +2892,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_EditFilters" xml:space="preserve">
         <source>Опции и фильтры</source>
-        <target state="needs-review-translation">Опцыі і фільтры</target>
+        <target state="translated">Параметры і фільтры</target>
       </trans-unit>
       <trans-unit id="EventCalendar_EmptyCalendar" xml:space="preserve">
         <source>Публикации не найдены. Попробуйте выбрать другие критерии поиска в боковом меню.</source>
@@ -2932,7 +2932,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_EventTypeGroup_ttip_sales" xml:space="preserve">
         <source>Скидки, особые акции и бесплатные пробные версии</source>
-        <target state="needs-review-translation">Зніжкі, спецыяльныя акцыі і бясплатныя пробныя версіі</target>
+        <target state="translated">Зніжкі, спецыяльныя акцыі і бясплатныя выпрабавальныя версіі</target>
       </trans-unit>
       <trans-unit id="EventCalendar_EventTypeGroup_ttip_streaming" xml:space="preserve">
         <source>Трансляции разработчиков, например, турниры и совместные игры</source>
@@ -2940,7 +2940,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_EventTypeGroup_ttip_updates" xml:space="preserve">
         <source>Новости о новом контенте, расширениях, доп. контенте и исправлениях ошибок</source>
-        <target state="translated">Навіны аб новым кантэнце, пашырэннях, дад. кантэнце і выпраўленнях памылак</target>
+        <target state="translated">Навіны пра новае змесціва, пашырэнні, дад. змесціва і выпраўленні памылак</target>
       </trans-unit>
       <trans-unit id="EventCalendar_EventTypeGroup_updates" xml:space="preserve">
         <source>Обновления контента</source>
@@ -2964,7 +2964,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_FiltersDescription" xml:space="preserve">
         <source>Выберите типы и источники новостей, которые вы будете видеть в новостном центре</source>
-        <target state="needs-review-translation">Абярыце тыпы і крыніцы навін, якія вы будзеце бачыць у навінавым цэнтры</target>
+        <target state="translated">Абярыце тыпы і крыніцы навін, якія вы будзеце бачыць у цэнтры навін</target>
       </trans-unit>
       <trans-unit id="EventCalendar_FiltersDescription_NonPersonalized" xml:space="preserve">
         <source>Выберите типы событий, которые хотите видеть на этой странице</source>
@@ -2992,7 +2992,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_FutureEventsHeader" xml:space="preserve">
         <source>Скоро</source>
-        <target state="needs-review-translation">Скора</target>
+        <target state="translated">Хутка</target>
       </trans-unit>
       <trans-unit id="EventCalendar_FutureEventsHint" xml:space="preserve">
         <source>Прокрутите выше, чтобы увидеть будущие события</source>
@@ -3028,7 +3028,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_EventExplanation_ttip_steam" xml:space="preserve">
         <source>Это публикация о Steam</source>
-        <target state="needs-review-translation">Гэта публікацыя аб Steam</target>
+        <target state="translated">Гэта публікацыя пра Steam</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_EventExplanation_ttip_wishlist" xml:space="preserve">
         <source>Эта игра в вашем списке желаемого</source>
@@ -3096,7 +3096,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_topx" xml:space="preserve">
         <source>Лидеры продаж</source>
-        <target state="needs-review-translation">Лідэры продажаў</target>
+        <target state="translated">Лідары продажаў</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_curator" xml:space="preserve">
         <source>Публикации от кураторов, на которых вы подписаны в Steam</source>
@@ -3108,31 +3108,31 @@
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_following" xml:space="preserve">
         <source>Публикации об играх, на которые вы подписаны</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях, на якія вы падпісаны</target>
+        <target state="translated">Публікацыі пра гульні, на якія вы падпісаны</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_library" xml:space="preserve">
         <source>Публикации об играх в вашей библиотеке</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях у вашай бібліятэцы</target>
+        <target state="translated">Публікацыі пра гульні ў вашай бібліятэцы</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_recent" xml:space="preserve">
         <source>Публикации об играх, запущенных или приобретённых в последние шесть месяцев</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях, запушчаных ці набытых у апошнія шэсць месяцаў</target>
+        <target state="translated">Публікацыі пра гульні, запушчаныя ці набытыя ў апошнія шэсць месяцаў</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_recommended" xml:space="preserve">
         <source>Публикации об играх, которые вам могут понравиться</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях, якія вам могуць спадабацца</target>
+        <target state="translated">Публікацыі пра гульні, якія вам могуць спадабацца</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_steam" xml:space="preserve">
         <source>Публикации о платформе Steam</source>
-        <target state="needs-review-translation">Публікацыі аб платформе Steam</target>
+        <target state="translated">Публікацыі пра платформу Steam</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_topx" xml:space="preserve">
         <source>Публикации об играх из региональных списков лидеров продаж</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях з рэгіянальных спісаў лідэраў продажаў</target>
+        <target state="translated">Публікацыі пра гульні з рэгіянальных спісаў лідараў продажаў</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_ttip_wishlist" xml:space="preserve">
         <source>Публикации об играх в вашем списке желаемого</source>
-        <target state="needs-review-translation">Публікацыі аб гульнях у вашым спісе жаданага</target>
+        <target state="translated">Публікацыі пра гульні ў вашым спісе жаданага</target>
       </trans-unit>
       <trans-unit id="EventCalendar_GameSource_wishlist" xml:space="preserve">
         <source>список желаемого</source>
@@ -3304,7 +3304,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_NewsChannel_UpcomingShort" xml:space="preserve">
         <source>Скоро</source>
-        <target state="needs-review-translation">Скора</target>
+        <target state="translated">Хутка</target>
       </trans-unit>
       <trans-unit id="EventCalendar_NewsChannel_YourNews" xml:space="preserve">
         <source>Новости</source>
@@ -3312,7 +3312,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_NewsChannel_YourNews_HeaderTitle" xml:space="preserve">
         <source>Подобранные для вас новости об играх</source>
-        <target state="translated">Падабраныя для вас навіны аб гульнях</target>
+        <target state="translated">Падабраныя для вас навіны пра гульні</target>
       </trans-unit>
       <trans-unit id="EventCalendar_NewsChannels" xml:space="preserve">
         <source>Ваши новости и события</source>
@@ -3416,7 +3416,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_SpecificCalendar" xml:space="preserve">
         <source>Новостной центр<ph id="1">%2$s</ph><ph id="2">%1$s</ph></source>
-        <target state="needs-review-translation">Навінавы цэнтр<ph id="1">%2$s</ph><ph id="2">%1$s</ph></target>
+        <target state="translated">Цэнтр навін<ph id="1">%2$s</ph><ph id="2">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="EventCalendar_StartedAtTime" xml:space="preserve">
         <source>Началось <ph id="1">%1$s</ph></source>
@@ -3424,7 +3424,7 @@
       </trans-unit>
       <trans-unit id="EventCalendar_TabTitle_Global" xml:space="preserve">
         <source>Новостной центр Steam</source>
-        <target state="needs-review-translation">Навінавы цэнтр Steam</target>
+        <target state="translated">Цэнтр навін Steam</target>
       </trans-unit>
       <trans-unit id="EventCalendar_TabTitle_GroupHub" xml:space="preserve">
         <source><ph id="1">%1$s</ph> — Новостной центр Steam</source>
@@ -3520,11 +3520,11 @@
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_following" xml:space="preserve">
         <source>Скрыть публикации об играх, на которые вы подписаны</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб гульнях, на якія вы падпісаны</target>
+        <target state="translated">Схаваць публікацыі пра гульні, на якія вы падпісаны</target>
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_library" xml:space="preserve">
         <source>Скрыть публикации об играх из библиотеки</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб гульнях з бібліятэкі</target>
+        <target state="translated">Схаваць публікацыі пра гульні з бібліятэкі</target>
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_recent" xml:space="preserve">
         <source>Скрыть публикации от недавно запущенных игр</source>
@@ -3532,19 +3532,19 @@
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_recommended" xml:space="preserve">
         <source>Скрыть публикации о рекомендованных вам играх</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб рэкамендаваных вам гульнях</target>
+        <target state="translated">Схаваць публікацыі пра рэкамендаваныя вам гульні</target>
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_steam" xml:space="preserve">
         <source>Скрыть публикации о платформе Steam</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб платформе Steam</target>
+        <target state="translated">Схаваць публікацыі пра платформу Steam</target>
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_topx" xml:space="preserve">
         <source>Скрыть публикации о лидерах продаж</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб лідэрах продажаў</target>
+        <target state="translated">Схаваць публікацыі пра лідараў продажаў</target>
       </trans-unit>
       <trans-unit id="EventCalender_Hide_Reason_wishlist" xml:space="preserve">
         <source>Скрыть публикации об играх из списка желаемого</source>
-        <target state="needs-review-translation">Схаваць публікацыі аб гульнях са спісу жаданага</target>
+        <target state="translated">Схаваць публікацыі пра гульні са спісу жаданага</target>
       </trans-unit>
       <trans-unit id="EventCalender_LastPlayed" xml:space="preserve">
         <source>Запущена <ph id="1">%1$s</ph></source>
@@ -3576,11 +3576,11 @@
       </trans-unit>
       <trans-unit id="EventCalender_Reason_steam" xml:space="preserve">
         <source>Эта публикация о платформе Steam</source>
-        <target state="needs-review-translation">Гэтая публікацыя аб платформе Steam</target>
+        <target state="translated">Гэтая публікацыя пра платформу Steam</target>
       </trans-unit>
       <trans-unit id="EventCalender_Reason_topx" xml:space="preserve">
         <source>Игра входит в лидеры продаж</source>
-        <target state="needs-review-translation">Гульня ўваходзіць у лідэры продажаў</target>
+        <target state="translated">Гульня ўваходзіць у лідары продажаў</target>
       </trans-unit>
       <trans-unit id="EventCalender_Reason_wishlist" xml:space="preserve">
         <source>Эта игра в вашем списке желаемого</source>
@@ -3588,7 +3588,7 @@
       </trans-unit>
       <trans-unit id="EventCurator_BrowseDialog_Desc" xml:space="preserve">
         <source>Подписывайтесь на любимых кураторов, чтобы узнавать о недавних событиях прямо из новостного центра Steam!</source>
-        <target state="needs-review-translation">Падпісвайцеся на любімых куратараў, каб даведвацца аб нядаўніх падзеях прама з навінавага цэнтра Steam!</target>
+        <target state="translated">Падпісвайцеся на любімых куратараў, каб даведвацца пра нядаўнія падзеі прама з навінавага цэнтра Steam!</target>
       </trans-unit>
       <trans-unit id="EventCurator_BrowseDialog_LangCurator" xml:space="preserve">
         <source>Кураторы Steam: <ph id="1">%1$s</ph></source>
@@ -3612,7 +3612,7 @@
       </trans-unit>
       <trans-unit id="EventCurator_FeedCaption_Long" xml:space="preserve">
         <source>Подписывайтесь на этих кураторов, чтобы узнавать о недавних событиях прямо из новостного центра Steam!</source>
-        <target state="needs-review-translation">Падпісвайцеся на гэтых куратараў, каб даведвацца аб нядаўніх падзеях прама з навінавага цэнтра Steam!</target>
+        <target state="translated">Падпісвайцеся на гэтых куратараў, каб даведвацца пра нядаўнія падзеі прама з навінавага цэнтра Steam!</target>
       </trans-unit>
       <trans-unit id="EventCurator_NoEventsFound_Body" xml:space="preserve">
         <source>У этого куратора нет публикаций</source>
@@ -3637,15 +3637,15 @@
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_ModerationTitle" xml:space="preserve">
         <source>О модерации события</source>
-        <target state="needs-review-translation">Аб мадэрацыі падзеі</target>
+        <target state="translated">Пра мадэрацыю падзеі</target>
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_NewsHubDetail" xml:space="preserve">
         <source>Новостной центр</source>
-        <target state="needs-review-translation">Навінавы цэнтр</target>
+        <target state="translated">Цэнтр навін</target>
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_PopUpViews" xml:space="preserve">
         <source>Просмотры уведомления о событии</source>
-        <target state="needs-review-translation">Прагляды апавяшчэння аб падзеі</target>
+        <target state="translated">Прагляды апавяшчэння пра падзею</target>
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_StoreDetail" xml:space="preserve">
         <source>Страница игры в магазине</source>
@@ -3781,7 +3781,7 @@
       </trans-unit>
       <trans-unit id="EventDisplay_CallToAction_ComingSoon" xml:space="preserve">
         <source>Скоро</source>
-        <target state="needs-review-translation">Скора</target>
+        <target state="translated">Хутка</target>
       </trans-unit>
       <trans-unit id="EventDisplay_CallToAction_ComingSoon_Date" xml:space="preserve">
         <source>Дата выхода: <ph id="1">%1$s</ph></source>
@@ -3881,7 +3881,7 @@
       </trans-unit>
       <trans-unit id="EventDisplay_NewsHubSubtitle" xml:space="preserve">
         <source>Новостной центр</source>
-        <target state="needs-review-translation">Навінавы цэнтр</target>
+        <target state="translated">Цэнтр навін</target>
       </trans-unit>
       <trans-unit id="EventDisplay_NoEventsToSee" xml:space="preserve">
         <source>Событий не найдено</source>
@@ -3917,7 +3917,7 @@
       </trans-unit>
       <trans-unit id="EventDisplay_PreviewOnCommunity" xml:space="preserve">
         <source>Предпросмотр в сообществе</source>
-        <target state="needs-review-translation">Прадпрагляд у супольнасці</target>
+        <target state="translated">Папярэдні прагляд у супольнасці</target>
       </trans-unit>
       <trans-unit id="EventDisplay_PromotionEditor" xml:space="preserve">
         <source>(VO) План продвижения</source>
@@ -3983,7 +3983,7 @@
       </trans-unit>
       <trans-unit id="EventDisplay_Reminder_FollowEvent_ttip" xml:space="preserve">
         <source>Подписаться на событие, чтобы получить уведомление о его начале.</source>
-        <target state="needs-review-translation">Падпісацца на падзею, каб атрымаць апавяшчэнне аб яго пачатку.</target>
+        <target state="translated">Падпісацца на падзею, каб атрымаць апавяшчэнне пра яе пачатак.</target>
       </trans-unit>
       <trans-unit id="EventDisplay_Reminder_GetNotification_Via" xml:space="preserve">
         <source>Получить уведомление</source>
@@ -4135,7 +4135,7 @@
       </trans-unit>
       <trans-unit id="EventDisplay_Share_OnMyStatus_Placeholder" xml:space="preserve">
         <source>Расскажите об этом друзьям...</source>
-        <target state="needs-review-translation">Раскажыце аб гэтым сябрам...</target>
+        <target state="translated">Раскажыце пра гэта сябрам...</target>
       </trans-unit>
       <trans-unit id="EventDisplay_Share_OnReddit" xml:space="preserve">
         <source>Поделиться на Reddit</source>
@@ -4299,7 +4299,7 @@
       </trans-unit>
       <trans-unit id="EventEditor_AddSpeaker_Desc" xml:space="preserve">
         <source>Добавьте в событие имя выступающего или стримера. Оно появится в событии, а также в информации о нём для пользователей Steam.</source>
-        <target state="needs-review-translation">Дадайце ў падзею імя выступоўца ці стрымера. Яно з&#39;явіцца ў падзеі, а таксама ў інфармацыі аб ім для карыстальнікаў Steam.</target>
+        <target state="translated">Дадайце ў падзею імя выступоўца ці стрымера. Яно з&#39;явіцца ў падзеі, а таксама ў інфармацыі пра яго для карыстальнікаў Steam.</target>
       </trans-unit>
       <trans-unit id="EventEditor_AddSpeaker_Name" xml:space="preserve">
         <source>Имя:</source>
@@ -4559,7 +4559,7 @@
       </trans-unit>
       <trans-unit id="EventEditor_SaleValveApproval_Request_DuplicateError" xml:space="preserve">
         <source>Не удалось создать новое обращение, так как обращение этого типа уже создано. Дождитесь, пока завершится текущая проверка страницы распродажи, прежде чем запрашивать новую, или добавьте страницу к существующему обращению.</source>
-        <target state="translated">Не ўдалося стварыць новы зварот, бо зварот гэтага тыпу ўжо створаны. Дачакайцеся, пакуль завершыцца бягучая праверка старонкі распродажу, перш чым запытваць новую, або дадайце старонку да існуючага звароту.</target>
+        <target state="translated">Не ўдалося стварыць новы зварот, бо зварот гэтага тыпу ўжо створаны. Дачакайцеся, пакуль завершыцца бягучая праверка старонкі распродажу, перш чым запытваць новую, або дадайце старонку да наяўнага звароту.</target>
       </trans-unit>
       <trans-unit id="EventEditor_SaleValveApproval_Request_Error" xml:space="preserve">
         <source>Не удалось создать запрос. Попробуйте позже</source>
@@ -4579,7 +4579,7 @@
       </trans-unit>
       <trans-unit id="EventEditor_SaleValveApproval_Request_Partner_ttip" xml:space="preserve">
         <source>По желанию: если выбрано, другие члены партнёрских аккаунтов получат доступ к запросу и смогут отвечать на сообщения в нём. По умолчанию только вы можете читать и обновлять запросы, которые создали, а также отвечать на сообщения в них</source>
-        <target state="translated">Па жаданні: калі абрана, іншыя ўдзельнікі партнёрскіх акаўнтаў атрымаюць доступ да запыту і змогуць адказваць на паведамленні ў ім. Па змаўчанні толькі вы можаце чытаць і абнаўляць запыты, якія стварылі, а таксама адказваць на паведамленні ў іх</target>
+        <target state="translated">Па жаданні: калі выбрана, іншыя ўдзельнікі партнёрскіх акаўнтаў атрымаюць доступ да запыту і змогуць адказваць на паведамленні ў ім. Па змаўчанні толькі вы можаце чытаць і абнаўляць запыты, якія стварылі, а таксама адказваць на паведамленні ў іх</target>
       </trans-unit>
       <trans-unit id="EventEditor_SaleValveApproval_Request_Success" xml:space="preserve">
         <source>Запрос успешно создан!</source>
@@ -4759,7 +4759,7 @@
       </trans-unit>
       <trans-unit id="EventModTile_Action_UnReviewed" xml:space="preserve">
         <source><ph id="1">%1$s</ph>: с пользователя <ph id="2">%2$s</ph> снята отметка о проверке</source>
-        <target state="needs-review-translation"><ph id="1">%1$s</ph>: з карыстальніка <ph id="2">%2$s</ph> знята адзнака аб праверцы</target>
+        <target state="translated"><ph id="1">%1$s</ph>: з карыстальніка <ph id="2">%2$s</ph> знята адзнака пра праверку</target>
       </trans-unit>
       <trans-unit id="EventModTile_EventCreator" xml:space="preserve">
         <source>Автор сообщения: <ph id="1">%1$s</ph></source>
@@ -4919,11 +4919,11 @@
       </trans-unit>
       <trans-unit id="ExportClip_Error_ResolutionTooLarge" xml:space="preserve">
         <source>Не удалось экспортировать, поскольку выбранное разрешение слишком велико для этого формата видео. Попробуйте экспортировать в более низком разрешении.</source>
-        <target state="translated">Не атрымалася экспартаваць, паколькі абраная раздзяляльнасць занадта вялікая для гэтага фармату відэа. Паспрабуйце экспартаваць з меншай раздзяляльнасцю.</target>
+        <target state="translated">Не атрымалася экспартаваць, паколькі выбраная раздзяляльнасць занадта вялікая для гэтага фармату відэа. Паспрабуйце экспартаваць з меншай раздзяляльнасцю.</target>
       </trans-unit>
       <trans-unit id="ExportClip_Error_UnsupportedSourceCodec" xml:space="preserve">
         <source>Не удалось экспортировать, поскольку эта запись использует неподдерживаемый формат видео.</source>
-        <target state="needs-review-translation">Не ўдалося экспартаваць, паколькі гэты запіс выкарыстоўвае непадтрымліваемы фармат відэа.</target>
+        <target state="translated">Не ўдалося экспартаваць, паколькі гэты запіс выкарыстоўвае фармат відэа, які не падтрымліваецца.</target>
       </trans-unit>
       <trans-unit id="ExportClip_Error_UnsupportedTargetCodec" xml:space="preserve">
         <source>Не удалось экспортировать. Попробуйте выбрать другой кодек для выходного видео.</source>
@@ -5091,7 +5091,7 @@
       </trans-unit>
       <trans-unit id="FacetedBrowse_SearchFacetValues" xml:space="preserve">
         <source>Поиск по метке или опции</source>
-        <target state="needs-review-translation">Пошук па метцы ці опцыі</target>
+        <target state="translated">Пошук па метцы ці параметры</target>
       </trans-unit>
       <trans-unit id="FacetedBrowse_SelectedFacetValues" xml:space="preserve">
         <source>Применённые фильтры</source>
@@ -5155,7 +5155,7 @@
       </trans-unit>
       <trans-unit id="FamilyHistory_InviteDeniedByFamilySize" xml:space="preserve">
         <source><ph id="1">%1$s</ph> не смог(ла) отправить приглашение пользователю <ph id="2">%2$s</ph>, поскольку семейная группа заполнена.</source>
-        <target state="translated"><ph id="1">%1$s</ph> не змог(ла) адправіць запрашэнне карыстальніку <ph id="2">%2$s</ph>, бо сямейная група запоўнена.</target>
+        <target state="translated"><ph id="1">%1$s</ph> не змог(-ла) адправіць запрашэнне карыстальніку <ph id="2">%2$s</ph>, бо сямейная група запоўнена.</target>
       </trans-unit>
       <trans-unit id="FamilyHistory_InviteRejected" xml:space="preserve">
         <source><ph id="1">%1$s</ph> отклонил(а) приглашение.</source>
@@ -5307,11 +5307,11 @@
       </trans-unit>
       <trans-unit id="FamilyManagement_ErrorLoadFamily" xml:space="preserve">
         <source>Не удалось загрузить информацию о семейной группе. <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Не ўдалося загрузіць інфармацыю аб сямейнай групе. <ph id="1">%1$s</ph></target>
+        <target state="translated">Не ўдалося загрузіць інфармацыю пра сямейную групу. <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="FamilyManagement_ErrorLoadFamilyGeneric" xml:space="preserve">
         <source>Не удалось загрузить информацию о семейной группе.</source>
-        <target state="needs-review-translation">Не ўдалося загрузіць інфармацыю аб сямейнай групе.</target>
+        <target state="translated">Не ўдалося загрузіць інфармацыю пра сямейную групу.</target>
       </trans-unit>
       <trans-unit id="FamilyManagement_ErrorLoadFamilyInvite" xml:space="preserve">
         <source>Не удалось загрузить приглашение в семейную группу. <ph id="1">%1$s</ph></source>
@@ -5751,7 +5751,7 @@
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Details_Desc" xml:space="preserve">
         <source>Если вы согласитесь, данные о частоте кадров игрового процесса будут храниться без привязки к вашему аккаунту Steam и идентифицироваться по типу устройства, на котором вы играете. Эти данные помогают нам узнать больше о совместимости игр и улучшить работу устройств, на которых установлен Steam.</source>
-        <target state="translated">Калі вы пагодзіцеся, даныя аб частаце кадраў гульнявога працэсу будуць захоўвацца без прывязкі да вашага акаўнта Steam і ідэнтыфікавацца па тыпе прылады, на якім вы гуляеце. Гэтыя даныя дапамагаюць нам пазнаць больш аб сумяшчальнасці гульняў і палепшыць працу прылад, на якіх усталяваны Steam.</target>
+        <target state="translated">Калі вы пагодзіцеся, даныя пра частату кадраў гульнявога працэсу будуць захоўвацца без прывязкі да вашага акаўнта Steam і ідэнтыфікавацца па тыпе прылады, на якой вы гуляеце. Гэтыя даныя дапамагаюць нам даведацца больш пра сумяшчальнасць гульняў і палепшыць працу прылад, на якіх усталяваны Steam.</target>
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Details_HowToChange" xml:space="preserve">
         <source>В будущем вы сможете отключить сбор данных в настройках аккаунта Steam</source>
@@ -5759,7 +5759,7 @@
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Details_Title" xml:space="preserve">
         <source>Анонимные данные о частоте кадров</source>
-        <target state="translated">Ананімныя даныя аб частаце кадраў</target>
+        <target state="translated">Ананімныя даныя пра частату кадраў</target>
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_LearnMore" xml:space="preserve">
         <source>Узнать больше</source>
@@ -5767,11 +5767,11 @@
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Prompt" xml:space="preserve">
         <source>Можем ли мы собирать анонимные данные о частоте кадров, когда вы играете в игры, войдя в свой аккаунт Steam? Эти данные помогают нам узнать больше о совместимости игр и улучшить работу Steam.</source>
-        <target state="translated">Ці можам мы збіраць ананімныя даныя аб частаце кадраў, калі вы гуляеце ў гульні, увайшоўшы ў свой акаўнт Steam? Гэтыя даныя дапамагаюць нам даведацца больш аб сумяшчальнасці гульняў і палепшыць працу Steam.</target>
+        <target state="translated">Ці можам мы збіраць ананімныя даныя пра частату кадраў, калі вы гуляеце ў гульні, увайшоўшы ў свой акаўнт Steam? Гэтыя даныя дапамагаюць нам даведацца больш пра сумяшчальнасць гульняў і палепшыць працу Steam.</target>
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Question" xml:space="preserve">
         <source>Разрешаете ли вы собирать анонимные данные о кадровой частоте во время игры, чтобы улучшить устройства со SteamOS для всех игроков? Это можно изменить позже в настройках.</source>
-        <target state="translated">Ці дазваляеце вы збіраць ананімныя даныя аб кадравай частаце падчас гульні, каб палепшыць прылады са SteamOS для ўсіх гульцоў? Гэта можна змяніць пазней у наладах.</target>
+        <target state="translated">Ці дазваляеце вы збіраць ананімныя даныя пра кадравую частату падчас гульні, каб палепшыць прылады са SteamOS для ўсіх гульцоў? Гэта можна змяніць пазней у наладах.</target>
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Response_No" xml:space="preserve">
         <source>Нет</source>
@@ -5783,7 +5783,7 @@
       </trans-unit>
       <trans-unit id="GameFrameRateReporting_Title" xml:space="preserve">
         <source>Анонимные данные о частоте кадров:</source>
-        <target state="translated">Ананімныя даныя аб частаце кадраў:</target>
+        <target state="translated">Ананімныя даныя пра частату кадраў:</target>
       </trans-unit>
       <trans-unit id="GameHighlight_Theater_Header" xml:space="preserve">
         <source><ph id="1">%1$s</ph> — трейлеры и скриншоты</source>
@@ -5815,7 +5815,7 @@
       </trans-unit>
       <trans-unit id="GamePerformanceStats_AverageFrameRate_ThisGame" xml:space="preserve">
         <source>Судя по отчётам, средняя частота кадров для этой игры на Steam Deck составляет <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Судзячы па справаздачах, сярэдняя частата кадраў для гэтай гульні на Steam Deck складае <ph id="1">%1$s</ph></target>
+        <target state="translated">Паводле справаздач, сярэдняя частата кадраў для гэтай гульні на Steam Deck складае <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_AverageFrameRate_ThisGame_Device" xml:space="preserve">
         <source>Судя по отчётам, средняя частота кадров для этой игры на <ph id="1">%1$s</ph> составляет <ph id="2">%2$s</ph></source>
@@ -5827,7 +5827,7 @@
       </trans-unit>
       <trans-unit id="GamePerformanceStats_CustomerFeedback" xml:space="preserve">
         <source>Пользовательские отзывы о совместимости со Steam Deck</source>
-        <target state="needs-review-translation">Карыстальніцкія водгукі аб сумяшчальнасці са Steam Deck</target>
+        <target state="translated">Карыстальніцкія водгукі пра сумяшчальнасць са Steam Deck</target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_DidNotAgree" xml:space="preserve">
         <source>не согласны</source>
@@ -5851,11 +5851,11 @@
       </trans-unit>
       <trans-unit id="GamePerformanceStats_FrameRateDataBasedOn" xml:space="preserve">
         <source>Эти данные основаны на отчётах о частоте кадров за последние <ph id="1">%1$s</ph> дн. от пользователей, которые согласились предоставить эту информацию.</source>
-        <target state="translated">Гэтыя даныя заснаваныя на справаздачах аб частаце кадраў за апошнія <ph id="1">%1$s</ph> дзён ад карыстальнікаў, якія пагадзіліся прадставіць гэтую інфармацыю.</target>
+        <target state="translated">Гэтыя даныя заснаваныя на справаздачах пра частату кадраў за апошнія <ph id="1">%1$s</ph> дз. ад карыстальнікаў, якія пагадзіліся прадставіць гэтую інфармацыю.</target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_FrameRateMoreInfo" xml:space="preserve">
         <source>Примечание: данные о варьировании в настоящее время не предоставляются, но мы планируем добавить их во время бета-тестирования. Они позволят увидеть, стабильна ли кадровая частота или сильно колеблется.</source>
-        <target state="translated">Заўвага: даныя аб варыяванні ў цяперашні час не прадастаўляюцца, але мы плануем дадаць іх падчас бэта-тэставання. Яны дазволяць убачыць, ці стабільная кадравая частата ці моцна вагаецца.</target>
+        <target state="translated">Заўвага: даныя пра варыяванне ў цяперашні час не прадастаўляюцца, але мы плануем дадаць іх падчас бэта-тэставання. Яны дазволяць убачыць, ці стабільная кадравая частата ці моцна вагаецца.</target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_Header" xml:space="preserve">
         <source>Совместимость со Steam Deck</source>
@@ -5875,7 +5875,7 @@
       </trans-unit>
       <trans-unit id="GamePerformanceStats_NumberOfReports" xml:space="preserve">
         <source>Эти данные основаны на отчётах (<ph id="1">%1$s</ph>) за последние <ph id="2">%2$s</ph> дн. от пользователей, которые согласились предоставить обратную связь о Steam Deck.</source>
-        <target state="translated">Гэтыя даныя заснаваныя на справаздачах (<ph id="1">%1$s</ph>) за апошнія <ph id="2">%2$s</ph> дзён ад карыстальнікаў, якія пагадзіліся даць зваротную сувязь аб Steam Deck.</target>
+        <target state="translated">Гэтыя даныя заснаваныя на справаздачах (<ph id="1">%1$s</ph>) за апошнія <ph id="2">%2$s</ph> дз. ад карыстальнікаў, якія пагадзіліся даць зваротную сувязь пра Steam Deck.</target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_Other" xml:space="preserve">
         <source>Прочее</source>
@@ -5967,7 +5967,7 @@
       </trans-unit>
       <trans-unit id="GamepadOverlay_GameRecording_AddMarkerExplainer" xml:space="preserve">
         <source>Сочетание кнопок для добавления отметки <ph id="1">%1$s</ph> на временной шкале:</source>
-        <target state="needs-review-translation">Спалучэнне кнопак для дадання адзнакі <ph id="1">%1$s</ph> на часовай шкале:</target>
+        <target state="translated">Спалучэнне кнопак для дадання пазнакі <ph id="1">%1$s</ph> на часовай шкале:</target>
       </trans-unit>
       <trans-unit id="GamepadOverlay_GameRecording_ClipExplainer" xml:space="preserve">
         <source>Сочетание кнопок для создания ролика во время игры:</source>
@@ -6071,7 +6071,7 @@
       </trans-unit>
       <trans-unit id="Giveaway_LearnMore" xml:space="preserve">
         <source>Больше о призах, победителях и правилах можно узнать здесь</source>
-        <target state="needs-review-translation">Больш аб прызах, пераможцах і правілах можна даведацца тут</target>
+        <target state="translated">Больш пра прызы, пераможцаў і правілы можна даведацца тут</target>
       </trans-unit>
       <trans-unit id="Giveaway_RandomDraw" xml:space="preserve">
         <source>Проводится случайный розыгрыш</source>
@@ -6151,7 +6151,7 @@
       </trans-unit>
       <trans-unit id="GrantAwardError_InsufficientFunds" xml:space="preserve">
         <source>У вас недостаточно очков Steam, чтобы выдать выбранную награду.</source>
-        <target state="translated">У вас недастаткова пунктаў Steam, каб выдаць абраную ўзнагароду.</target>
+        <target state="translated">У вас недастаткова пунктаў Steam, каб выдаць выбраную ўзнагароду.</target>
       </trans-unit>
       <trans-unit id="GrantAwardError_InvalidParam" xml:space="preserve">
         <source>Вы не можете присудить награду своей работе.</source>
@@ -6187,7 +6187,7 @@
       </trans-unit>
       <trans-unit id="GrantAward_CantAfford" xml:space="preserve">
         <source>Вам требуется ещё <ph id="1">%1$s</ph> очк.</source>
-        <target state="translated">Вам патрэбна яшчэ <ph id="1">%1$s</ph> пкт.</target>
+        <target state="translated">Вам патрэбна яшчэ <ph id="1">%1$s</ph> пунктаў.</target>
       </trans-unit>
       <trans-unit id="GrantAward_Confirm" xml:space="preserve">
         <source>Подтвердите, что хотите потратить <ph id="1">%1$s</ph> очков, чтобы дать этому предмету награду «<ph id="2">%2$s</ph>».</source>
@@ -6247,15 +6247,15 @@
       </trans-unit>
       <trans-unit id="HighlightSkipper_JumpToNext" xml:space="preserve">
         <source>К следующей отметке</source>
-        <target state="needs-review-translation">Да наступнай адзнакі</target>
+        <target state="translated">Да наступнай пазнакі</target>
       </trans-unit>
       <trans-unit id="HighlightSkipper_JumpToPrevious" xml:space="preserve">
         <source>К предыдущей отметке</source>
-        <target state="needs-review-translation">Да папярэдняй адзнакі</target>
+        <target state="translated">Да папярэдняй пазнакі</target>
       </trans-unit>
       <trans-unit id="Hover_BadgeXP" xml:space="preserve">
         <source><ph id="1">%1$s</ph> ед. опыта</source>
-        <target state="needs-review-translation"><ph id="1">%1$s</ph> адз. вопыту</target>
+        <target state="translated"><ph id="1">%1$s</ph> адз. досведу</target>
       </trans-unit>
       <trans-unit id="Hover_SteamLevel" xml:space="preserve">
         <source>Уровень Steam</source>
@@ -6331,7 +6331,7 @@
       </trans-unit>
       <trans-unit id="ImagePicker_NoFileChose" xml:space="preserve">
         <source>Файлы не выбраны</source>
-        <target state="needs-review-translation">Файлы не абраныя</target>
+        <target state="translated">Файлы не выбраны</target>
       </trans-unit>
       <trans-unit id="ImagePicker_OrBrowse" xml:space="preserve">
         <source>Либо</source>
@@ -6443,11 +6443,11 @@
       </trans-unit>
       <trans-unit id="ImageUpload_InvalidFormat" xml:space="preserve">
         <source>Выбранное изображение не соответствует ожидаемому формату: <ph id="1">%1$s</ph>.</source>
-        <target state="needs-review-translation">Абраная выява не адпавядае чаканаму фармату: <ph id="1">%1$s</ph>.</target>
+        <target state="translated">Выбраная выява не адпавядае чаканаму фармату: <ph id="1">%1$s</ph>.</target>
       </trans-unit>
       <trans-unit id="ImageUpload_InvalidFormatSelected" xml:space="preserve">
         <source>Выбран недопустимый тип изображения.</source>
-        <target state="needs-review-translation">Абраны недапушчальны тып выявы.</target>
+        <target state="translated">Выбраны недапушчальны тып выявы.</target>
       </trans-unit>
       <trans-unit id="ImageUpload_InvalidResolution" xml:space="preserve">
         <source><ph id="1">%1$s</ph>: новые изображения отличаются по размеру от уже загруженных.</source>
@@ -6507,7 +6507,7 @@
       </trans-unit>
       <trans-unit id="ImageUpload_TooSmall" xml:space="preserve">
         <source>Выбранное изображение слишком маленькое. Оно должно быть как минимум <ph id="1">%1$s</ph>x<ph id="2">%2$s</ph> пикс.</source>
-        <target state="translated">Абраная выява занадта маленькая. Яна павінна быць не меншай за <ph id="1">%1$s</ph>x<ph id="2">%2$s</ph> пікс.</target>
+        <target state="translated">Выбраная выява занадта маленькая. Яна павінна быць не меншай за <ph id="1">%1$s</ph>x<ph id="2">%2$s</ph> пікс.</target>
       </trans-unit>
       <trans-unit id="ImageUpload_Upload" xml:space="preserve">
         <source>Загрузить</source>
@@ -6671,114 +6671,142 @@
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_1" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_2" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_21" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_22" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_23" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_3" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_31" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_32" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_33" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_41" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_42" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_43" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_51" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_52" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_53" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_61" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_62" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_63" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_71" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_72" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_73" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_81" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_82" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_83" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_91" xml:space="preserve">
         <source>st</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_92" xml:space="preserve">
         <source>nd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_93" xml:space="preserve">
         <source>rd</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_Default" xml:space="preserve">
         <source>th</source>
+        <target state="translated">.</target>
         <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LanguageGroup_Supported" xml:space="preserve">
@@ -7023,7 +7051,7 @@
       </trans-unit>
       <trans-unit id="Login_BLE_SteamMobileAppAvailable" xml:space="preserve">
         <source>Мобильное приложение Steam доступно бесплатно в магазинах приложений для мобильных устройств.</source>
-        <target state="translated">Мабільны дадатак Steam даступны бясплатна ў крамах дадатак для мабільных прылад.</target>
+        <target state="translated">Мабільны дадатак Steam даступны бясплатна ў крамах дадаткаў для мабільных прылад.</target>
       </trans-unit>
       <trans-unit id="Login_BLE_WaitingForApproval" xml:space="preserve">
         <source>Ожидание подтверждения входа от мобильного приложения Steam</source>
@@ -7419,7 +7447,7 @@
       </trans-unit>
       <trans-unit id="Lunar2020_ErrorLoadingVideo" xml:space="preserve">
         <source>Воспользуйтесь браузером с поддержкой HTML-видео, чтобы открыть конверт.</source>
-        <target state="translated">Скарыстайцеся браўзерам з падтрымкай HTML-відэа, каб адкрыць канверт.</target>
+        <target state="translated">Каб адкрыць канверт, выкарыстайце браўзер з падтрымкай HTML-відэа.</target>
       </trans-unit>
       <trans-unit id="Lunar2020_FirstGift" xml:space="preserve">
         <source>Первый подарок</source>
@@ -7547,7 +7575,7 @@
       </trans-unit>
       <trans-unit id="ManageFriends_EnterProfileName" xml:space="preserve">
         <source>Введите имя профиля друга</source>
-        <target state="needs-review-translation">Увядзіце імя профілю сябра</target>
+        <target state="translated">Увядзіце імя профіля сябра</target>
       </trans-unit>
       <trans-unit id="ManageFriends_FriendsInCommon" xml:space="preserve">
         <source>Общих друзей: <ph id="1">%1$s</ph></source>
@@ -7591,7 +7619,7 @@
       </trans-unit>
       <trans-unit id="ManageFriends_QuickInviteDescription" xml:space="preserve">
         <source>Создайте ссылку и отправьте её кому угодно, чтобы она моментально соединила вас с принявшим приглашение пользователем. Будьте осторожны, если публикуете ссылку в общедоступном месте.</source>
-        <target state="translated">Стварыце спасылку і адпраўце яе камусьці, каб яна імгненна злучыла вас з карыстальнікам, які прыняў запрашэнне. Будзьце асцярожныя, калі публікуеце спасылку ў агульнадаступным месцы.</target>
+        <target state="translated">Стварыце спасылку і адпраўце яе каму заўгодна, каб яна імгненна злучыла вас з карыстальнікам, які прыняў запрашэнне. Будзьце асцярожныя, калі публікуеце спасылку ў агульнадаступным месцы.</target>
       </trans-unit>
       <trans-unit id="ManageFriends_QuickInviteNote" xml:space="preserve">
         <source>ВНИМАНИЕ: ссылка действует 30 дней, но использовать её можно лишь один раз.</source>
@@ -7607,11 +7635,11 @@
       </trans-unit>
       <trans-unit id="Marker_Action_Delete" xml:space="preserve">
         <source>Удалить отметку</source>
-        <target state="needs-review-translation">Выдаліць адзнаку</target>
+        <target state="translated">Выдаліць пазнаку</target>
       </trans-unit>
       <trans-unit id="Marker_Action_Edit" xml:space="preserve">
         <source>Изменить отметку</source>
-        <target state="needs-review-translation">Змяніць адзнаку</target>
+        <target state="translated">Змяніць пазнаку</target>
       </trans-unit>
       <trans-unit id="Marker_Description" xml:space="preserve">
         <source>Описание</source>
@@ -7619,7 +7647,7 @@
       </trans-unit>
       <trans-unit id="Marker_Dialog" xml:space="preserve">
         <source>Обновить эту отметку</source>
-        <target state="needs-review-translation">Абнавіць гэтую адзнаку</target>
+        <target state="translated">Абнавіць гэтую пазнаку</target>
       </trans-unit>
       <trans-unit id="Marker_Title" xml:space="preserve">
         <source>Название</source>
@@ -7631,11 +7659,11 @@
       </trans-unit>
       <trans-unit id="Marker_UserMarkerAdded_Confirmation" xml:space="preserve">
         <source>Отметка добавлена!</source>
-        <target state="needs-review-translation">Адзнака дададзена!</target>
+        <target state="translated">Пазнака дададзена!</target>
       </trans-unit>
       <trans-unit id="Marker_UserMarker_Title" xml:space="preserve">
         <source>Отметка пользователя</source>
-        <target state="needs-review-translation">Адзнака карыстальніка</target>
+        <target state="translated">Пазнака карыстальніка</target>
       </trans-unit>
       <trans-unit id="MediaConvert_AnimatedWebP_NoSupport" xml:space="preserve">
         <source>Анимированные файлы формата WEBP не поддерживаются</source>
@@ -7723,7 +7751,7 @@
       </trans-unit>
       <trans-unit id="MediaManager_AppHeader_NonSteamGame" xml:space="preserve">
         <source>Сторонняя игра</source>
-        <target state="needs-review-translation">Іншая гульня</target>
+        <target state="translated">Старонняя гульня</target>
       </trans-unit>
       <trans-unit id="MediaManager_Clip_Downloaded" xml:space="preserve">
         <source>От</source>
@@ -7831,7 +7859,7 @@
       </trans-unit>
       <trans-unit id="MediaManager_FloatingControls_Play" xml:space="preserve">
         <source>Воспроизвести</source>
-        <target state="needs-review-translation">Узнавіць</target>
+        <target state="translated">Прайграць</target>
       </trans-unit>
       <trans-unit id="MediaManager_FloatingControls_Share" xml:space="preserve">
         <source>Поделиться...</source>
@@ -7911,7 +7939,7 @@
       </trans-unit>
       <trans-unit id="MeetSteam_CompleteRegistration_Desc" xml:space="preserve">
         <source>Нажмите здесь, чтобы ввести информацию о себе и завершить процесс регистрации:</source>
-        <target state="needs-review-translation">Націсніце тут, каб увесці інфармацыю аб сабе і завяршыць працэс рэгістрацыі:</target>
+        <target state="translated">Націсніце тут, каб увесці інфармацыю пра сябе і завяршыць працэс рэгістрацыі:</target>
       </trans-unit>
       <trans-unit id="MeetSteam_FAQ" xml:space="preserve">
         <source>Частые вопросы</source>
@@ -7947,7 +7975,7 @@
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_GuestCount_ttip" xml:space="preserve">
         <source>Если вы хотите привести других участников, рекомендуем отправить им ссылку с приглашением, чтобы они смогли зарегистрироваться, а также имели доступ к информации о регистрации и получали напоминания. Если вы регистрируете только себя, укажите 0.</source>
-        <target state="needs-review-translation">Калі вы хочаце прывесці іншых удзельнікаў, рэкамендуем адправіць ім спасылку з запрашэннем, каб яны змаглі зарэгістравацца, а таксама мелі доступ да інфармацыі аб рэгістрацыі і атрымлівалі напамінкі. Калі вы рэгіструеце толькі сябе, укажыце 0.</target>
+        <target state="translated">Калі вы хочаце прывесці іншых удзельнікаў, рэкамендуем адправіць ім спасылку з запрашэннем, каб яны змаглі зарэгістравацца, а таксама мелі доступ да інфармацыі пра рэгістрацыю і атрымлівалі напамінкі. Калі вы рэгіструеце толькі сябе, укажыце 0.</target>
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Intro" xml:space="preserve">
         <source>Предоставьте необходимую информацию ниже, чтобы завершить регистрацию или внести изменения. После регистрации мы отправим вам подтверждение и напоминание по электронной почте.</source>
@@ -7955,11 +7983,11 @@
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Name" xml:space="preserve">
         <source>Ваше полное имя</source>
-        <target state="needs-review-translation">Ваша поўнае імя</target>
+        <target state="translated">Вашае поўнае імя</target>
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Others" xml:space="preserve">
         <source>Расскажите, кто будет с вами. Если вы хотите привести других участников, рекомендуем отправить им ссылку с приглашением, чтобы они смогли зарегистрироваться, а также имели доступ к информации о регистрации и получали напоминания.</source>
-        <target state="needs-review-translation">Раскажыце, хто будзе з вамі. Калі вы хочаце прывесці іншых удзельнікаў, рэкамендуем адправіць ім спасылку з запрашэннем, каб яны змаглі зарэгістравацца, а таксама мелі доступ да інфармацыі аб рэгістрацыі і атрымлівалі напамінкі.</target>
+        <target state="translated">Раскажыце, хто будзе з вамі. Калі вы хочаце прывесці іншых удзельнікаў, рэкамендуем адправіць ім спасылку з запрашэннем, каб яны змаглі зарэгістравацца, а таксама мелі доступ да інфармацыі пра рэгістрацыю і атрымлівалі напамінкі.</target>
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Others_name" xml:space="preserve">
         <source>Полные имена других участников</source>
@@ -7971,7 +7999,7 @@
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Preset_ttip" xml:space="preserve">
         <source>Мы автоматически введём данные выбранного партнёрского аккаунта.</source>
-        <target state="translated">Мы аўтаматычна ўвядзем даныя абранага партнёрскага акаўнта.</target>
+        <target state="translated">Мы аўтаматычна ўвядзем даныя выбранага партнёрскага акаўнта.</target>
       </trans-unit>
       <trans-unit id="MeetSteam_Reg_Question_desc" xml:space="preserve">
         <source>Помогите нам подготовить максимально продуктивную сессию, сообщив, о чём именно вы хотели бы узнать больше.</source>
@@ -8025,7 +8053,7 @@
       </trans-unit>
       <trans-unit id="MeetSteam_Unegistering" xml:space="preserve">
         <source>Отмена регистрации…</source>
-        <target state="translated">Скачаванне рэгістрацыі...</target>
+        <target state="translated">Скасаванне рэгістрацыі...</target>
       </trans-unit>
       <trans-unit id="MeetSteam_Unregister_title" xml:space="preserve">
         <source>Отменить регистрацию на сессию?</source>
@@ -8153,7 +8181,7 @@
       </trans-unit>
       <trans-unit id="NotificationSettings_PushNotification" xml:space="preserve">
         <source>Push-уведомление в мобильном приложении</source>
-        <target state="needs-review-translation">Push-паведамленне ў мабільным дадатку</target>
+        <target state="translated">Push-апавяшчэнне ў мабільным дадатку</target>
       </trans-unit>
       <trans-unit id="NotificationSettings_SendToast" xml:space="preserve">
         <source>Всплывающее уведомление в клиенте Steam</source>
@@ -8417,7 +8445,7 @@
       </trans-unit>
       <trans-unit id="Parental_Playtime_Never" xml:space="preserve">
         <source>Нет</source>
-        <target state="translated">Не</target>
+        <target state="translated">Няма</target>
       </trans-unit>
       <trans-unit id="PartnerEvent_1" xml:space="preserve">
         <source>Другое событие</source>
@@ -8553,7 +8581,7 @@
       </trans-unit>
       <trans-unit id="PartnerEvent_31" xml:space="preserve">
         <source>Бесплатная пробная версия</source>
-        <target state="needs-review-translation">Бясплатная пробная версія</target>
+        <target state="translated">Бясплатная выпрабавальная версія</target>
       </trans-unit>
       <trans-unit id="PartnerEvent_32" xml:space="preserve">
         <source>Сезон/пропуск</source>
@@ -8625,7 +8653,7 @@
       </trans-unit>
       <trans-unit id="PartnerEvent_MM_DescriptionTip1" xml:space="preserve">
         <source>В описании события нужно подробно рассказать о сути обновления и его значимости. Воспользуйтесь этой возможностью, чтобы заинтересовать игроков вернуться в вашу игру:</source>
-        <target state="needs-review-translation">У апісанні падзеі трэба падрабязна распавесці аб сутнасці абнаўлення і яго значнасці. Скарыстайцеся гэтай магчымасцю, каб зацікавіць гульцоў вярнуцца ў вашу гульню:</target>
+        <target state="translated">У апісанні падзеі трэба падрабязна распавесці пра сутнасць абнаўлення і яго значнасць. Выкарыстайце гэту магчымасць, каб зацікавіць гульцоў вярнуцца ў вашу гульню:</target>
       </trans-unit>
       <trans-unit id="PartnerEvent_MM_DescriptionTip2" xml:space="preserve">
         <source>Подчеркните новый и интересный контент.</source>
@@ -8645,11 +8673,11 @@
       </trans-unit>
       <trans-unit id="PartnerEvent_MM_LearnMore" xml:space="preserve">
         <source>Узнать больше о маркетинговом сообщении о крупном обновлении.</source>
-        <target state="needs-review-translation">Даведацца больш аб маркетынгавым паведамленні аб буйным абнаўленні.</target>
+        <target state="translated">Даведацца больш пра маркетынгавае паведамленне пра буйное абнаўленне.</target>
       </trans-unit>
       <trans-unit id="PartnerEvent_MM_MajorUpdate" xml:space="preserve">
         <source>Маркетинговое сообщение о крупном обновлении</source>
-        <target state="needs-review-translation">Маркетынгавае паведамленне аб буйным абнаўленні</target>
+        <target state="translated">Маркетынгавае паведамленне пра буйное абнаўленне</target>
       </trans-unit>
       <trans-unit id="PartnerEvent_MM_TitleTip" xml:space="preserve">
         <source>Сделайте заголовок привлекательным и актуальным для игроков. Если это обновление — одно из крупнейших в этом году, отразите его важность в заголовке. Избегайте общих фраз, таких как <ph id="1">&lt;1&gt;</ph>«Обновление до версии 330.4»<ph id="2">&lt;/1&gt;</ph>. Вместо этого подчеркните, что делает данное обновление особенным.</source>
@@ -8701,11 +8729,11 @@
       </trans-unit>
       <trans-unit id="PersonaStateInNonSteamGame" xml:space="preserve">
         <source>В сторонней игре</source>
-        <target state="needs-review-translation">У іншай гульні</target>
+        <target state="translated">У староннай гульні</target>
       </trans-unit>
       <trans-unit id="PersonaStateInvisible" xml:space="preserve">
         <source>Невидимка</source>
-        <target state="translated">Нябачнасць</target>
+        <target state="translated">Нябачны</target>
       </trans-unit>
       <trans-unit id="PersonaStateInvisibleDescriptor" xml:space="preserve">
         <source>Вы будете показываться как «Не в сети», но по-прежнему сможете пользоваться чатом</source>
@@ -8829,7 +8857,7 @@
       </trans-unit>
       <trans-unit id="Playback_JumpToLatest" xml:space="preserve">
         <source>К последней отметке</source>
-        <target state="needs-review-translation">Да апошняй адзнакі</target>
+        <target state="translated">Да апошняй пазнакі</target>
       </trans-unit>
       <trans-unit id="Playback_NextFrame_Tooltip" xml:space="preserve">
         <source>Следующий кадр</source>
@@ -8841,7 +8869,7 @@
       </trans-unit>
       <trans-unit id="Playback_Play_Tooltip" xml:space="preserve">
         <source>Воспроизвести</source>
-        <target state="needs-review-translation">Узнавіць</target>
+        <target state="translated">Прайграць</target>
       </trans-unit>
       <trans-unit id="Playback_PrevFrame_Tooltip" xml:space="preserve">
         <source>Предыдущий кадр</source>
@@ -8857,15 +8885,15 @@
       </trans-unit>
       <trans-unit id="Playback_UserSelectionControls_AddUserMarker" xml:space="preserve">
         <source>Добавить отметку на этом моменте</source>
-        <target state="needs-review-translation">Дадаць адзнаку на гэтым моманце</target>
+        <target state="translated">Дадаць пазнаку на гэтым моманце</target>
       </trans-unit>
       <trans-unit id="Playback_UserSelectionControls_AddUserMarkerLiveEdge" xml:space="preserve">
         <source>Добавить отметку на этом моменте</source>
-        <target state="needs-review-translation">Дадаць адзнаку на гэтым моманце</target>
+        <target state="translated">Дадаць пазнаку на гэтым моманце</target>
       </trans-unit>
       <trans-unit id="Playback_UserSelectionControls_ClipLatest" xml:space="preserve">
         <source>Начать ролик с последней отметки</source>
-        <target state="needs-review-translation">Пачаць ролік з апошняй адзнакі</target>
+        <target state="translated">Пачаць ролік з апошняй пазнакі</target>
       </trans-unit>
       <trans-unit id="Playback_UserSelectionControls_SetClipEnd" xml:space="preserve">
         <source>Закончить ролик на этом моменте</source>
@@ -8913,7 +8941,7 @@
       </trans-unit>
       <trans-unit id="PurchaseNotice_VRSupported" xml:space="preserve">
         <source>Эту игру можно запустить в двух режимах: стандартном и VR.&#xA;Ознакомьтесь с системными требованиями, чтобы узнать больше о подходящих шлемах виртуальной реальности.</source>
-        <target state="needs-review-translation">Гэтую гульню можна запусціць у двух рэжымах: стандартным і VR.&#xA;Азнаёмцеся з сістэмнымі патрабаваннямі, каб даведацца больш аб прыдатных шлемах віртуальнай рэальнасці.</target>
+        <target state="translated">Гэтую гульню можна запусціць у двух рэжымах: стандартным і VR.&#xA;Азнаёмцеся з сістэмнымі патрабаваннямі, каб даведацца больш пра прыдатныя шлемы віртуальнай рэальнасці.</target>
       </trans-unit>
       <trans-unit id="QuickAccess_Tab_GameRecording" xml:space="preserve">
         <source>Запись игры</source>
@@ -8961,7 +8989,7 @@
       </trans-unit>
       <trans-unit id="RSSManager_PostEvent_CreateFeed_DuringPost" xml:space="preserve">
         <source>Этот RSS-канал отображается в режиме предпросмотра, что не соответствует текущим настройкам. Прежде чем создать новое событие, нужно обновить канал с используемой для предпросмотра ссылкой. По умолчанию автоматизация RSS-канала будет выключена, но это можно изменить позже.</source>
-        <target state="translated">Гэты RSS-канал адлюстроўваецца ў рэжыме прадпрагляду, што не адпавядае бягучым наладам. Перш чым стварыць новую падзею, трэба абнавіць канал са спасылкай, якая выкарыстоўваецца для прадпрагляду. Па змаўчанні аўтаматызацыя RSS-канала будзе выключана, але гэта можна змяніць пазней.</target>
+        <target state="translated">Гэты RSS-канал адлюстроўваецца ў рэжыме папярэдняга прагляду, што не адпавядае бягучым наладам. Перш чым стварыць новую падзею, трэба абнавіць канал са спасылкай, якая выкарыстоўваецца для папярэдняга прагляду. Па змаўчанні аўтаматызацыя RSS-канала будзе выключана, але гэта можна змяніць пазней.</target>
       </trans-unit>
       <trans-unit id="RSSManager_PostEvent_CreatePost" xml:space="preserve">
         <source>Хотите опубликовать это в Steam?</source>
@@ -9001,7 +9029,7 @@
       </trans-unit>
       <trans-unit id="RSSManager_PostEvent_Success" xml:space="preserve">
         <source>Объявление создано. Отредактировать его можно здесь: </source>
-        <target state="needs-review-translation">Аб&#39;ява створана. Адрэдагаваць яго можна тут: </target>
+        <target state="translated">Аб&#39;ява створана. Адрэдагаваць яе можна тут: </target>
       </trans-unit>
       <trans-unit id="RSSManager_PostEvent_Success_feed" xml:space="preserve">
         <source>RSS-канал обновлён</source>
@@ -9371,7 +9399,7 @@
       </trans-unit>
       <trans-unit id="RewardsReaction_ToolTip_Points" xml:space="preserve">
         <source>Награда даёт автору <ph id="1">%1$s</ph> очк. Steam.</source>
-        <target state="translated">Узнагарода дае аўтару <ph id="1">%1$s</ph> пкт Steam.</target>
+        <target state="translated">Узнагарода дае аўтару <ph id="1">%1$s</ph> пунктаў Steam.</target>
       </trans-unit>
       <trans-unit id="RewardsReaction_Tooltip" xml:space="preserve">
         <source>Пользователей, давших награду «<ph id="1">%2$s</ph>»: <ph id="2">%1$s</ph></source>
@@ -9489,7 +9517,7 @@
       </trans-unit>
       <trans-unit id="SalePage_WatchForDrop_LearnMore" xml:space="preserve">
         <source>Подробнее о получении предметов.</source>
-        <target state="needs-review-translation">Больш падрабязна аб атрыманні прадметаў.</target>
+        <target state="translated">Падрабязней пра атрыманне прадметаў.</target>
       </trans-unit>
       <trans-unit id="SalePage_WatchForDrop_Minutes_CreatorNamed" xml:space="preserve">
         <source>Посмотрите трансляцию <ph id="1">%1$s</ph> минут и получите предметы от <ph id="2">%2$s</ph> по окончании события!</source>
@@ -9501,11 +9529,11 @@
       </trans-unit>
       <trans-unit id="SalePage_Wrong" xml:space="preserve">
         <source>Неверно!</source>
-        <target state="needs-review-translation">Няслушна!</target>
+        <target state="translated">Няправільна!</target>
       </trans-unit>
       <trans-unit id="SalePresented_By" xml:space="preserve">
         <source>Организатор этого стороннего мероприятия: <ph id="1">%1$s</ph></source>
-        <target state="translated">Арганізатар гэтага староннага мерапрыемства: <ph id="1">%1$s</ph></target>
+        <target state="translated">Арганізатар гэтага старонняга мерапрыемства: <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="SalePresented_By_Admin" xml:space="preserve">
         <source>Организатор должен указать, какие сторонние компании будут проводить мероприятие</source>
@@ -9517,11 +9545,11 @@
       </trans-unit>
       <trans-unit id="SalePresented_By_Instructions" xml:space="preserve">
         <source>Необходимо добавить информацию об организаторах этой распродажи.</source>
-        <target state="needs-review-translation">Неабходна дадаць інфармацыю аб арганізатарах гэтага распродажу.</target>
+        <target state="translated">Неабходна дадаць інфармацыю пра арганізатараў гэтага распродажу.</target>
       </trans-unit>
       <trans-unit id="SalePresented_By_Multi" xml:space="preserve">
         <source>Это стороннее мероприятие представляют <ph id="1">%1$s</ph> и <ph id="2">%2$s</ph></source>
-        <target state="translated">Гэта іншае мерапрыемства прадстаўляюць <ph id="1">%1$s</ph> і <ph id="2">%2$s</ph></target>
+        <target state="translated">Гэта старонняе мерапрыемства прадстаўляюць <ph id="1">%1$s</ph> і <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="SalePresneted_By_Admin_ttip" xml:space="preserve">
         <source>Если выбрано, организаторы должны указать, кто проводит мероприятие. Эта информация будет представлена на видимой пользователям странице распродажи во избежание путаницы.</source>
@@ -9529,11 +9557,11 @@
       </trans-unit>
       <trans-unit id="SaleSectionCalendar_Recent" xml:space="preserve">
         <source>Недавно вышедшие</source>
-        <target state="needs-review-translation">Нядаўна якія выйшлі</target>
+        <target state="translated">Нядаўна выйшлі</target>
       </trans-unit>
       <trans-unit id="SaleSectionCalendar_Recent_Sub" xml:space="preserve">
         <source>Рекомендуемые и находящиеся в списке желаемого игры, которые вышли за последние <ph id="1">%1$s</ph> дн.</source>
-        <target state="translated">Рэкамендаваныя гульні і гульні з вашага спісу жаданага, якія выйшлі за апошнія <ph id="1">%1$s</ph> дзён.</target>
+        <target state="translated">Рэкамендаваныя гульні і гульні з вашага спісу жаданага, якія выйшлі за апошнія <ph id="1">%1$s</ph> дз.</target>
       </trans-unit>
       <trans-unit id="SaleSectionCalendar_SeeFull" xml:space="preserve">
         <source>Весь календарь</source>
@@ -9613,7 +9641,7 @@
       </trans-unit>
       <trans-unit id="SaleTrailerCarousel_IgnoreLink_ttip" xml:space="preserve">
         <source>Скрыть: установите для игры отметку «Скрыто», и она не будет показываться вам в большинстве мест магазина Steam.</source>
-        <target state="translated">Схаваць: усталюйце для гульні адзнаку «Утоена», і яна не будзе паказвацца вам у большасці месцаў крамы Steam.</target>
+        <target state="translated">Схаваць: усталюйце для гульні пазнаку «Схавана», і яна не будзе паказвацца вам у большасці месцаў крамы Steam.</target>
       </trans-unit>
       <trans-unit id="SaleTrailerCarousel_Ignored" xml:space="preserve">
         <source>Скрыто</source>
@@ -9803,15 +9831,15 @@
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_ContentHub_TopSellers" xml:space="preserve">
         <source>Лидеры продаж</source>
-        <target state="needs-review-translation">Лідэры продажаў</target>
+        <target state="translated">Лідары продажаў</target>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_ContentHub_TopSellers_ttip" xml:space="preserve">
         <source>Лидеры продаж по совокупной выручке</source>
-        <target state="needs-review-translation">Лідэры продажаў па сукупнай выручцы</target>
+        <target state="translated">Лідары продажаў па сукупнай выручцы</target>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_ContentHub_Upcoming" xml:space="preserve">
         <source>Скоро</source>
-        <target state="needs-review-translation">Скора</target>
+        <target state="translated">Хутка</target>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_ContentHub_Upcoming_ttip" xml:space="preserve">
         <source>Популярные игры, готовящиеся к выпуску</source>
@@ -10131,7 +10159,7 @@
       </trans-unit>
       <trans-unit id="Sale_DynamicReview_Preview" xml:space="preserve">
         <source>Предпросмотр динамического пополнения</source>
-        <target state="needs-review-translation">Прадпрагляд дынамічнага папаўнення</target>
+        <target state="translated">Папярэдні прагляд дынамічнага папаўнення</target>
       </trans-unit>
       <trans-unit id="Sale_DynamicReview_Preview_action" xml:space="preserve">
         <source>Принудительное обновление данных</source>
@@ -10143,7 +10171,7 @@
       </trans-unit>
       <trans-unit id="Sale_DynamicReview_Preview_desc" xml:space="preserve">
         <source>В разделе ниже включена функция динамического пополнения. Вы можете предварительно ознакомиться с этой функцией, начав тест. Чтобы выйти из тестового режима, закройте вкладку предпросмотра.</source>
-        <target state="needs-review-translation">У раздзеле ніжэй уключана функцыя дынамічнага папаўнення. Вы можаце папярэдне азнаёміцца з гэтай функцыяй, пачаўшы тэст. Каб выйсці з тэставага рэжыму, зачыніце ўкладку прадпрагляду.</target>
+        <target state="translated">У раздзеле ніжэй уключана функцыя дынамічнага папаўнення. Вы можаце папярэдне азнаёміцца з гэтай функцыяй, пачаўшы тэст. Каб выйсці з тэставага рэжыму, зачыніце ўкладку папярэдняга прагляду.</target>
       </trans-unit>
       <trans-unit id="Sale_DynamicReview_Preview_start" xml:space="preserve">
         <source>Перейти в тестовый режим</source>
@@ -10171,11 +10199,11 @@
       </trans-unit>
       <trans-unit id="Sale_EventSchedulePlaceHolder" xml:space="preserve">
         <source>Режим предпросмотра: с этим расписанием не связаны события, и в текущем виде оно не будет отображаться на распродаже</source>
-        <target state="needs-review-translation">Рэжым прадпрагляду: з гэтым раскладам не звязаныя падзеі, і ў бягучым выглядзе ён не будзе адлюстроўвацца на распродажы</target>
+        <target state="translated">Рэжым папярэдняга прагляду: з гэтым раскладам не звязаныя падзеі, і ў бягучым выглядзе ён не будзе адлюстроўвацца на распродажы</target>
       </trans-unit>
       <trans-unit id="Sale_EventSchedulePlaceHolder_Tab" xml:space="preserve">
         <source>Режим предпросмотра: в выбранной вкладке нет событий, связанных с этим расписанием, но они могут быть в других вкладках. В текущем виде расписание не будет отображаться на распродаже</source>
-        <target state="needs-review-translation">Рэжым прадпрагляду: у абранай укладцы няма падзей, звязаных з гэтым раскладам, але яны могуць быць у іншых укладках. У бягучым выглядзе расклад не будзе адлюстроўвацца на распродажы</target>
+        <target state="translated">Рэжым папярэдняга прагляду: у выбранай укладцы няма падзей, звязаных з гэтым раскладам, але яны могуць быць у іншых укладках. У бягучым выглядзе расклад не будзе адлюстроўвацца на распродажы</target>
       </trans-unit>
       <trans-unit id="Sale_EventSchedule_NoEventsScheduled" xml:space="preserve">
         <source>В этом разделе нет запланированных событий</source>
@@ -10207,7 +10235,7 @@
       </trans-unit>
       <trans-unit id="Sale_HiddenItem_Single_Short" xml:space="preserve">
         <source>Скрыто: <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Утоена: <ph id="1">%1$s</ph></target>
+        <target state="translated">Схавана: <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_HiddenItem_Tooltip" xml:space="preserve">
         <source>Продукты скрыты в соответствиями с вашими настройками магазина. Нажмите, чтобы просмотреть или изменить их.</source>
@@ -10219,7 +10247,7 @@
       </trans-unit>
       <trans-unit id="Sale_HiddenItems_Short" xml:space="preserve">
         <source>Скрыто: <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Утоена: <ph id="1">%1$s</ph></target>
+        <target state="translated">Схавана: <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_Ignore" xml:space="preserve">
         <source>Игнорировать игру</source>
@@ -10231,11 +10259,11 @@
       </trans-unit>
       <trans-unit id="Sale_InstallDemo" xml:space="preserve">
         <source>Установить</source>
-        <target state="needs-review-translation">Устанавіць</target>
+        <target state="translated">Усталяваць</target>
       </trans-unit>
       <trans-unit id="Sale_InstallDemo_ttip" xml:space="preserve">
         <source>Установить и запустить демоверсию <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Устанавіць і запусціць дэмаверсію <ph id="1">%1$s</ph></target>
+        <target state="translated">Усталяваць і запусціць дэмаверсію <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_ItemBrowser_SearchPlaceholder" xml:space="preserve">
         <source>Поиск по названию...</source>
@@ -10331,7 +10359,7 @@
       </trans-unit>
       <trans-unit id="Sale_PlaceHolder" xml:space="preserve">
         <source>Режим предпросмотра: в этом разделе нет изображений. Пустой раздел не появится на странице пользователя.</source>
-        <target state="translated">Рэжым прадпрагляду: у гэтым раздзеле няма выяў. Пусты раздзел не з&#39;явіцца на старонцы карыстальніка.</target>
+        <target state="translated">Рэжым папярэдняга прагляду: у гэтым раздзеле няма выяў. Пусты раздзел не з&#39;явіцца на старонцы карыстальніка.</target>
       </trans-unit>
       <trans-unit id="Sale_PlayDemo" xml:space="preserve">
         <source>Играть в демоверсию</source>
@@ -10359,7 +10387,7 @@
       </trans-unit>
       <trans-unit id="Sale_RegisterNow_noteligible" xml:space="preserve">
         <source>К сожалению, вам недоступна эта опция</source>
-        <target state="translated">На жаль, вам недаступная гэтая опцыя</target>
+        <target state="translated">На жаль, вам недаступны гэты параметр</target>
       </trans-unit>
       <trans-unit id="Sale_Registration" xml:space="preserve">
         <source>Регистрация</source>
@@ -10383,7 +10411,7 @@
       </trans-unit>
       <trans-unit id="Sale_Reservation_AfterMonthYear" xml:space="preserve">
         <source>После: <ph id="1">%1$s</ph> <ph id="2">%2$s</ph></source>
-        <target state="needs-review-translation">Пасля: <ph id="1">%1$s</ph><ph id="2">%2$s</ph></target>
+        <target state="translated">Пасля: <ph id="1">%1$s</ph> <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_Reservation_AfterQuarter1" xml:space="preserve">
         <source>После 1 квартала (<ph id="1">%1$s</ph> <ph id="2">%2$s</ph> года или позже)</source>
@@ -10412,7 +10440,7 @@
       </trans-unit>
       <trans-unit id="Sale_Reservation_AvailabilityUnknown" xml:space="preserve">
         <source>Нет информации о наличии</source>
-        <target state="needs-review-translation">Няма інфармацыі аб наяўнасці</target>
+        <target state="translated">Няма інфармацыі пра наяўнасць</target>
       </trans-unit>
       <trans-unit id="Sale_Reservation_Available_Date" xml:space="preserve">
         <source>Начало продаж: <ph id="1">%1$s</ph></source>
@@ -10420,11 +10448,11 @@
       </trans-unit>
       <trans-unit id="Sale_Reservation_BetweenNowAndLastDay" xml:space="preserve">
         <source>До <ph id="1">%2$s</ph> <ph id="2">%1$s</ph> <ph id="3">%3$s</ph></source>
-        <target state="needs-review-translation">Да <ph id="1">%2$s</ph> <ph id="2">%1$s</ph><ph id="3">%3$s</ph></target>
+        <target state="translated">Да <ph id="1">%2$s</ph> <ph id="2">%1$s</ph> <ph id="3">%3$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_Reservation_ByMonthYear" xml:space="preserve">
         <source>До: <ph id="1">%1$s</ph>, <ph id="2">%2$s</ph></source>
-        <target state="needs-review-translation">Да: <ph id="1">%1$s</ph>,<ph id="2">%2$s</ph></target>
+        <target state="translated">Да: <ph id="1">%1$s</ph>, <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="Sale_Reservation_ByYear" xml:space="preserve">
         <source>До: <ph id="1">%1$s</ph></source>
@@ -10496,7 +10524,7 @@
       </trans-unit>
       <trans-unit id="Sale_Reservation_Fallback_V2" xml:space="preserve">
         <source>Пользователи будут получать эл. письма о возможности совершить покупку в порядке очереди бронирования.</source>
-        <target state="translated">Карыстальнікі будуць атрымліваць эл. лісты аб магчымасці здзейсніць куплю ў парадку чаргі рэзервавання.</target>
+        <target state="translated">Карыстальнікі будуць атрымліваць эл. лісты пра магчымасць здзейсніць куплю ў парадку чаргі рэзервавання.</target>
       </trans-unit>
       <trans-unit id="Sale_Reservation_Fallback_user_V2" xml:space="preserve">
         <source>Мы отправим эл. письмо, когда подойдёт ваша очередь, а также можем сообщать дополнительную информацию по мере её появления.</source>
@@ -10651,7 +10679,7 @@
       </trans-unit>
       <trans-unit id="Sale_ReserveEditor_Add" xml:space="preserve">
         <source>Добавить опцию бронирования</source>
-        <target state="translated">Дадаць опцыю рэзервавання</target>
+        <target state="translated">Дадаць параметр рэзервавання</target>
       </trans-unit>
       <trans-unit id="Sale_ReserveEditor_Deposit" xml:space="preserve">
         <source>Необязательно: комплект-депозит</source>
@@ -10719,11 +10747,11 @@
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden" xml:space="preserve">
         <source>Это скрытая страница распродажи. Вы видите её благодаря правам доступа вашего аккаунта.</source>
-        <target state="needs-review-translation">Гэта прыхаваная старонка распродажу. Вы бачыце яе дзякуючы правам доступу вашага акаўнта.</target>
+        <target state="translated">Гэта схаваная старонка распродажу. Вы бачыце яе дзякуючы правам доступу вашага акаўнта.</target>
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden_ContentHub_Preview" xml:space="preserve">
         <source>Данная страница будет использоваться для центра контента. Это предпросмотр центра контента.</source>
-        <target state="translated">Гэтая старонка будзе выкарыстоўвацца для цэнтра змесціва. Гэта прадпрагляд цэнтра змесціва.</target>
+        <target state="translated">Гэтая старонка будзе выкарыстоўвацца для цэнтра змесціва. Гэта папярэдні прагляд цэнтра змесціва.</target>
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden_Reason" xml:space="preserve">
         <source>Примечание:</source>
@@ -10732,7 +10760,7 @@
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden_Reason_Mod" xml:space="preserve">
         <source>Включена опция «Не показывать на странице игры в магазине (VO)».</source>
-        <target state="translated">Уключана опцыя «Не паказваць на старонцы гульні ў краме (VO)».</target>
+        <target state="translated">Уключаны параметр «Не паказваць на старонцы гульні ў краме (VO)».</target>
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden_Reason_Plural" xml:space="preserve">
         <source>Примечания:</source>
@@ -10741,7 +10769,7 @@
       </trans-unit>
       <trans-unit id="Sale_SaleEventIsHidden_Reason_ProductHide" xml:space="preserve">
         <source>Опция «Показать на странице игры в магазине» выключена.</source>
-        <target state="translated">Опцыя «Паказаць на старонцы гульні ў краме» выключана.</target>
+        <target state="translated">Параметр «Паказаць на старонцы гульні ў краме» выключаны.</target>
       </trans-unit>
       <trans-unit id="Sale_SaleEvent_Section" xml:space="preserve">
         <source>Особые события</source>
@@ -10821,7 +10849,7 @@
       </trans-unit>
       <trans-unit id="Sale_Section_Redeem_NoItem" xml:space="preserve">
         <source>Предметы не доступны (только в режиме предпросмотра)</source>
-        <target state="needs-review-translation">Прадметы не даступныя (толькі ў рэжыме прадпрагляду)</target>
+        <target state="translated">Прадметы не даступныя (толькі ў рэжыме папярэдняга прагляду)</target>
       </trans-unit>
       <trans-unit id="Sale_Section_TabUndefined" xml:space="preserve">
         <source>Нужно настроить как минимум две вкладки. В настоящее время этот раздел не отображается на общедоступной странице.</source>
@@ -10829,7 +10857,7 @@
       </trans-unit>
       <trans-unit id="Sale_Section_TabsUnnamed" xml:space="preserve">
         <source>Чтобы вкладки отображались, им нужно дать названия.</source>
-        <target state="needs-review-translation">Каб укладкі адлюстроўваліся, ім трэба даць назовы.</target>
+        <target state="translated">Каб укладкі адлюстроўваліся, ім трэба даць назвы.</target>
       </trans-unit>
       <trans-unit id="Sale_SeeAllSpecials" xml:space="preserve">
         <source>Показать все скидки</source>
@@ -10869,7 +10897,7 @@
       </trans-unit>
       <trans-unit id="Sale_SmartPlaceHolder" xml:space="preserve">
         <source>Режим предпросмотра: в этом автоматически заполняемом разделе нет приложений. Если вы оставите его пустым, весь раздел, включая заголовок, не появится на странице пользователя.</source>
-        <target state="translated">Рэжым прадпрагляду: у гэтым аўтаматычна запаўняемым раздзеле няма дадаткаў. Калі вы пакінеце яго пустым, увесь раздзел, уключаючы загаловак, не з&#39;явіцца на старонцы карыстальніка.</target>
+        <target state="translated">Рэжым папярэдняга прагляду: у гэтым аўтаматычна запаўняемым раздзеле няма дадаткаў. Калі вы пакінеце яго пустым, увесь раздзел, уключаючы загаловак, не з&#39;явіцца на старонцы карыстальніка.</target>
       </trans-unit>
       <trans-unit id="Sale_StopFollowingGame" xml:space="preserve">
         <source>Отписаться</source>
@@ -10901,7 +10929,7 @@
       </trans-unit>
       <trans-unit id="Sale_Subscription_Annual_Price" xml:space="preserve">
         <source><ph id="1">%1$s</ph> в год</source>
-        <target state="needs-review-translation"><ph id="1">%1$s</ph> у год</target>
+        <target state="translated"><ph id="1">%1$s</ph> за год</target>
       </trans-unit>
       <trans-unit id="Sale_Subscription_Annual_Price_Discount" xml:space="preserve">
         <source><ph id="1">%1$s</ph> за первый год</source>
@@ -10929,7 +10957,7 @@
       </trans-unit>
       <trans-unit id="Sale_Subscription_Monthly_Price" xml:space="preserve">
         <source><ph id="1">%1$s</ph> в месяц</source>
-        <target state="needs-review-translation"><ph id="1">%1$s</ph> у месяц</target>
+        <target state="translated"><ph id="1">%1$s</ph> за месяц</target>
       </trans-unit>
       <trans-unit id="Sale_Subscription_Monthly_Price_Discount" xml:space="preserve">
         <source><ph id="1">%1$s</ph> за первый месяц</source>
@@ -10997,7 +11025,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_10" xml:space="preserve">
         <source>Больше хеллоуинских событий не в хоррорах</source>
-        <target state="needs-review-translation">Больш хэлоўінскіх падзей не ў хорарах</target>
+        <target state="translated">Больш хэлоўінскіх падзей у не-хорарах</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_100" xml:space="preserve">
         <source>Головоломки-платформеры</source>
@@ -11017,7 +11045,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_104" xml:space="preserve">
         <source>Избранные экшены</source>
-        <target state="needs-review-translation">Выбраныя экшэны</target>
+        <target state="translated">Выбраны экшн</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_105" xml:space="preserve">
         <source>Избранные приключения</source>
@@ -11065,7 +11093,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_115" xml:space="preserve">
         <source>Компьютерные ролевые игры</source>
-        <target state="translated">Камп&#39;ютарныя ролевыя гульні</target>
+        <target state="translated">Класічныя ролевыя гульні</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_116" xml:space="preserve">
         <source>VR-головоломки</source>
@@ -11145,7 +11173,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_133" xml:space="preserve">
         <source>Исследования</source>
-        <target state="needs-review-translation">Даследаванні</target>
+        <target state="translated">Даследаванне</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_134" xml:space="preserve">
         <source>Текстовые приключения</source>
@@ -11237,7 +11265,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_154" xml:space="preserve">
         <source>Сюжетное исследование мира</source>
-        <target state="needs-review-translation">Сюжэтнае даследаванне свету</target>
+        <target state="translated">Даследаванне з глыбокім сюжэтам</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_155" xml:space="preserve">
         <source>Предстоящие события и новости</source>
@@ -11265,7 +11293,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_161" xml:space="preserve">
         <source>Твин-стик шутеры</source>
-        <target state="needs-review-translation">Твін-стык шутэры</target>
+        <target state="translated">Твін-сцік шутэры</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_162" xml:space="preserve">
         <source>Игра на время</source>
@@ -11285,7 +11313,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_166" xml:space="preserve">
         <source>Боевые искусства</source>
-        <target state="needs-review-translation">Баявыя мастацтва</target>
+        <target state="translated">Баявыя мастацтвы</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_167" xml:space="preserve">
         <source>Beat &#39;em up</source>
@@ -11301,7 +11329,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_171" xml:space="preserve">
         <source>Мусоу</source>
-        <target state="needs-review-translation">Мусаў</target>
+        <target state="translated">Мусоу</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_172" xml:space="preserve">
         <source>Зрелищные сражения</source>
@@ -11309,7 +11337,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_173" xml:space="preserve">
         <source>Яркий главный герой</source>
-        <target state="needs-review-translation">Яркі галоўны герой</target>
+        <target state="translated">Яркі галоўны герой</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_174" xml:space="preserve">
         <source>Раннер</source>
@@ -11389,11 +11417,11 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_191" xml:space="preserve">
         <source>Решения с последствиями</source>
-        <target state="needs-review-translation">Рашэнні з наступствамі</target>
+        <target state="translated">Выбар мае значэнне</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_192" xml:space="preserve">
         <source>Упрощённые рогалики</source>
-        <target state="needs-review-translation">Спрошчаныя рагалікі</target>
+        <target state="translated">Роўглайты</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_193" xml:space="preserve">
         <source>Кастомизация персонажа</source>
@@ -11425,7 +11453,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_2" xml:space="preserve">
         <source>Лидеры продаж</source>
-        <target state="needs-review-translation">Лідэры продажаў</target>
+        <target state="translated">Лідары продажаў</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_20" xml:space="preserve">
         <source>Недавно обновлено</source>
@@ -11477,7 +11505,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_210" xml:space="preserve">
         <source>Экшены и аркады</source>
-        <target state="needs-review-translation">Экшэны і аркады</target>
+        <target state="translated">Экшн і аркады</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_211" xml:space="preserve">
         <source>Самые популярные будущие новинки</source>
@@ -11565,7 +11593,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_230" xml:space="preserve">
         <source>Сочетание блоков</source>
-        <target state="needs-review-translation">Спалучэнне блокаў</target>
+        <target state="translated">Плітачкі ў рад</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_231" xml:space="preserve">
         <source>Распродажи и особые события</source>
@@ -11593,7 +11621,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_237" xml:space="preserve">
         <source>Экшены-RTS</source>
-        <target state="needs-review-translation">Экшэны-RTS</target>
+        <target state="translated">Экшн-RTS</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_238" xml:space="preserve">
         <source>Охота</source>
@@ -11665,7 +11693,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_253" xml:space="preserve">
         <source>Расследования</source>
-        <target state="needs-review-translation">Расследаванні</target>
+        <target state="translated">Расследаванне</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_254" xml:space="preserve">
         <source>Физические головоломки</source>
@@ -11821,7 +11849,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_35" xml:space="preserve">
         <source>Экшены</source>
-        <target state="needs-review-translation">Экшэны</target>
+        <target state="translated">Экшн</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_36" xml:space="preserve">
         <source>Приключения</source>
@@ -11841,7 +11869,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_4" xml:space="preserve">
         <source>Хорроры</source>
-        <target state="needs-review-translation">Хароры</target>
+        <target state="translated">Хорары</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_40" xml:space="preserve">
         <source>Гонки</source>
@@ -11849,7 +11877,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_41" xml:space="preserve">
         <source>Ролевые</source>
-        <target state="needs-review-translation">Ралявыя</target>
+        <target state="translated">Ролевыя</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_42" xml:space="preserve">
         <source>Симуляторы</source>
@@ -11857,7 +11885,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_43" xml:space="preserve">
         <source>Спорт</source>
-        <target state="needs-review-translation">Спорту</target>
+        <target state="translated">Спорт</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_44" xml:space="preserve">
         <source>Стратегии</source>
@@ -11885,7 +11913,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_5" xml:space="preserve">
         <source>Хорроры для VR</source>
-        <target state="needs-review-translation">Хароры для VR</target>
+        <target state="translated">Хорары для VR</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_50" xml:space="preserve">
         <source>Визуальные новеллы</source>
@@ -11901,7 +11929,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_53" xml:space="preserve">
         <source>Хорроры</source>
-        <target state="needs-review-translation">Хароры</target>
+        <target state="translated">Хорары</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_54" xml:space="preserve">
         <source>Ретро</source>
@@ -11937,7 +11965,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_61" xml:space="preserve">
         <source>Приключенческие экшены</source>
-        <target state="needs-review-translation">Прыгодніцкія экшэны</target>
+        <target state="translated">Прыгодніцкі экшн</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_62" xml:space="preserve">
         <source>Популярные игры</source>
@@ -11965,7 +11993,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_68" xml:space="preserve">
         <source>Рогалики</source>
-        <target state="needs-review-translation">Рагалікі</target>
+        <target state="translated">Роўглайкі</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_69" xml:space="preserve">
         <source>Виртуальная реальность</source>
@@ -12009,7 +12037,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_78" xml:space="preserve">
         <source>Сюжетное исследование мира</source>
-        <target state="needs-review-translation">Сюжэтнае даследаванне свету</target>
+        <target state="translated">Даследаванне з глыбокім сюжэтам</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_79" xml:space="preserve">
         <source>В реальном времени</source>
@@ -12017,7 +12045,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_8" xml:space="preserve">
         <source>Хеллоуинские события не в хоррорах</source>
-        <target state="needs-review-translation">Хэлоўінскія падзеі не ў хорарах</target>
+        <target state="translated">Хэлоўінскія падзеі ў не-хорарах</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_80" xml:space="preserve">
         <source>Карточные и настольные</source>
@@ -12033,7 +12061,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_83" xml:space="preserve">
         <source>Ролевые экшены</source>
-        <target state="needs-review-translation">Ролевыя экшэны</target>
+        <target state="translated">Экшн-ролевыя гульні</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_84" xml:space="preserve">
         <source>Японские ролевые игры</source>
@@ -12133,7 +12161,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_HalloweenEventsNonHorror" xml:space="preserve">
         <source>Хеллоуинские события не в хоррорах</source>
-        <target state="needs-review-translation">Хэлоўінскія падзеі не ў хорарах</target>
+        <target state="translated">Хэлоўінскія падзеі ў не-хорарах</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_Highlighted" xml:space="preserve">
         <source>Избранные предложения</source>
@@ -12145,11 +12173,11 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_HorrorGames" xml:space="preserve">
         <source>Хорроры</source>
-        <target state="needs-review-translation">Хароры</target>
+        <target state="translated">Хорары</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_HorrorVR" xml:space="preserve">
         <source>Хорроры для VR</source>
-        <target state="needs-review-translation">Хароры для VR</target>
+        <target state="translated">Хорары для VR</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_JustAnnounced" xml:space="preserve">
         <source>Недавно анонсировано</source>
@@ -12169,7 +12197,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_MoreHalloweenEventsNonHorror" xml:space="preserve">
         <source>Больше хеллоуинских событий не в хоррорах</source>
-        <target state="needs-review-translation">Больш хэлоўінскіх падзей не ў хорарах</target>
+        <target state="translated">Больш хэлоўінскіх падзей у не-хорарах</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_NewAndUpcomingHorror" xml:space="preserve">
         <source>Новые и предстоящие хорроры</source>
@@ -12217,7 +12245,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_label_TopSellers" xml:space="preserve">
         <source>Лидеры продаж</source>
-        <target state="needs-review-translation">Лідэры продажаў</target>
+        <target state="translated">Лідары продажаў</target>
       </trans-unit>
       <trans-unit id="Sale_default_label_custom" xml:space="preserve">
         <source>(своё название)</source>
@@ -12245,7 +12273,7 @@
       </trans-unit>
       <trans-unit id="Sale_default_subtitle_5" xml:space="preserve">
         <source>Играбельные на Steam Deck и полностью совместимые с ним</source>
-        <target state="needs-review-translation">Іграбельныя на Steam Deck і цалкам сумяшчальныя з ім</target>
+        <target state="translated">Гульні, у якія можна гуляць на Steam Deck і якія цалкам з ім сумяшчальныя</target>
       </trans-unit>
       <trans-unit id="Sale_default_subtitle_6" xml:space="preserve">
         <source>Временное предложение</source>
@@ -12313,7 +12341,7 @@
       </trans-unit>
       <trans-unit id="SendClip_NoClients" xml:space="preserve">
         <source>Войдите в Steam на другом компьютере или на Steam Deck, чтобы использовать эту опцию для отправки роликов на соответствующее устройство.</source>
-        <target state="translated">Увайдзіце ў Steam на іншым камп&#39;ютары або на Steam Deck, каб выкарыстоўваць гэтую опцыю для адпраўкі ролікаў на адпаведную прыладу.</target>
+        <target state="translated">Увайдзіце ў Steam на іншым камп&#39;ютары або на Steam Deck, каб выкарыстоўваць гэты параметр для адпраўкі ролікаў на адпаведную прыладу.</target>
       </trans-unit>
       <trans-unit id="SendClip_NoClients2" xml:space="preserve">
         <source>Похоже, в последнее время вы не входили в Steam на другом компьютере или Steam Deck.</source>
@@ -12341,7 +12369,7 @@
       </trans-unit>
       <trans-unit id="SendToChat_ClipTooLong" xml:space="preserve">
         <source>Некоторые опции недоступны для роликов длиннее <ph id="1">%2$s</ph> сек. Этот ролик длится <ph id="2">%1$s</ph>.</source>
-        <target state="translated">Некаторыя опцыі недаступныя для ролікаў даўжэйшых за <ph id="1">%2$s</ph> сек. Гэты ролік доўжыцца <ph id="2">%1$s</ph>.</target>
+        <target state="translated">Некаторыя параметры недаступныя для ролікаў даўжэйшых за <ph id="1">%2$s</ph> сек. Гэты ролік доўжыцца <ph id="2">%1$s</ph>.</target>
       </trans-unit>
       <trans-unit id="SendToPhone_CantRequestDevice" xml:space="preserve">
         <source>Не удалось отправить запрос на ваше мобильное устройство. Повторите попытку позже.</source>
@@ -12413,7 +12441,7 @@
       </trans-unit>
       <trans-unit id="ServerBrowser_AntiCheat" xml:space="preserve">
         <source>Античит</source>
-        <target state="needs-review-translation">Антычыць</target>
+        <target state="translated">Антычыт</target>
       </trans-unit>
       <trans-unit id="ServerBrowser_AnyGame" xml:space="preserve">
         <source>(любая игра)</source>
@@ -12445,7 +12473,7 @@
       </trans-unit>
       <trans-unit id="ServerBrowser_Favorites" xml:space="preserve">
         <source>Избранные</source>
-        <target state="needs-review-translation">Выбраныя</target>
+        <target state="translated">Абраныя</target>
       </trans-unit>
       <trans-unit id="ServerBrowser_FilterDescInsecureOnly" xml:space="preserve">
         <source>без античита</source>
@@ -12573,7 +12601,7 @@
       </trans-unit>
       <trans-unit id="ServerBrowser_NoHistoryServersMatch" xml:space="preserve">
         <source>Ни один сервер из вашей истории не подходит под выбранные фильтры.</source>
-        <target state="needs-review-translation">Ніводны сервер з вашай гісторыі не падыходзіць пад абраныя фільтры.</target>
+        <target state="translated">Ніводны сервер з вашай гісторыі не падыходзіць пад выбраныя фільтры.</target>
       </trans-unit>
       <trans-unit id="ServerBrowser_NoInternetGamesMatch" xml:space="preserve">
         <source>Игры найдены, но ни одна не подходит под выбранные фильтры.</source>
@@ -12633,7 +12661,7 @@
       </trans-unit>
       <trans-unit id="ServerBrowser_Secure" xml:space="preserve">
         <source>Античит</source>
-        <target state="needs-review-translation">Антычыць</target>
+        <target state="translated">Антычыт</target>
       </trans-unit>
       <trans-unit id="ServerBrowser_SecureOnly" xml:space="preserve">
         <source>Включён</source>
@@ -12661,11 +12689,11 @@
       </trans-unit>
       <trans-unit id="ServerBrowser_Stop" xml:space="preserve">
         <source>Остановить</source>
-        <target state="needs-review-translation">Затрымаць</target>
+        <target state="translated">Спыніць</target>
       </trans-unit>
       <trans-unit id="ServerBrowser_ViewServerInfo" xml:space="preserve">
         <source>Информация о сервере</source>
-        <target state="needs-review-translation">Інфармацыя аб серверы</target>
+        <target state="translated">Інфармацыя пра сервер</target>
       </trans-unit>
       <trans-unit id="Settings" xml:space="preserve">
         <source>Настройки</source>
@@ -12673,7 +12701,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AddMarkerKey" xml:space="preserve">
         <source>Добавить отметку на временной шкале</source>
-        <target state="needs-review-translation">Дадаць адзнаку на часовай шкале</target>
+        <target state="translated">Дадаць пазнаку на часовай шкале</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AudioRecording" xml:space="preserve">
         <source>Запись звука</source>
@@ -12697,7 +12725,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AudioRecording_MicMono" xml:space="preserve">
         <source>Принудительное переключение микрофона в режим моно</source>
-        <target state="needs-review-translation">Прымусовае пераключэнне мікрафона ў рэжым мона</target>
+        <target state="translated">Прымусовае пераключэнне мікрафона ў рэжым моно</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AudioRecording_MicMono_Description" xml:space="preserve">
         <source>Выберите, если слышите свой микрофон только в одном канале при воспроизведении.</source>
@@ -12729,7 +12757,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AudioSelection_SelectProcesses" xml:space="preserve">
         <source>Из игр и выбранных программ</source>
-        <target state="needs-review-translation">З гульняў і абраных праграм</target>
+        <target state="translated">З гульняў і выбраных праграм</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_AudioSelection_Title" xml:space="preserve">
         <source>Записывать звук...</source>
@@ -12825,7 +12853,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_Gamepad_MarkHotkey" xml:space="preserve">
         <source>Сочетание кнопок контроллера для добавления отметки на временной шкале:</source>
-        <target state="needs-review-translation">Спалучэнне кнопак кантролера для дадання адзнакі на часовай шкале:</target>
+        <target state="translated">Спалучэнне кнопак кантролера для дадання пазнакі на часовай шкале:</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_Gamepad_ToggleRecordingHotkey" xml:space="preserve">
         <source>Сочетание кнопок контроллера для начала/остановки записи:</source>
@@ -12833,7 +12861,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_Hotkey_AddMarker" xml:space="preserve">
         <source>Добавить отметку на временной шкале</source>
-        <target state="needs-review-translation">Дадаць адзнаку на часовай шкале</target>
+        <target state="translated">Дадаць пазнаку на часовай шкале</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_Hotkey_ToggleRecording" xml:space="preserve">
         <source>Начать/остановить запись</source>
@@ -12841,7 +12869,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_InstantClip" xml:space="preserve">
         <source>Сохранить последние <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph> с. игрового процесса в виде ролика</source>
-        <target state="needs-review-translation">Захаваць апошнія <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph> с. гульнявога працэсу ў выглядзе роліка</target>
+        <target state="translated">Захаваць апошнія <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph> сек. гульнявога працэсу ў выглядзе роліка</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_InstantClipDropdown_Label" xml:space="preserve">
         <source>Длительность ролика</source>
@@ -12981,7 +13009,7 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_PerGameSettings_AddGame_Title" xml:space="preserve">
         <source>Здесь можно задать настройки записи для отдельных игр</source>
-        <target state="needs-review-translation">Тут можна задаць налады запісы для асобных гульняў</target>
+        <target state="translated">Тут можна задаць налады запісу для асобных гульняў</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_PerGameSettings_AllGames" xml:space="preserve">
         <source>Все игры</source>
@@ -13041,11 +13069,11 @@
       </trans-unit>
       <trans-unit id="Settings_GameRecording_TimelineMarker" xml:space="preserve">
         <source>Отметки на временной шкале</source>
-        <target state="needs-review-translation">Адзнакі на часовай шкале</target>
+        <target state="translated">Пазнакі на часовай шкале</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_TimelineMarker_Description" xml:space="preserve">
         <source>Записи можно снабжать отметками, позволяющими указать моменты, которые вы хотите просмотреть ещё раз, и/или автоматически сохранить видео за определённый промежуток времени.</source>
-        <target state="translated">Запісы можна забяспечваць адзнакамі, якія дазваляюць пазначыць моманты, якія вы хочаце прагледзець яшчэ раз, і/або аўтаматычна захаваць відэа за пэўны прамежак часу.</target>
+        <target state="translated">Запісы можна забяспечваць пазнакамі, якія дазваляюць пазначыць моманты, якія вы хочаце прагледзець яшчэ раз, і/або аўтаматычна захаваць відэа за пэўны прамежак часу.</target>
       </trans-unit>
       <trans-unit id="Settings_GameRecording_ToggleRecording" xml:space="preserve">
         <source>Начать/остановить запись</source>
@@ -13093,7 +13121,7 @@
       </trans-unit>
       <trans-unit id="Settings_Hotkey_TakeInstantClip" xml:space="preserve">
         <source>Вырезать последние <ph id="1">%1$s</ph> с. игрового процесса</source>
-        <target state="needs-review-translation">Выразаць апошнія <ph id="1">%1$s</ph> с. гульнявога працэсу</target>
+        <target state="translated">Выразаць апошнія <ph id="1">%1$s</ph> сек. гульнявога працэсу</target>
       </trans-unit>
       <trans-unit id="Settings_Hotkey_TakeScreenshot" xml:space="preserve">
         <source>Сделать скриншот</source>
@@ -13165,7 +13193,7 @@
       </trans-unit>
       <trans-unit id="SteamAward_NominationConflictWarning_Explanation" xml:space="preserve">
         <source>В каждой категории можно номинировать лишь одну игру, а вы уже выбрали <ph id="1">%1$s</ph>. Хотите номинировать <ph id="2">%2$s</ph> взамен?</source>
-        <target state="translated">У кожнай катэгорыі можна намінаваць толькі адну гульню, а вы ўжо абралі <ph id="1">%1$s</ph>. Хочаце намінаваць <ph id="2">%2$s</ph> замест гэтага?</target>
+        <target state="translated">У кожнай катэгорыі можна намінаваць толькі адну гульню, а вы ўжо выбралі <ph id="1">%1$s</ph>. Хочаце намінаваць <ph id="2">%2$s</ph> замест гэтага?</target>
       </trans-unit>
       <trans-unit id="SteamAward_NominationConflictWarning_Title" xml:space="preserve">
         <source>Изменить номинацию?</source>
@@ -13297,11 +13325,11 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_DeveloperBlog" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на Steam Deck. Узнать подробности вы можете на их странице сообщества:</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на Steam Deck. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці:</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на Steam Deck. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці:</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_DeveloperBlog_Desktop" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на Steam Deck. Узнать подробности вы можете на их странице сообщества.</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на Steam Deck. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці.</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на Steam Deck. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці.</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_Playable" xml:space="preserve">
         <source>Игра полностью функциональна на Steam Deck, но для работы может потребоваться дополнительная настройка.</source>
@@ -13309,11 +13337,11 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_Unknown" xml:space="preserve">
         <source>Valve ещё изучает эту игру. На данный момент у нас нет дополнительной информации о совместимости игры со Steam Deck.</source>
-        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці гульні са Steam Deck.</target>
+        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць гульні са Steam Deck.</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_Unknown_WithAppName" xml:space="preserve">
         <source>Valve ещё изучает <ph id="1">%1$s</ph>. На данный момент у нас нет дополнительной информации о совместимости со Steam Deck.</source>
-        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці са Steam Deck.</target>
+        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць са Steam Deck.</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_DescriptionHeader_Unsupported" xml:space="preserve">
         <source>Вся игра или её части на данный момент не функционируют на Steam Deck.</source>
@@ -13449,7 +13477,7 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_DeviceCompatibilityWarningsShown" xml:space="preserve">
         <source>У этой игры есть предупреждения о проблемах совместимости со Steam Deck, но работает она нормально</source>
-        <target state="needs-review-translation">У гэтай гульні ёсць папярэджанні аб праблемах сумяшчальнасці са Steam Deck, але працуе яна нармальна</target>
+        <target state="translated">У гэтай гульні ёсць папярэджанні пра праблемы сумяшчальнасці са Steam Deck, але працуе яна нармальна</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы с графикой или отображением на Steam Deck</source>
@@ -13521,7 +13549,7 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_ResumeFromSleepNotFunctional" xml:space="preserve">
         <source>С этой игрой могут возникать временные проблемы после выхода Steam Deck из спящего режима</source>
-        <target state="needs-review-translation">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду Steam Deck са спячага рэжыму</target>
+        <target state="translated">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду Steam Deck з рэжыму сну</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_SimultaneousInputGyroTrackpadFriendly" xml:space="preserve">
         <source>Эта игра поддерживает управление камерой в режиме мыши с помощью гироскопа или трекпада, тогда как передвижение управляется с геймпада</source>
@@ -13529,7 +13557,7 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection" xml:space="preserve">
         <source>Для одиночного режима требуется активное соединение с интернетом</source>
-        <target state="needs-review-translation">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнетам</target>
+        <target state="translated">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнэтам</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_SteamOSDoesNotSupport" xml:space="preserve">
         <source>Valve продолжает работать над добавлением поддержки для этой игры на Steam Deck</source>
@@ -13561,7 +13589,7 @@
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other" xml:space="preserve">
         <source>Эта игра не будет работать на Steam Deck из-за неподдерживаемого античита или многопользовательского сервиса</source>
-        <target state="translated">Гэтая гульня не будзе працаваць на Steam Deck з-за непадтрымліваемага антычыта або шматкарыстальніцкага сервісу</target>
+        <target state="translated">Гэтая гульня не будзе працаваць на Steam Deck з-за антычыта або шматкарыстальніцкага сервісу, якія не падтрымліваюцца</target>
       </trans-unit>
       <trans-unit id="SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance" xml:space="preserve">
         <source>Настройки графики этой игры не могут быть изменены так, чтобы она хорошо работала на Steam Deck</source>
@@ -13589,11 +13617,11 @@
       </trans-unit>
       <trans-unit id="SteamFrameVerified_DescriptionHeader_Unknown" xml:space="preserve">
         <source>Valve ещё изучает эту игру. На данный момент у нас нет дополнительной информации о совместимости со Steam Frame.</source>
-        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці са Steam Frame.</target>
+        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць са Steam Frame.</target>
       </trans-unit>
       <trans-unit id="SteamFrameVerified_DescriptionHeader_Unknown_WithAppName" xml:space="preserve">
         <source>Valve ещё изучает <ph id="1">%1$s</ph>. На данный момент у нас нет дополнительной информации о совместимости со Steam Frame.</source>
-        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці са Steam Frame.</target>
+        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць са Steam Frame.</target>
       </trans-unit>
       <trans-unit id="SteamFrameVerified_DescriptionHeader_Unsupported" xml:space="preserve">
         <source>Вся игра или её части на данный момент не функционируют на Steam Frame.</source>
@@ -13649,7 +13677,7 @@
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_DeviceCompatibilityWarningsShown" xml:space="preserve">
         <source>У этой игры есть предупреждения о проблемах совместимости со Steam Frame, но она работает нормально</source>
-        <target state="needs-review-translation">У гэтай гульні ёсць папярэджанні аб праблемах сумяшчальнасці са Steam Frame, але яна працуе нармальна</target>
+        <target state="translated">У гэтай гульні ёсць папярэджанні пра праблемы сумяшчальнасці са Steam Frame, але яна працуе нармальна</target>
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_DisplayOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы с графикой или отображением на Steam Frame</source>
@@ -13705,7 +13733,7 @@
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_ResumeFromSleepNotFunctional" xml:space="preserve">
         <source>С этой игрой могут возникать временные проблемы после выхода Steam Frame из спящего режима</source>
-        <target state="needs-review-translation">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду Steam Frame са спячага рэжыму</target>
+        <target state="translated">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду Steam Frame з рэжыму сну</target>
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_SimultaneousInputGyroTrackpadFriendly" xml:space="preserve">
         <source>Эта игра поддерживает управление камерой в режиме мыши с помощью гироскопа или трекпада, тогда как передвижение управляется с геймпада</source>
@@ -13713,7 +13741,7 @@
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_SingleplayerGameplayRequiresActiveInternetConnection" xml:space="preserve">
         <source>Для одиночного режима требуется активное соединение с интернетом</source>
-        <target state="needs-review-translation">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнетам</target>
+        <target state="translated">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнэтам</target>
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_SteamOSDoesNotSupport" xml:space="preserve">
         <source>Valve продолжает работать над добавлением поддержки для этой игры на Steam Frame</source>
@@ -13737,7 +13765,7 @@
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_UnsupportedAntiCheat_Other" xml:space="preserve">
         <source>Эта игра не будет работать на Steam Frame из-за неподдерживаемого античита или многопользовательского сервиса</source>
-        <target state="translated">Гэтая гульня не будзе працаваць на Steam Frame з-за непадтрымліваемага антычыта або шматкарыстальніцкага сервісу</target>
+        <target state="translated">Гэтая гульня не будзе працаваць на Steam Frame з-за антычыта або шматкарыстальніцкага сервісу, якія не падтрымліваюцца</target>
       </trans-unit>
       <trans-unit id="SteamFrame_TestResult_UnsupportedGraphicsPerformance" xml:space="preserve">
         <source>Настройки графики этой игры не могут быть изменены так, чтобы она хорошо работала на Steam Frame</source>
@@ -13773,11 +13801,11 @@
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_DeveloperBlog" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на Steam Machine. Узнать подробности вы можете на их странице сообщества:</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на Steam Machine. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці:</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на Steam Machine. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці:</target>
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_DeveloperBlog_Desktop" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на Steam Machine. Узнать подробности вы можете на их странице сообщества.</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на Steam Machine. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці.</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на Steam Machine. Даведацца падрабязнасці вы можаце на іх старонцы супольнасці.</target>
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_Playable" xml:space="preserve">
         <source>Игра полностью функциональна на Steam Machine, но для работы может потребоваться дополнительная настройка.</source>
@@ -13785,11 +13813,11 @@
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_Unknown" xml:space="preserve">
         <source>Valve ещё изучает эту игру. На данный момент у нас нет дополнительной информации о совместимости со Steam Machine.</source>
-        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці са Steam Machine.</target>
+        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць са Steam Machine.</target>
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_Unknown_WithAppName" xml:space="preserve">
         <source>Valve ещё изучает <ph id="1">%1$s</ph>. На данный момент у нас нет дополнительной информации о совместимости со Steam Machine.</source>
-        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі аб сумяшчальнасці са Steam Machine.</target>
+        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі пра сумяшчальнасць са Steam Machine.</target>
       </trans-unit>
       <trans-unit id="SteamMachineVerified_DescriptionHeader_Unsupported" xml:space="preserve">
         <source>Вся игра или её части на данный момент не функционируют на Steam Machine.</source>
@@ -13841,7 +13869,7 @@
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_DeviceCompatibilityWarningsShown" xml:space="preserve">
         <source>У этой игры есть предупреждения о проблемах совместимости со Steam Machine, но работает она нормально</source>
-        <target state="needs-review-translation">У гэтай гульні ёсць папярэджанні аб праблемах сумяшчальнасці са Steam Machine, але працуе яна нармальна</target>
+        <target state="translated">У гэтай гульні ёсць папярэджанні пра праблемы сумяшчальнасці са Steam Machine, але працуе яна нармальна</target>
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_DisplayOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы с графикой или отображением на Steam Machine</source>
@@ -13873,7 +13901,7 @@
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection" xml:space="preserve">
         <source>Для одиночного режима требуется активное соединение с интернетом</source>
-        <target state="needs-review-translation">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнетам</target>
+        <target state="translated">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнэтам</target>
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_SteamOSDoesNotSupport" xml:space="preserve">
         <source>Valve продолжает работать над добавлением поддержки для этой игры на Steam Machine</source>
@@ -13901,7 +13929,7 @@
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_UnsupportedAntiCheat_Other" xml:space="preserve">
         <source>Эта игра не будет работать на Steam Machine из-за неподдерживаемого античита или многопользовательского сервиса</source>
-        <target state="translated">Гэтая гульня не будзе працаваць на Steam Machine з-за непадтрымліваемага антычыта або шматкарыстальніцкага сервісу</target>
+        <target state="translated">Гэтая гульня не будзе працаваць на Steam Machine з-за антычыта або шматкарыстальніцкага сервісу, якія не падтрымліваюцца</target>
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_UnsupportedGraphicsPerformance" xml:space="preserve">
         <source>Настройки графики этой игры не могут быть изменены так, чтобы она хорошо работала на Steam Machine</source>
@@ -13981,7 +14009,7 @@
       </trans-unit>
       <trans-unit id="SteamNotificationTypeDesc_19" xml:space="preserve">
         <source>Взрослый участник семейной группы ответил на мой запрос о покупке</source>
-        <target state="translated">Дарослы ўдзельнік сямейнай групы адказаў на мой запыт аб пакупцы</target>
+        <target state="translated">Дарослы ўдзельнік сямейнай групы адказаў на мой запыт пра пакупку</target>
       </trans-unit>
       <trans-unit id="SteamNotificationTypeDesc_2" xml:space="preserve">
         <source>Получение подарка</source>
@@ -14297,11 +14325,11 @@
       </trans-unit>
       <trans-unit id="SteamOSCompatibility_DescriptionHeader_Unknown" xml:space="preserve">
         <source>Valve ещё изучает эту игру. На данный момент у нас нет дополнительной информации о её совместимости со SteamOS.</source>
-        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі аб яе сумяшчальнасці са SteamOS.</target>
+        <target state="translated">Valve яшчэ вывучае гэтую гульню. На гэты момант у нас няма дадатковай інфармацыі пра яе сумяшчальнасць са SteamOS.</target>
       </trans-unit>
       <trans-unit id="SteamOSCompatibility_DescriptionHeader_Unknown_WithAppName" xml:space="preserve">
         <source>Valve ещё изучает <ph id="1">%1$s</ph>. На данный момент у нас нет дополнительной информации о её совместимости со SteamOS.</source>
-        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі аб яе сумяшчальнасці са SteamOS.</target>
+        <target state="translated">Valve яшчэ вывучае <ph id="1">%1$s</ph>. На гэты момант у нас няма дадатковай інфармацыі пра яе сумяшчальнасць са SteamOS.</target>
       </trans-unit>
       <trans-unit id="SteamOSCompatibility_DescriptionHeader_Unsupported" xml:space="preserve">
         <source>Вся игра или её части на данный момент не функционируют на SteamOS.</source>
@@ -14317,11 +14345,11 @@
       </trans-unit>
       <trans-unit id="SteamOS_DescriptionHeader_DeveloperBlog" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на SteamOS. Перейдите на страницу сообщества, чтобы узнать больше:</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на SteamOS. Перайдзіце на старонку супольнасці, каб даведацца больш:</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на SteamOS. Перайдзіце на старонку супольнасці, каб даведацца больш:</target>
       </trans-unit>
       <trans-unit id="SteamOS_DescriptionHeader_DeveloperBlog_Desktop" xml:space="preserve">
         <source>Разработчики предоставили дополнительную информацию о поддержке этой игры на SteamOS. Узнать больше можно на их странице сообщества.</source>
-        <target state="needs-review-translation">Распрацоўнікі падалі дадатковую інфармацыю аб падтрымцы гэтай гульні на SteamOS. Даведацца больш можна на іх старонцы супольнасці.</target>
+        <target state="translated">Распрацоўнікі падалі дадатковую інфармацыю пра падтрымку гэтай гульні на SteamOS. Даведацца больш можна на іх старонцы супольнасці.</target>
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_AudioOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы со звуком на SteamOS</source>
@@ -14345,7 +14373,7 @@
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_DisplayOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы с графикой или отображением на SteamOS</source>
-        <target state="needs-review-translation">У гэтай гульні ёсць малаважныя праблемы з графікай ці адлюстраваннем на SteamOS</target>
+        <target state="translated">У гэтай гульні ёсць нязначныя праблемы з графікай ці адлюстраваннем на SteamOS</target>
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_DisplayOutputNotCorrectlyScaled" xml:space="preserve">
         <source>Эта игра неверно масштабируется на SteamOS, поэтому вам может понадобиться настроить разрешение вручную</source>
@@ -14401,7 +14429,7 @@
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_ResumeFromSleepNotFunctional" xml:space="preserve">
         <source>С этой игрой могут возникать временные проблемы после выхода SteamOS из спящего режима</source>
-        <target state="needs-review-translation">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду SteamOS са спячага рэжыму</target>
+        <target state="translated">З гэтай гульнёй могуць узнікаць часовыя праблемы пасля выхаду SteamOS з рэжыму сну</target>
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_SimultaneousInputGyroTrackpadFriendly" xml:space="preserve">
         <source>Эта игра поддерживает управление камерой в режиме мыши с помощью гироскопа или трекпада, тогда как передвижение управляется с геймпада</source>
@@ -14409,7 +14437,7 @@
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection" xml:space="preserve">
         <source>Для одиночного режима требуется активное соединение с интернетом</source>
-        <target state="needs-review-translation">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнетам</target>
+        <target state="translated">Для адзіночнага рэжыму патрабуецца актыўнае злучэнне з інтэрнэтам</target>
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_SteamOSDoesNotSupport" xml:space="preserve">
         <source>Valve всё ещё работает над добавлением поддержки для этой игры на SteamOS</source>
@@ -14437,7 +14465,7 @@
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_UnsupportedAntiCheat_Other" xml:space="preserve">
         <source>Эта игра не будет работать на SteamOS из-за неподдерживаемого античита или многопользовательского сервиса</source>
-        <target state="translated">Гэтая гульня не будзе працаваць на SteamOS з-за непадтрымліваемага антычыта або шматкарыстальніцкага сервісу</target>
+        <target state="translated">Гэтая гульня не будзе працаваць на SteamOS з-за антычыта або шматкарыстальніцкага сервісу, якія не падтрымліваюцца</target>
       </trans-unit>
       <trans-unit id="SteamOS_TestResult_VideoPlaybackHasNonblockingIssues" xml:space="preserve">
         <source>Часть внутриигрового видеоконтента может отсутствовать или иметь проблемы с воспроизведением</source>
@@ -14593,7 +14621,7 @@
       </trans-unit>
       <trans-unit id="StoreAdmin_SocialMedia_ValidationMastodon" xml:space="preserve">
         <source>Значение должно начинаться с одного из указанных префиксов: <ph id="1">%1$s</ph>. Если нужного нет в списке, вы можете воспользоваться ссылкой следующего формата: https://mastodon.social/@&lt;имя пользователя&gt;@&lt;ваш сервер&gt; </source>
-        <target state="translated">Значэнне павінна пачынацца з аднаго з названых прэфіксаў: <ph id="1">%1$s</ph>. Калі патрэбнага няма ў спісе, вы можаце скарыстацца спасылкай наступнага фармату: https://mastodon.social/@&lt;імя карыстальніка&gt;@&lt;ваш сервер&gt; </target>
+        <target state="translated">Значэнне павінна пачынацца з аднаго з названых прэфіксаў: <ph id="1">%1$s</ph>. Калі патрэбнага няма ў спісе, вы можаце выкарыстаць спасылку наступнага фармату: https://mastodon.social/@&lt;імя карыстальніка&gt;@&lt;ваш сервер&gt; </target>
       </trans-unit>
       <trans-unit id="StoreAdmin_SocialMedia_ValidationNumber" xml:space="preserve">
         <source>Введённое значение должно быть числом</source>
@@ -14617,7 +14645,7 @@
       </trans-unit>
       <trans-unit id="StoreApp_FollowCreatorSubtitle" xml:space="preserve">
         <source>и получайте уведомления о новинках</source>
-        <target state="translated">і атрымлівайце апавяшчэнні аб навінках</target>
+        <target state="translated">і атрымлівайце апавяшчэнні пра навінкі</target>
       </trans-unit>
       <trans-unit id="StoreApp_SeeAll" xml:space="preserve">
         <source>Просмотреть все</source>
@@ -14789,11 +14817,11 @@
       </trans-unit>
       <trans-unit id="Store_ControllerSupport_Unknown" xml:space="preserve">
         <source>Нет информации о поддержке других устройств</source>
-        <target state="needs-review-translation">Няма інфармацыі аб падтрымцы іншых прылад</target>
+        <target state="translated">Няма інфармацыі пра падтрымку іншых прылад</target>
       </trans-unit>
       <trans-unit id="Store_ControllerSupport_Unknown_Personalized" xml:space="preserve">
         <source>Нет информации о поддержке других контроллеров</source>
-        <target state="needs-review-translation">Няма інфармацыі аб падтрымцы іншых кантролераў</target>
+        <target state="translated">Няма інфармацыі пра падтрымку іншых кантролераў</target>
       </trans-unit>
       <trans-unit id="Store_ControllerSupport_Xbox" xml:space="preserve">
         <source>Контроллеры Xbox</source>
@@ -14909,7 +14937,7 @@
       </trans-unit>
       <trans-unit id="TimeInterval_1DayXHours" xml:space="preserve">
         <source>1 день и <ph id="1">%1$s</ph> ч.</source>
-        <target state="needs-review-translation">1 дзень і <ph id="1">%1$s</ph> г.</target>
+        <target state="translated">1 дзень і <ph id="1">%1$s</ph> гадз.</target>
       </trans-unit>
       <trans-unit id="TimeInterval_1Hour" xml:space="preserve">
         <source>1 час</source>
@@ -14945,7 +14973,7 @@
       </trans-unit>
       <trans-unit id="TimeInterval_1Week" xml:space="preserve">
         <source>1 нед.</source>
-        <target state="needs-review-translation">1 нэд.</target>
+        <target state="translated">1 тыд.</target>
       </trans-unit>
       <trans-unit id="TimeInterval_1Year" xml:space="preserve">
         <source>1 год</source>
@@ -15074,11 +15102,11 @@
       </trans-unit>
       <trans-unit id="TimeRemaining_MonthsDays" xml:space="preserve">
         <source><ph id="1">%1$s</ph> мес. <ph id="2">%2$s</ph> дн.</source>
-        <target state="translated">Да завяршэння <ph id="1">%1$s</ph> мес. <ph id="2">%2$s</ph> дз.</target>
+        <target state="translated"><ph id="1">%1$s</ph> мес. <ph id="2">%2$s</ph> дз.</target>
       </trans-unit>
       <trans-unit id="TimeRemaining_MoreThanOneYear" xml:space="preserve">
         <source>&gt; 1 года</source>
-        <target state="needs-review-translation">&gt; 1 гады</target>
+        <target state="translated">&gt; 1 года</target>
       </trans-unit>
       <trans-unit id="TimeRemaining_ThisWeek" xml:space="preserve">
         <source>Эта неделя</source>
@@ -15227,7 +15255,7 @@
       </trans-unit>
       <trans-unit id="Time_Past_At" xml:space="preserve">
         <source><ph id="1">%1$s</ph> в <ph id="2">%2$s</ph></source>
-        <target state="needs-review-translation"><ph id="1">%1$s</ph> ва <ph id="2">%2$s</ph></target>
+        <target state="translated"><ph id="1">%1$s</ph> у <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="Time_QuarterOfYear_Expanded_Q1" xml:space="preserve">
         <source>январь – март <ph id="1">%1$s</ph> года</source>
@@ -15311,7 +15339,7 @@
       </trans-unit>
       <trans-unit id="TimelineDialog_AddMarker" xml:space="preserve">
         <source>Добавить отметку</source>
-        <target state="needs-review-translation">Дадаць адзнаку</target>
+        <target state="translated">Дадаць пазнаку</target>
       </trans-unit>
       <trans-unit id="TimelineDialog_Clip" xml:space="preserve">
         <source>Вырезать</source>
@@ -15457,7 +15485,7 @@
       </trans-unit>
       <trans-unit id="Tooltip_UnpinChannelList" xml:space="preserve">
         <source>Открепить список каналов</source>
-        <target state="needs-review-translation">Адмацаваць спіс каналаў</target>
+        <target state="translated">Адмацаваць спіс каналаў</target>
       </trans-unit>
       <trans-unit id="Tooltip_VoiceChannel" xml:space="preserve">
         <source>Каналы для голосового общения</source>
@@ -15493,7 +15521,7 @@
       </trans-unit>
       <trans-unit id="Tooltip_VoiceSettings" xml:space="preserve">
         <source>Настройки голоса</source>
-        <target state="needs-review-translation">Налады галасы</target>
+        <target state="translated">Налады голасу</target>
       </trans-unit>
       <trans-unit id="Tooltip_YourMicStatus_Muted" xml:space="preserve">
         <source>Вы отключили микрофон</source>
@@ -15517,7 +15545,7 @@
       </trans-unit>
       <trans-unit id="TrailerPlayer_LoadingError" xml:space="preserve">
         <source>Воспользуйтесь браузером с поддержкой HTML-видео, чтобы просмотреть трейлер.</source>
-        <target state="translated">Скарыстайцеся браўзерам з падтрымкай HTML-відэа, каб прагледзець трэйлер.</target>
+        <target state="translated">Каб прагледзець трэйлер, выкарыстайце браўзер з падтрымкай HTML-відэа.</target>
       </trans-unit>
       <trans-unit id="TurnOnGPUAccel_AcceptAndRestart" xml:space="preserve">
         <source>Включить и перезапустить Steam</source>
@@ -15573,7 +15601,7 @@
       </trans-unit>
       <trans-unit id="UserGameNotes_NotesForGame" xml:space="preserve">
         <source>Заметки о <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Нататкі а <ph id="1">%1$s</ph></target>
+        <target state="translated">Нататкі пра <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="UserGameNotes_NotesList" xml:space="preserve">
         <source>Заметки</source>
@@ -15731,7 +15759,7 @@
       </trans-unit>
       <trans-unit id="VoicePushToTalkAssigned" xml:space="preserve">
         <source>Выбранная кнопка:</source>
-        <target state="needs-review-translation">Абраная кнопка:</target>
+        <target state="translated">Выбраная кнопка:</target>
       </trans-unit>
       <trans-unit id="VoicePushToTalkPressHotKey" xml:space="preserve">
         <source>Нажмите нужную кнопку на клавиатуре или мыши</source>
@@ -15783,7 +15811,7 @@
       </trans-unit>
       <trans-unit id="VoiceTransmissionTypeExplainer" xml:space="preserve">
         <source>Нажмите заданную кнопку, чтобы говорить в голосовом канале</source>
-        <target state="needs-review-translation">Націсніце зададзеную кнопку, каб казаць у галасавым канале</target>
+        <target state="translated">Націсніце зададзеную кнопку, каб гаварыць у галасавым канале</target>
       </trans-unit>
       <trans-unit id="VoiceTransmissionType_Disabled" xml:space="preserve">
         <source>Постоянная передача голоса только в веб-версии</source>
@@ -15875,7 +15903,7 @@
       </trans-unit>
       <trans-unit id="WriteReview_Dialog_FreeDisclaimer_Tooltip" xml:space="preserve">
         <source>Поставьте галочку, если вы получили этот продукт бесплатно. Рядом с вашим обзором будет надпись «Товар получен бесплатно». Если вы получили дополнительное вознаграждение за обзор, обязательно укажите это в тексте.</source>
-        <target state="needs-review-translation">Пастаўце галачку, калі вы атрымалі гэты прадукт бясплатна. Побач з вашым аглядам будзе надпіс «Тавар атрыманы бясплатна». Калі вы атрымалі дадатковую ўзнагароду за агляд, абавязкова пазначце гэта ў тэксце.</target>
+        <target state="translated">Пастаўце галачку, калі вы атрымалі гэты прадукт бясплатна. Побач з вашым аглядам будзе надпіс «Прадукт атрыманы бясплатна». Калі вы атрымалі дадатковую ўзнагароду за агляд, абавязкова пазначце гэта ў тэксце.</target>
       </trans-unit>
       <trans-unit id="WriteReview_Dialog_Friends" xml:space="preserve">
         <source>Только для друзей</source>
@@ -16067,43 +16095,43 @@
       </trans-unit>
       <trans-unit id="language_ext_albanian" xml:space="preserve">
         <source>албанский</source>
-        <target state="needs-review-translation">албанскі</target>
+        <target state="translated">албанская</target>
       </trans-unit>
       <trans-unit id="language_ext_amharic" xml:space="preserve">
         <source>амхарский</source>
-        <target state="needs-review-translation">амхарскі</target>
+        <target state="translated">амхарская</target>
       </trans-unit>
       <trans-unit id="language_ext_armenian" xml:space="preserve">
         <source>армянский</source>
-        <target state="needs-review-translation">армянскі</target>
+        <target state="translated">армянская</target>
       </trans-unit>
       <trans-unit id="language_ext_assamese" xml:space="preserve">
         <source>ассамский</source>
-        <target state="needs-review-translation">асамскі</target>
+        <target state="translated">асамская</target>
       </trans-unit>
       <trans-unit id="language_ext_azerbaijani" xml:space="preserve">
         <source>азербайджанский</source>
-        <target state="needs-review-translation">азербайджанскі</target>
+        <target state="translated">азербайджанская</target>
       </trans-unit>
       <trans-unit id="language_ext_bangla" xml:space="preserve">
         <source>бенгальский</source>
-        <target state="needs-review-translation">бенгальскі</target>
+        <target state="translated">бенгальская</target>
       </trans-unit>
       <trans-unit id="language_ext_basque" xml:space="preserve">
         <source>баскский</source>
-        <target state="needs-review-translation">баскскі</target>
+        <target state="translated">баскская</target>
       </trans-unit>
       <trans-unit id="language_ext_belarusian" xml:space="preserve">
         <source>беларуский</source>
-        <target state="needs-review-translation">беларускі</target>
+        <target state="translated">беларуская</target>
       </trans-unit>
       <trans-unit id="language_ext_bosnian" xml:space="preserve">
         <source>боснийский</source>
-        <target state="needs-review-translation">баснійскі</target>
+        <target state="translated">баснійская</target>
       </trans-unit>
       <trans-unit id="language_ext_catalan" xml:space="preserve">
         <source>каталанский</source>
-        <target state="needs-review-translation">каталанскі</target>
+        <target state="translated">каталанская</target>
       </trans-unit>
       <trans-unit id="language_ext_cherokee" xml:space="preserve">
         <source>чероки</source>
@@ -16111,7 +16139,7 @@
       </trans-unit>
       <trans-unit id="language_ext_croatian" xml:space="preserve">
         <source>хорватский</source>
-        <target state="needs-review-translation">харвацкі</target>
+        <target state="translated">харвацкая</target>
       </trans-unit>
       <trans-unit id="language_ext_dari" xml:space="preserve">
         <source>дари</source>
@@ -16119,23 +16147,23 @@
       </trans-unit>
       <trans-unit id="language_ext_estonian" xml:space="preserve">
         <source>эстонский</source>
-        <target state="needs-review-translation">эстонскі</target>
+        <target state="translated">эстонская</target>
       </trans-unit>
       <trans-unit id="language_ext_filipino" xml:space="preserve">
         <source>филиппинский</source>
-        <target state="needs-review-translation">філіпінскі</target>
+        <target state="translated">філіпінская</target>
       </trans-unit>
       <trans-unit id="language_ext_galician" xml:space="preserve">
         <source>галисийский</source>
-        <target state="needs-review-translation">галісійскі</target>
+        <target state="translated">галісійская</target>
       </trans-unit>
       <trans-unit id="language_ext_georgian" xml:space="preserve">
         <source>грузинский</source>
-        <target state="needs-review-translation">грузінскі</target>
+        <target state="translated">грузінская</target>
       </trans-unit>
       <trans-unit id="language_ext_gujarati" xml:space="preserve">
         <source>гуджарати</source>
-        <target state="needs-review-translation">гуяраці</target>
+        <target state="translated">гуджараці</target>
       </trans-unit>
       <trans-unit id="language_ext_gurmukhi" xml:space="preserve">
         <source>панджаби (гурмукхи)</source>
@@ -16155,7 +16183,7 @@
       </trans-unit>
       <trans-unit id="language_ext_icelandic" xml:space="preserve">
         <source>исландский</source>
-        <target state="needs-review-translation">ісландскі</target>
+        <target state="translated">ісландская</target>
       </trans-unit>
       <trans-unit id="language_ext_igbo" xml:space="preserve">
         <source>игбо</source>
@@ -16163,11 +16191,11 @@
       </trans-unit>
       <trans-unit id="language_ext_indonesian" xml:space="preserve">
         <source>индонезийский</source>
-        <target state="needs-review-translation">інданезійскі</target>
+        <target state="translated">інданезійская</target>
       </trans-unit>
       <trans-unit id="language_ext_irish" xml:space="preserve">
         <source>ирландский</source>
-        <target state="needs-review-translation">ірландскі</target>
+        <target state="translated">ірландская</target>
       </trans-unit>
       <trans-unit id="language_ext_kannada" xml:space="preserve">
         <source>каннада</source>
@@ -16175,11 +16203,11 @@
       </trans-unit>
       <trans-unit id="language_ext_kazakh" xml:space="preserve">
         <source>казахский</source>
-        <target state="needs-review-translation">казахскі</target>
+        <target state="translated">казахская</target>
       </trans-unit>
       <trans-unit id="language_ext_khmer" xml:space="preserve">
         <source>кхмерский</source>
-        <target state="needs-review-translation">кхмерскі</target>
+        <target state="translated">кхмерская</target>
       </trans-unit>
       <trans-unit id="language_ext_kiche" xml:space="preserve">
         <source>киче</source>
@@ -16195,27 +16223,27 @@
       </trans-unit>
       <trans-unit id="language_ext_kyrgyz" xml:space="preserve">
         <source>кыргызский</source>
-        <target state="needs-review-translation">кыргызскі</target>
+        <target state="translated">кыргызская</target>
       </trans-unit>
       <trans-unit id="language_ext_latvian" xml:space="preserve">
         <source>латышский</source>
-        <target state="needs-review-translation">латышскі</target>
+        <target state="translated">латышская</target>
       </trans-unit>
       <trans-unit id="language_ext_lithuanian" xml:space="preserve">
         <source>литовский</source>
-        <target state="needs-review-translation">літоўскі</target>
+        <target state="translated">літоўская</target>
       </trans-unit>
       <trans-unit id="language_ext_luxembourgish" xml:space="preserve">
         <source>люксембургский</source>
-        <target state="needs-review-translation">люксембургскі</target>
+        <target state="translated">люксембургская</target>
       </trans-unit>
       <trans-unit id="language_ext_macedonian" xml:space="preserve">
         <source>македонский</source>
-        <target state="needs-review-translation">македонскі</target>
+        <target state="translated">македонская</target>
       </trans-unit>
       <trans-unit id="language_ext_malay" xml:space="preserve">
         <source>малайский</source>
-        <target state="needs-review-translation">малайскі</target>
+        <target state="translated">малайская</target>
       </trans-unit>
       <trans-unit id="language_ext_malayalam" xml:space="preserve">
         <source>малаялам</source>
@@ -16223,7 +16251,7 @@
       </trans-unit>
       <trans-unit id="language_ext_maltese" xml:space="preserve">
         <source>мальтийский</source>
-        <target state="needs-review-translation">мальтыйскі</target>
+        <target state="translated">мальтыйская</target>
       </trans-unit>
       <trans-unit id="language_ext_maori" xml:space="preserve">
         <source>маори</source>
@@ -16235,11 +16263,11 @@
       </trans-unit>
       <trans-unit id="language_ext_mongolian" xml:space="preserve">
         <source>монгольский</source>
-        <target state="needs-review-translation">мангольскі</target>
+        <target state="translated">мангольская</target>
       </trans-unit>
       <trans-unit id="language_ext_nepali" xml:space="preserve">
         <source>непальский</source>
-        <target state="needs-review-translation">непальскі</target>
+        <target state="translated">непальская</target>
       </trans-unit>
       <trans-unit id="language_ext_odia" xml:space="preserve">
         <source>одия</source>
@@ -16247,7 +16275,7 @@
       </trans-unit>
       <trans-unit id="language_ext_persian" xml:space="preserve">
         <source>персидский</source>
-        <target state="needs-review-translation">фарсі</target>
+        <target state="translated">персідская</target>
       </trans-unit>
       <trans-unit id="language_ext_quechua" xml:space="preserve">
         <source>кечуа</source>
@@ -16255,11 +16283,11 @@
       </trans-unit>
       <trans-unit id="language_ext_scots" xml:space="preserve">
         <source>шотландский (скотс)</source>
-        <target state="needs-review-translation">шатландскі (скотс)</target>
+        <target state="translated">шатландская (скотс)</target>
       </trans-unit>
       <trans-unit id="language_ext_serbian" xml:space="preserve">
         <source>сербский</source>
-        <target state="needs-review-translation">сербскі</target>
+        <target state="translated">сербская</target>
       </trans-unit>
       <trans-unit id="language_ext_shahmukhi" xml:space="preserve">
         <source>панджаби (шахмукхи)</source>
@@ -16271,15 +16299,15 @@
       </trans-unit>
       <trans-unit id="language_ext_sinhala" xml:space="preserve">
         <source>сингальский</source>
-        <target state="needs-review-translation">сінгальскі</target>
+        <target state="translated">сінгальская</target>
       </trans-unit>
       <trans-unit id="language_ext_slovak" xml:space="preserve">
         <source>словацкий</source>
-        <target state="needs-review-translation">славацкі</target>
+        <target state="translated">славацкая</target>
       </trans-unit>
       <trans-unit id="language_ext_slovenian" xml:space="preserve">
         <source>словенский</source>
-        <target state="needs-review-translation">славенскі</target>
+        <target state="translated">славенская</target>
       </trans-unit>
       <trans-unit id="language_ext_sorani" xml:space="preserve">
         <source>сорани</source>
@@ -16295,15 +16323,15 @@
       </trans-unit>
       <trans-unit id="language_ext_tajik" xml:space="preserve">
         <source>таджикский</source>
-        <target state="needs-review-translation">таджыкскі</target>
+        <target state="translated">таджыкская</target>
       </trans-unit>
       <trans-unit id="language_ext_tamil" xml:space="preserve">
         <source>тамильский</source>
-        <target state="needs-review-translation">тамільскі</target>
+        <target state="translated">тамільская</target>
       </trans-unit>
       <trans-unit id="language_ext_tatar" xml:space="preserve">
         <source>татарский</source>
-        <target state="needs-review-translation">татарскі</target>
+        <target state="translated">татарская</target>
       </trans-unit>
       <trans-unit id="language_ext_telugu" xml:space="preserve">
         <source>телугу</source>
@@ -16319,7 +16347,7 @@
       </trans-unit>
       <trans-unit id="language_ext_turkmen" xml:space="preserve">
         <source>туркменский</source>
-        <target state="needs-review-translation">туркменскі</target>
+        <target state="translated">туркменская</target>
       </trans-unit>
       <trans-unit id="language_ext_urdu" xml:space="preserve">
         <source>урду</source>
@@ -16327,19 +16355,19 @@
       </trans-unit>
       <trans-unit id="language_ext_uyghur" xml:space="preserve">
         <source>уйгурский</source>
-        <target state="needs-review-translation">уйгурскі</target>
+        <target state="translated">уйгурская</target>
       </trans-unit>
       <trans-unit id="language_ext_uzbek" xml:space="preserve">
         <source>узбекский</source>
-        <target state="needs-review-translation">узбекскі</target>
+        <target state="translated">узбекская</target>
       </trans-unit>
       <trans-unit id="language_ext_valencian" xml:space="preserve">
         <source>валенскийский</source>
-        <target state="needs-review-translation">валенскі</target>
+        <target state="translated">валенсійская</target>
       </trans-unit>
       <trans-unit id="language_ext_welsh" xml:space="preserve">
         <source>валлийский</source>
-        <target state="needs-review-translation">валійскі</target>
+        <target state="translated">валійская</target>
       </trans-unit>
       <trans-unit id="language_ext_wolof" xml:space="preserve">
         <source>волоф</source>
@@ -16347,7 +16375,7 @@
       </trans-unit>
       <trans-unit id="language_ext_xhosa" xml:space="preserve">
         <source>коса</source>
-        <target state="needs-review-translation">каса</target>
+        <target state="translated">коса</target>
       </trans-unit>
       <trans-unit id="language_ext_yoruba" xml:space="preserve">
         <source>йоруба</source>
@@ -16415,7 +16443,7 @@
       </trans-unit>
       <trans-unit id="language_selection_japanese" xml:space="preserve">
         <source>日本語 (японский)</source>
-        <target state="translated">日本ک (японская)</target>
+        <target state="translated">日本語 (японская)</target>
       </trans-unit>
       <trans-unit id="language_selection_korean" xml:space="preserve">
         <source>한국어 (корейский)</source>
@@ -16459,7 +16487,7 @@
       </trans-unit>
       <trans-unit id="language_selection_russian" xml:space="preserve">
         <source>Русский</source>
-        <target state="translated">Руская</target>
+        <target state="translated">Русский</target>
       </trans-unit>
       <trans-unit id="language_selection_sc_schinese" xml:space="preserve">
         <source>简体中文 (упрощённый китайский)</source>
@@ -16487,7 +16515,7 @@
       </trans-unit>
       <trans-unit id="language_selection_thai" xml:space="preserve">
         <source>ไทย (тайский)</source>
-        <target state="translated">ติ (тайская)</target>
+        <target state="translated">ไทย (тайская)</target>
       </trans-unit>
       <trans-unit id="language_selection_turkish" xml:space="preserve">
         <source>Türkçe (турецкий)</source>
@@ -16495,7 +16523,7 @@
       </trans-unit>
       <trans-unit id="language_selection_ukrainian" xml:space="preserve">
         <source>Українська (украинский)</source>
-        <target state="translated">Украінская (украінская)</target>
+        <target state="translated">Українська (украінская)</target>
       </trans-unit>
       <trans-unit id="language_selection_vietnamese" xml:space="preserve">
         <source>Tiếng Việt (вьетнамский)</source>
@@ -16539,7 +16567,7 @@
       </trans-unit>
       <trans-unit id="promo_steamawards2020_cat53" xml:space="preserve">
         <source>Друг познаётся в игре</source>
-        <target state="needs-review-translation">Сябар спазнаецца ў гульні</target>
+        <target state="translated">Сябар пазнаецца ў гульні</target>
       </trans-unit>
       <trans-unit id="promo_steamawards2020_cat53_desc" xml:space="preserve">
         <source>Есть такие игры, которые не раскроются полностью, если играть в них одному. Может, будет веселее, если вашу спину будет прикрывать друг? Или подставит свою спину под ваш нож — это уж кому как нравится. Так или иначе, если вы собираетесь с друзьями, в этой игре вас ждёт веселье.</source>
@@ -16619,7 +16647,7 @@
       </trans-unit>
       <trans-unit id="promo_steamawards2021_cat64" xml:space="preserve">
         <source>Друг познаётся в игре</source>
-        <target state="needs-review-translation">Сябар спазнаецца ў гульні</target>
+        <target state="translated">Сябар пазнаецца ў гульні</target>
       </trans-unit>
       <trans-unit id="promo_steamawards2021_cat64_desc" xml:space="preserve">
         <source>Есть такие игры, которые не раскроются полностью, если играть в них одному. Может, будет веселее, если вашу спину будет прикрывать друг? Или подставит свою спину под ваш нож — это уж кому как нравится. Так или иначе, если вы собираетесь с друзьями, в этой игре вас ждёт веселье.</source>
@@ -16699,7 +16727,7 @@
       </trans-unit>
       <trans-unit id="promo_steamawards2022_cat75" xml:space="preserve">
         <source>Друг познаётся в игре</source>
-        <target state="needs-review-translation">Сябар спазнаецца ў гульні</target>
+        <target state="translated">Сябар пазнаецца ў гульні</target>
       </trans-unit>
       <trans-unit id="promo_steamawards2022_cat75_desc" xml:space="preserve">
         <source>Есть такие игры, которые не раскроются полностью, если играть в них одному. Может, будет веселее, если вашу спину будет прикрывать друг? Или подставит свою спину под ваш нож — это уж кому как нравится. Так или иначе, если вы собираетесь с друзьями, в этой игре вас ждёт веселье.</source>
@@ -16808,11 +16836,11 @@
       </trans-unit>
       <trans-unit id="steam_curator_follow_ttip" xml:space="preserve">
         <source>Подпишитесь на этого куратора, чтобы получать уведомления о его новых обзорах. Они могут появляться в разделе «Популярное и рекомендуемое» на главной странице Steam и в вашей ленте активности</source>
-        <target state="needs-review-translation">Падпішыцеся на гэтага куратара, каб атрымліваць апавяшчэнні аб яго новых аглядах. Яны могуць з&#39;яўляцца ў раздзеле «Папулярнае і рэкамендуемае» на галоўнай старонцы Steam і ў вашай стужцы актыўнасці</target>
+        <target state="translated">Падпішыцеся на гэтага куратара, каб атрымліваць апавяшчэнні пра яго новыя агляды. Яны могуць з&#39;яўляцца ў раздзеле «Папулярнае і рэкамендуемае» на галоўнай старонцы Steam і ў вашай стужцы актыўнасці</target>
       </trans-unit>
       <trans-unit id="steam_group_follow_ttip" xml:space="preserve">
         <source>Подпишитесь на эту группу, чтобы в будущем получать уведомления о новостях и объявлениях.</source>
-        <target state="needs-review-translation">Падпішыцеся на гэтую групу, каб у будучыні атрымліваць апавяшчэнні аб навінах і аб&#39;явах.</target>
+        <target state="translated">Падпішыцеся на гэтую групу, каб у будучыні атрымліваць апавяшчэнні пра навіны і аб&#39;явы.</target>
       </trans-unit>
       <trans-unit id="text_store_follow_desc" xml:space="preserve">
         <source>Подпишитесь на этот продукт, чтобы видеть объявления в своей ленте активности</source>
