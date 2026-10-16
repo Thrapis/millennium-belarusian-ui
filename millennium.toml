@@ -1,7 +1,7 @@
 [plugin]
 id = "by.thrapis.belarusian-ui"
 name = "Belarusian UI"
-version = "0.4.0"
+version = "0.4.1"
 author = "Thrapis"
 description = "Belarusian translation of the Steam client UI."
 

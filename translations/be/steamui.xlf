@@ -137,6 +137,7 @@
       <trans-unit id="Achievements_NotOwned" xml:space="preserve">
         <source>У вас нет этой игры</source>
         <target state="needs-review-translation">У вас гэтай гульні няма</target>
+        <note>English changed: «You do not own this game» → «You do not have this game»</note>
       </trans-unit>
       <trans-unit id="Achievements_Sort_MoveToBottom" xml:space="preserve">
         <source>Переместить в конец</source>
@@ -169,10 +170,12 @@
       <trans-unit id="Activate_AlreadyPurchased" xml:space="preserve">
         <source>На этом аккаунте Steam уже есть продукты, связанные с данным ключом активации. Чтобы использовать другой ключ, нажмите «Повторить попытку».</source>
         <target state="translated">На гэтым акаўнце Steam ужо ёсць прадукты, звязаныя з гэтым ключом актывацыі. Каб выкарыстоўваць іншы ключ, націсніце «Паўтарыць спробу».</target>
+        <note>English changed: «This Steam account already owns the product(s) associated with this activation code. To insert a different product code click TRY AGAIN.» → «This Steam account already has the product(s) associated with this activation code. To insert a different product code click TRY AGAIN.»</note>
       </trans-unit>
       <trans-unit id="Activate_AlreadyPurchased_Headline" xml:space="preserve">
-        <source>У вас уже есть этот продукт</source>
-        <target state="translated">У вас ужо ёсць гэты прадукт</target>
+        <source>Продукт уже в библиотеке</source>
+        <target state="translated">Прадукт ужо ў бібліятэцы</target>
+        <note>Source changed, was: «У вас уже есть этот продукт»</note>
       </trans-unit>
       <trans-unit id="Activate_ContactSupport" xml:space="preserve">
         <source>Произошла непредвиденная ошибка. Не удалось подписаться на <ph id="1">%1$s</ph>. &#xA;&#xA;Пожалуйста, обратитесь в службу поддержки Steam.</source>
@@ -253,6 +256,10 @@
       <trans-unit id="Activate_Subscription_Rejected_Headline" xml:space="preserve">
         <source>Ключ активации уже использован</source>
         <target state="translated">Ключ актывацыі ўжо выкарыстаны</target>
+      </trans-unit>
+      <trans-unit id="ActiveGamesWarning_Description" xml:space="preserve">
+        <source>Запущенные игры будут закрыты.</source>
+        <target state="translated">Запушчаныя гульні будуць закрыты.</target>
       </trans-unit>
       <trans-unit id="AddNonSteam_AddSelected" xml:space="preserve">
         <source>Добавить выбранные</source>
@@ -796,6 +803,14 @@
         <source>Используется встроенная в игру поддержка</source>
         <target state="needs-review-translation">Выкарыстоўваецца убудаваная ў гульню падтрымка</target>
       </trans-unit>
+      <trans-unit id="AppControllerConfiguration_ConfigForDifferentGame" xml:space="preserve">
+        <source>Конфигурация для другой игры</source>
+        <target state="translated">Канфігурацыя для іншай гульні</target>
+      </trans-unit>
+      <trans-unit id="AppControllerConfiguration_ConfigForDifferentGame_Tooltip" xml:space="preserve">
+        <source>В этой раскладке используются действия системы ввода Steam из другой игры. Её нельзя использовать в этой игре.</source>
+        <target state="translated">У гэтай раскладцы выкарыстоўваюцца дзеянні сістэмы ўводу Steam з іншай гульні. Яе нельга выкарыстоўваць у гэтай гульні.</target>
+      </trans-unit>
       <trans-unit id="AppControllerConfiguration_ConfigNeedsGameInstall" xml:space="preserve">
         <source>Чтобы вы могли изменить или посмотреть раскладки, эта игра должна быть установлена</source>
         <target state="needs-review-translation">Каб вы маглі змяніць або паглядзець раскладкі, гэтая гульня павінна быць устаноўлена</target>
@@ -964,6 +979,10 @@
         <source>Если у игры нет официальной поддержки контроллера, вы можете воспользоваться <ph id="1">&lt;1&gt;</ph>раскладками от сообщества<ph id="2">&lt;/1&gt;</ph></source>
         <target state="translated">Калі ў гульні няма афіцыйнай падтрымкі кантролера, вы можаце выкарыстаць <ph id="1">&lt;1&gt;</ph>раскладкі ад супольнасці<ph id="2">&lt;/1&gt;</ph></target>
       </trans-unit>
+      <trans-unit id="AppControllerConfiguration_GoToVRSettings" xml:space="preserve">
+        <source>Перейти к настройкам VR</source>
+        <target state="translated">Перайсці да налад VR</target>
+      </trans-unit>
       <trans-unit id="AppControllerConfiguration_IbexSharedConfig" xml:space="preserve">
         <source>Переключиться на общую конфигурацию для Steam Controller</source>
         <target state="needs-review-translation">Пераключыцца на агульную канфігурацыю для Steam Controller</target>
@@ -996,6 +1015,14 @@
         <source>Экспортировать официальную раскладку</source>
         <target state="needs-review-translation">Экспартаваць афіцыйную раскладку</target>
       </trans-unit>
+      <trans-unit id="AppControllerConfiguration_OutdatedConfig" xml:space="preserve">
+        <source>Конфигурация устарела</source>
+        <target state="translated">Канфігурацыя састарэла</target>
+      </trans-unit>
+      <trans-unit id="AppControllerConfiguration_OutdatedConfig_Tooltip" xml:space="preserve">
+        <source>Эта раскладка была создана для более старой версии данной игры. Её нельзя использовать.</source>
+        <target state="translated">Гэтая раскладка была створана для больш старой версіі гэтай гульні. Яе нельга выкарыстоўваць.</target>
+      </trans-unit>
       <trans-unit id="AppControllerConfiguration_OverwriteConfig_Desc" xml:space="preserve">
         <source>Вы изменили существующую раскладку «<ph id="1">%1$s</ph>». Хотели бы вы обновить эту раскладку или создать новую?</source>
         <target state="translated">Вы змянілі існуючую раскладку «<ph id="1">%1$s</ph>». Хочаце абнавіць гэтую раскладку ці стварыць новую?</target>
@@ -1019,6 +1046,14 @@
       <trans-unit id="AppControllerConfiguration_RecommendedTemplateConfigUsing" xml:space="preserve">
         <source>Используется рекомендованный шаблон:</source>
         <target state="needs-review-translation">Выкарыстоўваецца рэкамендаваны шаблон:</target>
+      </trans-unit>
+      <trans-unit id="AppControllerConfiguration_RequiresSteamInputConfig" xml:space="preserve">
+        <source>Необходимо использовать систему ввода Steam</source>
+        <target state="translated">Неабходна выкарыстоўваць сістэму ўводу Steam</target>
+      </trans-unit>
+      <trans-unit id="AppControllerConfiguration_RequiresSteamInputConfig_Tooltip" xml:space="preserve">
+        <source>В этой игре для контроллера нужно использовать раскладку, созданную разработчиком на основе API системы ввода Steam. Эту раскладку использовать нельзя.</source>
+        <target state="translated">У гэтай гульні для кантролера трэба выкарыстоўваць раскладку, створаную распрацоўшчыкам на аснове API сістэмы ўводу Steam. Гэтую раскладку выкарыстоўваць нельга.</target>
       </trans-unit>
       <trans-unit id="AppControllerConfiguration_RevertChanges" xml:space="preserve">
         <source>Отменить изменения</source>
@@ -1081,8 +1116,8 @@
         <target state="needs-review-translation">Сістэма ўводу Steam</target>
       </trans-unit>
       <trans-unit id="AppControllerConfiguration_SteamInputAPI" xml:space="preserve">
-        <source>Используется система ввода Steam</source>
-        <target state="needs-review-translation">Выкарыстоўваецца сістэма ўводу Steam</target>
+        <source>Использовать систему ввода Steam</source>
+        <target state="translated">Выкарыстоўваць сістэму ўводу Steam</target>
       </trans-unit>
       <trans-unit id="AppControllerConfiguration_SteamInputAPI_Desc" xml:space="preserve">
         <source>В этой игре используется API ввода Steam для поддержки более 200 контроллеров, включая устройства Xbox, PlayStation и Nintendo Switch.</source>
@@ -1101,8 +1136,8 @@
         <target state="translated">Гэты кантролер выкарыстоўвае сістэму ўводу Steam. Яна забяспечвае агульную падтрымку кантролера падчас гульні і дазваляе мяняць яго раскладку.&#xA;&#xA;Вы можаце адключыць сістэму ўводу Steam і пакласціся на ўнутрыгульнявую падтрымку кантролера — у некаторых выпадках так можна палепшыць яго працу. Аднак калі ў гульні няма ўбудаванай падтрымкі гэтага тыпу кантролераў, вы не зможаце гуляць з адключанай сістэмай уводу Steam.&#xA;&#xA;Патрабуецца перазапуск гульні.</target>
       </trans-unit>
       <trans-unit id="AppControllerConfiguration_SteamInputTranslation" xml:space="preserve">
-        <source>Используется преобразование через систему ввода Steam</source>
-        <target state="needs-review-translation">Выкарыстоўваецца пераўтварэнне праз сістэму ўводу Steam</target>
+        <source>Использовать преобразование через систему ввода Steam</source>
+        <target state="translated">Выкарыстоўваць пераўтварэнне праз сістэму ўводу Steam</target>
       </trans-unit>
       <trans-unit id="AppControllerConfiguration_SteamInputTranslation_Desc" xml:space="preserve">
         <source>В этой игре есть встроенная поддержка для некоторых контроллеров, но не для вашего. Для преобразования ввода с вашего устройства будет использоваться система ввода Steam.</source>
@@ -1146,6 +1181,14 @@
         <target state="needs-review-translation">Падабаецца: <ph id="1">%1$s</ph></target>
         <note>Plural form: used when the count is not 1. Singular: AppControllerConfiguration_Upvotes.</note>
       </trans-unit>
+      <trans-unit id="AppControllerConfiguration_UseGamepadInput" xml:space="preserve">
+        <source>Использовать ввод с геймпада для этой игры</source>
+        <target state="translated">Выкарыстоўваць увод з геймпада для гэтай гульні</target>
+      </trans-unit>
+      <trans-unit id="AppControllerConfiguration_UseGamepadInput_Desc" xml:space="preserve">
+        <source>Эта игра поддерживает ввод и с VR-контроллера, и с геймпада. Используйте переключатель, чтобы выбрать, какие настройки использовать для этой игры.</source>
+        <target state="translated">Гэтая гульня падтрымлівае ўвод і з VR-кантролера, і з геймпада. Выкарыстоўвайце пераключальнік, каб выбраць, якія налады выкарыстоўваць для гэтай гульні.</target>
+      </trans-unit>
       <trans-unit id="AppControllerConfiguration_ViewLayout" xml:space="preserve">
         <source>Посмотреть раскладку</source>
         <target state="needs-review-translation">Паглядзець раскладку</target>
@@ -1182,6 +1225,18 @@
         <source>В этой игре есть поддержка некоторых контроллеров, но не вашего.</source>
         <target state="needs-review-translation">У гэтай гульні ёсць падтрымка некаторых кантролераў, але не вашага.</target>
       </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_SC_Full" xml:space="preserve">
+        <source>В эту игру можно полноценно играть с помощью геймпада. Вы меняете конфигурацию на контроллер Xbox.</source>
+        <target state="translated">У гэтую гульню можна гуляць з дапамогай геймпада. Вы змяняеце канфігурацыю на кантролер Xbox.</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_SC_Mnk" xml:space="preserve">
+        <source>В эту игру можно играть, но подсказки на экране будут относиться к раскладкам для мыши и клавиатуры, а не геймпада</source>
+        <target state="translated">У гэтую гульню можна гуляць, але падказкі на экране будуць адносіцца да раскладак для мышы і клавіятуры, а не геймпада</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_SC_Partial" xml:space="preserve">
+        <source>В эту игру можно играть, но вам может понадобиться использовать сочетания кнопок Steam для вызова экранной клавиатуры и навигации по опциям лаунчера, который запускается не с помощью контроллера</source>
+        <target state="translated">У гэтую гульню можна гуляць, але вам, магчыма, спатрэбіцца выкарыстоўваць спалучэнні кнопак Steam для выкліку экраннай клавіятуры і навігацыі па параметрах лаўнчара, які запускаецца не з дапамогай кантролера</target>
+      </trans-unit>
       <trans-unit id="AppDetailsControllerSection_SteamInput" xml:space="preserve">
         <source>В этой игре поддерживается ваш контроллер, но сейчас команды переназначены на другой метод ввода через систему ввода Steam, из-за чего вы можете видеть неправильные иконки кнопок.</source>
         <target state="translated">У гэтай гульні падтрымліваецца ваш кантролер, але зараз каманды пераназначаны на іншы метад уводу праз сістэму ўводу Steam, з-за чаго вы можаце бачыць няправільныя іконкі кнопак.</target>
@@ -1194,6 +1249,18 @@
         <source>Можно играть с вашим контроллером</source>
         <target state="needs-review-translation">Можна гуляць з вашым кантролерам</target>
       </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_Title_SC_Full" xml:space="preserve">
+        <source>Можно играть с геймпадом</source>
+        <target state="translated">Можна гуляць з геймпадам</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_Title_SC_Mnk" xml:space="preserve">
+        <source>Используется конфигурация мыши и клавиатуры</source>
+        <target state="translated">Выкарыстоўваецца канфігурацыя мышы і клавіятуры</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_Title_SC_Partial" xml:space="preserve">
+        <source>Можно играть с геймпадом</source>
+        <target state="translated">Можна гуляць з геймпадам</target>
+      </trans-unit>
       <trans-unit id="AppDetailsControllerSection_Title_Supported_DualShock" xml:space="preserve">
         <source>Поддерживается ваш контроллер DualShock</source>
         <target state="needs-review-translation">Падтрымліваецца ваш кантролер DualShock</target>
@@ -1205,6 +1272,14 @@
       <trans-unit id="AppDetailsControllerSection_Title_Supported_Generic" xml:space="preserve">
         <source>Поддерживается ваш контроллер</source>
         <target state="needs-review-translation">Падтрымліваецца ваш кантролер</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_Title_Supported_SteamController" xml:space="preserve">
+        <source>Поддерживается ваш Steam Controller</source>
+        <target state="translated">Ваш Steam Controller падтрымліваецца</target>
+      </trans-unit>
+      <trans-unit id="AppDetailsControllerSection_Title_Supported_SteamDeck" xml:space="preserve">
+        <source>Поддерживается ваш Steam Deck</source>
+        <target state="translated">Ваш Steam Deck падтрымліваецца</target>
       </trans-unit>
       <trans-unit id="AppDetailsControllerSection_Title_Supported_Xbox" xml:space="preserve">
         <source>Поддерживается ваш контроллер Xbox</source>
@@ -1283,8 +1358,8 @@
         <target state="needs-review-translation">Паказаць іншыя раскладкі</target>
       </trans-unit>
       <trans-unit id="AppDetails_BrowseWorkshop" xml:space="preserve">
-        <source>Открыть Мастерскую</source>
-        <target state="needs-review-translation">Адкрыць Майстэрню</target>
+        <source>Открыть мастерскую</source>
+        <target state="translated">Адкрыць майстэрню</target>
       </trans-unit>
       <trans-unit id="AppDetails_BuiltInControllerSupport_Description" xml:space="preserve">
         <source>Система ввода Steam не работает для этого контроллера. Устройство будет использовать встроенную в игру поддержку контроллеров</source>
@@ -2445,8 +2520,8 @@
         <note>Plural form: used when the count is not 1. Singular: AppDetails_WorkshopSubCount.</note>
       </trans-unit>
       <trans-unit id="AppDetails_WorkshopVisit" xml:space="preserve">
-        <source>Открыть эту Мастерскую</source>
-        <target state="needs-review-translation">Адкрыць гэтую Майстэрню</target>
+        <source>Открыть эту мастерскую</source>
+        <target state="translated">Адкрыць гэту майстэрню</target>
       </trans-unit>
       <trans-unit id="AppLaunchError_BlockedArguments" xml:space="preserve">
         <source>Steam заблокировал запуск этой игры из-за потенциально опасных параметров запуска.</source>
@@ -3102,17 +3177,21 @@
         <source>Сменить предпочтительную копию</source>
         <target state="needs-review-translation">Змяніць пераважную копію</target>
       </trans-unit>
-      <trans-unit id="AppProperties_CompatibilityNoOptions" xml:space="preserve">
-        <source>Настройки для этого продукта нельзя изменить.</source>
-        <target state="needs-review-translation">Налады для гэтага прадукта нельга змяніць.</target>
+      <trans-unit id="AppProperties_Compat_Alias" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> — сейчас <ph id="2">&lt;1&gt;</ph><ph id="3">%2$s</ph><ph id="4">&lt;/1&gt;</ph></source>
+        <target state="translated"><ph id="1">%1$s</ph> — цяпер <ph id="2">&lt;1&gt;</ph><ph id="3">%2$s</ph><ph id="4">&lt;/1&gt;</ph></target>
+      </trans-unit>
+      <trans-unit id="AppProperties_Compat_Incompatible" xml:space="preserve">
+        <source><ph id="1">&lt;1&gt;</ph>Внимание:<ph id="2">&lt;/1&gt;</ph> продукт <ph id="3">%1$s</ph> несовместим с этим приложением.</source>
+        <target state="translated"><ph id="1">&lt;1&gt;</ph>Увага:<ph id="2">&lt;/1&gt;</ph> прадукт <ph id="3">%1$s</ph> несумяшчальны з гэтым дадаткам.</target>
+      </trans-unit>
+      <trans-unit id="AppProperties_Compat_SelectTool" xml:space="preserve">
+        <source>Выбрать инструмент совместимости</source>
+        <target state="translated">Выбраць інструмент сумяшчальнасці</target>
       </trans-unit>
       <trans-unit id="AppProperties_CompatibilityPage" xml:space="preserve">
         <source>Совместимость</source>
         <target state="needs-review-translation">Сумяшчальнасць</target>
-      </trans-unit>
-      <trans-unit id="AppProperties_CompatilibityForceTool" xml:space="preserve">
-        <source>Принудительно использовать выбранный инструмент совместимости Steam Play</source>
-        <target state="translated">Прымусова выкарыстоўваць абраны інструмент сумяшчальнасці Steam Play</target>
       </trans-unit>
       <trans-unit id="AppProperties_Compatilibity_OverrideArmTranslationOptions" xml:space="preserve">
         <source>Принудительно заменить опции преобразования ARM</source>
@@ -3591,8 +3670,9 @@
         <target state="needs-review-translation">Уключыць эксперыментальную падтрымку пераўтварэння метадаў рэндэрынгу ў рэжыме працоўнага стала для гэтай прылады.</target>
       </trans-unit>
       <trans-unit id="AppProperties_ResolutionOverride" xml:space="preserve">
-        <source>Максимальное разрешение игр</source>
-        <target state="translated">Максімальная раздзяляльнасць гульняў</target>
+        <source>Максимальное разрешение игры</source>
+        <target state="translated">Максімальная раздзяляльнасць гульні</target>
+        <note>Source changed, was: «Максимальное разрешение игр»</note>
       </trans-unit>
       <trans-unit id="AppProperties_ResolutionOverride_ApplyToInternal" xml:space="preserve">
         <source>Применить к внутреннему экрану</source>
@@ -3611,8 +3691,17 @@
         <target state="translated">Дазволіць замену раздзяляльнасці ўнутранага экрана.</target>
       </trans-unit>
       <trans-unit id="AppProperties_ResolutionOverride_Title" xml:space="preserve">
-        <source>Максимальное разрешение игр</source>
-        <target state="translated">Максімальная раздзяляльнасць гульняў</target>
+        <source>Максимальное разрешение игры</source>
+        <target state="translated">Максімальная раздзяляльнасць гульні</target>
+        <note>Source changed, was: «Максимальное разрешение игр»</note>
+      </trans-unit>
+      <trans-unit id="AppProperties_RumbleIntensity" xml:space="preserve">
+        <source>Интенсивность вибрации в этой игре</source>
+        <target state="translated">Інтэнсіўнасць вібрацыі ў гэтай гульні</target>
+      </trans-unit>
+      <trans-unit id="AppProperties_RumbleIntensity_UseGlobal" xml:space="preserve">
+        <source>Использовать настройки контроллера</source>
+        <target state="translated">Выкарыстоўваць налады кантролера</target>
       </trans-unit>
       <trans-unit id="AppProperties_RunningInstallScript" xml:space="preserve">
         <source>Запуск скрипта установки...</source>
@@ -4224,8 +4313,9 @@
         <target state="needs-review-translation">Гукі інтэрфейсу</target>
       </trans-unit>
       <trans-unit id="Audio_Setting_Hdmi_Cec_Not_Working" xml:space="preserve">
-        <source>Эта система не поддерживает HDMI CEC для настроек громкости и приглушения</source>
-        <target state="translated">Гэтая сістэма не падтрымлівае HDMI CEC для налад гучнасці і прыглушэння</target>
+        <source>Подключённое устройство не поддерживает HDMI CEC для настроек громкости и приглушения</source>
+        <target state="translated">Падключаная прылада не падтрымлівае HDMI CEC для налад гучнасці і прыглушэння</target>
+        <note>Source changed, was: «Эта система не поддерживает HDMI CEC для настроек громкости и приглушения»</note>
       </trans-unit>
       <trans-unit id="Audio_Setting_Use_Bluetooth_Mic" xml:space="preserve">
         <source>Включить Bluetooth-микрофон</source>
@@ -4240,16 +4330,18 @@
         <target state="needs-review-translation">Аб&#39;ёмнае гучанне</target>
       </trans-unit>
       <trans-unit id="Audio_Spatialize_Description" xml:space="preserve">
-        <source>Звук позиционируется так, будто исходит от окна приложения.</source>
-        <target state="translated">Гук пазіцыянуецца так, быццам зыходзіць ад акна дадатка.</target>
+        <source>Звук позиционируется так, будто исходит от окна игры.</source>
+        <target state="translated">Гук пазіцыянуецца так, быццам зыходзіць ад акна гульні.</target>
+        <note>Source changed, was: «Звук позиционируется так, будто исходит от окна приложения.»</note>
       </trans-unit>
       <trans-unit id="Audio_Spatialize_Surround" xml:space="preserve">
         <source>Объёмное звучание в формате 7.1</source>
         <target state="needs-review-translation">Аб&#39;ёмнае гучанне ў фармаце 7.1</target>
       </trans-unit>
       <trans-unit id="Audio_Spatialize_Surround_Description" xml:space="preserve">
-        <source>Разрешить приложениям выводить звук в формате 7.1, который позволяет сделать звучание объёмным за счёт виртуальных динамиков; при этом фронтальный центральный динамик будет расположен в центре окна приложения.</source>
-        <target state="translated">Дазволіць дадаткам выводзіць гук у фармаце 7.1, які дазваляе зрабіць гучанне аб&#39;ёмным за кошт віртуальных дынамікаў; пры гэтым франтальны цэнтральны дынамік будзе размешчаны ў цэнтры акна дадатку.</target>
+        <source>Разрешить играм выводить звук в формате 7.1, который позволяет сделать звучание объёмным за счёт виртуальных динамиков; при этом фронтальный центральный динамик будет расположен в центре окна игры.</source>
+        <target state="translated">Дазволіць гульням выводзіць гук у фармаце 7.1, які дазваляе зрабіць гучанне аб&#39;ёмным за кошт віртуальных дынамікаў; пры гэтым франтальны цэнтральны дынамік будзе размешчаны ў цэнтры акна гульні.</target>
+        <note>Source changed, was: «Разрешить приложениям выводить звук в формате 7.1, который позволяет сделать звучание объёмным за счёт виртуальных динамиков; при этом фронтальный центральный динамик будет расположен в центре окна приложения.»</note>
       </trans-unit>
       <trans-unit id="Audio_SpeakerConfiguration" xml:space="preserve">
         <source>Конфигурация динамиков</source>
@@ -4379,21 +4471,13 @@
         <source>Закрыть</source>
         <target state="translated">Закрыць</target>
       </trans-unit>
-      <trans-unit id="BetaOptIn_SeeChanged" xml:space="preserve">
-        <source>Что изменилось</source>
-        <target state="needs-review-translation">Што змянілася</target>
-      </trans-unit>
-      <trans-unit id="BetaOptIn_ThankYou" xml:space="preserve">
-        <source>Благодарим за участие в бета-тестировании! Оставьте <ph id="1">&lt;1&gt;</ph>отзыв<ph id="2">&lt;/1&gt;</ph></source>
-        <target state="needs-review-translation">Дзякуем за ўдзел у бэта-тэставанні! Пакіньце <ph id="1">&lt;1&gt;</ph>водгук<ph id="2">&lt;/1&gt;</ph></target>
+      <trans-unit id="BetaOptIn_Ended" xml:space="preserve">
+        <source>Благодарим вас за участие в бета-тестировании <ph id="1">%1$s</ph>. Бета-тестирование закончено — перегрузите Steam для возврата к текущей версии.</source>
+        <target state="translated">Дзякуем вам за ўдзел у бэта-тэсціраванні <ph id="1">%1$s</ph>. Бэта-тэсціраванне скончана — перазапусціце Steam, каб вярнуцца да бягучай версіі.</target>
       </trans-unit>
       <trans-unit id="BetaOptIn_Updated" xml:space="preserve">
         <source>Ваш клиент Steam обновлён</source>
         <target state="needs-review-translation">Ваш кліент Steam абноўлены</target>
-      </trans-unit>
-      <trans-unit id="BetaOptIn_WeShipped" xml:space="preserve">
-        <source>Новые функции добавлены в стабильную версию клиента! Спасибо за участие в бета-тестировании. <ph id="1">&lt;1&gt;</ph>Вот как поучаствовать в следующем<ph id="2">&lt;/1&gt;</ph>.</source>
-        <target state="translated">Новыя функцыі дададзены ў стабільную версію кліента! Дзякуй за ўдзел у бэта-тэставанні. <ph id="1">&lt;1&gt;</ph>Вось як узяць удзел у наступным<ph id="2">&lt;/1&gt;</ph>.</target>
       </trans-unit>
       <trans-unit id="Beta_BetaTag" xml:space="preserve">
         <source>БЕТА</source>
@@ -4781,14 +4865,6 @@
         <source>Сменить аккаунт</source>
         <target state="translated">Змяніць акаўнт</target>
       </trans-unit>
-      <trans-unit id="ChangeUser_ActiveGamesWarning" xml:space="preserve">
-        <source>Это закроет ваши запущенные игры.</source>
-        <target state="translated">Гэта закрые вашы запушчаныя гульні.</target>
-      </trans-unit>
-      <trans-unit id="ChangeUser_OKButton" xml:space="preserve">
-        <source>Продолжить</source>
-        <target state="needs-review-translation">Працягнуць</target>
-      </trans-unit>
       <trans-unit id="ChangeUser_ShouldShowUserChooser" xml:space="preserve">
         <source>При каждом запуске Steam спрашивать, какой аккаунт использовать</source>
         <target state="needs-review-translation">Пры кожным запуску Steam пытацца, які акаўнт выкарыстоўваць</target>
@@ -5044,6 +5120,38 @@
       <trans-unit id="CloudConflict_Older" xml:space="preserve">
         <source>Старее</source>
         <target state="needs-review-translation">Старэй</target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_ControllerConfigs_Description" xml:space="preserve">
+        <source>Ваши раскладки для системы ввода Steam на <ph id="1">%1$s</ph> не совпадают с сохранёнными в Steam Cloud. Выберите одну:</source>
+        <target state="translated">Вашы раскладкі для сістэмы ўводу Steam на <ph id="1">%1$s</ph> не супадаюць з захаванымі ў Steam Cloud. Выберыце адну:</target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_ControllerConfigs_KeepLocal" xml:space="preserve">
+        <source>Раскладка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Раскладка на <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_ControllerConfigs_KeepLocal_Description" xml:space="preserve">
+        <source>Раскладки контроллера в Steam Cloud будут заменены на раскладки, которые сейчас используются на <ph id="1">%1$s</ph></source>
+        <target state="translated">Раскладкі кантролера ў Steam Cloud будуць заменены на раскладкі, якія зараз выкарыстоўваюцца на <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_ControllerConfigs_KeepRemote_Description" xml:space="preserve">
+        <source>Раскладки контроллера на <ph id="1">%1$s</ph> будут заменены на раскладки, сохранённые в Steam Cloud</source>
+        <target state="translated">Раскладкі кантролера на <ph id="1">%1$s</ph> будуць заменены на раскладкі, захаваныя ў Steam Cloud</target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_Description" xml:space="preserve">
+        <source>Данные ваших сохранений <ph id="1">%1$s</ph> на устройстве <ph id="2">%2$s</ph> конфликтуют с находящимися в Steam Cloud. Сохранения, которые вы оставите, будут синхронизированы с <ph id="3">%2$s</ph> и с облаком. Сохранения, которые вы решите не оставлять, будут перезаписаны.</source>
+        <target state="translated">Даныя вашых захаванняў <ph id="1">%1$s</ph> на прыладзе <ph id="2">%2$s</ph> канфліктуюць з тымі, што знаходзяцца ў Steam Cloud. Захаванні, якія вы пакінеце, будуць сінхранізаваны з <ph id="3">%2$s</ph> і з воблакам. Захаванні, якія вы вырашыце не пакідаць, будуць перазапісаны.</target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_KeepLocal" xml:space="preserve">
+        <source>Сохранить на <ph id="1">%1$s</ph></source>
+        <target state="translated">Захаваць на <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_KeepLocal_Description" xml:space="preserve">
+        <source>Данные ваших сохранений в Steam Cloud будут заменены на файлы с <ph id="1">%1$s</ph></source>
+        <target state="translated">Даныя вашых захаванняў у Steam Cloud будуць заменены на файлы з <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="CloudConflict_RemoteHost_KeepRemote_Description" xml:space="preserve">
+        <source>Данные ваших сохранений на <ph id="1">%1$s</ph> будут заменены на файлы из Steam Cloud</source>
+        <target state="translated">Даныя вашых захаванняў на <ph id="1">%1$s</ph> будуць заменены на файлы са Steam Cloud</target>
       </trans-unit>
       <trans-unit id="CloudConflict_Unknown" xml:space="preserve">
         <source>Неизвестно</source>
@@ -6526,8 +6634,9 @@
         <target state="translated">Падвойны націск</target>
       </trans-unit>
       <trans-unit id="ControllerBinding_ActivatorDropDown_DoublePress_Description" xml:space="preserve">
-        <source>Активатор двойного нажатия требует быстрого двойного касания для активации. Если кнопка удерживается при втором касании, активатор остается в режиме нажатия. Все прерываемые активаторы на той же кнопке не будут действовать, если включено двойное нажатие, и будут приостановлены до его окончания.</source>
-        <target state="translated">Актыватар падвойнага націску патрабуе хуткага падвойнага дотыку для актывацыі. Калі кнопка ўтрымліваецца пры другім дотыку, актыватар застаецца ў рэжыме націску. Усе перапыняемыя актыватары на той жа кнопцы не будуць дзейнічаць, калі ўключаны падвойны націск, і будуць прыпыненыя да яго заканчэння.</target>
+        <source>Активатор двойного нажатия требует быстрого двойного нажатия для срабатывания. Если удерживать кнопку после второго нажатия, активатор останется в режиме нажатия. Если сработало двойное нажатие, то остальные прерываемые активаторы этой же кнопки не сработают, и их активация будет приостановлена до окончания нажатия.</source>
+        <target state="translated">Актыватар падвойнага націску патрабуе хуткага падвойнага націску для спрацоўвання. Калі ўтрымліваць кнопку пасля другога націску, актыватар застанецца ў рэжыме націску. Калі спрацаваў падвойны націск, астатнія актыватары гэтай жа кнопкі, якія можна перапыніць, не спрацуюць, і іх актывацыя будзе прыпынена да заканчэння націску.</target>
+        <note>Source changed, was: «Активатор двойного нажатия требует быстрого двойного касания для активации. Если кнопка удерживается при втором касании, активатор остается в режиме нажатия. Все прерываемые активаторы на той же кнопке не будут действовать, если включено двойное нажатие, и будут приостановлены до его окончания.»</note>
       </trans-unit>
       <trans-unit id="ControllerBinding_ActivatorDropDown_FullPress" xml:space="preserve">
         <source>Обычное нажатие</source>
@@ -7216,6 +7325,14 @@
       <trans-unit id="ControllerBinding_Chord_Interruptable_On_Description" xml:space="preserve">
         <source>Этот активатор приостановится или не сработает вовсе, если задействованы другие активаторы. Долгое нажатие, двойное нажатие и другие режимы получат приоритет перед тем, как этот активатор сможет начать работу. Если сработает другой активатор, то не сработает этот.</source>
         <target state="translated">Гэты актыватар прыпыніцца ці не спрацуе зусім, калі задзейнічаны іншыя актыватары. Доўгі націск, падвойны націск і іншыя рэжымы атрымаюць прыярытэт перад тым, як гэты актыватар зможа пачаць працу. Калі спрацуе іншы актыватар, то не спрацуе гэты.</target>
+      </trans-unit>
+      <trans-unit id="ControllerBinding_Chord_Invert" xml:space="preserve">
+        <source>Инверсия активации</source>
+        <target state="translated">Інверсія актывацыі</target>
+      </trans-unit>
+      <trans-unit id="ControllerBinding_Chord_Invert_Description" xml:space="preserve">
+        <source>Срабатывает при отпускании элемента ввода, если не зажата кнопка активатора. Она освобождается при нажатии этого элемента ввода.</source>
+        <target state="translated">Спрацоўвае пры адпусканні элемента ўводу, калі не заціснута кнопка актыватара. Яна вызваляецца пры націсканні гэтага элемента ўводу.</target>
       </trans-unit>
       <trans-unit id="ControllerBinding_Chord_RepeatRate" xml:space="preserve">
         <source>Интервал повторения</source>
@@ -16054,6 +16171,22 @@
         <source>Настройка вертикальной чувствительности. Она изменяет скорость движения по вертикальной оси относительно горизонтальной.</source>
         <target state="translated">Налада вертыкальнай адчувальнасці. Яна змяняе хуткасць руху па вертыкальнай восі адносна гарызантальнай.</target>
       </trans-unit>
+      <trans-unit id="ControllerBinding_VirtualCapSizeRelMouse" xml:space="preserve">
+        <source>Порог адаптивного центрирования</source>
+        <target state="translated">Парог адаптыўнага цэнтравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerBinding_VirtualCapSizeRelMouse_Description" xml:space="preserve">
+        <source>Регулирует область трекпада, в которой может начинаться движение эмулированного стика. Если выход джойстика не достигает полного диапазона, попробуйте уменьшить это значение или сократить диапазон центрирования ниже.</source>
+        <target state="translated">Рэгулюе вобласць трэкпада, у якой можа пачынацца рух эмуліраванага сціка. Калі выхад джойсціка не дасягае поўнага дыяпазону, паспрабуйце паменшыць гэта значэнне або скараціць дыяпазон цэнтравання ніжэй.</target>
+      </trans-unit>
+      <trans-unit id="ControllerBinding_VirtualCapThrowRelMouse" xml:space="preserve">
+        <source>Диапазон адаптивного центрирования</source>
+        <target state="translated">Дыяпазон адаптыўнага цэнтравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerBinding_VirtualCapThrowRelMouse_Description" xml:space="preserve">
+        <source>Отрегулируйте расстояние, необходимое для получения максимального диапазона эмулированного джойстика при использовании адаптивного центрирования.</source>
+        <target state="translated">Адрэгулюйце адлегласць, неабходную для атрымання максімальнага дыяпазону эмуліраванага джойсціка пры выкарыстанні адаптыўнага цэнтравання.</target>
+      </trans-unit>
       <trans-unit id="ControllerBinding_XButton" xml:space="preserve">
         <source>Кнопка X</source>
         <target state="needs-review-translation">Кнопка X</target>
@@ -16326,6 +16459,142 @@
         <source>По умолчанию</source>
         <target state="needs-review-translation">Па змаўчанні</target>
       </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_AddBinding" xml:space="preserve">
+        <source>Добавить элемент управления</source>
+        <target state="translated">Дадаць элемент кіравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_BindingSettings" xml:space="preserve">
+        <source>Настройки</source>
+        <target state="translated">Налады</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ChangeBinding" xml:space="preserve">
+        <source>Изменить команду</source>
+        <target state="translated">Змяніць каманду</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ChangeControl" xml:space="preserve">
+        <source>Сменить элемент управления</source>
+        <target state="translated">Змяніць элемент кіравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ChooseInput_NoneAvailable" xml:space="preserve">
+        <source>Элементы управления этого контроллера нельзя использовать для данного действия из этого набора. Сначала нужно настроить режим соответствующего элемента управления на его странице.</source>
+        <target state="translated">Элементы кіравання гэтага кантролера нельга выкарыстоўваць для гэтага дзеяння з гэтага набору. Спачатку трэба наладзіць рэжым адпаведнага элемента кіравання на яго старонцы.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ChooseInput_Title_1" xml:space="preserve">
+        <source>Выбрать элемент управления для: <ph id="1">%1$s</ph></source>
+        <target state="translated">Выбраць элемент кіравання для: <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ChooseMode_Title_1" xml:space="preserve">
+        <source>Выбрать режим для: <ph id="1">%1$s</ph></source>
+        <target state="translated">Выбраць рэжым для: <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_EditControl" xml:space="preserve">
+        <source>Изменить элемент управления</source>
+        <target state="translated">Рэдагаваць элемент кіравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_InUse" xml:space="preserve">
+        <source>Используется</source>
+        <target state="translated">Выкарыстоўваецца</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_Kind_AnalogTrigger" xml:space="preserve">
+        <source>Триггер</source>
+        <target state="translated">Трыгер</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_Kind_Button" xml:space="preserve">
+        <source>Кнопка</source>
+        <target state="translated">Кнопка</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_Kind_StickPadGyro" xml:space="preserve">
+        <source>Аналог</source>
+        <target state="translated">Аналагавае значэнне</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_AbsoluteMouse" xml:space="preserve">
+        <source>Перемещает курсор мыши на основе того, как вы двигаете его на трекпаде (как на ноутбуках).</source>
+        <target state="translated">Перамяшчае курсор мышы ў залежнасці ад таго, як вы рухаеце яго на трэкпадзе (як на наўтбуках).</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_CameraAngles" xml:space="preserve">
+        <source>Отправляет напрямую в игру угол камеры (если эта функция поддерживается), а не движения мыши или стика, как в других режимах.</source>
+        <target state="translated">Адпраўляе непасрэдна ў гульню кут камеры (калі гэта функцыя падтрымліваецца), а не рухі мышы або сціка, як у іншых рэжымах.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_Disabled" xml:space="preserve">
+        <source>Когда выбрано, ввода с элемента управления не происходит.</source>
+        <target state="translated">Калі выбрана, увод з элемента кіравання не адбываецца.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_FlickStick" xml:space="preserve">
+        <source>Переместите джойстик, чтобы направить камеру в нужном направлении, затем продолжайте вращать джойстик, чтобы повернуть камеру на ту же величину.</source>
+        <target state="translated">Перамясціце джойсцік, каб накіраваць камеру ў патрэбным кірунку, затым працягвайце круціць джойсцік, каб павярнуць камеру на тую ж велічыню.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_GyroToJoystickCamera" xml:space="preserve">
+        <source>Преобразует движение контроллера во ввод с камеры в играх, которые считывают данные стика, а не мыши.</source>
+        <target state="translated">Пераўтварае рух кантролера ва ўвод з камеры ў гульнях, якія лічваюць даныя сціка, а не мышы.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_GyroToJoystickDeflection" xml:space="preserve">
+        <source>Преобразует движение контроллера в отклонение стика, как если бы вы отводили стик на такое же расстояние.</source>
+        <target state="translated">Пераўтварае рух кантролера ў адхіленне сціка, нібы вы адхілялі сцік на такую ж адлегласць.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_GyroToMouse" xml:space="preserve">
+        <source>Преобразует движение контроллера в перемещение курсора мыши: наклоняйте его для прицеливания.</source>
+        <target state="translated">Пераўтварае рух кантролера ў перамяшчэнне курсора мышы: нахіляйце яго для прыцэльвання.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_JoystickCamera" xml:space="preserve">
+        <source>Отправляет ввод с джойстика как данные камеры, дальность отклонения определяет скорость поворота камеры.</source>
+        <target state="translated">Адпраўляе ўвод з джойсціка як даныя камеры, далёкасць адхілення вызначае хуткасць павароту камеры.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_JoystickMouse" xml:space="preserve">
+        <source>Перемещает курсор мыши с постоянной скоростью при удерживании отклонённого стика в одном положении и ускоряет его при увеличении отклонения.</source>
+        <target state="translated">Перамяшчае курсор мышы з пастаяннай хуткасцю пры ўтрыманні адхіленага сціка ў адным становішчы і паскарае яго пры павелічэнні адхілення.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_JoystickMove_Gyro" xml:space="preserve">
+        <source>Отклоняет виртуальный джойстик, используя положение гироскопа для управления дальностью отклонения.</source>
+        <target state="translated">Адхіляе віртуальны джойсцік, выкарыстоўваючы становішча гіраскопа для кіравання далёкасцю адхілення.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_JoystickMove_Trackpad" xml:space="preserve">
+        <source>Отклоняет виртуальный джойстик, используя положение трекпада для управления дальностью отклонения.</source>
+        <target state="translated">Адхіляе віртуальны джойсцік, выкарыстоўваючы становішча трэкпада для кіравання далёкасцю адхілення.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_MouseJoystick_Gyro" xml:space="preserve">
+        <source>Отправляет в игру ввод с джойстика, но считывает движения гироскопа, как будто они выполняются мышью. Подходит для игр, где нужно использовать стик для прицеливания или перемещения курсора.</source>
+        <target state="translated">Адпраўляе ў гульню ўвод з джойсціка, але лічвае рухі гіраскопа так, нібы яны выконваюцца мышшу. Падыходзіць для гульняў, дзе трэба выкарыстоўваць сцік для прыцэльвання або перамяшчэння курсора.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_MouseJoystick_Trackpad" xml:space="preserve">
+        <source>Отправляет в игру ввод с джойстика, но считывает движения на трекпаде, как будто они выполняются мышью. Подходит для игр, где нужно использовать стик для прицеливания или перемещения курсора.</source>
+        <target state="translated">Адпраўляе ў гульню ўвод з джойсціка, але лічвае рухі на трэкпадзе так, нібы яны выконваюцца мышшу. Падыходзіць для гульняў, дзе трэба выкарыстоўваць сцік для прыцэльвання або перамяшчэння курсора.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_MouseRegion" xml:space="preserve">
+        <source>Связывает трекпад с областью на экране таким образом, что позиция на трекпаде всегда указывает в одно и то же место на экране.</source>
+        <target state="translated">Звязвае трэкпад з вобласцю на экране такім чынам, што пазіцыя на трэкпадзе заўсёды паказвае на адно і тое ж месца на экране.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ModeDesc_RelativeMouse" xml:space="preserve">
+        <source>Предыдущая версия режима джойстика с функциями мыши, сохранена для конфигураций, в которых он используется.</source>
+        <target state="translated">Папярэдняя версія рэжыму джойсціка з функцыямі мышы, захавана для канфігурацый, у якіх ён выкарыстоўваецца.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_MouseRow" xml:space="preserve">
+        <source>Мышь</source>
+        <target state="translated">Мыш</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_QualifiedTitle_2" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph>)</source>
+        <target state="translated"><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph>)</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_RemoveBinding" xml:space="preserve">
+        <source>Удалить элемент управления</source>
+        <target state="translated">Выдаліць элемент кіравання</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_ShowUnboundOnly" xml:space="preserve">
+        <source>Показать только действия без привязки</source>
+        <target state="translated">Паказаць толькі дзеянні без прывязкі</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Actions_Unbound" xml:space="preserve">
+        <source>Привязки нет</source>
+        <target state="translated">Прывязкі няма</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activator_AdjustTimings" xml:space="preserve">
+        <source>Изменить интервалы</source>
+        <target state="translated">Змяніць інтэрвалы</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activator_AdjustTimings_Desc" xml:space="preserve">
+        <source>Множественные привязки можно визуализировать и настраивать на специальной странице редактора.</source>
+        <target state="translated">Множныя прывязкі можна візуалізаваць і наладжваць на спецыяльнай старонцы рэдактара.</target>
+      </trans-unit>
       <trans-unit id="ControllerConfigurator_Activator_Command_Cycles_Desc" xml:space="preserve">
         <source>Команда <ph id="1">%1$s</ph> (работает циклами)</source>
         <target state="needs-review-translation">Каманда <ph id="1">%1$s</ph> (працуе цыкламі)</target>
@@ -16350,9 +16619,17 @@
         <source>Добавить команду</source>
         <target state="needs-review-translation">Дадаць каманду</target>
       </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_AddExtraBinding_Button" xml:space="preserve">
+        <source>Добавить</source>
+        <target state="translated">Дадаць</target>
+      </trans-unit>
       <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_AddExtraBinding_Title" xml:space="preserve">
         <source>Добавить подкоманду</source>
         <target state="needs-review-translation">Дадаць падкаманду</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_MultiBindingTiming_Title" xml:space="preserve">
+        <source>Изменить интервал для множественной привязки</source>
+        <target state="translated">Змяніць інтэрвал для множнай прывязкі</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_RemoveActivator_Title" xml:space="preserve">
         <source>Удалить дополнительную команду</source>
@@ -16362,9 +16639,13 @@
         <source>Удалить все команды</source>
         <target state="needs-review-translation">Выдаліць усе каманды</target>
       </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_RemoveCommand_Button" xml:space="preserve">
+        <source>Удалить</source>
+        <target state="translated">Выдаліць</target>
+      </trans-unit>
       <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_RemoveCommand_Title" xml:space="preserve">
-        <source>Удалить команду</source>
-        <target state="needs-review-translation">Выдаліць каманду</target>
+        <source>Удалить эту команду</source>
+        <target state="translated">Выдаліць гэтую каманду</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_Activator_ContextMenuItem_RemoveExtraBinding_Title" xml:space="preserve">
         <source>Удалить подкоманду</source>
@@ -16406,6 +16687,10 @@
         <source>Выполняет команды (<ph id="1">%1$s</ph>)</source>
         <target state="needs-review-translation">Выконвае каманды (<ph id="1">%1$s</ph>)</target>
       </trans-unit>
+      <trans-unit id="ControllerConfigurator_Activators_SubCommands_Desc" xml:space="preserve">
+        <source>Выполняет подкоманды (<ph id="1">%1$s</ph>)</source>
+        <target state="translated">Выконвае падкаманды (<ph id="1">%1$s</ph>)</target>
+      </trans-unit>
       <trans-unit id="ControllerConfigurator_ChooseBinding_ActionSet" xml:space="preserve">
         <source>Наборы действий</source>
         <target state="needs-review-translation">Наборы дзеянняў</target>
@@ -16439,8 +16724,13 @@
         <target state="needs-review-translation">Клавіятура</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_ChooseBinding_Listener" xml:space="preserve">
-        <source>Нажмите на кнопку, которую хотите привязать, или зажмите <ph id="1">%1$s</ph> или Escape для отмены</source>
-        <target state="translated">Націсніце кнопку, якую хочаце прывязаць, або ўтрымлівайце <ph id="1">%1$s</ph> ці Escape для адмены</target>
+        <source>Нажмите клавишу для привязки или удерживайте <ph id="1">%1$s</ph>/Escape для выхода</source>
+        <target state="translated">Націсніце клавішу для прывязкі або ўтрымлівайце <ph id="1">%1$s</ph>/Escape для выхаду</target>
+        <note>Source changed, was: «Нажмите на кнопку, которую хотите привязать, или зажмите %1$s или Escape для отмены»</note>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_ChooseBinding_Listener_Desc" xml:space="preserve">
+        <source>В Steam теперь можно привязать ввод мыши, клавиатуры и геймпада.</source>
+        <target state="translated">У Steam цяпер можна прывязаць увод мышы, клавіятуры і геймпада.</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_ChooseBinding_Mouse" xml:space="preserve">
         <source>Мышь</source>
@@ -16577,6 +16867,18 @@
       <trans-unit id="ControllerConfigurator_ConfigInfo_Title" xml:space="preserve">
         <source>Информация для разработчиков</source>
         <target state="needs-review-translation">Інфармацыя для распрацоўшчыкаў</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_ConfigLoadFailed_ChooseNew" xml:space="preserve">
+        <source>Выберите другую раскладку</source>
+        <target state="translated">Выберыце іншую раскладку</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_ConfigLoadFailed_Description" xml:space="preserve">
+        <source>Нельзя загрузить выбранную раскладку контроллера с диска. Чтобы продолжить, выберите другую раскладку.</source>
+        <target state="translated">Не атрымалася загрузіць выбраную раскладку кантролера з дыска. Каб працягнуць, выберыце іншую раскладку.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_ConfigLoadFailed_Title" xml:space="preserve">
+        <source>Не удалось загрузить раскладку контроллера</source>
+        <target state="translated">Не атрымалася загрузіць раскладку кантролера</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_CreateVirtualMenuDialog_Description_1" xml:space="preserve">
         <source>Введите название нового виртуального меню</source>
@@ -17067,8 +17369,9 @@
         <target state="needs-review-translation">Вам можа спатрэбіцца памяняць раскладку кантролера, каб было зручней гуляць у тыя гульні з бібліятэкі, у якіх няма пазнакі аб сумяшчальнасці.</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_Interstitial_NonVerified_DescA2" xml:space="preserve">
-        <source>Наши шаблоны по умолчанию должны работать в большинстве игр. Если нет, загляните в Мастерскую: возможно, другой игрок уже загрузил более оптимальную раскладку.</source>
-        <target state="translated">Нашы шаблоны па змаўчанні павінны працаваць у большасці гульняў. Калі не, зазірніце ў Майстэрню: магчыма, іншы гулец ужо запампаваў больш аптымальную раскладку.</target>
+        <source>Наши шаблоны по умолчанию должны работать в большинстве игр. Если нет, загляните в мастерскую: возможно, другой игрок уже загрузил более оптимальную раскладку.</source>
+        <target state="translated">Нашы шаблоны па змаўчанні павінны працаваць у большасці гульняў. Калі не, зазірніце ў майстэрню: магчыма, іншы гулец ужо запампаваў больш аптымальную раскладку.</target>
+        <note>Source changed, was: «Наши шаблоны по умолчанию должны работать в большинстве игр. Если нет, загляните в Мастерскую: возможно, другой игрок уже загрузил более оптимальную раскладку.»</note>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_Interstitial_NonVerified_DescB1" xml:space="preserve">
         <source>В этих играх вам может быть предложено нажать клавиши или кнопки. В таком случае вам нужно будет привязать эти команды к элементам ввода устройства.</source>
@@ -17178,6 +17481,102 @@
         <source>Настройки раскладки</source>
         <target state="needs-review-translation">Налады раскладкі</target>
       </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Collapse" xml:space="preserve">
+        <source>Свернуть</source>
+        <target state="translated">Згарнуць</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Delay_1" xml:space="preserve">
+        <source>+<ph id="1">%1$s</ph> мс</source>
+        <target state="translated">+<ph id="1">%1$s</ph> мс</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Desc" xml:space="preserve">
+        <source>Каждая строка соответствует одной команде, выполняемой за одно нажатие элемента управления. Время указано в миллисекундах. Перемещайте начальную и конечную отметки, чтобы изменить время начала и окончания действия команды.</source>
+        <target state="translated">Кожны радок адпавядае адной камандзе, якая выконваецца за адзін націск элемента кіравання. Час паказаны ў мілісекундах. Перамяшчайце пачатковую і канчатковую адзнакі, каб змяніць час пачатку і заканчэння дзеяння каманды.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_EndDelay" xml:space="preserve">
+        <source>Конец</source>
+        <target state="translated">Канец</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Expand" xml:space="preserve">
+        <source>Развернуть</source>
+        <target state="translated">Разгарнуць</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_FireDelay" xml:space="preserve">
+        <source>Начало</source>
+        <target state="translated">Пачатак</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Hold" xml:space="preserve">
+        <source>Длительность имитированного нажатия кнопки</source>
+        <target state="translated">Працягласць імітаванага націску кнопкі</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Hold_Desc" xml:space="preserve">
+        <source>Как долго удерживается нажатие. Команды, которые реагируют на отпускание, будут изменены соответствующим образом.</source>
+        <target state="translated">Як доўга ўтрымліваецца націск. Каманды, якія рэагуюць на адпусканне, будуць зменены адпаведным чынам.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Milliseconds_1" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> мс</source>
+        <target state="translated"><ph id="1">%1$s</ph> мс</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_NamedSummary_2" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph>)</source>
+        <target state="translated"><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph>)</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Percent_1" xml:space="preserve">
+        <source><ph id="1">%1$s</ph>%</source>
+        <target state="translated"><ph id="1">%1$s</ph>%</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Press" xml:space="preserve">
+        <source>Нажатие</source>
+        <target state="translated">Націск</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_RangeEnd" xml:space="preserve">
+        <source>Окончание</source>
+        <target state="translated">Заканчэнне</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_RangeStart" xml:space="preserve">
+        <source>Начало</source>
+        <target state="translated">Пачатак</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Release" xml:space="preserve">
+        <source>Отпускание</source>
+        <target state="translated">Адпусканне</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Section_Bindings" xml:space="preserve">
+        <source>Команды</source>
+        <target state="translated">Каманды</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Section_Timeline" xml:space="preserve">
+        <source>Интервал</source>
+        <target state="translated">Інтэрвал</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_SingleBinding" xml:space="preserve">
+        <source>Элемент управления выполняет только одну команду, поэтому между командами нельзя установить интервалы. Задержки для неё перечислены внизу.</source>
+        <target state="translated">Элемент кіравання выконвае толькі адну каманду, таму паміж камандамі нельга ўсталяваць інтэрвалы. Затрымкі для яе пералічаны ўнізе.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Sort" xml:space="preserve">
+        <source>Сортировать</source>
+        <target state="translated">Сартаваць</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_SortByTime" xml:space="preserve">
+        <source>Сортировать элементы ввода по времени начала действия</source>
+        <target state="translated">Сартаваць элементы ўводу па часе пачатку дзеяння</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Title" xml:space="preserve">
+        <source>Интервал для множественной привязки</source>
+        <target state="translated">Інтэрвал для множнай прывязкі</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_Unnamed" xml:space="preserve">
+        <source>Множественная привязка без названия</source>
+        <target state="translated">Множная прывязка без назвы</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_WontFire_Interrupted_1" xml:space="preserve">
+        <source>При нажатии этой кнопки активируется <ph id="1">%1$s</ph>. Эта команда — прерываема, поэтому она будет пропущена.</source>
+        <target state="translated">Пры націсканні гэтай кнопкі актывуецца <ph id="1">%1$s</ph>. Гэта каманда, якую можна перапыніць, таму яна будзе прапушчана.</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_MultiBinding_WontFire_TooShort_1" xml:space="preserve">
+        <source>Для активации необходимо удерживать не менее <ph id="1">%1$s</ph>.</source>
+        <target state="translated">Для актывацыі неабходна ўтрымліваць не менш за <ph id="1">%1$s</ph>.</target>
+      </trans-unit>
       <trans-unit id="ControllerConfigurator_Options" xml:space="preserve">
         <source>Опции</source>
         <target state="translated">Параметры</target>
@@ -17185,6 +17584,10 @@
       <trans-unit id="ControllerConfigurator_Section_ActionSets" xml:space="preserve">
         <source>Наборы действий</source>
         <target state="needs-review-translation">Наборы дзеянняў</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_Section_Actions" xml:space="preserve">
+        <source>Действия в игре</source>
+        <target state="translated">Дзеянні ў гульні</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_Section_Buttons" xml:space="preserve">
         <source>Кнопки</source>
@@ -17341,6 +17744,10 @@
       <trans-unit id="ControllerConfigurator_Setting_Section_TriggerDampening" xml:space="preserve">
         <source>Замедление триггером</source>
         <target state="needs-review-translation">Запаволенне трыгерам</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_SkipCloudSyncWait" xml:space="preserve">
+        <source>Продолжить, не дожидаясь</source>
+        <target state="translated">Працягнуць, не чакаючы</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_SourceMode_2DScrollwheel_Title" xml:space="preserve">
         <source>Свайп в сторону</source>
@@ -17685,6 +18092,10 @@
       <trans-unit id="ControllerConfigurator_Source_Switches_Title" xml:space="preserve">
         <source>Кнопки</source>
         <target state="needs-review-translation">Кнопкі</target>
+      </trans-unit>
+      <trans-unit id="ControllerConfigurator_SyncingCloudFiles" xml:space="preserve">
+        <source>Синхронизация облачных файлов конфигурации контроллера</source>
+        <target state="translated">Сінхранізацыя воблачных файлаў канфігурацыі кантролера</target>
       </trans-unit>
       <trans-unit id="ControllerConfigurator_VirtualMenu_AddBindingSlot" xml:space="preserve">
         <source>Добавить пункт виртуального меню</source>
@@ -18852,13 +19263,22 @@
         <source>Дальше</source>
         <target state="needs-review-translation">Далей</target>
       </trans-unit>
-      <trans-unit id="ControllerWelcome_PlugInController_Body_KnownHardware" xml:space="preserve">
+      <trans-unit id="ControllerWelcome_PlugInController_BodyWithPuck_KnownHardware" xml:space="preserve">
         <source>Подключите Steam Controller к <ph id="1">%1$s</ph> с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера.</source>
-        <target state="needs-review-translation">Падлучыце Steam Controller да <ph id="1">%1$s</ph> з дапамогай кабеля USB-C. Вы можаце адключыць прыладу Puck і выкарыстоўваць кабель USB-C для падлучэння кантролера.</target>
+        <target state="translated">Падключыце Steam Controller да <ph id="1">%1$s</ph> з дапамогай кабеля USB-C. Вы можаце адключыць прыладу Puck і выкарыстоўваць кабель USB-C для падключэння кантролера.</target>
+      </trans-unit>
+      <trans-unit id="ControllerWelcome_PlugInController_BodyWithPuck_UnknownHardware" xml:space="preserve">
+        <source>Подключите Steam Controller к компьютеру с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера.</source>
+        <target state="translated">Падключыце Steam Controller да камп&#39;ютара з дапамогай кабеля USB-C. Вы можаце адключыць прыладу Puck і выкарыстоўваць кабель USB-C для падключэння кантролера.</target>
+      </trans-unit>
+      <trans-unit id="ControllerWelcome_PlugInController_Body_KnownHardware" xml:space="preserve">
+        <source>Подключите Steam Controller к устройству <ph id="1">%1$s</ph> с помощью кабеля USB-C.</source>
+        <target state="translated">Падключыце Steam Controller да прылады <ph id="1">%1$s</ph> з дапамогай кабеля USB-C.</target>
       </trans-unit>
       <trans-unit id="ControllerWelcome_PlugInController_Body_UnknownHardware" xml:space="preserve">
-        <source>Подключите Steam Controller к компьютеру с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера.</source>
-        <target state="translated">Падлучыце Steam Controller да камп&#39;ютара з дапамогай кабеля USB-C. Вы можаце адключыць прыладу Puck і выкарыстоўваць кабель USB-C для падлучэння кантролера.</target>
+        <source>Подключите Steam Controller к компьютеру с помощью кабеля USB-C.</source>
+        <target state="translated">Падключыце Steam Controller да камп&#39;ютара з дапамогай кабеля USB-C.</target>
+        <note>Source changed, was: «Подключите Steam Controller к компьютеру с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера.»</note>
       </trans-unit>
       <trans-unit id="ControllerWelcome_PlugInController_Title" xml:space="preserve">
         <source>Подключение Steam Controller</source>
@@ -19188,6 +19608,10 @@
         <source>Играть в Aperture Desk Job</source>
         <target state="needs-review-translation">Гуляць у Aperture Desk Job</target>
       </trans-unit>
+      <trans-unit id="DesktopStream" xml:space="preserve">
+        <source>Трансляция рабочего стола</source>
+        <target state="translated">Трансляцыя працоўнага стала</target>
+      </trans-unit>
       <trans-unit id="Developer_SLS_Devcoredump_Enabled" xml:space="preserve">
         <source>Включить сбор отчётов о сбоях драйвера</source>
         <target state="translated">Уключыць збор справаздач пра збоі драйвера</target>
@@ -19456,13 +19880,25 @@
         <source>Ошибка загрузки</source>
         <target state="translated">Памылка спампоўкі</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_DownloadFailed_Remote" xml:space="preserve">
+        <source>Сбой загрузки на <ph id="1">%1$s</ph></source>
+        <target state="translated">Збой спампоўкі на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_DownloadPaused" xml:space="preserve">
         <source>Загрузка приостановлена</source>
         <target state="translated">Спампоўка прыпынена</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_DownloadPaused_Remote" xml:space="preserve">
+        <source>Загрузка на <ph id="1">%1$s</ph> приостановлена</source>
+        <target state="translated">Спампоўка на <ph id="1">%1$s</ph> прыпынена</target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_DownloadQueued" xml:space="preserve">
         <source>Загрузка в очереди</source>
         <target state="translated">Спампоўка ў чарзе</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_DownloadQueued_Remote" xml:space="preserve">
+        <source>Загрузка в очереди на <ph id="1">%1$s</ph></source>
+        <target state="translated">Спампоўка ў чарзе на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_DownloadRequired" xml:space="preserve">
         <source>Требуется загрузка</source>
@@ -19472,9 +19908,17 @@
         <source>Загрузка</source>
         <target state="translated">Спампоўка</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_Downloading_Remote" xml:space="preserve">
+        <source>Идёт загрузка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе спампоўка на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_Installing" xml:space="preserve">
         <source>Установка</source>
         <target state="translated">Усталёўка</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_Installing_Remote" xml:space="preserve">
+        <source>Идёт установка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе ўсталёўка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_InvalidPlatform" xml:space="preserve">
         <source>Доступно на</source>
@@ -19483,6 +19927,10 @@
       <trans-unit id="DisplayStatus_Launching" xml:space="preserve">
         <source>Запуск</source>
         <target state="needs-review-translation">Запуск</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_Launching_Remote" xml:space="preserve">
+        <source>Идёт запуск на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе запуск на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_LicenseExpired" xml:space="preserve">
         <source>Срок действия лицензии истёк</source>
@@ -19495,6 +19943,10 @@
       <trans-unit id="DisplayStatus_NotLaunchable" xml:space="preserve">
         <source>Установлено</source>
         <target state="needs-review-translation">Устаноўлена</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_NotLaunchable_Remote" xml:space="preserve">
+        <source>Установлено на <ph id="1">%1$s</ph></source>
+        <target state="translated">Усталявана на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_OwnerLocked" xml:space="preserve">
         <source>Эта игра сейчас недоступна в семейной библиотеке</source>
@@ -19516,6 +19968,10 @@
         <source>Предзагрузка завершена</source>
         <target state="translated">Папярэдняя спампоўка завершана</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_PreloadComplete_Remote" xml:space="preserve">
+        <source>Предзагрузка на <ph id="1">%1$s</ph> завершена</source>
+        <target state="translated">Папярэдняя спампоўка на <ph id="1">%1$s</ph> завершана</target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_PresaleOnly" xml:space="preserve">
         <source>Этот продукт ещё недоступен</source>
         <target state="needs-review-translation">Гэты прадукт яшчэ недаступны</target>
@@ -19528,13 +19984,25 @@
         <source>Готово к установке</source>
         <target state="needs-review-translation">Гатова да ўстаноўкі</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_ReadyToInstall_Remote" xml:space="preserve">
+        <source>Готово к установке на <ph id="1">%1$s</ph></source>
+        <target state="translated">Гатова да ўсталёўкі на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_ReadyToLaunch" xml:space="preserve">
         <source>Готово к запуску</source>
         <target state="needs-review-translation">Гатова да запуску</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_ReadyToLaunch_Remote" xml:space="preserve">
+        <source>Готово к запуску на <ph id="1">%1$s</ph></source>
+        <target state="translated">Гатова да запуску на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_ReadyToPreload" xml:space="preserve">
         <source>Готово к предзагрузке</source>
         <target state="translated">Гатова да папярэдняй спампоўкі</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_ReadyToPreload_Remote" xml:space="preserve">
+        <source>Готово к предзагрузке на <ph id="1">%1$s</ph></source>
+        <target state="translated">Гатова да папярэдняй спампоўкі на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_RegionRestricted" xml:space="preserve">
         <source>Недоступно в текущем регионе</source>
@@ -19548,6 +20016,10 @@
         <source>Запущено</source>
         <target state="needs-review-translation">Запушчана</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_Running_Remote" xml:space="preserve">
+        <source>Запущено на <ph id="1">%1$s</ph></source>
+        <target state="translated">Запушчана на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_Synchronizing" xml:space="preserve">
         <source>Синхронизация со Steam Cloud</source>
         <target state="needs-review-translation">Сінхранізацыя са Steam Cloud</target>
@@ -19556,6 +20028,10 @@
         <source>Остановка</source>
         <target state="translated">Спыненне</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_Terminating_Remote" xml:space="preserve">
+        <source>Остановка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Спыненне на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_Unavailable" xml:space="preserve">
         <source>Недоступно</source>
         <target state="needs-review-translation">Недаступна</target>
@@ -19563,6 +20039,10 @@
       <trans-unit id="DisplayStatus_Uninstalling" xml:space="preserve">
         <source>Удаление</source>
         <target state="translated">Выдаленне</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_Uninstalling_Remote" xml:space="preserve">
+        <source>Идёт удаление на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе выдаленне на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_UpdateAvailableButDisabledByApp" xml:space="preserve">
         <source>Обновление временно невозможно</source>
@@ -19576,25 +20056,49 @@
         <source>Ошибка обновления</source>
         <target state="needs-review-translation">Памылка абнаўлення</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_UpdateFailed_Remote" xml:space="preserve">
+        <source>Сбой обновления на <ph id="1">%1$s</ph></source>
+        <target state="translated">Збой абнаўлення на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_UpdatePaused" xml:space="preserve">
         <source>Обновление приостановлено</source>
         <target state="needs-review-translation">Абнаўленне прыпынена</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_UpdatePaused_Remote" xml:space="preserve">
+        <source>Обновление на <ph id="1">%1$s</ph> приостановлено</source>
+        <target state="translated">Абнаўленне на <ph id="1">%1$s</ph> прыпынена</target>
       </trans-unit>
       <trans-unit id="DisplayStatus_UpdateQueued" xml:space="preserve">
         <source>Обновление в очереди</source>
         <target state="needs-review-translation">Абнаўленне ў чарзе</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_UpdateQueued_Remote" xml:space="preserve">
+        <source>Обновление в очереди на <ph id="1">%1$s</ph></source>
+        <target state="translated">Абнаўленне ў чарзе на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_UpdateRequired" xml:space="preserve">
         <source>Требуется обновление</source>
         <target state="needs-review-translation">Патрабуецца абнаўленне</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_UpdateRequired_Remote" xml:space="preserve">
+        <source>Требуется обновление на <ph id="1">%1$s</ph></source>
+        <target state="translated">Патрабуецца абнаўленне на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DisplayStatus_Updating" xml:space="preserve">
         <source>Обновление</source>
         <target state="needs-review-translation">Абнаўленне</target>
       </trans-unit>
+      <trans-unit id="DisplayStatus_Updating_Remote" xml:space="preserve">
+        <source>Идёт обновление на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе абнаўленне на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="DisplayStatus_Validating" xml:space="preserve">
         <source>Проверка</source>
         <target state="needs-review-translation">Праверка</target>
+      </trans-unit>
+      <trans-unit id="DisplayStatus_Validating_Remote" xml:space="preserve">
+        <source>Идёт проверка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе праверка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="DownloadSettings_AllowDownloadDuringGameplay" xml:space="preserve">
         <source>Разрешить загрузки во время игры</source>
@@ -19857,6 +20361,7 @@
       <trans-unit id="Downloads_DetailedState_None" xml:space="preserve">
         <source> </source>
         <target state="translated"> </target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Downloads_DetailedState_Patching" xml:space="preserve">
         <source>Изменение файлов</source>
@@ -19963,8 +20468,9 @@
         <target state="needs-review-translation">Перадача гульнявых файлаў па лакальнай сетцы на прыладу: </target>
       </trans-unit>
       <trans-unit id="Downloads_ManageDownloadsFor" xml:space="preserve">
-        <source>УПРАВЛЕНИЕ ЗАГРУЗКАМИ ДЛЯ</source>
-        <target state="translated">КІРАВАННЕ СПАМПОЎКАМІ ДЛЯ</target>
+        <source>УПРАВЛЕНИЕ ЗАГРУЗКАМИ:</source>
+        <target state="translated">КІРАВАННЕ СПАМПОЎКАМІ:</target>
+        <note>Source changed, was: «УПРАВЛЕНИЕ ЗАГРУЗКАМИ ДЛЯ»</note>
       </trans-unit>
       <trans-unit id="Downloads_MoveToTop_Tooltip" xml:space="preserve">
         <source>Загрузить</source>
@@ -20070,17 +20576,33 @@
         <source>Загрузка</source>
         <target state="translated">Спампоўка</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Downloading_Remote" xml:space="preserve">
+        <source>Идёт загрузка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе спампоўка на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Finalizing" xml:space="preserve">
         <source>Завершение</source>
         <target state="needs-review-translation">Завяршэнне</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Finalizing_Remote" xml:space="preserve">
+        <source>Финализация загрузки на <ph id="1">%1$s</ph></source>
+        <target state="translated">Завяршэнне спампоўкі на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_Hosting" xml:space="preserve">
         <source>Передача по сети</source>
         <target state="needs-review-translation">Перадача па сетцы</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Hosting_Remote" xml:space="preserve">
+        <source>Передача по сети на <ph id="1">%1$s</ph></source>
+        <target state="translated">Перадача па сетцы на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Installing" xml:space="preserve">
         <source>Установка</source>
         <target state="translated">Усталёўка</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Installing_Remote" xml:space="preserve">
+        <source>Идёт установка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе ўсталёўка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_MinutesRemaining" xml:space="preserve">
         <source>Ещё <ph id="1">%1$s</ph> мин.</source>
@@ -20089,6 +20611,7 @@
       <trans-unit id="Downloads_State_None" xml:space="preserve">
         <source> </source>
         <target state="translated"> </target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Downloads_State_NotQueued" xml:space="preserve">
         <source>Не в очереди</source>
@@ -20097,6 +20620,10 @@
       <trans-unit id="Downloads_State_Patching" xml:space="preserve">
         <source>Внесение изменений</source>
         <target state="needs-review-translation">Унясенне змен</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Patching_Remote" xml:space="preserve">
+        <source>Внесение изменений на <ph id="1">%1$s</ph></source>
+        <target state="translated">Унясенне змен на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_Paused" xml:space="preserve">
         <source>Приостановлено</source>
@@ -20110,9 +20637,17 @@
         <source>Выделение места</source>
         <target state="needs-review-translation">Вылучэнне месца</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Preallocating_Remote" xml:space="preserve">
+        <source>Выделение места на <ph id="1">%1$s</ph></source>
+        <target state="translated">Вылучэнне месца на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Preloading" xml:space="preserve">
         <source>Предзагрузка</source>
         <target state="translated">Папярэдняя спампоўка</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Preloading_Remote" xml:space="preserve">
+        <source>Идёт предзагрузка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе папярэдняя спампоўка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_Queued" xml:space="preserve">
         <source>В очереди</source>
@@ -20121,6 +20656,7 @@
       <trans-unit id="Downloads_State_Running" xml:space="preserve">
         <source> </source>
         <target state="translated"> </target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Downloads_State_SecondsRemaining" xml:space="preserve">
         <source>Ещё <ph id="1">%1$s</ph> сек.</source>
@@ -20130,17 +20666,33 @@
         <source>Начало загрузки</source>
         <target state="translated">Пачатак спампоўкі</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Starting_Remote" xml:space="preserve">
+        <source>Начинается загрузка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Пачынаецца спампоўка на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Stopping" xml:space="preserve">
         <source>Остановка загрузки</source>
         <target state="translated">Спыненне спампоўкі</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Stopping_Remote" xml:space="preserve">
+        <source>Остановка загрузки на <ph id="1">%1$s</ph></source>
+        <target state="translated">Спыненне спампоўкі на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_Transferring" xml:space="preserve">
         <source>Приём</source>
         <target state="needs-review-translation">Прыём</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Transferring_Remote" xml:space="preserve">
+        <source>Передача с <ph id="1">%1$s</ph></source>
+        <target state="translated">Перадача з <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Unpacking" xml:space="preserve">
         <source>Распаковка</source>
         <target state="needs-review-translation">Распакоўка</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Unpacking_Remote" xml:space="preserve">
+        <source>Идёт распаковка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе распакоўка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_UpNext" xml:space="preserve">
         <source>Далее</source>
@@ -20158,17 +20710,33 @@
         <source>Обновление</source>
         <target state="needs-review-translation">Абнаўленне</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Updating_Remote" xml:space="preserve">
+        <source>Идёт обновление на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе абнаўленне на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_Validating" xml:space="preserve">
         <source>Проверка</source>
         <target state="needs-review-translation">Праверка</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_Validating_Remote" xml:space="preserve">
+        <source>Идёт проверка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе праверка на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_State_Verifying" xml:space="preserve">
         <source>Проверка</source>
         <target state="needs-review-translation">Праверка</target>
       </trans-unit>
+      <trans-unit id="Downloads_State_Verifying_Remote" xml:space="preserve">
+        <source>Идёт проверка на <ph id="1">%1$s</ph></source>
+        <target state="translated">Ідзе праверка на <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Downloads_State_WaitingForPrevious" xml:space="preserve">
         <source>Остановка предыдущей загрузки</source>
         <target state="translated">Спыненне папярэдняй спампоўкі</target>
+      </trans-unit>
+      <trans-unit id="Downloads_State_WaitingForPrevious_Remote" xml:space="preserve">
+        <source>Остановка предыдущей загрузки на <ph id="1">%1$s</ph></source>
+        <target state="translated">Спыненне папярэдняй спампоўкі на <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="Downloads_Stats_CurrentRate" xml:space="preserve">
         <source>Текущая</source>
@@ -20187,12 +20755,12 @@
         <target state="needs-review-translation">Усяго</target>
       </trans-unit>
       <trans-unit id="Downloads_ThisDevice" xml:space="preserve">
-        <source>Этого устройства</source>
-        <target state="needs-review-translation">Гэтай прылады</target>
+        <source>Это устройство</source>
+        <target state="translated">Гэта прылада</target>
       </trans-unit>
       <trans-unit id="Downloads_ThisDeviceUppercase" xml:space="preserve">
-        <source>ЭТОГО УСТРОЙСТВА</source>
-        <target state="needs-review-translation">ГЭТАЙ ПРЫЛАДЫ</target>
+        <source>ЭТО УСТРОЙСТВО</source>
+        <target state="translated">ГЭТА ПРЫЛАДА</target>
       </trans-unit>
       <trans-unit id="Downloads_Throttle" xml:space="preserve">
         <source>Ограничение загрузок:</source>
@@ -21000,6 +21568,18 @@
         <source>Полностью совместимые с Deck</source>
         <target state="needs-review-translation">Цалкам сумяшчальныя з Deck</target>
       </trans-unit>
+      <trans-unit id="FilterElement_SteamFramePlayable" xml:space="preserve">
+        <source>Полностью совместимые и играбельные на Frame</source>
+        <target state="translated">Цалкам сумяшчальныя і прыдатныя для гульні на Frame</target>
+      </trans-unit>
+      <trans-unit id="FilterElement_SteamFrameUnknown" xml:space="preserve">
+        <source>Все, кроме неподдерживаемых на Frame</source>
+        <target state="translated">Усе, акрамя тых, што не падтрымліваюцца на Frame</target>
+      </trans-unit>
+      <trans-unit id="FilterElement_SteamFrameVerified" xml:space="preserve">
+        <source>Полностью совместимые с Frame</source>
+        <target state="translated">Цалкам сумяшчальныя з Frame</target>
+      </trans-unit>
       <trans-unit id="FilterElement_SteamInputAPI" xml:space="preserve">
         <source>API системы ввода Steam</source>
         <target state="needs-review-translation">API сістэмы ўводу Steam</target>
@@ -21041,16 +21621,17 @@
         <target state="needs-review-translation">Уключыць гульні, якія падтрымліваюць функцыю сямейнай бібліятэкі</target>
       </trans-unit>
       <trans-unit id="FilterElement_Tooltip_FriendLibrary" xml:space="preserve">
-        <source>Игры, которые есть у <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Гульні, якія ёсць у <ph id="1">%1$s</ph></target>
+        <source>Игры друга: <ph id="1">%1$s</ph></source>
+        <target state="translated">Гульні сябра: <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="FilterElement_Tooltip_FriendLibrary_AccessDenied" xml:space="preserve">
         <source>У вас нет доступа к библиотеке этого пользователя. Убедитесь, что этот пользователь делится с вами библиотекой, и повторите попытку.</source>
         <target state="needs-review-translation">У вас няма доступу да бібліятэкі гэтага карыстальніка. Пераканайцеся, што гэты карыстальнік дзеліцца з вамі бібліятэкай, і паспрабуйце яшчэ раз.</target>
       </trans-unit>
       <trans-unit id="FilterElement_Tooltip_FriendLibrary_Offline" xml:space="preserve">
-        <source>Игры, которые есть у друга. Информация о друзьях может быть недоступна без подключения к сети.</source>
-        <target state="translated">Гульні, якія ёсць у сябра. Інфармацыя пра сяброў можа быць недаступная без падлучэння да сеткі.</target>
+        <source>Игры из библиотеки друга. Информация о друзьях может быть недоступна в автономном режиме.</source>
+        <target state="translated">Гульні з бібліятэкі сябра. Інфармацыя пра сяброў можа быць недаступная ў аўтаномным рэжыме.</target>
+        <note>Source changed, was: «Игры, которые есть у друга. Информация о друзьях может быть недоступна без подключения к сети.»</note>
       </trans-unit>
       <trans-unit id="FilterElement_Tooltip_FullControllerSupport" xml:space="preserve">
         <source>Игры, для которых потребуется только контроллер</source>
@@ -21168,6 +21749,18 @@
         <source>Игры, которые прошли проверку и полностью совместимы со Steam Deck.</source>
         <target state="needs-review-translation">Гульні, якія прайшлі праверку і цалкам сумяшчальныя са Steam Deck.</target>
       </trans-unit>
+      <trans-unit id="FilterElement_Tooltip_SteamFramePlayable" xml:space="preserve">
+        <source>Игры, полностью совместимые со Steam Frame, и те, которым может потребоваться дополнительная настройка.</source>
+        <target state="translated">Гульні, цалкам сумяшчальныя са Steam Frame, і тыя, якім можа спатрэбіцца дадатковая налада.</target>
+      </trans-unit>
+      <trans-unit id="FilterElement_Tooltip_SteamFrameUnknown" xml:space="preserve">
+        <source>Игры, имеющие полную или частичную совместимость со Steam Frame, а также ещё не проверенные.</source>
+        <target state="translated">Гульні з поўнай або частковай сумяшчальнасцю са Steam Frame, а таксама яшчэ не правераныя.</target>
+      </trans-unit>
+      <trans-unit id="FilterElement_Tooltip_SteamFrameVerified" xml:space="preserve">
+        <source>Игры, которые прошли проверку и полностью совместимы со Steam Frame.</source>
+        <target state="translated">Гульні, якія прайшлі праверку і цалкам сумяшчальныя са Steam Frame.</target>
+      </trans-unit>
       <trans-unit id="FilterElement_Tooltip_SteamInputAPI" xml:space="preserve">
         <source>Игры, использующие все возможности API ввода Steam (а значит, хорошо работающие с более чем 300 периферийными устройствами).</source>
         <target state="translated">Гульні, якія выкарыстоўваюць усе магчымасці API уводу Steam (а значыць, якія добра працуюць з больш чым 300 перыферыйнымі прыладамі).</target>
@@ -21255,6 +21848,26 @@
       <trans-unit id="FilterToolTip_SearchText" xml:space="preserve">
         <source>Содержит «<ph id="1">%1$s</ph>»</source>
         <target state="needs-review-translation">Змяшчае «<ph id="1">%1$s</ph>»</target>
+      </trans-unit>
+      <trans-unit id="FrameVerified_FilterDescription_AllGames" xml:space="preserve">
+        <source>Показывать все игры из библиотеки, даже если они не поддерживаются на Steam Frame.</source>
+        <target state="translated">Паказваць усе гульні з бібліятэкі, нават калі яны не падтрымліваюцца на Steam Frame.</target>
+      </trans-unit>
+      <trans-unit id="FrameVerified_FilterDescription_Verified" xml:space="preserve">
+        <source>Показывать только игры, которые отлично работают со встроенным управлением и экраном Steam Frame.</source>
+        <target state="translated">Паказваць толькі гульні, якія выдатна працуюць са ўбудаваным кіраваннем і экранам Steam Frame.</target>
+      </trans-unit>
+      <trans-unit id="FrameVerified_FilterDescription_Verified_NotOnFrame" xml:space="preserve">
+        <source>Показывать только игры, которые отлично работают со встроенным управлением и экраном Steam Frame.</source>
+        <target state="translated">Паказваць толькі гульні, якія выдатна працуюць са ўбудаваным кіраваннем і экранам Steam Frame.</target>
+      </trans-unit>
+      <trans-unit id="FrameVerified_FilterDescription_Verified_Playable" xml:space="preserve">
+        <source>Показывать игры, полностью совместимые со Steam Machine, и те, которым может потребоваться дополнительная настройка.</source>
+        <target state="translated">Паказваць гульні, цалкам сумяшчальныя са Steam Machine, і тыя, якім можа спатрэбіцца дадатковая налада.</target>
+      </trans-unit>
+      <trans-unit id="FrameVerified_FilterDescription_Verified_Playable_Unknown" xml:space="preserve">
+        <source>Показывать игры, имеющие полную или частичную совместимость со Steam Frame, а также ещё не проверенные.</source>
+        <target state="translated">Паказваць гульні з поўнай або частковай сумяшчальнасцю са Steam Frame, а таксама яшчэ не правераныя.</target>
       </trans-unit>
       <trans-unit id="FriendContextMenu_OpenFriends" xml:space="preserve">
         <source>Открыть список друзей и чат</source>
@@ -21626,6 +22239,10 @@
         <source>Загрузить</source>
         <target state="translated">Спампаваць</target>
       </trans-unit>
+      <trans-unit id="GameAction_DownloadOnRemote" xml:space="preserve">
+        <source>Загрузить <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Спампаваць <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
+      </trans-unit>
       <trans-unit id="GameAction_FamilyMenu" xml:space="preserve">
         <source>Семейная группа</source>
         <target state="needs-review-translation">Сямейная група</target>
@@ -21641,6 +22258,10 @@
       <trans-unit id="GameAction_Install" xml:space="preserve">
         <source>Установить</source>
         <target state="translated">Усталяваць</target>
+      </trans-unit>
+      <trans-unit id="GameAction_InstallOnRemote" xml:space="preserve">
+        <source>Установить <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Усталяваць <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
       </trans-unit>
       <trans-unit id="GameAction_Launch" xml:space="preserve">
         <source>Запустить</source>
@@ -21750,6 +22371,10 @@
         <source>Предзагрузить</source>
         <target state="translated">Папярэдне спампаваць</target>
       </trans-unit>
+      <trans-unit id="GameAction_PreloadOnRemote" xml:space="preserve">
+        <source>Предзагрузить <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Папярэдне спампаваць <ph id="1">&lt;1&gt;</ph>на <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
+      </trans-unit>
       <trans-unit id="GameAction_PurchaseApp" xml:space="preserve">
         <source>Купить</source>
         <target state="needs-review-translation">Купіць</target>
@@ -21838,6 +22463,10 @@
         <source>Транслировать</source>
         <target state="translated">Трансляваць</target>
       </trans-unit>
+      <trans-unit id="GameAction_StreamOnRemote" xml:space="preserve">
+        <source>Транслировать <ph id="1">&lt;1&gt;</ph>с <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Транслявать <ph id="1">&lt;1&gt;</ph>з <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
+      </trans-unit>
       <trans-unit id="GameAction_Terminating" xml:space="preserve">
         <source>Остановка</source>
         <target state="translated">Спыненне</target>
@@ -21853,6 +22482,10 @@
       <trans-unit id="GameAction_Uninstall" xml:space="preserve">
         <source>Удалить с устройства</source>
         <target state="needs-review-translation">Выдаліць з прылады</target>
+      </trans-unit>
+      <trans-unit id="GameAction_UninstallOnRemote" xml:space="preserve">
+        <source>Удалить <ph id="1">&lt;1&gt;</ph>с <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Выдаліць <ph id="1">&lt;1&gt;</ph>з <ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
       </trans-unit>
       <trans-unit id="GameAction_UnmarkAsPrivate" xml:space="preserve">
         <source>Показывать всем</source>
@@ -22654,6 +23287,10 @@
         <source>Устройство Steam Frame привязано к <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph> и готово к трансляции.</source>
         <target state="needs-review-translation">Прылада Steam Frame прывязана да <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph> і гатова да трансляцыі.</target>
       </trans-unit>
+      <trans-unit id="GuidedTour_FramePairingWith" xml:space="preserve">
+        <source>Steam Frame выполняет привязку к <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph>.</source>
+        <target state="translated">Steam Frame прывязваецца да <ph id="1">&lt;1&gt;</ph><ph id="2">&lt;/1&gt;</ph>.</target>
+      </trans-unit>
       <trans-unit id="GuidedTour_FrameUnknownPCName" xml:space="preserve">
         <source>неизвестному компьютеру</source>
         <target state="translated">невядомаму камп&#39;ютару</target>
@@ -22667,12 +23304,21 @@
         <target state="translated">Вы ўпэўнены, што хочаце прапусціць інструкцыі па выкарыстанні Steam Frame?</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_ConfirmSkipDongleDesc" xml:space="preserve">
-        <source>Вы точно хотите пропустить шаг привязки беспроводного адаптера к компьютеру? Вы можете выполнить привязку в любое время в разделе Steam -&gt; «Настройки».</source>
-        <target state="translated">Вы сапраўды хочаце прапусціць крок прывязкі бесправаднога адаптара да камп&#39;ютара? Вы можаце выканаць прывязку ў любы час у раздзеле Steam -&gt; «Налады».</target>
+        <source>Вы точно хотите пропустить шаг привязки беспроводного адаптера к компьютеру? Её можно выполнить в любое время в разделе Steam -&gt; «Настройки» -&gt; Remote Play.</source>
+        <target state="translated">Вы ўпэўнены, што хочаце прапусціць крок прывязкі бесправаднога адаптара да камп&#39;ютара? Яе можна выканаць у любы час у раздзеле Steam -&gt; «Налады» -&gt; Remote Play.</target>
+        <note>Source changed, was: «Вы точно хотите пропустить шаг привязки беспроводного адаптера к компьютеру? Вы можете выполнить привязку в любое время в разделе Steam -&gt; «Настройки».»</note>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_Continue" xml:space="preserve">
+        <source>Продолжить</source>
+        <target state="translated">Працягнуць</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_Finish" xml:space="preserve">
         <source>Готово</source>
         <target state="needs-review-translation">Гатова</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_GamepadModeToggle" xml:space="preserve">
+        <source>Режим геймпада</source>
+        <target state="translated">Рэжым геймпада</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_HealthAndSafety" xml:space="preserve">
         <source>Чтобы ознакомиться с важной информацией о здоровье и безопасности,</source>
@@ -22681,6 +23327,42 @@
       <trans-unit id="GuidedTour_Frame_HealthAndSafetyClickHere" xml:space="preserve">
         <source>НАЖМИТЕ ЗДЕСЬ</source>
         <target state="needs-review-translation">НАЦІСНІЦЕ ТУТ</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_HealthAndSafetyTitle" xml:space="preserve">
+        <source>Информация о здоровье и безопасности</source>
+        <target state="translated">Інфармацыя пра здароўе і бяспеку</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouseToggle" xml:space="preserve">
+        <source>Лазерная мышь</source>
+        <target state="translated">Лазерная мыш</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouseToggleOff" xml:space="preserve">
+        <source>ВЫКЛ.</source>
+        <target state="translated">ВЫКЛ.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouseToggleOn" xml:space="preserve">
+        <source>ВКЛ.</source>
+        <target state="translated">УКЛ.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouseToggleTitle" xml:space="preserve">
+        <source>Переключение между лазерной мышью и режимом геймпада</source>
+        <target state="translated">Пераключэнне паміж лазернай мышшу і рэжымам геймпада</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouse_ChooseDesired" xml:space="preserve">
+        <source>Выберите режим ввода, в котором хотите продолжить прохождение инструкции.</source>
+        <target state="translated">Выберыце рэжым уводу, у якім хочаце працягнуць праходжанне інструкцыі.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouse_ClickNextDesc" xml:space="preserve">
+        <source> <ph id="1">&lt;1&gt;</ph>Нажмите «Дальше»<ph id="2">&lt;/1&gt;</ph>, чтобы продолжить.</source>
+        <target state="translated"> <ph id="1">&lt;1&gt;</ph>Націсніце «Далей»<ph id="2">&lt;/1&gt;</ph>, каб працягнуць.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouse_Desc" xml:space="preserve">
+        <source>Нажмите кнопку хвата на любом из контроллеров для переключения между лазерной мышью и режимом геймпада. Переключаться между режимами ввода можно в любое время.</source>
+        <target state="translated">Націсніце кнопку хвата на любым з кантролераў для пераключэння паміж лазернай мышшу і рэжымам геймпада. Пераключацца паміж рэжымамі ўводу можна ў любы час.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_LaserMouse_PressADesc" xml:space="preserve">
+        <source> <ph id="1">&lt;1&gt;</ph>Нажмите A<ph id="2">&lt;/1&gt;</ph>, чтобы продолжить.</source>
+        <target state="translated"> <ph id="1">&lt;1&gt;</ph>Націсніце A<ph id="2">&lt;/1&gt;</ph>, каб працягнуць.</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_Next" xml:space="preserve">
         <source>Дальше</source>
@@ -22719,8 +23401,45 @@
         <target state="needs-review-translation">Кнопка Steam</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_SystemButtonDesc" xml:space="preserve">
-        <source>Используйте кнопку Steam, чтобы показать или скрыть панель управления Steam. Нажмите и удерживайте эту кнопку, чтобы отцентрировать изображение.</source>
-        <target state="translated">Выкарыстоўвайце кнопку Steam, каб паказаць або схаваць панэль кіравання Steam. Націсніце і ўтрымлівайце гэтую кнопку, каб адцэнтраваць выяву.</target>
+        <source>Используйте кнопку Steam, чтобы показать или скрыть панель управления Steam. Нажмите и удерживайте эту кнопку, чтобы повторно центрировать изображение.</source>
+        <target state="translated">Выкарыстоўвайце кнопку Steam, каб паказаць або схаваць панэль кіравання Steam. Націсніце і ўтрымлівайце гэтую кнопку, каб паўторна цэнтраваць выяву.</target>
+        <note>Source changed, was: «Используйте кнопку Steam, чтобы показать или скрыть панель управления Steam. Нажмите и удерживайте эту кнопку, чтобы отцентрировать изображение.»</note>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorailVideos" xml:space="preserve">
+        <source>Для просмотра видеоинструкций по использованию Steam Frame <ph id="1">&lt;1&gt;</ph>нажмите здесь<ph id="2">&lt;/1&gt;</ph>.</source>
+        <target state="translated">Каб паглядзець відэаінструкцыі па выкарыстанні Steam Frame, <ph id="1">&lt;1&gt;</ph>націсніце тут<ph id="2">&lt;/1&gt;</ph>.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_ErgonomicAccessory" xml:space="preserve">
+        <source>Набор эргономичных аксессуаров</source>
+        <target state="translated">Набор эрганамічных аксесуараў</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_FitComfort" xml:space="preserve">
+        <source>Посадка и комфорт</source>
+        <target state="translated">Пасадка і камфорт</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_IPDAdjustment" xml:space="preserve">
+        <source>Регулировка межзрачкового расстояния</source>
+        <target state="translated">Рэгуліроўка міжзрачковай адлегласці</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_InstallingControllerHandstrap" xml:space="preserve">
+        <source>Закрепление ремешков контроллеров</source>
+        <target state="translated">Замацаванне раменьчыкаў кантролераў</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_InstallingHeadstrap" xml:space="preserve">
+        <source>Закрепление головного фиксатора</source>
+        <target state="translated">Замацаванне галаўнога фіксатара</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_SignIn" xml:space="preserve">
+        <source>Вход в Steam</source>
+        <target state="translated">Уваход у Steam</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_Unboxing" xml:space="preserve">
+        <source>Распаковка</source>
+        <target state="translated">Распакоўка</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_Frame_TutorialVideos_WirelessAdapter" xml:space="preserve">
+        <source>Беспроводной адаптер</source>
+        <target state="translated">Бесправадны адаптар</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Frame_Welcome_Description" xml:space="preserve">
         <source>Прежде чем вы начнёте играть, давайте познакомимся с VR-шлемом Steam Frame.</source>
@@ -22753,6 +23472,10 @@
       <trans-unit id="GuidedTour_PairingInstructions3" xml:space="preserve">
         <source>Подключите беспроводной адаптер Steam Frame к доступному порту USB 3 на основном компьютере. Обнаружение адаптера может занять до 30 секунд.</source>
         <target state="translated">Падлучыце бесправадны адаптар Steam Frame да даступнага порта USB 3 на асноўным камп&#39;ютары. Выяўленне адаптара можа заняць да 30 секунд.</target>
+      </trans-unit>
+      <trans-unit id="GuidedTour_PairingWithComputer" xml:space="preserve">
+        <source>Привязка к компьютеру</source>
+        <target state="translated">Прывязка да камп&#39;ютара</target>
       </trans-unit>
       <trans-unit id="GuidedTour_ParentalControlsSetup_Description" xml:space="preserve">
         <source>Функции родительского контроля можно включить в настройках семейной группы Steam. Участники присоединяются к такой группе в одной из двух ролей: взрослого или ребёнка. Взрослые могут управлять настройками родительского контроля для детских аккаунтов в семейной группе.</source>
@@ -22955,8 +23678,8 @@
         <target state="translated">Вы сапраўды хочаце прапусціць наладу межаў гульнявой зоны? Яе можна наладзіць у любы час пасля прагляду інструкцыі.</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Welcome_PlayspaceSetupDesc" xml:space="preserve">
-        <source>Используйте кисть, удерживая триггер, чтобы расширить границы игрового пространства и отрегулировать высоту пола. После завершения нажмите «Подтвердить».</source>
-        <target state="needs-review-translation">Выкарыстоўвайце пэндзаль, утрымліваючы трыгер, каб пашырыць межы гульнявой прасторы і адрэгуляваць вышыню падлогі. Пасля завяршэння націсніце «Пацвердзіць».</target>
+        <source>Используйте кисть, удерживая триггер, чтобы расширить границы игрового пространства и отрегулировать высоту пола. После завершения нажмите «Принять».</source>
+        <target state="translated">Выкарыстоўвайце пэндзаль, утрымліваючы трыгер, каб пашырыць межы гульнявой прасторы і адрэгуляваць вышыню падлогі. Пасля завяршэння націсніце «Прыняць».</target>
       </trans-unit>
       <trans-unit id="GuidedTour_Welcome_PlayspaceSetupDesc2" xml:space="preserve">
         <source>Взаимодействие с кистью позволяет расширить границы зоны, нажав на сетку пола.</source>
@@ -23001,6 +23724,86 @@
       <trans-unit id="HardwareDeviceName_SteamController" xml:space="preserve">
         <source>Steam Controller (2015)</source>
         <target state="needs-review-translation">Steam Controller (2015)</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Account_Desc" xml:space="preserve">
+        <source>Каждое устройство Steam Frame поставляется с бесплатной копией игры Half-Life: Alyx.</source>
+        <target state="translated">Кожная прылада Steam Frame пастаўляецца з бясплатнай копіяй гульні Half-Life: Alyx.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Account_Title" xml:space="preserve">
+        <source>Активировать Half-Life: Alyx</source>
+        <target state="translated">Актываваць Half-Life: Alyx</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_AlreadyOwned_Desc" xml:space="preserve">
+        <source>У вас уже есть Half-Life: Alyx на этом аккаунте, и вы не можете получить эту игру.</source>
+        <target state="translated">У вас ужо ёсць Half-Life: Alyx на гэтым акаўнце, і вы не можаце атрымаць гэтую гульню.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Btn_GoToAlyx" xml:space="preserve">
+        <source>Открыть Half-Life: Alyx</source>
+        <target state="translated">Адкрыць Half-Life: Alyx</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Btn_Owned" xml:space="preserve">
+        <source>Уже есть на аккаунте</source>
+        <target state="translated">Ужо ёсць на акаўнце</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Btn_Redeem" xml:space="preserve">
+        <source>Получить</source>
+        <target state="translated">Атрымаць</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Btn_Redeemed" xml:space="preserve">
+        <source>Получена</source>
+        <target state="translated">Атрымана</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Btn_Redeeming" xml:space="preserve">
+        <source>В процессе получения</source>
+        <target state="translated">Ідзе атрыманне</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_ClaimedByOtherAccount_Desc" xml:space="preserve">
+        <source>Игра Half-Life: Alyx уже получена для этого устройства с другого аккаунта.</source>
+        <target state="translated">Гульня Half-Life: Alyx ужо атрымана для гэтай прылады з іншага акаўнта.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Claimed_Desc" xml:space="preserve">
+        <source>Игра Half-Life: Alyx уже был получена для этого устройства.</source>
+        <target state="translated">Гульня Half-Life: Alyx ужо атрымана для гэтай прылады.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Ignore_Btn" xml:space="preserve">
+        <source>Отказаться навсегда</source>
+        <target state="translated">Адмовіцца назаўсёды</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Ignore_Desc" xml:space="preserve">
+        <source>Вы точно хотите навсегда отказаться от этого предложения? Вы больше не сможете получить бесплатную копию игры Half-Life: Alyx с этого аккаунта.</source>
+        <target state="translated">Вы ўпэўнены, што хочаце назаўсёды адмовіцца ад гэтай прапановы? Вы больш не зможаце атрымаць бясплатную копію гульні Half-Life: Alyx з гэтага акаўнта.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_AccessDenied" xml:space="preserve">
+        <source>В настоящее время ваш аккаунт заблокирован, и вы не можете получить эту бесплатную копию.</source>
+        <target state="translated">У цяперашні час ваш акаўнт заблакаваны, і вы не можаце атрымаць гэтую бясплатную копію.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_AlreadyOwn" xml:space="preserve">
+        <source>У вас уже есть Half-Life: Alyx на этом аккаунте.</source>
+        <target state="translated">У вас ужо ёсць Half-Life: Alyx на гэтым акаўнце.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_Confirm" xml:space="preserve">
+        <source>Вы точно хотите получить бесплатную копию игры Half-Life: Alyx на этот аккаунт (<ph id="1">%1$s</ph>)?</source>
+        <target state="translated">Вы ўпэўнены, што хочаце атрымаць бясплатную копію гульні Half-Life: Alyx на гэты акаўнт (<ph id="1">%1$s</ph>)?</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_Duplicate" xml:space="preserve">
+        <source>Похоже, бесплатная копия Half-Life: Alyx для этого Steam Frame уже получена. Если это не так, обратитесь в службу поддержки Steam и предоставьте серийный номер вашего устройства: <ph id="1">%1$s</ph></source>
+        <target state="translated">Падобна, бясплатная копія Half-Life: Alyx для гэтага Steam Frame ўжо атрымана. Калі гэта не так, звярніцеся ў службу падтрымкі Steam і прадастаўце серыйны нумар вашай прылады: <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_Error" xml:space="preserve">
+        <source>Произошла непредвиденная ошибка. Попробуйте получить свою копию позже.</source>
+        <target state="translated">Адбылася нечаканая памылка. Паспрабуйце атрымаць сваю копію пазней.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_InvalidParam" xml:space="preserve">
+        <source>Указан недействительный серийный номер. Если проблема не решится, обратитесь в службу поддержки Steam и предоставьте серийный номер устройства: <ph id="1">%1$s</ph></source>
+        <target state="translated">Указаны несапраўдны серыйны нумар. Калі праблема не вырашыцца, звярніцеся ў службу падтрымкі Steam і прадастаўце серыйны нумар прылады: <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_InvalidVersion" xml:space="preserve">
+        <source>Для получения бесплатной копии Half-Life: Alyx нужно обновить SteamOS и клиент Steam до последней версии.</source>
+        <target state="translated">Для атрымання бясплатнай копіі Half-Life: Alyx трэба абнавіць SteamOS і кліент Steam да апошняй версіі.</target>
+      </trans-unit>
+      <trans-unit id="HardwarePromo_FrameHLAlyx_Redeem_Success" xml:space="preserve">
+        <source>Готово! Вы получили бесплатную копию Half-Life: Alyx.</source>
+        <target state="translated">Гатова! Вы атрымалі бясплатную копію Half-Life: Alyx.</target>
       </trans-unit>
       <trans-unit id="HardwareUpdateField_Button" xml:space="preserve">
         <source>Обновить все устройства</source>
@@ -23657,6 +24460,7 @@
       <trans-unit id="KeyboardKey_0" xml:space="preserve">
         <source>0</source>
         <target state="translated">0</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="KeyboardKey_1" xml:space="preserve">
         <source>1</source>
@@ -24071,12 +24875,13 @@
         <target state="needs-review-translation">Клавіша V</target>
       </trans-unit>
       <trans-unit id="KeyboardKey_VolDown" xml:space="preserve">
-        <source>Клавиша\n«Громкость –»</source>
-        <target state="translated">Клавіша\n«Гучнасць –»</target>
+        <source>Клавиша уменьшения громкости</source>
+        <target state="translated">Клавіша памяншэння гучнасці</target>
+        <note>Source changed, was: «Клавиша\n«Громкость –»»</note>
       </trans-unit>
       <trans-unit id="KeyboardKey_VolUp" xml:space="preserve">
-        <source>Клавиша\n«Громкость +»</source>
-        <target state="needs-review-translation">Клавіша\n«Гучнасць +»</target>
+        <source>Клавиша увеличения громкости</source>
+        <target state="translated">Клавіша павелічэння гучнасці</target>
       </trans-unit>
       <trans-unit id="KeyboardKey_W" xml:space="preserve">
         <source>Клавиша W</source>
@@ -24687,9 +25492,13 @@
         <source>Акция посреди недели</source>
         <target state="needs-review-translation">Акцыя пасярод тыдня</target>
       </trans-unit>
+      <trans-unit id="LibraryHome_Spotlight_NewGame" xml:space="preserve">
+        <source>Новая игра</source>
+        <target state="translated">Новая гульня</target>
+      </trans-unit>
       <trans-unit id="LibraryHome_Spotlight_PlayNow" xml:space="preserve">
-        <source>Можно играть</source>
-        <target state="needs-review-translation">Можна гуляць</target>
+        <source>Уже доступно</source>
+        <target state="translated">Ужо даступна</target>
       </trans-unit>
       <trans-unit id="LibraryHome_Spotlight_PrePurchase" xml:space="preserve">
         <source>Предзаказ</source>
@@ -24947,6 +25756,10 @@
         <source>Совместимость со Steam Deck:</source>
         <target state="needs-review-translation">Сумяшчальнасць са Steam Deck:</target>
       </trans-unit>
+      <trans-unit id="Library_FilterCollectionDescription_SteamFrame" xml:space="preserve">
+        <source>Совместимость со Steam Frame:</source>
+        <target state="translated">Сумяшчальнасць са Steam Frame:</target>
+      </trans-unit>
       <trans-unit id="Library_FilterCollectionDescription_SteamMachine" xml:space="preserve">
         <source>Совместимость со Steam Machine:</source>
         <target state="needs-review-translation">Сумяшчальнасць са Steam Machine:</target>
@@ -25084,8 +25897,8 @@
         <target state="needs-review-translation">Нешта новае</target>
       </trans-unit>
       <trans-unit id="Library_FriendsActivity_UnownedHover" xml:space="preserve">
-        <source>Вы видите эту игру, потому что она популярна среди ваших друзей, но вы ей не владеете.</source>
-        <target state="needs-review-translation">Вы бачыце гэтую гульню, таму што яна папулярная сярод вашых сяброў, але вы ёй не валодаеце.</target>
+        <source>Вы видите эту игру, потому что она популярна среди ваших друзей, но у вас её нет.</source>
+        <target state="translated">Вы бачыце гэтую гульню, таму што яна папулярная сярод вашых сяброў, але ў вас яе няма.</target>
       </trans-unit>
       <trans-unit id="Library_FriendsActivity_UnownedMenu_Discussions" xml:space="preserve">
         <source>Обсуждения</source>
@@ -26028,8 +26841,9 @@
         <target state="translated">Схаваныя гульні</target>
       </trans-unit>
       <trans-unit id="Menu_Home" xml:space="preserve">
-        <source>Домашняя страница</source>
+        <source>Главная страница</source>
         <target state="translated">Галоўная старонка</target>
+        <note>Source changed, was: «Домашняя страница»</note>
       </trans-unit>
       <trans-unit id="Menu_Inventory" xml:space="preserve">
         <source>Инвентарь</source>
@@ -26435,6 +27249,10 @@
         <source>Загрузка завершена</source>
         <target state="translated">Спампоўка завершана</target>
       </trans-unit>
+      <trans-unit id="Notification_DownloadComplete_Title_RemoteClient" xml:space="preserve">
+        <source>Скачивание завершено на: <ph id="1">&lt;1&gt;</ph><ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></source>
+        <target state="translated">Спампоўка завершана на: <ph id="1">&lt;1&gt;</ph><ph id="2">%1$s</ph><ph id="3">&lt;/1&gt;</ph></target>
+      </trans-unit>
       <trans-unit id="Notification_FamilyGroup_PlaytimeWarning_Body" xml:space="preserve">
         <source>Разрешённое игровое время закончится через <ph id="1">%1$s</ph> мин.</source>
         <target state="translated">Дазволены гульнявы час скончыцца праз <ph id="1">%1$s</ph> хв.</target>
@@ -26581,6 +27399,14 @@
         <source>Ролик сохранён</source>
         <target state="needs-review-translation">Ролік захаваны</target>
       </trans-unit>
+      <trans-unit id="Notification_LoggedInAsUser_Body" xml:space="preserve">
+        <source>Нажмите <ph id="1">%1$s</ph>, чтобы сменить аккаунт</source>
+        <target state="translated">Націсніце <ph id="1">%1$s</ph>, каб змяніць акаўнт</target>
+      </trans-unit>
+      <trans-unit id="Notification_LoggedInAsUser_Title" xml:space="preserve">
+        <source>Вы вошли как <ph id="1">%1$s</ph></source>
+        <target state="translated">Вы ўвайшлі як <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="Notification_NewOfflineMessagesPinned_Body" xml:space="preserve">
         <source>Непрочитанных сообщений: <ph id="1">%1$s</ph></source>
         <target state="needs-review-translation">Непрачытаных паведамленняў: <ph id="1">%1$s</ph></target>
@@ -26623,6 +27449,14 @@
         <source>Запись завершена</source>
         <target state="needs-review-translation">Запіс завершаны</target>
       </trans-unit>
+      <trans-unit id="Notification_RedeemFramePromo_Body" xml:space="preserve">
+        <source>Каждое устройство Steam Frame поставляется с бесплатной копией игры Half-Life: Alyx.</source>
+        <target state="translated">Кожная прылада Steam Frame пастаўляецца з бясплатнай копіяй гульні Half-Life: Alyx.</target>
+      </trans-unit>
+      <trans-unit id="Notification_RedeemFramePromo_Title" xml:space="preserve">
+        <source>Получить Half-Life: Alyx</source>
+        <target state="translated">Атрымаць Half-Life: Alyx</target>
+      </trans-unit>
       <trans-unit id="Notification_RemoteClientConnected" xml:space="preserve">
         <source><ph id="1">%1$s</ph>: устройство готово к трансляции</source>
         <target state="needs-review-translation"><ph id="1">%1$s</ph>: прылада гатова да трансляцыі</target>
@@ -26638,6 +27472,14 @@
       <trans-unit id="Notification_RemotePlay_Title" xml:space="preserve">
         <source>Steam Remote Play</source>
         <target state="needs-review-translation">Steam Remote Play</target>
+      </trans-unit>
+      <trans-unit id="Notification_RestartNeeded_Body" xml:space="preserve">
+        <source>Для установки последнего обновления требуется перезапуск Steam</source>
+        <target state="translated">Для ўсталёўкі апошняга абнаўлення патрабуецца перазапуск Steam</target>
+      </trans-unit>
+      <trans-unit id="Notification_RestartNeeded_Title" xml:space="preserve">
+        <source>Требуется перезапуск</source>
+        <target state="translated">Патрабуецца перазапуск</target>
       </trans-unit>
       <trans-unit id="Notification_SteamDeckRewards_Body" xml:space="preserve">
         <source>Вы ещё можете получить награды!</source>
@@ -26780,6 +27622,10 @@
       <trans-unit id="NotificationsSettings_Notification_GroupEvent" xml:space="preserve">
         <source>О событиях или объявлениях в группах</source>
         <target state="translated">Пра падзеі або аб&#39;явы ў групах</target>
+      </trans-unit>
+      <trans-unit id="NotificationsSettings_Notification_LoggedInAsUser" xml:space="preserve">
+        <source>О выходе из спящего режима, если несколько пользователей вошли в систему</source>
+        <target state="translated">Пра выхад з рэжыму сну, калі ў сістэму ўвайшло некалькі карыстальнікаў</target>
       </trans-unit>
       <trans-unit id="NotificationsSettings_Notification_UnlockAchievement" xml:space="preserve">
         <source>Когда я получаю достижение</source>
@@ -27155,6 +28001,10 @@
         <target state="needs-review-translation">Каб прывязаць кантролер і выкарыстоўваць яго бесправадным спосабам, перайдзіце ў рэжым прывязкі кантролера па Bluetooth, утрымліваючы падсветленыя кнопкі</target>
         <note>Plural form: used when the count is not 1. Singular: PairControllerScreen_Explainer.</note>
       </trans-unit>
+      <trans-unit id="PairControllerScreen_Explainer_SteamController" xml:space="preserve">
+        <source>Чтобы перевести Steam Controller в режим привязки по Bluetooth, сначала выключите контроллер, затем удерживайте правый бампер R1, кнопку B и кнопку Steam, пока светоиндикатор не начнёт мигать синим.</source>
+        <target state="translated">Каб перавесці Steam Controller у рэжым прывязкі па Bluetooth, спачатку выключыце кантролер, затым утрымлівайце правы бампер R1, кнопку B і кнопку Steam, пакуль святлодыёдны індыкатар не пачне міргаць сінім.</target>
+      </trans-unit>
       <trans-unit id="PairControllerScreen_Explainer_Switch" xml:space="preserve">
         <source>Чтобы перевести контроллер Nintendo Switch в режим привязки по Bluetooth, нажмите и удерживайте кнопку привязки на верхней стороне контроллера, пока светоиндикаторы не начнут последовательно мигать слева направо.</source>
         <target state="translated">Каб перавесці кантролер Nintendo Switch у рэжым прывязкі па Bluetooth, націсніце і ўтрымлівайце кнопку прывязкі на верхнім баку кантролера, пакуль святлодыёдныя індыкатары не пачнуць паслядоўна міргаць злева направа.</target>
@@ -27431,9 +28281,217 @@
         <source>Изменить порядок</source>
         <target state="needs-review-translation">Змяніць парадак</target>
       </trans-unit>
+      <trans-unit id="QuickAccess_ReorderControllers_SIAPIHint" xml:space="preserve">
+        <source>При изменении порядка контроллеры на некоторое время отключаются от игры</source>
+        <target state="translated">Пры змене парадку кантролеры на некаторы час адключаюцца ад гульні</target>
+      </trans-unit>
       <trans-unit id="QuickAccess_ReorderControllers_StopReorder" xml:space="preserve">
         <source>Остановить изменение порядка</source>
         <target state="needs-review-translation">Спыніць змену парадку</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_2D_Active" xml:space="preserve">
+        <source>2D</source>
+        <target state="translated">2D</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Advanced" xml:space="preserve">
+        <source>Дополнительно</source>
+        <target state="translated">Дадаткова</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_AvailableComputersWithCount" xml:space="preserve">
+        <source>Доступные компьютеры (<ph id="1">%1$s</ph>)</source>
+        <target state="translated">Даступныя камп&#39;ютары (<ph id="1">%1$s</ph>)</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_ConnectionInfo_PacketLoss" xml:space="preserve">
+        <source>Потеря пакетов: <ph id="1">%1$s</ph>%</source>
+        <target state="translated">Страта пакетаў: <ph id="1">%1$s</ph>%</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_ConnectionInfo_Ping_Milliseconds" xml:space="preserve">
+        <source>Пинг: <ph id="1">%1$s</ph> мс</source>
+        <target state="translated">Пінг: <ph id="1">%1$s</ph> мс</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Connection_Active" xml:space="preserve">
+        <source>Активно</source>
+        <target state="translated">Актыўна</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Connection_Inactive" xml:space="preserve">
+        <source>Неактивно</source>
+        <target state="translated">Неактыўна</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_HostComputerConnectedWirelesslyToRouter" xml:space="preserve">
+        <source>Основной компьютер подключён к роутеру по беспроводному соединению.</source>
+        <target state="translated">Асноўны камп&#39;ютар падключаны да роўтара па бесправадным злучэнні.</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_Disabled" xml:space="preserve">
+        <source>Трансляция: отключена на источнике</source>
+        <target state="translated">Трансляцыя: адключана на крыніцы</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_InstallingSteamVR" xml:space="preserve">
+        <source>Установка SteamVR...</source>
+        <target state="translated">Усталёўка SteamVR...</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_LocalWifiNotConnected" xml:space="preserve">
+        <source>Локальный Wi-Fi: не подключён</source>
+        <target state="translated">Лакальны Wi-Fi: не падключаны</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_LocalWifiReady" xml:space="preserve">
+        <source>Локальный Wi-Fi: готово</source>
+        <target state="translated">Лакальны Wi-Fi: гатова</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_None_Found" xml:space="preserve">
+        <source>Не найден</source>
+        <target state="translated">Не знойдзена</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_NotReadyForVR" xml:space="preserve">
+        <source>VR-трансляция: не готово</source>
+        <target state="translated">VR-трансляцыя: не гатова</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_Ready" xml:space="preserve">
+        <source>Трансляция: готово</source>
+        <target state="translated">Трансляцыя: гатова</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Host_ReadyFor2D" xml:space="preserve">
+        <source>2D-трансляция: готово</source>
+        <target state="translated">2D-трансляцыя: гатова</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_InstallSteamVR" xml:space="preserve">
+        <source>Установить SteamVR</source>
+        <target state="translated">Усталяваць SteamVR</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_MultiLink_Active" xml:space="preserve">
+        <source>Несколько активных ссылок</source>
+        <target state="translated">Некалькі актыўных спасылак</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_MultiLink_Inactive" xml:space="preserve">
+        <source>Одна активная ссылка</source>
+        <target state="translated">Адна актыўная спасылка</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_MultiLink_Streaming" xml:space="preserve">
+        <source>Несколько активных ссылок</source>
+        <target state="translated">Некалькі актыўных спасылак</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_No_Available_Hosts" xml:space="preserve">
+        <source>Источники трансляции не найдены</source>
+        <target state="translated">Крыніцы трансляцыі не знойдзены</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_PairWirelessAdapter" xml:space="preserve">
+        <source>Привязать беспроводной адаптер</source>
+        <target state="translated">Прывязаць бесправадны адаптар</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_SameSteamAccountExplainer" xml:space="preserve">
+        <source>Для трансляции вам нужно войти в один аккаунт Steam на двух устройствах.</source>
+        <target state="translated">Для трансляцыі вам трэба ўвайсці ў адзін акаўнт Steam на дзвюх прыладах.</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_SelectGameToStream" xml:space="preserve">
+        <source>Выберите игру для трансляции...</source>
+        <target state="translated">Выберыце гульню для трансляцыі...</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_HideIndicator" xml:space="preserve">
+        <source>Скрыть индикатор</source>
+        <target state="translated">Схаваць індыкатар</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_NoSpectator" xml:space="preserve">
+        <source>Нет зрителя</source>
+        <target state="translated">Няма назіральніка</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_NotSharingView" xml:space="preserve">
+        <source>Вы не делитесь своим видом.</source>
+        <target state="translated">Вы не дзеліцеся сваім выглядам.</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_SharingView" xml:space="preserve">
+        <source>Вы предоставляете этому устройству доступ к своему виду.</source>
+        <target state="translated">Вы прадастаўляеце гэтай прыладзе доступ да свайго выгляду.</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_ShowIndicator" xml:space="preserve">
+        <source>Показать индикатор</source>
+        <target state="translated">Паказаць індыкатар</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_StopSharing" xml:space="preserve">
+        <source>Закрыть доступ</source>
+        <target state="translated">Закрыць доступ</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Spectating_Title" xml:space="preserve">
+        <source>Режим наблюдения в VR</source>
+        <target state="translated">Рэжым назірання ў VR</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_StreamVRWithoutGame" xml:space="preserve">
+        <source>Транслировать в VR без игры</source>
+        <target state="translated">Транслявать у VR без гульні</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Title" xml:space="preserve">
+        <source>Статус трансляции</source>
+        <target state="translated">Статус трансляцыі</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_Unknown_Host" xml:space="preserve">
+        <source>Неизвестный источник</source>
+        <target state="translated">Невядомая крыніца</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_Bad" xml:space="preserve">
+        <source>Плохое</source>
+        <target state="translated">Дрэннае</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_Excellent" xml:space="preserve">
+        <source>Отличное</source>
+        <target state="translated">Выдатнае</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_Good" xml:space="preserve">
+        <source>Хорошее</source>
+        <target state="translated">Добрае</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_Missing" xml:space="preserve">
+        <source>Соединение потеряно</source>
+        <target state="translated">Злучэнне страчана</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_None" xml:space="preserve">
+        <source>Нет соединения</source>
+        <target state="translated">Няма злучэння</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkQuality_Searching" xml:space="preserve">
+        <source>Поиск...</source>
+        <target state="translated">Пошук...</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkType_USB" xml:space="preserve">
+        <source>Проводное USB-подключение</source>
+        <target state="translated">Правадное USB-падключэнне</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkType_Unknown" xml:space="preserve">
+        <source>Неизвестный тип соединения (<ph id="1">%1$s</ph>)</source>
+        <target state="translated">Невядомы тып злучэння (<ph id="1">%1$s</ph>)</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkType_WiFiConnection" xml:space="preserve">
+        <source>Подключение по Wi-Fi</source>
+        <target state="translated">Падключэнне па Wi-Fi</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VRLinkType_WirelessAdapter" xml:space="preserve">
+        <source>Беспроводной адаптер</source>
+        <target state="translated">Бесправадны адаптар</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_VR_Active" xml:space="preserve">
+        <source>VR</source>
+        <target state="translated">VR</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterConnectingInProgress" xml:space="preserve">
+        <source>Беспроводной адаптер: подключение...</source>
+        <target state="translated">Бесправадны адаптар: падключэнне...</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterNotDetected" xml:space="preserve">
+        <source>Беспроводной адаптер: не обнаружен</source>
+        <target state="translated">Бесправадны адаптар: не выяўлены</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterPairingInProgress" xml:space="preserve">
+        <source>Беспроводной адаптер: идёт привязка...</source>
+        <target state="translated">Бесправадны адаптар: ідзе прывязка...</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterPairingNeeded" xml:space="preserve">
+        <source>Беспроводной адаптер: требуется привязка</source>
+        <target state="translated">Бесправадны адаптар: патрабуецца прывязка</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterReady" xml:space="preserve">
+        <source>Беспроводной адаптер: готов</source>
+        <target state="translated">Бесправадны адаптар: гатовы</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Streaming_WirelessAdapterWaiting" xml:space="preserve">
+        <source>Беспроводной адаптер: ожидание...</source>
+        <target state="translated">Бесправадны адаптар: чаканне...</target>
       </trans-unit>
       <trans-unit id="QuickAccess_Tab_Bluetooth_AddDevice" xml:space="preserve">
         <source>Добавить устройство</source>
@@ -27590,6 +28648,10 @@
       <trans-unit id="QuickAccess_Tab_Help_Title" xml:space="preserve">
         <source>Помощь</source>
         <target state="needs-review-translation">Дапамога</target>
+      </trans-unit>
+      <trans-unit id="QuickAccess_Tab_Help_VRTutorialVideos" xml:space="preserve">
+        <source>Показать обучающие видео о Steam Frame</source>
+        <target state="translated">Паказаць навучальныя відэа пра Steam Frame</target>
       </trans-unit>
       <trans-unit id="QuickAccess_Tab_Help_ViewManual" xml:space="preserve">
         <source>Открыть руководство</source>
@@ -27871,6 +28933,7 @@
       <trans-unit id="QuickAccess_Tab_Perf_LimitFrameRate_Explainer" xml:space="preserve">
         <source>Change this value limit the maximum number of frames per second a game is allowed to render (framerate).&#xA;&#xA;Setting a framerate limit can be useful to stabilize a game&#39;s framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this case using a framerate limit that is low enough to produce a non-oscillating framerate can produce a more enjoyable gameplay experience.&#xA;&#xA;Limiting the framerate can also be useful to reduce power consumption.&#xA;&#xA;Some games can have adverse interactions when a framerate limit is enabled, including increased input lag and audio glitches. For these cases it may be desireable to disable the framerate limit.</source>
         <target state="translated">Гэта значэнне абмяжоўвае максімальную колькасць кадраў у секунду, якую можа ствараць гульня (частату кадраў).&#xA;&#xA;Абмежаванне частаты кадраў можа дапамагчы стабілізаваць частату кадраў у гульні. Калі частата кадраў хутка скача, гульня можа здавацца рыўкаватай. У такім выпадку абмежаванне, дастаткова нізкае для атрымання няменнай частаты кадраў, можа зрабіць гульню больш прыемнай.&#xA;&#xA;Абмежаванне частаты кадраў таксама можа дапамагчы знізіць спажыванне энергіі.&#xA;&#xA;У некаторых гульнях уключанае абмежаванне частаты кадраў можа выклікаць праблемы, у тым ліку большую затрымку ўводу і збоі гуку. У такіх выпадках яго можа быць пажадана адключыць.</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="QuickAccess_Tab_Perf_LimitFrameRate_Off" xml:space="preserve">
         <source>Выкл.</source>
@@ -27947,6 +29010,7 @@
       <trans-unit id="QuickAccess_Tab_Perf_RefreshRate_Explainer" xml:space="preserve">
         <source>Change this value to set the display&#39;s refresh rate.&#xA;&#xA;Adjusting the display&#39;s refresh rate can be useful to stabilize a game&#39;s framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this lowering the refresh rate to a value that is low enough to produce a non-oscillating framerate can lead to a more enjoyable gameplay experience.&#xA;&#xA;Limiting the framerate can also be useful to reduce power consumption.</source>
         <target state="translated">Гэта значэнне задае частату абнаўлення дысплея.&#xA;&#xA;Змена частаты абнаўлення дысплея можа дапамагчы стабілізаваць частату кадраў у гульні. Калі частата кадраў хутка скача, гульня можа здавацца рыўкаватай. У такім выпадку памяншэнне частаты абнаўлення да значэння, дастаткова нізкага для атрымання няменнай частаты кадраў, можа зрабіць гульню больш прыемнай.&#xA;&#xA;Абмежаванне частаты кадраў таксама можа дапамагчы знізіць спажыванне энергіі.</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="QuickAccess_Tab_Perf_ResetToDefault" xml:space="preserve">
         <source>Сбросить настройки</source>
@@ -28488,6 +29552,14 @@
         <source>Авторизация по ПИН-коду отменена</source>
         <target state="needs-review-translation">Аўтарызацыя па ПІН-кодзе адменена</target>
       </trans-unit>
+      <trans-unit id="RemotePlay_PairWifiAPResult_ConnectFailed" xml:space="preserve">
+        <source>Привязка выполнена, но Steam Frame не удалось подключиться к беспроводному адаптеру</source>
+        <target state="translated">Прывязка выканана, але Steam Frame не атрымалася падключыцца да бесправаднога адаптара</target>
+      </trans-unit>
+      <trans-unit id="RemotePlay_PairWifiAPResult_Connected" xml:space="preserve">
+        <source>Подключено</source>
+        <target state="translated">Падключана</target>
+      </trans-unit>
       <trans-unit id="RemotePlay_PairWifiAPResult_Fail" xml:space="preserve">
         <source>Сбой привязки</source>
         <target state="needs-review-translation">Збой прывязкі</target>
@@ -28516,9 +29588,25 @@
         <source>Сбой авторизации по ПИН-коду</source>
         <target state="needs-review-translation">Збой аўтарызацыі па ПІН-кодзе</target>
       </trans-unit>
+      <trans-unit id="RemotePlay_PairWifiAP_Connecting" xml:space="preserve">
+        <source>Подключение…</source>
+        <target state="translated">Падключэнне…</target>
+      </trans-unit>
+      <trans-unit id="RemotePlay_PairWifiAP_Paired" xml:space="preserve">
+        <source>Привязано</source>
+        <target state="translated">Прывязана</target>
+      </trans-unit>
+      <trans-unit id="RemotePlay_PairWifiAP_Pairing" xml:space="preserve">
+        <source>Привязка...</source>
+        <target state="translated">Прывязка...</target>
+      </trans-unit>
       <trans-unit id="RemotePlay_Tip_Callout" xml:space="preserve">
         <source>Подсказка: эту игру можно запустить удалённо без установки</source>
         <target state="translated">Парада: гэтую гульню можна запусціць выдалена без усталёўкі</target>
+      </trans-unit>
+      <trans-unit id="RemotePlay_Tip_CalloutFrameVerified" xml:space="preserve">
+        <source>Примечание: эта игра полностью совместима со Steam Frame, и в неё можно играть локально.</source>
+        <target state="translated">Заўвага: гэтая гульня цалкам сумяшчальная са Steam Frame, і ў яе можна гуляць лакальна.</target>
       </trans-unit>
       <trans-unit id="RemotePlay_Tip_Text" xml:space="preserve">
         <source><ph id="1">%1$s</ph> устанавливается на ваш Steam Deck. Этот продукт также установлен на компьютер <ph id="2">%2$s</ph>, и вы можете транслировать геймплей напрямую оттуда — для этого нажмите на стрелку вниз рядом с кнопкой установки.</source>
@@ -28640,9 +29728,37 @@
         <source>Начать восстановление</source>
         <target state="needs-review-translation">Пачаць аднаўленне</target>
       </trans-unit>
-      <trans-unit id="Resuming" xml:space="preserve">
-        <source>Возобновление</source>
-        <target state="needs-review-translation">Аднаўленне</target>
+      <trans-unit id="Resume_ChangeAccountButton" xml:space="preserve">
+        <source>Сменить аккаунт</source>
+        <target state="translated">Змяніць акаўнт</target>
+      </trans-unit>
+      <trans-unit id="Resume_Description" xml:space="preserve">
+        <source>Текущий аккаунт <ph id="1">%2$s</ph> уже используется для игры в <ph id="2">%3$s</ph> на другом устройстве.&#xA;&#xA;Возобновив игру здесь, вы выйдете из Steam на другом устройстве.</source>
+        <target state="translated">Бягучы акаўнт <ph id="1">%2$s</ph> ужо выкарыстоўваецца для гульні ў <ph id="2">%3$s</ph> на іншай прыладзе.&#xA;&#xA;Аднавіўшы гульню тут, вы выйдзеце са Steam на іншай прыладзе.</target>
+        <note>Singular form: used when the count is exactly 1. Plural: Resume_Description_Plural.</note>
+      </trans-unit>
+      <trans-unit id="Resume_Description_Plural" xml:space="preserve">
+        <source>Текущий аккаунт <ph id="1">%2$s</ph> уже используется для игры в <ph id="2">%3$s</ph> на другом устройстве.&#xA;&#xA;Возобновив игры здесь, вы выйдете из Steam на другом устройстве.</source>
+        <target state="translated">Бягучы акаўнт <ph id="1">%2$s</ph> ужо выкарыстоўваецца для гульні ў <ph id="2">%3$s</ph> на іншай прыладзе.&#xA;&#xA;Аднавіўшы гульні тут, вы выйдзеце са Steam на іншай прыладзе.</target>
+        <note>Plural form: used when the count is not 1. Singular: Resume_Description.</note>
+      </trans-unit>
+      <trans-unit id="Resume_ExitGameButton" xml:space="preserve">
+        <source>Выйти из игры здесь</source>
+        <target state="translated">Выйсці з гульні тут</target>
+        <note>Singular form: used when the count is exactly 1. Plural: Resume_ExitGameButton_Plural.</note>
+      </trans-unit>
+      <trans-unit id="Resume_ExitGameButton_Plural" xml:space="preserve">
+        <source>Выйти из игр здесь</source>
+        <target state="translated">Выйсці з гульняў тут</target>
+        <note>Plural form: used when the count is not 1. Singular: Resume_ExitGameButton.</note>
+      </trans-unit>
+      <trans-unit id="Resume_ResumeButton" xml:space="preserve">
+        <source>Всё равно продолжить</source>
+        <target state="translated">Усё роўна працягнуць</target>
+      </trans-unit>
+      <trans-unit id="Resume_Title" xml:space="preserve">
+        <source>Аккаунт уже используется</source>
+        <target state="translated">Акаўнт ужо выкарыстоўваецца</target>
       </trans-unit>
       <trans-unit id="SDCard_Format_State_Finalizing" xml:space="preserve">
         <source>Завершение</source>
@@ -28703,6 +29819,10 @@
       <trans-unit id="SSA_Title" xml:space="preserve">
         <source>Соглашение подписчика Steam</source>
         <target state="needs-review-translation">Пагадненне падпісчыка Steam</target>
+      </trans-unit>
+      <trans-unit id="ScreenReader_Enabled_Alert" xml:space="preserve">
+        <source>ПРОГРАММА ЧТЕНИЯ С ЭКРАНА ВКЛЮЧЕНА</source>
+        <target state="translated">ПРАГРАМА ЧЫТАННЯ З ЭКРАНА ЎКЛЮЧАНА</target>
       </trans-unit>
       <trans-unit id="ScreenshotManager_UnknownApp" xml:space="preserve">
         <source>Неизвестное приложение #<ph id="1">%1$s</ph></source>
@@ -29929,6 +31049,10 @@
         <source>Вибрация в игре</source>
         <target state="needs-review-translation">Вібрацыя ў гульні</target>
       </trans-unit>
+      <trans-unit id="Settings_ControllerCalibration_RumbleIntensity" xml:space="preserve">
+        <source>Интенсивность вибрации</source>
+        <target state="translated">Інтэнсіўнасць вібрацыі</target>
+      </trans-unit>
       <trans-unit id="Settings_ControllerCalibration_SWGyroCal" xml:space="preserve">
         <source>Автокалибровка дрифта гироскопа в стационарном состоянии</source>
         <target state="translated">Аўтакаліброўка дрэйфу гіраскопа ў стацыянарным стане</target>
@@ -30365,6 +31489,10 @@
         <source>Неигровые раскладки контроллера</source>
         <target state="needs-review-translation">Негульнявыя раскладкі кантролера</target>
       </trans-unit>
+      <trans-unit id="Settings_Controller_Battery" xml:space="preserve">
+        <source>Батарея</source>
+        <target state="translated">Батарэя</target>
+      </trans-unit>
       <trans-unit id="Settings_Controller_BindInput" xml:space="preserve">
         <source>Настроить ввод устройства</source>
         <target state="needs-review-translation">Наладзіць увод прылады</target>
@@ -30581,6 +31709,10 @@
         <source>Найти контроллер</source>
         <target state="needs-review-translation">Знайсці кантролер</target>
       </trans-unit>
+      <trans-unit id="Settings_Controller_Frame_Pairing_SameHandWarning" xml:space="preserve">
+        <source>Предупреждение: оба подключённых контроллера предназначены для одной и той же руки, а такая конфигурация не поддерживается.</source>
+        <target state="translated">Папярэджанне: абодва падключаныя кантролеры прызначаны для адной і той жа рукі, а такая канфігурацыя не падтрымліваецца.</target>
+      </trans-unit>
       <trans-unit id="Settings_Controller_Frame_Pairing_Searching" xml:space="preserve">
         <source>Поиск контроллеров Steam Frame...</source>
         <target state="needs-review-translation">Пошук кантролераў Steam Frame...</target>
@@ -30606,8 +31738,16 @@
         <target state="needs-review-translation">Знайсці кантролер</target>
       </trans-unit>
       <trans-unit id="Settings_Controller_IdentifyController_Click" xml:space="preserve">
-        <source>Сигнал</source>
-        <target state="needs-review-translation">Сігнал</target>
+        <source>Отправить сигнал</source>
+        <target state="translated">Адправіць сігнал</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_IdentifyLeftController_Click" xml:space="preserve">
+        <source>Сигнал на левый контроллер</source>
+        <target state="translated">Сігнал на левы кантролер</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_IdentifyRightController_Click" xml:space="preserve">
+        <source>Сигнал на правый контроллер</source>
+        <target state="translated">Сігнал на правы кантролер</target>
       </trans-unit>
       <trans-unit id="Settings_Controller_InternalPuckDetectedNoIbex" xml:space="preserve">
         <source>Обнаружен беспроводной адаптер Steam Controller. Подключите Steam Controller через USB, чтобы привязать его.</source>
@@ -30660,6 +31800,14 @@
       <trans-unit id="Settings_Controller_PairingInfo_Forget" xml:space="preserve">
         <source>Забыть</source>
         <target state="needs-review-translation">Забыць</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_PairingInfo_ForgetLeft" xml:space="preserve">
+        <source>Забыть левый контроллер</source>
+        <target state="translated">Забыць левы кантролер</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_PairingInfo_ForgetRight" xml:space="preserve">
+        <source>Забыть правый контроллер</source>
+        <target state="translated">Забыць правы кантролер</target>
       </trans-unit>
       <trans-unit id="Settings_Controller_PairingInfo_Inactive" xml:space="preserve">
         <source>Неактивный</source>
@@ -30716,6 +31864,38 @@
       <trans-unit id="Settings_Controller_ResetInput" xml:space="preserve">
         <source>Сброс ввода устройств</source>
         <target state="needs-review-translation">Скід уводу прылад</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_8bit" xml:space="preserve">
+        <source>8 бит</source>
+        <target state="translated">8 біт</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_ExtraHigh" xml:space="preserve">
+        <source>Очень высокая</source>
+        <target state="translated">Вельмі высокая</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_ExtraLow" xml:space="preserve">
+        <source>Очень низкая</source>
+        <target state="translated">Вельмі нізкая</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_High" xml:space="preserve">
+        <source>Высокая</source>
+        <target state="translated">Высокая</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_Low" xml:space="preserve">
+        <source>Низкая</source>
+        <target state="translated">Нізкая</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_Medium" xml:space="preserve">
+        <source>Умеренная (по умолчанию)</source>
+        <target state="translated">Умеранае (па змаўчанні)</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_MediumHigh" xml:space="preserve">
+        <source>Умеренно высокая</source>
+        <target state="translated">Умерана высокая</target>
+      </trans-unit>
+      <trans-unit id="Settings_Controller_RumbleIntensity_MediumLow" xml:space="preserve">
+        <source>Умеренно низкая</source>
+        <target state="translated">Умерана нізкая</target>
       </trans-unit>
       <trans-unit id="Settings_Controller_SCPairing" xml:space="preserve">
         <source>Привязать новый Steam Controller (2015)</source>
@@ -30812,6 +31992,82 @@
       <trans-unit id="Settings_Customization_ChatRadialMenu" xml:space="preserve">
         <source>Опции быстрых сообщений</source>
         <target state="translated">Параметры хуткіх паведамленняў</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_CurrentScreensaver" xml:space="preserve">
+        <source>Текущий скринсейвер</source>
+        <target state="translated">Бягучая застаўка</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_HomeScreen" xml:space="preserve">
+        <source>Главная страница</source>
+        <target state="translated">Галоўная старонка</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_HomeScreen_BigArt" xml:space="preserve">
+        <source>Режим крупной иллюстрации</source>
+        <target state="translated">Рэжым буйной ілюстрацыі</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_HomeScreen_BigArt_Desc" xml:space="preserve">
+        <source>Изменяет оформление главной страницы: фоновые изображения игр, выбранных в разделе «Недавние игры», будут больше и ярче.</source>
+        <target state="translated">Змяняе афармленне галоўнай старонкі: фонавыя выявы гульняў, абраных у раздзеле «Нядаўнія гульні», будуць большымі і яркімі.</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Preview" xml:space="preserve">
+        <source>Протестировать выбранный скринсейвер</source>
+        <target state="translated">Праверыць абраную застаўку</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_PreviewButton" xml:space="preserve">
+        <source>Предпросмотр</source>
+        <target state="translated">Папярэдні прагляд</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver" xml:space="preserve">
+        <source>Скринсейвер</source>
+        <target state="translated">Застаўка</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_ScreensaverBouncingLogo" xml:space="preserve">
+        <source>Отскакивающий от краёв логотип</source>
+        <target state="translated">Лагатып, які адскоквае ад краёў</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_ScreensaverGameSlideshow" xml:space="preserve">
+        <source>Игровое слайд-шоу</source>
+        <target state="translated">Гульнявы слайд-шоу</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_ScreensaverUser" xml:space="preserve">
+        <source><ph id="1">%1$s</ph> (пользовательский)</source>
+        <target state="translated"><ph id="1">%1$s</ph> (карыстальніцкая)</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_ConfigureTimeouts" xml:space="preserve">
+        <source>Настроить время ожидания скринсейвера</source>
+        <target state="translated">Наладзіць час чакання застаўкі</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_GameArtwork" xml:space="preserve">
+        <source>Включить иллюстрации из недавно запущенных игр</source>
+        <target state="translated">Уключыць ілюстрацыі з нядаўна запушчаных гульняў</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_Idle" xml:space="preserve">
+        <source>При бездействии запускать скринсейвер через</source>
+        <target state="translated">Пры бяздзейнасці запускаць застаўку праз</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_Screenshots" xml:space="preserve">
+        <source>Включить мои недавние скриншоты</source>
+        <target state="translated">Уключыць мае нядаўнія здымкі экрана</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_Screenshots_All" xml:space="preserve">
+        <source>Из всех игр</source>
+        <target state="translated">З усіх гульняў</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_Screenshots_General" xml:space="preserve">
+        <source>Из игр для всех возрастов</source>
+        <target state="translated">З гульняў для ўсіх узростаў</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_Screenshots_None" xml:space="preserve">
+        <source>Не включать</source>
+        <target state="translated">Не ўключаць</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_ViewPowerSettings" xml:space="preserve">
+        <source>Открыть настройки питания</source>
+        <target state="translated">Адкрыць налады сілкавання</target>
+      </trans-unit>
+      <trans-unit id="Settings_Customization_Screensaver_WhileInGame" xml:space="preserve">
+        <source>Показывать скринсейверы во время игры</source>
+        <target state="translated">Паказваць застаўкі падчас гульні</target>
       </trans-unit>
       <trans-unit id="Settings_Customization_StartupVideo" xml:space="preserve">
         <source>Видеозаставка</source>
@@ -31037,6 +32293,14 @@
         <source>Игнорировать ранее опубликованную информацию о совместимости приложений с HDR</source>
         <target state="translated">Ігнараваць раней апублікаваную інфармацыю аб сумяшчальнасці дадаткаў з HDR</target>
       </trans-unit>
+      <trans-unit id="Settings_Developer_KeyboardNavGlyphs" xml:space="preserve">
+        <source>Иконки кнопок клавиатуры</source>
+        <target state="translated">Іконкі кнопак клавіятуры</target>
+      </trans-unit>
+      <trans-unit id="Settings_Developer_KeyboardNavGlyphs_Desc" xml:space="preserve">
+        <source>При использовании клавиатуры показывать иконки клавиш клавиатуры вместо кнопок контроллера</source>
+        <target state="translated">Пры выкарыстанні клавіятуры паказваць іконкі клавіш клавіятуры замест кнопак кантролера</target>
+      </trans-unit>
       <trans-unit id="Settings_Developer_Logging_Title" xml:space="preserve">
         <source>Ведение журнала</source>
         <target state="translated">Вядзенне журнала</target>
@@ -31244,10 +32508,12 @@
       <trans-unit id="Settings_Display_DisplayScaling_Scaling" xml:space="preserve">
         <source>Масштабирование экрана</source>
         <target state="needs-review-translation">Маштабаванне экрана</target>
+        <note>English changed: «Display scaling» → «Display Scaling»</note>
       </trans-unit>
       <trans-unit id="Settings_Display_DisplayScaling_ScalingForTVName" xml:space="preserve">
         <source>Масштабирование экрана <ph id="1">%1$s</ph></source>
         <target state="needs-review-translation">Маштабаванне экрана <ph id="1">%1$s</ph></target>
+        <note>English changed: «%1$s display scaling» → «%1$s Display Scaling»</note>
       </trans-unit>
       <trans-unit id="Settings_Display_DisplayScaling_Slider_Label" xml:space="preserve">
         <source>Масштаб интерфейса</source>
@@ -31480,6 +32746,10 @@
       <trans-unit id="Settings_Display_VR_TheaterBrightness" xml:space="preserve">
         <source>Яркость в режиме кинотеатра</source>
         <target state="needs-review-translation">Яркасць у рэжыме кінатэатра</target>
+      </trans-unit>
+      <trans-unit id="Settings_Display_VirtualDisplay_DefaultName" xml:space="preserve">
+        <source>Виртуальный</source>
+        <target state="translated">Віртуальны</target>
       </trans-unit>
       <trans-unit id="Settings_DockUpdate_Error_Generic_KnownHardware" xml:space="preserve">
         <source>Во время обновления док-станции связь с устройством <ph id="1">%1$s</ph> была потеряна. Подключите его к док-станции и перезапустите обновление прошивки.</source>
@@ -31905,6 +33175,10 @@
       <trans-unit id="Settings_Interface_StartInBigPicture" xml:space="preserve">
         <source>Запускать Steam в режиме Big Picture</source>
         <target state="needs-review-translation">Запускаць Steam у рэжыме Big Picture</target>
+      </trans-unit>
+      <trans-unit id="Settings_Interface_StartInBigPicture_SteamOS" xml:space="preserve">
+        <source>Запускать Steam в режиме Big Picture, находясь в режиме рабочего стола</source>
+        <target state="translated">Запускаць Steam у рэжыме Big Picture, знаходзячыся ў рэжыме працоўнага стала</target>
       </trans-unit>
       <trans-unit id="Settings_Interface_StartPage" xml:space="preserve">
         <source>Окно при запуске</source>
@@ -32630,6 +33904,10 @@
         <source>Завершать скачивание с выключенным экраном перед переходом в спящий режим</source>
         <target state="translated">Завяршаць спампоўку з выключаным экранам перад пераходам у спячы рэжым</target>
       </trans-unit>
+      <trans-unit id="Settings_LowPowerDownloads_Section" xml:space="preserve">
+        <source>Завершить загрузки перед переходом в спящий режим</source>
+        <target state="translated">Завяршыць спампоўкі перад пераходам у рэжым сну</target>
+      </trans-unit>
       <trans-unit id="Settings_Miscellaneous_Title" xml:space="preserve">
         <source>Разное</source>
         <target state="needs-review-translation">Рознае</target>
@@ -33214,6 +34492,26 @@
         <source>Высокоскоростная трансляция видео с низкой задержкой</source>
         <target state="needs-review-translation">Высакахуткасная трансляцыя відэа з нізкай затрымкай</target>
       </trans-unit>
+      <trans-unit id="Settings_RemotePlay_Pyrowave_AutomaticBitrate" xml:space="preserve">
+        <source>Автоматический битрейт</source>
+        <target state="translated">Аўтаматычны бітрэйт</target>
+      </trans-unit>
+      <trans-unit id="Settings_RemotePlay_Pyrowave_CustomBitrate" xml:space="preserve">
+        <source>Собственный битрейт (Мбит/с)</source>
+        <target state="translated">Уласны бітрэйт (Мбіт/с)</target>
+      </trans-unit>
+      <trans-unit id="Settings_RemotePlay_Pyrowave_QualityModifier" xml:space="preserve">
+        <source>Модификатор качества</source>
+        <target state="translated">Мадыфікатар якасці</target>
+      </trans-unit>
+      <trans-unit id="Settings_RemotePlay_Pyrowave_Settings" xml:space="preserve">
+        <source>Настройки PyroWave</source>
+        <target state="translated">Налады PyroWave</target>
+      </trans-unit>
+      <trans-unit id="Settings_RemotePlay_Pyrowave_YUV444" xml:space="preserve">
+        <source>YUV 4:4:4</source>
+        <target state="translated">YUV 4:4:4</target>
+      </trans-unit>
       <trans-unit id="Settings_RemotePlay_RemoteClientConfig" xml:space="preserve">
         <source>Расширенные настройки клиента</source>
         <target state="needs-review-translation">Пашыраныя налады кліента</target>
@@ -33658,6 +34956,10 @@
         <source>Включить сбор отладочных данных Wi-Fi</source>
         <target state="translated">Уключыць збор адладкавых даных Wi-Fi</target>
       </trans-unit>
+      <trans-unit id="Settings_SteamPlay_Advanced" xml:space="preserve">
+        <source>Дополнительно</source>
+        <target state="translated">Дадаткова</target>
+      </trans-unit>
       <trans-unit id="Settings_SteamPlay_ChooseTool" xml:space="preserve">
         <source>Выбрать инструмент совместимости</source>
         <target state="translated">Выбраць інструмент сумяшчальнасці</target>
@@ -33665,6 +34967,14 @@
       <trans-unit id="Settings_SteamPlay_DefaultTool" xml:space="preserve">
         <source>Стандартный инструмент совместимости: </source>
         <target state="translated">Стандартны інструмент сумяшчальнасці: </target>
+      </trans-unit>
+      <trans-unit id="Settings_SteamPlay_DefaultToolEntry" xml:space="preserve">
+        <source>По умолчанию (<ph id="1">%1$s</ph>)</source>
+        <target state="translated">Па змаўчанні (<ph id="1">%1$s</ph>)</target>
+      </trans-unit>
+      <trans-unit id="Settings_SteamPlay_DefaultToolEntry_Fallback" xml:space="preserve">
+        <source>По умолчанию</source>
+        <target state="translated">Па змаўчанні</target>
       </trans-unit>
       <trans-unit id="Settings_SteamPlay_Enable" xml:space="preserve">
         <source>Включить Steam Play для поддерживаемых продуктов</source>
@@ -33705,6 +35015,10 @@
       <trans-unit id="Settings_SteamPlay_RunOtherTitlesWith" xml:space="preserve">
         <source>Запускать другие игры с помощью: </source>
         <target state="needs-review-translation">Запускаць іншыя гульні з дапамогай: </target>
+      </trans-unit>
+      <trans-unit id="Settings_SteamPlay_ShowAll" xml:space="preserve">
+        <source>Показать все инструменты совместимости</source>
+        <target state="translated">Паказаць усе інструменты сумяшчальнасці</target>
       </trans-unit>
       <trans-unit id="Settings_SteamPlay_SteamPlay" xml:space="preserve">
         <source>Steam Play</source>
@@ -33862,17 +35176,13 @@
         <source>Версия BIOS</source>
         <target state="needs-review-translation">Версія BIOS</target>
       </trans-unit>
-      <trans-unit id="Settings_System_BacklightDimTimeNotPlugged_Label" xml:space="preserve">
-        <source>При работе от батареи через</source>
-        <target state="needs-review-translation">Пры працы ад батарэі праз</target>
-      </trans-unit>
-      <trans-unit id="Settings_System_BacklightDimTimePlugged_Label" xml:space="preserve">
-        <source>При работе от сети через</source>
-        <target state="needs-review-translation">Пры працы ад сеткі праз</target>
-      </trans-unit>
       <trans-unit id="Settings_System_BacklightDimTime_Label" xml:space="preserve">
         <source>Затемнять экран</source>
         <target state="needs-review-translation">Зацямняць экран</target>
+      </trans-unit>
+      <trans-unit id="Settings_System_CPUAvailableLogicalCores" xml:space="preserve">
+        <source>Доступные логические ядра ЦП</source>
+        <target state="translated">Даступныя лагічныя ядры ЦП</target>
       </trans-unit>
       <trans-unit id="Settings_System_CPUFrequency" xml:space="preserve">
         <source>Частота процессора</source>
@@ -33953,6 +35263,10 @@
       <trans-unit id="Settings_System_DeckSerialNumber" xml:space="preserve">
         <source>Серийный номер Steam Deck</source>
         <target state="needs-review-translation">Серыйны нумар Steam Deck</target>
+      </trans-unit>
+      <trans-unit id="Settings_System_DesktopModeDefault" xml:space="preserve">
+        <source>Включать режим рабочего стола при запуске</source>
+        <target state="translated">Уключаць рэжым працоўнага стала пры запуску</target>
       </trans-unit>
       <trans-unit id="Settings_System_Devkit" xml:space="preserve">
         <source>Комплект для разработки</source>
@@ -34102,17 +35416,29 @@
         <source>Режим отключён</source>
         <target state="needs-review-translation">Рэжым адключаны</target>
       </trans-unit>
-      <trans-unit id="Settings_System_Idle_AC_Section" xml:space="preserve">
-        <source>Период бездействия при работе от сети</source>
-        <target state="needs-review-translation">Перыяд бяздзейнасці пры рабоце ад сеткі</target>
+      <trans-unit id="Settings_System_Idle_Dim_Label" xml:space="preserve">
+        <source>Затемнять экран через</source>
+        <target state="translated">Зацямняць экран праз</target>
       </trans-unit>
-      <trans-unit id="Settings_System_Idle_Battery_Section" xml:space="preserve">
-        <source>Период бездействия при работе от батареи</source>
-        <target state="needs-review-translation">Перыяд бяздзейнасці пры працы ад батарэі</target>
+      <trans-unit id="Settings_System_Idle_NoBattery_Section" xml:space="preserve">
+        <source>При бездействии</source>
+        <target state="translated">Пры бяздзейнасці</target>
       </trans-unit>
-      <trans-unit id="Settings_System_Idle_Dim" xml:space="preserve">
-        <source>Приглушать экран</source>
-        <target state="needs-review-translation">Прыглушаць экран</target>
+      <trans-unit id="Settings_System_Idle_OnBattery_Section" xml:space="preserve">
+        <source>При работе от батареи и бездействии</source>
+        <target state="translated">Пры працы ад батарэі і бяздзейнасці</target>
+      </trans-unit>
+      <trans-unit id="Settings_System_Idle_PluggedIn_Section" xml:space="preserve">
+        <source>При работе от сети и бездействии</source>
+        <target state="translated">Пры працы ад сеткі і бяздзейнасці</target>
+      </trans-unit>
+      <trans-unit id="Settings_System_Idle_Screensaver_Label" xml:space="preserve">
+        <source>Запускать скринсейвер через</source>
+        <target state="translated">Запускаць застаўку праз</target>
+      </trans-unit>
+      <trans-unit id="Settings_System_Idle_Sleep_Label" xml:space="preserve">
+        <source>Переходить в спящий режим через</source>
+        <target state="translated">Пераходзіць у рэжым сну праз</target>
       </trans-unit>
       <trans-unit id="Settings_System_KernalVersion" xml:space="preserve">
         <source>Версия ядра</source>
@@ -34205,18 +35531,6 @@
       <trans-unit id="Settings_System_SteamWebBuildDate" xml:space="preserve">
         <source>Дата сборки веб-компонентов Steam</source>
         <target state="needs-review-translation">Дата зборкі вэб-кампанентаў Steam</target>
-      </trans-unit>
-      <trans-unit id="Settings_System_SuspendTimeNotPlugged_Label" xml:space="preserve">
-        <source>При работе от батареи через</source>
-        <target state="needs-review-translation">Пры працы ад батарэі праз</target>
-      </trans-unit>
-      <trans-unit id="Settings_System_SuspendTimePlugged_Label" xml:space="preserve">
-        <source>При работе от сети через</source>
-        <target state="needs-review-translation">Пры працы ад сеткі праз</target>
-      </trans-unit>
-      <trans-unit id="Settings_System_SuspendTime_Label" xml:space="preserve">
-        <source>Переводить в спящий режим</source>
-        <target state="translated">Пераводзіць у рэжым сну</target>
       </trans-unit>
       <trans-unit id="Settings_System_TrimAll_Description" xml:space="preserve">
         <source>Немедленный запуск оптимизации устройств хранения. Обычно она проходит автоматически по расписанию.</source>
@@ -34643,8 +35957,8 @@
         <target state="translated">Пачынаецца спампоўка абнаўлення...</target>
       </trans-unit>
       <trans-unit id="Settings_VRBattery_Percentage_Desc" xml:space="preserve">
-        <source>Показывать процент заряда батареи на верхней панели</source>
-        <target state="needs-review-translation">Паказваць працэнт зарада батарэі на верхняй панэлі</target>
+        <source>Показывать процент заряда батареи в VR-меню</source>
+        <target state="translated">Паказваць працэнт зараду батарэі ў VR-меню</target>
       </trans-unit>
       <trans-unit id="ShareDialog_Title" xml:space="preserve">
         <source>Поделиться</source>
@@ -34797,10 +36111,6 @@
       <trans-unit id="Shutdown" xml:space="preserve">
         <source>Завершение работы</source>
         <target state="needs-review-translation">Завяршэнне працы</target>
-      </trans-unit>
-      <trans-unit id="ShuttingDown" xml:space="preserve">
-        <source>Завершение работы...</source>
-        <target state="needs-review-translation">Завяршэнне працы...</target>
       </trans-unit>
       <trans-unit id="SignInHelp_Title" xml:space="preserve">
         <source>Помощь со входом</source>
@@ -35810,6 +37120,10 @@
         <source>Настройки экрана для игры</source>
         <target state="needs-review-translation">Налады экрана для гульні</target>
       </trans-unit>
+      <trans-unit id="SteamUI_ValveSurvey_Summary_GlibcVersion" xml:space="preserve">
+        <source>Версия glibc:  <ph id="1">%1$s</ph></source>
+        <target state="translated">Версія glibc:  <ph id="1">%1$s</ph></target>
+      </trans-unit>
       <trans-unit id="SteamUI_ValveSurvey_Summary_HDAvail" xml:space="preserve">
         <source>Суммарное место на диске:  <ph id="1">%1$s</ph> МБ</source>
         <target state="translated">Сумарнае месца на дыску:  <ph id="1">%1$s</ph> МБ</target>
@@ -36604,13 +37918,13 @@
         <source>OK</source>
         <target state="needs-review-translation">OK</target>
       </trans-unit>
-      <trans-unit id="Steam_ErrorCondition_Offline" xml:space="preserve">
-        <source>Данная операция не может быть выполнена, когда Steam находится в автономном режиме.</source>
-        <target state="translated">Гэта дзеянне нельга выканаць, калі Steam знаходзіцца ў аўтаномным рэжыме.</target>
-      </trans-unit>
       <trans-unit id="Steam_ErrorCondition_RefreshLogin" xml:space="preserve">
         <source>Войдите в аккаунт заново, чтобы продолжить.</source>
         <target state="needs-review-translation">Увайдзіце ў акаўнт нанова, каб працягнуць.</target>
+      </trans-unit>
+      <trans-unit id="Steam_ErrorCondition_RestartNeeded" xml:space="preserve">
+        <source>Необходимо перезапустить Steam для получения обновлений.&#xA;&#xA;Без перезапуска использование Steam невозможно.</source>
+        <target state="translated">Неабходна перазапусціць Steam для атрымання абнаўленняў.&#xA;&#xA;Без перазапуску выкарыстанне Steam немагчыма.</target>
       </trans-unit>
       <trans-unit id="Steam_ErrorCondition_SteamGuard" xml:space="preserve">
         <source>Этот компьютер был деавторизован. Вы должны войти в аккаунт и ввести новый код, полученный от Steam Guard, для повторной авторизации.</source>
@@ -36619,10 +37933,6 @@
       <trans-unit id="Steam_ErrorCondition_Title" xml:space="preserve">
         <source>Ошибка</source>
         <target state="needs-review-translation">Памылка</target>
-      </trans-unit>
-      <trans-unit id="Steam_ErrorCondition_UnhandledMailTo" xml:space="preserve">
-        <source>Отправка электронных писем со Steam Deck в настоящее время не поддерживается.</source>
-        <target state="needs-review-translation">Адпраўка электронных лістоў са Steam Deck у цяперашні час не падтрымліваецца.</target>
       </trans-unit>
       <trans-unit id="Steam_IncorrectVRSDKWarning_Desc" xml:space="preserve">
         <source><ph id="1">%1$s</ph> не поддерживает ваш шлем. Нажмите «OK», чтобы всё равно запустить приложение.</source>
@@ -36720,10 +38030,6 @@
         <source>Этот аккаунт уже используется в игре на другом устройстве.</source>
         <target state="needs-review-translation">Гэты акаўнт ужо выкарыстоўваецца ў гульні на іншай прыладзе.</target>
       </trans-unit>
-      <trans-unit id="Steam_RefreshLogin_AccountAlreadyLoggedReAuth" xml:space="preserve">
-        <source>Чтобы продолжить, необходимо подтвердить данные для входа в аккаунт в целях безопасности.</source>
-        <target state="translated">Каб працягнуць, неабходна пацвердзіць даныя для ўваходу ў акаўнт у мэтах бяспекі.</target>
-      </trans-unit>
       <trans-unit id="Steam_RefreshLogin_InfoTicketExpired" xml:space="preserve">
         <source>Время вашей сессии Steam истекло.</source>
         <target state="needs-review-translation">Час вашай сесіі Steam скончыўся.</target>
@@ -36791,6 +38097,10 @@
       <trans-unit id="Steam_Shutdown_Waiting_For_Game" xml:space="preserve">
         <source>Ожидание завершения работы <ph id="1">%1$s</ph>...</source>
         <target state="needs-review-translation">Чаканне завяршэння працы <ph id="1">%1$s</ph>...</target>
+      </trans-unit>
+      <trans-unit id="Steam_Shutdown_Waiting_For_Hardware_Update" xml:space="preserve">
+        <source>Завершается обновление прошивки...</source>
+        <target state="translated">Завяршаецца абнаўленне прашыўкі...</target>
       </trans-unit>
       <trans-unit id="Steam_Shutdown_Waiting_For_Logoff" xml:space="preserve">
         <source>Выход...</source>
@@ -36907,6 +38217,10 @@
       <trans-unit id="StreamingClient_AnotherDevice" xml:space="preserve">
         <source>Играть на другом устройстве</source>
         <target state="needs-review-translation">Гуляць на іншай прыладзе</target>
+      </trans-unit>
+      <trans-unit id="StreamingClient_InstallOn" xml:space="preserve">
+        <source>Установить на: <ph id="1">%1$s</ph></source>
+        <target state="translated">Усталяваць на: <ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="StreamingClient_LinkDesc_Generic" xml:space="preserve">
         <source>Играйте в эту игру удалённо с помощью приложения Steam Link...</source>
@@ -37836,6 +39150,10 @@
         <source>Вы точно хотите удалить <ph id="1">%1$s</ph> с этого устройства? Игра останется в библиотеке, но, чтобы поиграть в неё в будущем, её придётся загрузить заново.</source>
         <target state="translated">Вы сапраўды хочаце выдаліць <ph id="1">%1$s</ph> з гэтай прылады? Гульня застанецца ў бібліятэцы, але, каб пагуляць у яе ў будучыні, яе давядзецца спампаваць нанова.</target>
       </trans-unit>
+      <trans-unit id="UninstallDialog_Confirmation_SingleRemote" xml:space="preserve">
+        <source>Вы точно хотите удалить <ph id="1">%1$s</ph> с устройства <ph id="2">%2$s</ph>? Игра останется в библиотеке, но, чтобы поиграть в неё в будущем, её придётся загрузить заново.</source>
+        <target state="translated">Вы ўпэўнены, што хочаце выдаліць <ph id="1">%1$s</ph> з прылады <ph id="2">%2$s</ph>? Гульня застанецца ў бібліятэцы, але, каб згуляць у яе ў будучыні, яе давядзецца спампаваць нанова.</target>
+      </trans-unit>
       <trans-unit id="UninstallDialog_ErrorMessage" xml:space="preserve">
         <source>Не удалось удалить <ph id="1">%1$s</ph>:</source>
         <target state="needs-review-translation">Не ўдалося выдаліць <ph id="1">%1$s</ph>:</target>
@@ -38088,6 +39406,30 @@
         <source>Трансляция</source>
         <target state="needs-review-translation">Трансляцыя</target>
       </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingFromHost_Tooltip" xml:space="preserve">
+        <source>Трансляция с <ph id="1">%1$s</ph></source>
+        <target state="translated">Трансляцыя з <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingFromHost_Tooltip_Generic" xml:space="preserve">
+        <source>Трансляция с другого устройства</source>
+        <target state="translated">Трансляцыя з іншай прылады</target>
+      </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingInboundAndOutbound_Tooltip" xml:space="preserve">
+        <source><ph id="1">%1$s</ph>. <ph id="2">%2$s</ph>.</source>
+        <target state="translated"><ph id="1">%1$s</ph>. <ph id="2">%2$s</ph>.</target>
+      </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingStatus" xml:space="preserve">
+        <source>Статус трансляции</source>
+        <target state="translated">Статус трансляцыі</target>
+      </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingVRView_Tooltip" xml:space="preserve">
+        <source>Трансляция на <ph id="1">%1$s</ph></source>
+        <target state="translated">Трансляцыя на <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="VRDashboardBar_StreamingVRView_Tooltip_Generic" xml:space="preserve">
+        <source>Трансляция на другое устройство</source>
+        <target state="translated">Трансляцыя на іншую прыладу</target>
+      </trans-unit>
       <trans-unit id="VRDashboardBar_TundraTracker" xml:space="preserve">
         <source>Трекер Tundra</source>
         <target state="needs-review-translation">Трэкер Tundra</target>
@@ -38156,6 +39498,10 @@
         <source>Перейти: <ph id="1">%1$s</ph></source>
         <target state="needs-review-translation">Перайсці: <ph id="1">%1$s</ph></target>
       </trans-unit>
+      <trans-unit id="VRDashboard_HideLaserMouse" xml:space="preserve">
+        <source>Скрыть лазерную мышь</source>
+        <target state="translated">Схаваць лазерную мыш</target>
+      </trans-unit>
       <trans-unit id="VRDashboard_LaunchNonSteamApp" xml:space="preserve">
         <source>Запустить программу</source>
         <target state="needs-review-translation">Запусціць праграму</target>
@@ -38168,133 +39514,9 @@
         <source>Панель управления</source>
         <target state="translated">Панэль кіравання</target>
       </trans-unit>
-      <trans-unit id="VRLinkQuality_Bad" xml:space="preserve">
-        <source>Плохое</source>
-        <target state="needs-review-translation">Дрэннае</target>
-      </trans-unit>
-      <trans-unit id="VRLinkQuality_Excellent" xml:space="preserve">
-        <source>Отличное</source>
-        <target state="needs-review-translation">Выдатнае</target>
-      </trans-unit>
-      <trans-unit id="VRLinkQuality_Good" xml:space="preserve">
-        <source>Хорошее</source>
-        <target state="needs-review-translation">Добрае</target>
-      </trans-unit>
-      <trans-unit id="VRLinkQuality_Missing" xml:space="preserve">
-        <source>Соединение потеряно</source>
-        <target state="needs-review-translation">Злучэнне страчана</target>
-      </trans-unit>
-      <trans-unit id="VRLinkQuality_None" xml:space="preserve">
-        <source>Отсутствует</source>
-        <target state="needs-review-translation">Адсутнічае</target>
-      </trans-unit>
-      <trans-unit id="VRLinkQuality_Searching" xml:space="preserve">
-        <source>Поиск...</source>
-        <target state="needs-review-translation">Пошук...</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_RemoteConnection" xml:space="preserve">
-        <source>Удалённое подключение</source>
-        <target state="translated">Аддаленае падлучэнне</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_USB" xml:space="preserve">
-        <source>Проводное USB-подключение</source>
-        <target state="needs-review-translation">Правадное USB-падлучэнне</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_Unknown" xml:space="preserve">
-        <source>Неизвестный тип соединения (<ph id="1">%1$s</ph>)</source>
-        <target state="needs-review-translation">Невядомы тып злучэння (<ph id="1">%1$s</ph>)</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_WiFiConnection" xml:space="preserve">
-        <source>Подключение по Wi-Fi</source>
-        <target state="needs-review-translation">Падключэнне па Wi-Fi</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_WiredToRouter" xml:space="preserve">
-        <source>Проводное подключение</source>
-        <target state="needs-review-translation">Правадное падлучэнне</target>
-      </trans-unit>
-      <trans-unit id="VRLinkType_WirelessAdapter" xml:space="preserve">
-        <source>Беспроводной адаптер</source>
-        <target state="needs-review-translation">Бесправадны адаптар</target>
-      </trans-unit>
-      <trans-unit id="VRLink_Advanced" xml:space="preserve">
-        <source>Advanced</source>
-        <target state="translated">Пашыраныя</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_AvailableComputers" xml:space="preserve">
-        <source>Available Computers</source>
-        <target state="translated">Даступныя камп&#39;ютары</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_ChooseAGame" xml:space="preserve">
-        <source>Choose a game to start streaming.</source>
-        <target state="translated">Выберыце гульню, каб пачаць трансляцыю.</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_ConnectionInfo_PacketLoss" xml:space="preserve">
-        <source>Потеря пакетов: <ph id="1">%1$s</ph>%</source>
-        <target state="needs-review-translation">Страта пакетаў: <ph id="1">%1$s</ph>%</target>
-      </trans-unit>
-      <trans-unit id="VRLink_ConnectionInfo_Ping_Milliseconds" xml:space="preserve">
-        <source>Пинг: <ph id="1">%1$s</ph> мс</source>
-        <target state="needs-review-translation">Пінг: <ph id="1">%1$s</ph> мс</target>
-      </trans-unit>
-      <trans-unit id="VRLink_Connection_Active" xml:space="preserve">
-        <source>Активные</source>
-        <target state="needs-review-translation">Актыўныя</target>
-      </trans-unit>
-      <trans-unit id="VRLink_Connection_Inactive" xml:space="preserve">
-        <source>Неактивные</source>
-        <target state="needs-review-translation">Неактыўныя</target>
-      </trans-unit>
-      <trans-unit id="VRLink_Host_NotReadyForVR" xml:space="preserve">
-        <source>Not ready for VR</source>
-        <target state="translated">Не гатовы да VR</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_Host_ReadyForVR" xml:space="preserve">
-        <source>Ready for VR</source>
-        <target state="translated">Гатовы да VR</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_MultiLink_Active" xml:space="preserve">
-        <source>Несколько активных ссылок</source>
-        <target state="needs-review-translation">Некалькі актыўных спасылак</target>
-      </trans-unit>
-      <trans-unit id="VRLink_MultiLink_Inactive" xml:space="preserve">
-        <source>Одна активная ссылка</source>
-        <target state="needs-review-translation">Адна актыўная спасылка</target>
-      </trans-unit>
-      <trans-unit id="VRLink_No_Available_Hosts" xml:space="preserve">
-        <source>Источники VR-трансляции не найдены</source>
-        <target state="needs-review-translation">Крыніцы VR-трансляцыі не знойдзены</target>
-      </trans-unit>
-      <trans-unit id="VRLink_No_Available_Hosts_Info" xml:space="preserve">
-        <source>Чтобы начать трансляцию, войдите в тот же аккаунт Steam на ПК или Steam Machine.</source>
-        <target state="needs-review-translation">Каб пачаць трансляцыю, увайдзіце ў той жа акаўнт Steam на ПК ці Steam Machine.</target>
-      </trans-unit>
-      <trans-unit id="VRLink_No_Available_Hosts_Info_More" xml:space="preserve">
-        <source>Эти устройства появятся здесь.</source>
-        <target state="needs-review-translation">Гэтыя прылады з&#39;явяцца тут.</target>
-      </trans-unit>
-      <trans-unit id="VRLink_StartDirectVRStream" xml:space="preserve">
-        <source>Start Direct VR Stream</source>
-        <target state="translated">Запусціць прамую VR-трансляцыю</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_StreamDesktop" xml:space="preserve">
-        <source>Stream Desktop</source>
-        <target state="translated">Трансляваць працоўны стол</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
-      </trans-unit>
-      <trans-unit id="VRLink_Unknown_Host" xml:space="preserve">
-        <source>Неизвестный источник</source>
-        <target state="needs-review-translation">Невядомая крыніца</target>
-      </trans-unit>
-      <trans-unit id="VRLink_WirelessAdapterAvailable" xml:space="preserve">
-        <source>Wireless Adapter Available</source>
-        <target state="translated">Бесправадны адаптар даступны</target>
-        <note>Steam has no Russian text for this string; the source is English.</note>
+      <trans-unit id="VRDashboard_ShowLaserMouse" xml:space="preserve">
+        <source>Лазерная мышь</source>
+        <target state="translated">Лазерная мыш</target>
       </trans-unit>
       <trans-unit id="VR_Error_ComponentBusy" xml:space="preserve">
         <source>SteamVR недоступен, когда инструмент SteamVR обновляется, удаляется, проверяется на целостность и так далее.</source>
@@ -38491,8 +39713,9 @@
         <target state="translated">Хочаце дадаць у бібліятэку дынамічную калекцыю EA Play?</target>
       </trans-unit>
       <trans-unit id="WhatsNew_EAAccessCollection_Description_2" xml:space="preserve">
-        <source>Хотите добавить раздел для коллекции EA Play на домашнюю страницу библиотеки?</source>
-        <target state="translated">Хочаце дадаць раздзел для калекцыі EA Play на хатнюю старонку бібліятэкі?</target>
+        <source>Хотите добавить раздел для коллекции EA Play на главную страницу библиотеки?</source>
+        <target state="translated">Хочаце дадаць раздзел для калекцыі EA Play на галоўную старонку бібліятэкі?</target>
+        <note>Source changed, was: «Хотите добавить раздел для коллекции EA Play на домашнюю страницу библиотеки?»</note>
       </trans-unit>
       <trans-unit id="WhatsNew_EAAccessCollection_Description_3" xml:space="preserve">
         <source>Наслаждайтесь новым разделом и коллекцией EA Play! Вы можете удалить их, если пожелаете.</source>
@@ -38507,8 +39730,9 @@
         <target state="needs-review-translation">Сардэчна запрашаем у EA Play</target>
       </trans-unit>
       <trans-unit id="WhatsNew_PlayNext_Description" xml:space="preserve">
-        <source>Теперь на домашней странице библиотеки расположен раздел «Во что сыграть?», рекомендующий игры из вашей библиотеки, которые вы пока не запускали. Разработано в лабораториях Steam.</source>
+        <source>Теперь на главной странице библиотеки расположен раздел «Во что сыграть?», рекомендующий игры из вашей библиотеки, которые вы пока не запускали. Разработано в лабораториях Steam.</source>
         <target state="translated">Цяпер на галоўнай старонцы бібліятэкі размешчаны раздзел «У што згуляць?», які рэкамендуе гульні з вашай бібліятэкі, якія вы пакуль не запускалі. Распрацавана ў лабараторыях Steam.</target>
+        <note>Source changed, was: «Теперь на домашней странице библиотеки расположен раздел «Во что сыграть?», рекомендующий игры из вашей библиотеки, которые вы пока не запускали. Разработано в лабораториях Steam.»</note>
       </trans-unit>
       <trans-unit id="WhatsNew_PlayNext_Title" xml:space="preserve">
         <source>«Во что сыграть?»</source>

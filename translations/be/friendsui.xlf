@@ -4109,16 +4109,16 @@
         <target state="needs-review-translation">Не ўваходзьце ні ў якія свае акаўнты, уключаючы Steam, па спасылках з гэтых паведамленняў. Прадстаўнікі Steam НІКОЛІ не звяжуцца з вамі праз чат або іншыя праграмы. Падрабязныя рэкамендацыі па абароне акаўнта Steam чытайце <ph id="1">&lt;1&gt;</ph>тут<ph id="2">&lt;/1&gt;</ph>.</target>
       </trans-unit>
       <trans-unit id="SuspiciousSender_Dialog_Description2" xml:space="preserve">
-        <source>Ссылки от этого пользователя в группе не будут работать, пока вы не отмените предупреждение.</source>
-        <target state="needs-review-translation">Спасылкі ад гэтага карыстальніка ў групе не будуць працаваць, пакуль вы не адмяніце папярэджанне.</target>
+        <source>Ссылки от этого пользователя в группе не будут работать, пока вы не скроете предупреждение.</source>
+        <target state="translated">Спасылкі ад гэтага карыстальніка ў групе не будуць працаваць, пакуль вы не схаваеце папярэджанне.</target>
       </trans-unit>
       <trans-unit id="SuspiciousSender_Dialog_Description3" xml:space="preserve">
         <source>Пожаловавшись на эти сообщения, вы поможете Steam принять меры и выявлять подобный контент в будущем.</source>
         <target state="translated">Паскардзіўшыся на гэтыя паведамленні, вы дапаможаце Steam прыняць меры і выяўляць падобнае змесціва ў будучыні.</target>
       </trans-unit>
       <trans-unit id="SuspiciousSender_Dialog_Dismiss" xml:space="preserve">
-        <source>Отменить предупреждение</source>
-        <target state="needs-review-translation">Адмяніць папярэджанне</target>
+        <source>Скрыть предупреждение</source>
+        <target state="translated">Схаваць папярэджанне</target>
       </trans-unit>
       <trans-unit id="SuspiciousSender_Dialog_Report" xml:space="preserve">
         <source>Пожаловаться на сообщения</source>
@@ -4407,6 +4407,10 @@
       <trans-unit id="VoiceChat_MuteVoice_Deck" xml:space="preserve">
         <source>Заглушить голосовой чат</source>
         <target state="needs-review-translation">Заглушыць галасавы чат</target>
+      </trans-unit>
+      <trans-unit id="VoiceChat_Muted_Deck" xml:space="preserve">
+        <source>Заглушено</source>
+        <target state="translated">Адключана</target>
       </trans-unit>
       <trans-unit id="VoiceChat_NoneActive" xml:space="preserve">
         <source>Нет активных голосовых чатов</source>

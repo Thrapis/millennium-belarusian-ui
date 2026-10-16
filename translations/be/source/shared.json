@@ -613,7 +613,7 @@
   },
   "BreadCrumbs_GameEvents": {
     "en": "%1$s Events",
-    "ru": "События %1$s"
+    "ru": "%1$s"
   },
   "BroadcastChat_AddModeratorFailed": {
     "en": "Failed to add %1$s as moderator!",
@@ -1647,6 +1647,14 @@
     "en": "Community",
     "ru": "Сообщество"
   },
+  "Community_RemoveLink_BeWary": {
+    "en": "{LINK REMOVED}",
+    "ru": "{ССЫЛКА УДАЛЕНА}"
+  },
+  "Community_RemoveLink_Tooltip": {
+    "en": "The URL that was linked here has been removed by our filters.  Usually this is done to prevent phishing and malware attacks.",
+    "ru": "Эта ссылка удалена нашими фильтрами. Как правило, это делается для защиты от фишинга и вредоносных программ."
+  },
   "ConnectionTrouble_FailedToConnect": {
     "en": "Failed to connect to Steam",
     "ru": "Не удалось соединиться со Steam"
@@ -2590,6 +2598,50 @@
   "Duration_WrittenNegation": {
     "en": "%1$s ago",
     "ru": "%1$s назад"
+  },
+  "DynamicLinkType_Art": {
+    "en": "Community Created Artwork for %1$s",
+    "ru": "Иллюстрация от сообщества к %1$s"
+  },
+  "DynamicLinkType_GreenlightConcept": {
+    "en": "Greenlight Concept",
+    "ru": "Концепт из Greenlight"
+  },
+  "DynamicLinkType_GreenlightGame": {
+    "en": "Greenlight Game",
+    "ru": "Игра из Greenlight"
+  },
+  "DynamicLinkType_GreenlightSoftware": {
+    "en": "Greenlight Software",
+    "ru": "Программа из Greenlight"
+  },
+  "DynamicLinkType_Screenshot": {
+    "en": "A Screenshot of %1$s",
+    "ru": "Скриншот из %1$s"
+  },
+  "DynamicLinkType_Video": {
+    "en": "A Video of %1$s",
+    "ru": "Видео из %1$s"
+  },
+  "DynamicLinkType_WebGuide": {
+    "en": "A Guide for %1$s",
+    "ru": "Руководство по %1$s"
+  },
+  "DynamicLinkType_WorkshopItem": {
+    "en": "A Workshop Item for %1$s",
+    "ru": "Работа из мастерской для %1$s"
+  },
+  "DynamicLinkType_YouTubeVideo": {
+    "en": "YouTube™ Video",
+    "ru": "Видео с YouTube™"
+  },
+  "DynamicLinkType_YouTubeVideo_Views": {
+    "en": "Views: %1$s",
+    "ru": "Просмотров: %1$s"
+  },
+  "DynamicLink_Banned": {
+    "en": "{LINK REMOVED TO BANNED CONTENT}",
+    "ru": "{ССЫЛКА НА ЗАБЛОКИРОВАННЫЙ КОНТЕНТ УДАЛЕНА}"
   },
   "EVentCalendar_Hide_EventType": {
     "en": "Hide all '%1$s' type posts",
@@ -3565,7 +3617,7 @@
   },
   "EventDashBoard_Location_LibraryHome": {
     "en": "Library Home Page",
-    "ru": "Домашняя страница библиотеки"
+    "ru": "Главная страница библиотеки"
   },
   "EventDashBoard_Location_ModerationTitle": {
     "en": "About Event Moderation",
@@ -3818,6 +3870,26 @@
   "EventDisplay_NoEventsToSee": {
     "en": "No events found",
     "ru": "Событий не найдено"
+  },
+  "EventDisplay_NotPublic_Draft": {
+    "en": "This event has not been published. Only people who can edit it can open this page.",
+    "ru": "Это событие не опубликовано. Эту страницу могут открыть только пользователи с доступом к его редактированию."
+  },
+  "EventDisplay_NotPublic_Header": {
+    "en": "Not visible to the public",
+    "ru": "Не показывается пользователям"
+  },
+  "EventDisplay_NotPublic_Hidden": {
+    "en": "This event is hidden. Only people who can edit it can open this page.",
+    "ru": "Это событие скрыто. Эту страницу могут открыть только пользователи с доступом к его редактированию."
+  },
+  "EventDisplay_NotPublic_Staged": {
+    "en": "This event becomes visible to everyone on %1$s. Until then only people who can edit it can open this page.",
+    "ru": "Это событие станет видимым для всех %1$s. До этого момента страницу смогут открыть только пользователи с доступом к редактированию события."
+  },
+  "EventDisplay_NotPublic_Unlisted": {
+    "en": "This event is unlisted. It does not appear in any list, and only somebody with a direct link can open this page.",
+    "ru": "Доступ к этому событию ограничен. Оно не отображается в списках, и только пользователи с прямой ссылкой смогут открыть эту страницу."
   },
   "EventDisplay_OnWishlist": {
     "en": "On your wishlist",
@@ -4921,7 +4993,7 @@
   },
   "FAQViewer_GoToHomepage": {
     "en": "Return to community homepage",
-    "ru": "Вернуться на домашнюю страницу сообщества"
+    "ru": "Вернуться на главную страницу сообщества"
   },
   "FAQViewer_GotoEditor": {
     "en": "Edit FAQ",
@@ -5196,8 +5268,7 @@
     "ru": "Пользователь уже не состоит в этой семейной группе."
   },
   "FamilyManagement_ErrorFailed_NoAdditionalDetails": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "FamilyManagement_ErrorFamilySizeLimitExceeded": {
     "en": "This family is full and cannot accept or invite new members.",
@@ -5430,6 +5501,10 @@
   "FormattingToolbar_BulletedList": {
     "en": "Bulleted List",
     "ru": "Маркированный список"
+  },
+  "FormattingToolbar_ClearFloat": {
+    "en": "Clear Float",
+    "ru": "Убрать выравнивание"
   },
   "FormattingToolbar_CodeBlock": {
     "en": "Code Block",
@@ -5712,16 +5787,23 @@
     "ru": "Обзоры (%2$s): %1$s"
   },
   "GameHover_UserReviewsHeader": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "GamePerformanceStats_AverageFrameRate": {
     "en": "The average reported framerate for %1$s on Steam Deck is %2$s",
     "ru": "Судя по отчётам, средняя частота кадров для %1$s на Steam Deck составляет %2$s"
   },
+  "GamePerformanceStats_AverageFrameRate_Device": {
+    "en": "The average reported framerate for %1$s on %2$s is %3$s",
+    "ru": "Судя по отчётам, средняя частота кадров для %1$s на %2$s составляет %3$s"
+  },
   "GamePerformanceStats_AverageFrameRate_ThisGame": {
     "en": "The average reported framerate for this game on Steam Deck is %1$s",
     "ru": "Судя по отчётам, средняя частота кадров для этой игры на Steam Deck составляет %1$s"
+  },
+  "GamePerformanceStats_AverageFrameRate_ThisGame_Device": {
+    "en": "The average reported framerate for this game on %1$s is %2$s",
+    "ru": "Судя по отчётам, средняя частота кадров для этой игры на %1$s составляет %2$s"
   },
   "GamePerformanceStats_AverageFrameRate_Title": {
     "en": "Average Steam Deck Framerate",
@@ -5804,8 +5886,7 @@
     "ru": "Причина"
   },
   "GameRecording_Dummy_DO_NOT_USE": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "GameRecording_New": {
     "en": "New!",
@@ -6519,6 +6600,22 @@
     "en": "Field exceeds maximum characters ( %1$s ).",
     "ru": "Превышен максимум символов (%1$s)."
   },
+  "InstallApp_Failed": {
+    "en": "Unable to install app.",
+    "ru": "Не удалось установить приложение."
+  },
+  "InstallApp_Failed_AlreadyInstalled": {
+    "en": "The app you're trying to install is already installed on the remote device. Please restart Steam to update the app status.",
+    "ru": "Приложение, которое вы пытаетесь установить, уже установлено на удалённом устройстве. Перезапустите Steam, чтобы обновить статус приложения."
+  },
+  "InstallApp_Failed_Title": {
+    "en": "Installing Remote App Failed",
+    "ru": "Не удалось удалённо установить приложение"
+  },
+  "InstallApp_Timeout": {
+    "en": "Timed out waiting for Install to start.",
+    "ru": "Время ожидания начала установки истекло."
+  },
   "Kilobits": {
     "en": "%1$s Kb",
     "ru": "%1$s Кбит"
@@ -6561,115 +6658,115 @@
   },
   "LOC_Ordinal_Suffix_1": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_2": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_21": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_22": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_23": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_3": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_31": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_32": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_33": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_41": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_42": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_43": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_51": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_52": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_53": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_61": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_62": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_63": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_71": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_72": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_73": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_81": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_82": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_83": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_91": {
     "en": "st",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_92": {
     "en": "nd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_93": {
     "en": "rd",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LOC_Ordinal_Suffix_Default": {
     "en": "th",
-    "ru": "[empty string]"
+    "ru": ""
   },
   "LanguageGroup_Supported": {
     "en": "Supported Languages",
@@ -7489,7 +7586,7 @@
   },
   "ManageFriends_SendInvite": {
     "en": "Send Invite",
-    "ru": "Отправьте приглашение"
+    "ru": "Отправить приглашение"
   },
   "ManageFriends_YourFriendCode": {
     "en": "Your Friend Code",
@@ -7547,6 +7644,14 @@
     "en": "Media processing failed. Please re-encode your file and try again.",
     "ru": "При обработке медиа произошла ошибка. Перекодируйте файл и повторите попытку."
   },
+  "MediaConvert_InputError_AnimationNotAllowed": {
+    "en": "This image cannot be animated. Please upload a still image.",
+    "ru": "Это изображение нельзя анимировать. Загрузите статичный вариант."
+  },
+  "MediaConvert_InputError_AnimationTooSmall": {
+    "en": "The animation or video is too small. Please upload an animation or video at least 16x16 pixels.",
+    "ru": "Анимация или видео слишком маленькие. Размер должен быть не менее 16 на 16 пикселей."
+  },
   "MediaConvert_InputError_DimensionsDontMatchRequirements": {
     "en": "Input media doesn't match require dimensions",
     "ru": "Входной медиафайл не соответствует требуемым размерам"
@@ -7554,6 +7659,22 @@
   "MediaConvert_InputError_GifParsingError": {
     "en": "Failed to Parse GIF. Please re-encode or change format type and try again.",
     "ru": "Не удалось обработать GIF. Перекодируйте файл или измените его формат и повторите попытку."
+  },
+  "MediaConvert_InputError_ImageTooSmall": {
+    "en": "The image is too small. Please upload an image at least 16x16 pixels.",
+    "ru": "Изображение слишком маленькое. Размер должен быть не менее 16 на 16 пикселей."
+  },
+  "MediaConvert_InputError_ImageTypeWithAudio": {
+    "en": "Image files cannot contain an audio track.",
+    "ru": "В файлах изображений не может быть звуковой дорожки."
+  },
+  "MediaConvert_InputError_MultipleVideoStreams": {
+    "en": "The file contains more than one video track. Please upload a file with a single video track.",
+    "ru": "Файл содержит несколько видеодорожек. Загрузите файл с одной видеодорожкой."
+  },
+  "MediaConvert_InputError_NoAvif_NotSupported_WithVideo": {
+    "en": "AVIF output is not supported for video sources.",
+    "ru": "Вывод в формате AVIF не поддерживается для источников видео."
   },
   "MediaConvert_InputError_NonAudio_Input": {
     "en": "The input file does not contain any audio stream. Please provide a file with an audio track.",
@@ -8955,10 +9076,6 @@
     "en": "Not enough space to prepare or save clips. View Settings for more.",
     "ru": "Недостаточно места для подготовки и сохранения роликов. Измените настройки."
   },
-  "RecordingState_ForeverRec_Tooltip": {
-    "en": "Recording and Saving All Content",
-    "ru": "Запись и сохранение всего контента"
-  },
   "RecordingState_LowDiskSpace_CTA": {
     "en": "Open Settings",
     "ru": "Открыть настройки"
@@ -9684,20 +9801,16 @@
     "ru": " — Нельзя использовать с этим типом мероприятий"
   },
   "Sale_BrowserSortOption_MLPlaytime": {
-    "en": "ML Playtime Recommender",
-    "ru": "ML Playtime Recommender"
+    "en": "ML Playtime Recommender"
   },
   "Sale_BrowserSortOption_MLPlaytime_ttip": {
-    "en": "Orders games by per-person recommendations based on playtime behavior of people like them. Falls back to \"Popular based on sales rank\" if not logged in or model not available.",
-    "ru": "Orders games by per-person recommendations based on playtime behavior of people like them. Falls back to \"Popular based on sales rank\" if not logged in or model not available."
+    "en": "Orders games by per-person recommendations based on playtime behavior of people like them. Falls back to \"Popular based on sales rank\" if not logged in or model not available."
   },
   "Sale_BrowserSortOption_MLWishlist": {
-    "en": "ML Wishlist Recommender",
-    "ru": "ML Wishlist Recommender"
+    "en": "ML Wishlist Recommender"
   },
   "Sale_BrowserSortOption_MLWishlist_ttip": {
-    "en": "Orders games by per-person recommendations based on wishlist behavior of people like them. Falls back to \"Trending Upcoming\" (wishlists) if not logged in or model not available.",
-    "ru": "Orders games by per-person recommendations based on wishlist behavior of people like them. Falls back to \"Trending Upcoming\" (wishlists) if not logged in or model not available."
+    "en": "Orders games by per-person recommendations based on wishlist behavior of people like them. Falls back to \"Trending Upcoming\" (wishlists) if not logged in or model not available."
   },
   "Sale_BrowserSortOption_MostPlayedDemo": {
     "en": "Top Demos",
@@ -10228,8 +10341,7 @@
     "ru": "После 4 квартала (%1$s %2$s года или позже)"
   },
   "Sale_Reservation_AfterQuarter_ThreeMonths": {
-    "en": "After %1$s (%2$s %3$s or later)",
-    "ru": "After %1$s (%2$s %3$s or later)"
+    "en": "After %1$s (%2$s %3$s or later)"
   },
   "Sale_Reservation_AfterYear": {
     "en": "After %1$s",
@@ -10428,8 +10540,7 @@
     "ru": "4 квартал (октябрь — декабрь) %1$s года"
   },
   "Sale_Reservation_Quarter_ThreeMonths": {
-    "en": "%1$s (%2$s - %3$s) %4$s",
-    "ru": "%1$s (%2$s - %3$s) %4$s"
+    "en": "%1$s (%2$s - %3$s) %4$s"
   },
   "Sale_Reservation_RelativeMonthly": {
     "en": "~%1$s months",
@@ -11607,6 +11718,10 @@
     "en": "Latest Releases",
     "ru": "Последние новинки"
   },
+  "Sale_default_label_282": {
+    "en": "Non-VR",
+    "ru": "Без VR"
+  },
   "Sale_default_label_29": {
     "en": "For a limited time, install now and keep it forever",
     "ru": "Ограниченное время: установите игру и получите её навсегда"
@@ -12071,6 +12186,14 @@
     "en": "Join our playtest",
     "ru": "Присоединяйтесь к тестированию"
   },
+  "Sale_default_subtitle_8": {
+    "en": "Steam Frame Verified Games",
+    "ru": "Игры, полностью совместимые со Steam Frame"
+  },
+  "Sale_default_subtitle_9": {
+    "en": "Steam Frame Verified And Playable Games",
+    "ru": "Играбельные на Steam Frame и полностью совместимые с ним"
+  },
   "Sale_default_subtitle_custom": {
     "en": "(custom subtitle)",
     "ru": "(свой подзаголовок)"
@@ -12176,8 +12299,7 @@
     "ru": "Отправлено"
   },
   "SendToPhone_LoadingPhone": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "SendToPhone_NoPhone": {
     "en": "You don't have the Steam Mobile App installed on a device that supports push notifications.",
@@ -13619,6 +13741,10 @@
     "en": "This game has minor audio issues on Steam Machine",
     "ru": "У этой игры есть незначительные проблемы со звуком на Steam Machine"
   },
+  "SteamMachine_TestResult_CloudSavesNotEnabledByDefault": {
+    "en": "This game requires manually enabling Steam Cloud support for saved games using in-game settings",
+    "ru": "Для этой игры нужно вручную включить в настройках синхронизацию сохранений со Steam Cloud"
+  },
   "SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice": {
     "en": "This game sometimes shows mouse, keyboard, or non-Steam controller icons",
     "ru": "В этой игре иногда отображается курсор мыши, клавиатура или иконки сторонних контроллеров"
@@ -13760,8 +13886,7 @@
     "ru": "Личные события"
   },
   "SteamNotificationSection_1": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "SteamNotificationSection_2": {
     "en": "Family Notifications",
@@ -16584,8 +16709,7 @@
     "ru": "Выберите файл"
   },
   "shared_dummy": {
-    "en": "dont translate",
-    "ru": "dont translate"
+    "en": "dont translate"
   },
   "standard_shipping_estimate": {
     "en": "Estimated Delivery: 4-8 Business Days",

@@ -4081,7 +4081,7 @@
   },
   "SuspiciousSender_Dialog_Description2": {
     "en": "Links from this user will be disabled in this group until you dismiss this warning.",
-    "ru": "Ссылки от этого пользователя в группе не будут работать, пока вы не отмените предупреждение."
+    "ru": "Ссылки от этого пользователя в группе не будут работать, пока вы не скроете предупреждение."
   },
   "SuspiciousSender_Dialog_Description3": {
     "en": "Reporting these messages helps Steam take action and detect this type of content in the future.",
@@ -4089,7 +4089,7 @@
   },
   "SuspiciousSender_Dialog_Dismiss": {
     "en": "Dismiss Warning",
-    "ru": "Отменить предупреждение"
+    "ru": "Скрыть предупреждение"
   },
   "SuspiciousSender_Dialog_Report": {
     "en": "Report Messages",
@@ -4378,6 +4378,10 @@
   "VoiceChat_MuteVoice_Deck": {
     "en": "Mute Voice",
     "ru": "Заглушить голосовой чат"
+  },
+  "VoiceChat_Muted_Deck": {
+    "en": "Muted",
+    "ru": "Заглушено"
   },
   "VoiceChat_NoneActive": {
     "en": "No Active Voice Chats",

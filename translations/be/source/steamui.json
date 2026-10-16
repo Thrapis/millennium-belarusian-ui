@@ -128,7 +128,7 @@
     "ru": "Мои достижения"
   },
   "Achievements_NotOwned": {
-    "en": "You do not own this game",
+    "en": "You do not have this game",
     "ru": "У вас нет этой игры"
   },
   "Achievements_Sort_MoveToBottom": {
@@ -160,12 +160,12 @@
     "ru": "Показать все глобальные достижения"
   },
   "Activate_AlreadyPurchased": {
-    "en": "This Steam account already owns the product(s) associated with this activation code. To insert a different product code click TRY AGAIN.",
+    "en": "This Steam account already has the product(s) associated with this activation code. To insert a different product code click TRY AGAIN.",
     "ru": "На этом аккаунте Steam уже есть продукты, связанные с данным ключом активации. Чтобы использовать другой ключ, нажмите «Повторить попытку»."
   },
   "Activate_AlreadyPurchased_Headline": {
-    "en": "Product Already Owned",
-    "ru": "У вас уже есть этот продукт"
+    "en": "Product Already In Library",
+    "ru": "Продукт уже в библиотеке"
   },
   "Activate_ContactSupport": {
     "en": "An unexpected error has occurred. Your subscription to %1$s has not been completed. \n\nPlease contact Steam Support.",
@@ -246,6 +246,10 @@
   "Activate_Subscription_Rejected_Headline": {
     "en": "Duplicate Product Code",
     "ru": "Ключ активации уже использован"
+  },
+  "ActiveGamesWarning_Description": {
+    "en": "This will shut down your active games.",
+    "ru": "Запущенные игры будут закрыты."
   },
   "AddNonSteam_AddSelected": {
     "en": "Add Selected Programs",
@@ -775,6 +779,14 @@
     "en": "Using the game's built-in support",
     "ru": "Используется встроенная в игру поддержка"
   },
+  "AppControllerConfiguration_ConfigForDifferentGame": {
+    "en": "Made for another game",
+    "ru": "Конфигурация для другой игры"
+  },
+  "AppControllerConfiguration_ConfigForDifferentGame_Tooltip": {
+    "en": "This layout uses Steam Input actions from a different game and cannot be used in this game.",
+    "ru": "В этой раскладке используются действия системы ввода Steam из другой игры. Её нельзя использовать в этой игре."
+  },
   "AppControllerConfiguration_ConfigNeedsGameInstall": {
     "en": "This game requires being installed in order to edit or view the layout",
     "ru": "Чтобы вы могли изменить или посмотреть раскладки, эта игра должна быть установлена"
@@ -943,6 +955,10 @@
     "en": "Browse <1>Community Layouts</1> for games without official controller support",
     "ru": "Если у игры нет официальной поддержки контроллера, вы можете воспользоваться <1>раскладками от сообщества</1>"
   },
+  "AppControllerConfiguration_GoToVRSettings": {
+    "en": "Go to VR settings",
+    "ru": "Перейти к настройкам VR"
+  },
   "AppControllerConfiguration_IbexSharedConfig": {
     "en": "Switch To Shared Steam Controller Configuration",
     "ru": "Переключиться на общую конфигурацию для Steam Controller"
@@ -975,6 +991,14 @@
     "en": "Export Official Layout",
     "ru": "Экспортировать официальную раскладку"
   },
+  "AppControllerConfiguration_OutdatedConfig": {
+    "en": "Outdated",
+    "ru": "Конфигурация устарела"
+  },
+  "AppControllerConfiguration_OutdatedConfig_Tooltip": {
+    "en": "This layout was made for an older version of this game and can no longer be used.",
+    "ru": "Эта раскладка была создана для более старой версии данной игры. Её нельзя использовать."
+  },
   "AppControllerConfiguration_OverwriteConfig_Desc": {
     "en": "You have modified your existing %1$s layout.  Would you like to update this layout or save your changes as a new layout?",
     "ru": "Вы изменили существующую раскладку «%1$s». Хотели бы вы обновить эту раскладку или создать новую?"
@@ -998,6 +1022,14 @@
   "AppControllerConfiguration_RecommendedTemplateConfigUsing": {
     "en": "Using Recommended Template:",
     "ru": "Используется рекомендованный шаблон:"
+  },
+  "AppControllerConfiguration_RequiresSteamInputConfig": {
+    "en": "Requires Steam Input",
+    "ru": "Необходимо использовать систему ввода Steam"
+  },
+  "AppControllerConfiguration_RequiresSteamInputConfig_Tooltip": {
+    "en": "The developer of this game requires controllers to use their Steam Input API layout. This layout cannot be used.",
+    "ru": "В этой игре для контроллера нужно использовать раскладку, созданную разработчиком на основе API системы ввода Steam. Эту раскладку использовать нельзя."
   },
   "AppControllerConfiguration_RevertChanges": {
     "en": "Revert Changes",
@@ -1060,8 +1092,8 @@
     "ru": "Система ввода Steam"
   },
   "AppControllerConfiguration_SteamInputAPI": {
-    "en": "Using Steam Input",
-    "ru": "Используется система ввода Steam"
+    "en": "Use Steam Input",
+    "ru": "Использовать систему ввода Steam"
   },
   "AppControllerConfiguration_SteamInputAPI_Desc": {
     "en": "This game uses Steam Input API for controller support of over 200 devices, including Xbox, PlayStation, and Switch Controllers",
@@ -1080,8 +1112,8 @@
     "ru": "Этот контроллер использует систему ввода Steam. Она обеспечивает общую поддержку контроллера во время игры и позволяет менять его раскладку.  \n\nВы можете отключить систему ввода Steam и положиться на внутриигровую поддержку контроллера — в некоторых случаях так можно улучшить его работу. Однако если в игре нет встроенной поддержки этого типа контроллеров, вы не сможете играть с отключённой системой ввода Steam.  \n\nТребуется перезапуск игры."
   },
   "AppControllerConfiguration_SteamInputTranslation": {
-    "en": "Using Steam Input Translation",
-    "ru": "Используется преобразование через систему ввода Steam"
+    "en": "Use Steam Input Translation",
+    "ru": "Использовать преобразование через систему ввода Steam"
   },
   "AppControllerConfiguration_SteamInputTranslation_Desc": {
     "en": "This game has built in controller support for some controllers, but not yours. So we're using Steam Input to translate button presses for you.",
@@ -1123,6 +1155,14 @@
     "en": "%1$s likes",
     "ru": "Нравится: %1$s"
   },
+  "AppControllerConfiguration_UseGamepadInput": {
+    "en": "Use Gamepad input for this title",
+    "ru": "Использовать ввод с геймпада для этой игры"
+  },
+  "AppControllerConfiguration_UseGamepadInput_Desc": {
+    "en": "This game supports both VR and Gamepad input. Use this toggle to choose which controller settings to use for this title",
+    "ru": "Эта игра поддерживает ввод и с VR-контроллера, и с геймпада. Используйте переключатель, чтобы выбрать, какие настройки использовать для этой игры."
+  },
   "AppControllerConfiguration_ViewLayout": {
     "en": "View Layout",
     "ru": "Посмотреть раскладку"
@@ -1159,6 +1199,18 @@
     "en": "This game has support for some controllers, but not your device.",
     "ru": "В этой игре есть поддержка некоторых контроллеров, но не вашего."
   },
+  "AppDetailsControllerSection_SC_Full": {
+    "en": "This game is fully playable with a gamepad. You are remapping to an Xbox controller",
+    "ru": "В эту игру можно полноценно играть с помощью геймпада. Вы меняете конфигурацию на контроллер Xbox."
+  },
+  "AppDetailsControllerSection_SC_Mnk": {
+    "en": "This game is playable, but on-screen hints will be for mouse and keyboard bindings rather than gamepad",
+    "ru": "В эту игру можно играть, но подсказки на экране будут относиться к раскладкам для мыши и клавиатуры, а не геймпада"
+  },
+  "AppDetailsControllerSection_SC_Partial": {
+    "en": "This game is playable, but you may need to use the Steam button chords to invoke the On-Screen Keyboard or click through a non-controller enabled launcher",
+    "ru": "В эту игру можно играть, но вам может понадобиться использовать сочетания кнопок Steam для вызова экранной клавиатуры и навигации по опциям лаунчера, который запускается не с помощью контроллера"
+  },
   "AppDetailsControllerSection_SteamInput": {
     "en": "This game supports your controller, but you are currently remapping it via Steam Input and may see incorrect glyphs",
     "ru": "В этой игре поддерживается ваш контроллер, но сейчас команды переназначены на другой метод ввода через систему ввода Steam, из-за чего вы можете видеть неправильные иконки кнопок."
@@ -1171,6 +1223,18 @@
     "en": "Mostly Playable With Your Controller",
     "ru": "Можно играть с вашим контроллером"
   },
+  "AppDetailsControllerSection_Title_SC_Full": {
+    "en": "Playable using Gamepad",
+    "ru": "Можно играть с геймпадом"
+  },
+  "AppDetailsControllerSection_Title_SC_Mnk": {
+    "en": "Using a Mouse & Keyboard Config",
+    "ru": "Используется конфигурация мыши и клавиатуры"
+  },
+  "AppDetailsControllerSection_Title_SC_Partial": {
+    "en": "Playable using Gamepad",
+    "ru": "Можно играть с геймпадом"
+  },
   "AppDetailsControllerSection_Title_Supported_DualShock": {
     "en": "Supports Your DualShock Controller",
     "ru": "Поддерживается ваш контроллер DualShock"
@@ -1182,6 +1246,14 @@
   "AppDetailsControllerSection_Title_Supported_Generic": {
     "en": "Supports Your Controller",
     "ru": "Поддерживается ваш контроллер"
+  },
+  "AppDetailsControllerSection_Title_Supported_SteamController": {
+    "en": "Supports Your Steam Controller",
+    "ru": "Поддерживается ваш Steam Controller"
+  },
+  "AppDetailsControllerSection_Title_Supported_SteamDeck": {
+    "en": "Supports Your Steam Deck",
+    "ru": "Поддерживается ваш Steam Deck"
   },
   "AppDetailsControllerSection_Title_Supported_Xbox": {
     "en": "Supports Your Xbox Controller",
@@ -1261,7 +1333,7 @@
   },
   "AppDetails_BrowseWorkshop": {
     "en": "Browse the Workshop",
-    "ru": "Открыть Мастерскую"
+    "ru": "Открыть мастерскую"
   },
   "AppDetails_BuiltInControllerSupport_Description": {
     "en": "Steam Input is not active for this controller. The device will use the default controller support present in the game",
@@ -2397,7 +2469,7 @@
   },
   "AppDetails_WorkshopVisit": {
     "en": "Visit this Workshop",
-    "ru": "Открыть эту Мастерскую"
+    "ru": "Открыть эту мастерскую"
   },
   "AppLaunchError_BlockedArguments": {
     "en": "Steam blocked the launch of this game because of potentially unsafe launch options.",
@@ -3051,17 +3123,21 @@
     "en": "Change preferred copy",
     "ru": "Сменить предпочтительную копию"
   },
-  "AppProperties_CompatibilityNoOptions": {
-    "en": "The settings for this title cannot be changed.",
-    "ru": "Настройки для этого продукта нельзя изменить."
+  "AppProperties_Compat_Alias": {
+    "en": "%1$s is currently <1>%2$s</1>",
+    "ru": "%1$s — сейчас <1>%2$s</1>"
+  },
+  "AppProperties_Compat_Incompatible": {
+    "en": "<1>Warning:</1> %1$s is incompatible with this application.",
+    "ru": "<1>Внимание:</1> продукт %1$s несовместим с этим приложением."
+  },
+  "AppProperties_Compat_SelectTool": {
+    "en": "Select compatibility tool",
+    "ru": "Выбрать инструмент совместимости"
   },
   "AppProperties_CompatibilityPage": {
     "en": "Compatibility",
     "ru": "Совместимость"
-  },
-  "AppProperties_CompatilibityForceTool": {
-    "en": "Force the use of a specific Steam Play compatibility tool",
-    "ru": "Принудительно использовать выбранный инструмент совместимости Steam Play"
   },
   "AppProperties_Compatilibity_OverrideArmTranslationOptions": {
     "en": "Override ARM Translation Options",
@@ -3541,7 +3617,7 @@
   },
   "AppProperties_ResolutionOverride": {
     "en": "Maximum Game Resolution",
-    "ru": "Максимальное разрешение игр"
+    "ru": "Максимальное разрешение игры"
   },
   "AppProperties_ResolutionOverride_ApplyToInternal": {
     "en": "Apply to internal display",
@@ -3561,7 +3637,15 @@
   },
   "AppProperties_ResolutionOverride_Title": {
     "en": "Maximum Game Resolution",
-    "ru": "Максимальное разрешение игр"
+    "ru": "Максимальное разрешение игры"
+  },
+  "AppProperties_RumbleIntensity": {
+    "en": "Rumble intensity for this game",
+    "ru": "Интенсивность вибрации в этой игре"
+  },
+  "AppProperties_RumbleIntensity_UseGlobal": {
+    "en": "Use Controller Setting",
+    "ru": "Использовать настройки контроллера"
   },
   "AppProperties_RunningInstallScript": {
     "en": "Running install script...",
@@ -4172,8 +4256,8 @@
     "ru": "Звуки интерфейса"
   },
   "Audio_Setting_Hdmi_Cec_Not_Working": {
-    "en": "This system does not support HDMI CEC for volume and mute settings",
-    "ru": "Эта система не поддерживает HDMI CEC для настроек громкости и приглушения"
+    "en": "The connected device does not support HDMI CEC for volume and mute settings",
+    "ru": "Подключённое устройство не поддерживает HDMI CEC для настроек громкости и приглушения"
   },
   "Audio_Setting_Use_Bluetooth_Mic": {
     "en": "Enable Bluetooth microphone",
@@ -4188,16 +4272,16 @@
     "ru": "Объёмное звучание"
   },
   "Audio_Spatialize_Description": {
-    "en": "Position sounds as if they are playing from the position of the app window.",
-    "ru": "Звук позиционируется так, будто исходит от окна приложения."
+    "en": "Position sounds as if they are playing from the position of the game window.",
+    "ru": "Звук позиционируется так, будто исходит от окна игры."
   },
   "Audio_Spatialize_Surround": {
     "en": "Spatialize As 7.1 Surround",
     "ru": "Объёмное звучание в формате 7.1"
   },
   "Audio_Spatialize_Surround_Description": {
-    "en": "Allow apps to output 7.1 surround sound, which can be spatialized using virtual speakers, with the front-center speaker at the center of the app window.",
-    "ru": "Разрешить приложениям выводить звук в формате 7.1, который позволяет сделать звучание объёмным за счёт виртуальных динамиков; при этом фронтальный центральный динамик будет расположен в центре окна приложения."
+    "en": "Allow games to output 7.1 surround sound, which can be spatialized using virtual speakers, with the front-center speaker at the center of the game window.",
+    "ru": "Разрешить играм выводить звук в формате 7.1, который позволяет сделать звучание объёмным за счёт виртуальных динамиков; при этом фронтальный центральный динамик будет расположен в центре окна игры."
   },
   "Audio_SpeakerConfiguration": {
     "en": "Speaker Configuration",
@@ -4327,21 +4411,13 @@
     "en": "Dismiss",
     "ru": "Закрыть"
   },
-  "BetaOptIn_SeeChanged": {
-    "en": "See what's changed",
-    "ru": "Что изменилось"
-  },
-  "BetaOptIn_ThankYou": {
-    "en": "Thanks for participating in the beta - <1>leave feedback</1>",
-    "ru": "Благодарим за участие в бета-тестировании! Оставьте <1>отзыв</1>"
+  "BetaOptIn_Ended": {
+    "en": "Thanks for participating in the %1$s beta. This beta has ended. Restart Steam to return to the current release.",
+    "ru": "Благодарим вас за участие в бета-тестировании %1$s. Бета-тестирование закончено — перегрузите Steam для возврата к текущей версии."
   },
   "BetaOptIn_Updated": {
     "en": "Your Steam Client has been updated",
     "ru": "Ваш клиент Steam обновлён"
-  },
-  "BetaOptIn_WeShipped": {
-    "en": "The new features have shipped! Thanks for participating in the beta. <1>Here's how to join the next one</1>.",
-    "ru": "Новые функции добавлены в стабильную версию клиента! Спасибо за участие в бета-тестировании. <1>Вот как поучаствовать в следующем</1>."
   },
   "Beta_BetaTag": {
     "en": "BETA",
@@ -4723,14 +4799,6 @@
     "en": "Change Account",
     "ru": "Сменить аккаунт"
   },
-  "ChangeUser_ActiveGamesWarning": {
-    "en": "This will shut down your active games.",
-    "ru": "Это закроет ваши запущенные игры."
-  },
-  "ChangeUser_OKButton": {
-    "en": "Continue",
-    "ru": "Продолжить"
-  },
   "ChangeUser_ShouldShowUserChooser": {
     "en": "Ask which account to use each time Steam starts",
     "ru": "При каждом запуске Steam спрашивать, какой аккаунт использовать"
@@ -4986,6 +5054,38 @@
   "CloudConflict_Older": {
     "en": "Older",
     "ru": "Старее"
+  },
+  "CloudConflict_RemoteHost_ControllerConfigs_Description": {
+    "en": "Your Steam Input controller layouts on %1$s don't match the ones in the Steam Cloud. Choose one:",
+    "ru": "Ваши раскладки для системы ввода Steam на %1$s не совпадают с сохранёнными в Steam Cloud. Выберите одну:"
+  },
+  "CloudConflict_RemoteHost_ControllerConfigs_KeepLocal": {
+    "en": "Layout on %1$s",
+    "ru": "Раскладка на %1$s"
+  },
+  "CloudConflict_RemoteHost_ControllerConfigs_KeepLocal_Description": {
+    "en": "Your controller layouts in the Steam Cloud will be overwritten using the layouts currently on %1$s",
+    "ru": "Раскладки контроллера в Steam Cloud будут заменены на раскладки, которые сейчас используются на %1$s"
+  },
+  "CloudConflict_RemoteHost_ControllerConfigs_KeepRemote_Description": {
+    "en": "Your controller layouts on %1$s will be overwritten using the layouts currently in the Steam Cloud",
+    "ru": "Раскладки контроллера на %1$s будут заменены на раскладки, сохранённые в Steam Cloud"
+  },
+  "CloudConflict_RemoteHost_Description": {
+    "en": "Your %1$s save data on %2$s conflicts with what is stored in the Steam Cloud. Whichever save data you choose to keep will be synced to %2$s and the cloud. The option you choose not to keep will be overwritten.",
+    "ru": "Данные ваших сохранений %1$s на устройстве %2$s конфликтуют с находящимися в Steam Cloud. Сохранения, которые вы оставите, будут синхронизированы с %2$s и с облаком. Сохранения, которые вы решите не оставлять, будут перезаписаны."
+  },
+  "CloudConflict_RemoteHost_KeepLocal": {
+    "en": "Save on %1$s",
+    "ru": "Сохранить на %1$s"
+  },
+  "CloudConflict_RemoteHost_KeepLocal_Description": {
+    "en": "Your save data in the Steam Cloud will be overwritten using the files currently on %1$s",
+    "ru": "Данные ваших сохранений в Steam Cloud будут заменены на файлы с %1$s"
+  },
+  "CloudConflict_RemoteHost_KeepRemote_Description": {
+    "en": "Your save data on %1$s will be overwritten using the files currently in the Steam Cloud",
+    "ru": "Данные ваших сохранений на %1$s будут заменены на файлы из Steam Cloud"
   },
   "CloudConflict_Unknown": {
     "en": "Unknown",
@@ -5332,8 +5432,7 @@
     "ru": "Последний запуск"
   },
   "ContentManagement_AppSelected": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "ContentManagement_AppSize": {
     "en": "Size",
@@ -6469,7 +6568,7 @@
   },
   "ControllerBinding_ActivatorDropDown_DoublePress_Description": {
     "en": "Double Press Activator requires a quick double tap of the input to activate.  If held on the second press, it will remain pressed.  Any interruptable activators on the same button will not fire if a double press is fired, and will be paused until the double press time has passed.",
-    "ru": "Активатор двойного нажатия требует быстрого двойного касания для активации. Если кнопка удерживается при втором касании, активатор остается в режиме нажатия. Все прерываемые активаторы на той же кнопке не будут действовать, если включено двойное нажатие, и будут приостановлены до его окончания."
+    "ru": "Активатор двойного нажатия требует быстрого двойного нажатия для срабатывания. Если удерживать кнопку после второго нажатия, активатор останется в режиме нажатия. Если сработало двойное нажатие, то остальные прерываемые активаторы этой же кнопки не сработают, и их активация будет приостановлена до окончания нажатия."
   },
   "ControllerBinding_ActivatorDropDown_FullPress": {
     "en": "Regular Press",
@@ -7158,6 +7257,14 @@
   "ControllerBinding_Chord_Interruptable_On_Description": {
     "en": "This activator will pause or not fire at all if other activators are in play.  Long Press, Double Press, etc. will cause it to wait for their conditions to be met before this activator is allowed to activate itself.  If those other activators fire, this one will not.",
     "ru": "Этот активатор приостановится или не сработает вовсе, если задействованы другие активаторы. Долгое нажатие, двойное нажатие и другие режимы получат приоритет перед тем, как этот активатор сможет начать работу. Если сработает другой активатор, то не сработает этот."
+  },
+  "ControllerBinding_Chord_Invert": {
+    "en": "Invert Activation",
+    "ru": "Инверсия активации"
+  },
+  "ControllerBinding_Chord_Invert_Description": {
+    "en": "Fires when this input is released while no chord button is pressed. Pressing this input releases it.",
+    "ru": "Срабатывает при отпускании элемента ввода, если не зажата кнопка активатора. Она освобождается при нажатии этого элемента ввода."
   },
   "ControllerBinding_Chord_RepeatRate": {
     "en": "Repeat Rate",
@@ -10972,8 +11079,7 @@
     "ru": "Мин. угол отклонения гироскопа"
   },
   "ControllerBinding_GyroDeflectionAngleMin_Description": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "ControllerBinding_GyroDeflectionJoystickOutputMax": {
     "en": "Maximum Joystick Output",
@@ -11228,8 +11334,7 @@
     "ru": "Чувствительность гироскопа"
   },
   "ControllerBinding_GyroNaturalSensitivityAbsoluteMouse_Description": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "ControllerBinding_GyroNaturalSensitivityGyroToMouse": {
     "en": "Gyro ° Sensitivity",
@@ -16003,6 +16108,22 @@
     "en": "Scale the vertical sensitivity. This will change the motion of the vertical axis relative to the horizontal.",
     "ru": "Настройка вертикальной чувствительности. Она изменяет скорость движения по вертикальной оси относительно горизонтальной."
   },
+  "ControllerBinding_VirtualCapSizeRelMouse": {
+    "en": "Adaptive Centering Threshold",
+    "ru": "Порог адаптивного центрирования"
+  },
+  "ControllerBinding_VirtualCapSizeRelMouse_Description": {
+    "en": "Adjusts the area of the trackpad where an emulated stick movement is allowed to start. If the joystick output does not reach full range, try lowering this or the centering range below",
+    "ru": "Регулирует область трекпада, в которой может начинаться движение эмулированного стика. Если выход джойстика не достигает полного диапазона, попробуйте уменьшить это значение или сократить диапазон центрирования ниже."
+  },
+  "ControllerBinding_VirtualCapThrowRelMouse": {
+    "en": "Adaptive Centering Range",
+    "ru": "Диапазон адаптивного центрирования"
+  },
+  "ControllerBinding_VirtualCapThrowRelMouse_Description": {
+    "en": "Adjust the distance needed to reach the maximum range of the emulated joystick when using adaptive centering",
+    "ru": "Отрегулируйте расстояние, необходимое для получения максимального диапазона эмулированного джойстика при использовании адаптивного центрирования."
+  },
   "ControllerBinding_XButton": {
     "en": "X Button Command",
     "ru": "Кнопка X"
@@ -16275,6 +16396,142 @@
     "en": "Default",
     "ru": "По умолчанию"
   },
+  "ControllerConfigurator_Actions_AddBinding": {
+    "en": "Add Control",
+    "ru": "Добавить элемент управления"
+  },
+  "ControllerConfigurator_Actions_BindingSettings": {
+    "en": "Settings",
+    "ru": "Настройки"
+  },
+  "ControllerConfigurator_Actions_ChangeBinding": {
+    "en": "Change Command",
+    "ru": "Изменить команду"
+  },
+  "ControllerConfigurator_Actions_ChangeControl": {
+    "en": "Change Control",
+    "ru": "Сменить элемент управления"
+  },
+  "ControllerConfigurator_Actions_ChooseInput_NoneAvailable": {
+    "en": "No controls on this controller can be used for this action in this action set. Set a mode for the control you want on its own page first.",
+    "ru": "Элементы управления этого контроллера нельзя использовать для данного действия из этого набора. Сначала нужно настроить режим соответствующего элемента управления на его странице."
+  },
+  "ControllerConfigurator_Actions_ChooseInput_Title_1": {
+    "en": "Choose a control for %1$s",
+    "ru": "Выбрать элемент управления для: %1$s"
+  },
+  "ControllerConfigurator_Actions_ChooseMode_Title_1": {
+    "en": "Choose a mode for %1$s",
+    "ru": "Выбрать режим для: %1$s"
+  },
+  "ControllerConfigurator_Actions_EditControl": {
+    "en": "Edit Control",
+    "ru": "Изменить элемент управления"
+  },
+  "ControllerConfigurator_Actions_InUse": {
+    "en": "In Use",
+    "ru": "Используется"
+  },
+  "ControllerConfigurator_Actions_Kind_AnalogTrigger": {
+    "en": "Trigger",
+    "ru": "Триггер"
+  },
+  "ControllerConfigurator_Actions_Kind_Button": {
+    "en": "Button",
+    "ru": "Кнопка"
+  },
+  "ControllerConfigurator_Actions_Kind_StickPadGyro": {
+    "en": "Analog",
+    "ru": "Аналог"
+  },
+  "ControllerConfigurator_Actions_ModeDesc_AbsoluteMouse": {
+    "en": "Moves the mouse cursor the way you move on the pad, the way a laptop trackpad does.",
+    "ru": "Перемещает курсор мыши на основе того, как вы двигаете его на трекпаде (как на ноутбуках)."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_CameraAngles": {
+    "en": "Sends the game a camera angle directly, for games that support it, rather than the mouse or stick movement the other modes produce.",
+    "ru": "Отправляет напрямую в игру угол камеры (если эта функция поддерживается), а не движения мыши или стика, как в других режимах."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_Disabled": {
+    "en": "Leaves the control doing nothing while this is the choice.",
+    "ru": "Когда выбрано, ввода с элемента управления не происходит."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_FlickStick": {
+    "en": "Flick the stick in a direction to snap the camera that way, then keep rotating the stick to turn the camera by the same amount.",
+    "ru": "Переместите джойстик, чтобы направить камеру в нужном направлении, затем продолжайте вращать джойстик, чтобы повернуть камеру на ту же величину."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_GyroToJoystickCamera": {
+    "en": "Turns the controller's motion into camera stick input, for games that read a stick rather than a mouse.",
+    "ru": "Преобразует движение контроллера во ввод с камеры в играх, которые считывают данные стика, а не мыши."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_GyroToJoystickDeflection": {
+    "en": "Turns the controller's motion into stick deflection, as though you were pushing a stick that far.",
+    "ru": "Преобразует движение контроллера в отклонение стика, как если бы вы отводили стик на такое же расстояние."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_GyroToMouse": {
+    "en": "Turns the controller's motion into mouse movement, so you aim by tilting it.",
+    "ru": "Преобразует движение контроллера в перемещение курсора мыши: наклоняйте его для прицеливания."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_JoystickCamera": {
+    "en": "Sends camera stick input, where how far you push sets how fast the camera turns.",
+    "ru": "Отправляет ввод с джойстика как данные камеры, дальность отклонения определяет скорость поворота камеры."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_JoystickMouse": {
+    "en": "Moves the mouse cursor at a steady speed for as long as you hold a deflection, and faster the further you push.",
+    "ru": "Перемещает курсор мыши с постоянной скоростью при удерживании отклонённого стика в одном положении и ускоряет его при увеличении отклонения."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_JoystickMove_Gyro": {
+    "en": "Deflects a virtual joystick, using your gyro position directly to control how far it is deflected.",
+    "ru": "Отклоняет виртуальный джойстик, используя положение гироскопа для управления дальностью отклонения."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_JoystickMove_Trackpad": {
+    "en": "Deflects a virtual joystick, using your trackpad position directly to control how far it is deflected.",
+    "ru": "Отклоняет виртуальный джойстик, используя положение трекпада для управления дальностью отклонения."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_MouseJoystick_Gyro": {
+    "en": "Sends joystick input to the game, but reads your gyro motion like a mouse. For games that expect a stick to aim or to move a cursor.",
+    "ru": "Отправляет в игру ввод с джойстика, но считывает движения гироскопа, как будто они выполняются мышью. Подходит для игр, где нужно использовать стик для прицеливания или перемещения курсора."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_MouseJoystick_Trackpad": {
+    "en": "Sends joystick input to the game, but reads your trackpad motion like a mouse. For games that expect a stick to aim or to move a cursor.",
+    "ru": "Отправляет в игру ввод с джойстика, но считывает движения на трекпаде, как будто они выполняются мышью. Подходит для игр, где нужно использовать стик для прицеливания или перемещения курсора."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_MouseRegion": {
+    "en": "Maps the pad onto a region of the screen, so a spot on the pad always points at the same place.",
+    "ru": "Связывает трекпад с областью на экране таким образом, что позиция на трекпаде всегда указывает в одно и то же место на экране."
+  },
+  "ControllerConfigurator_Actions_ModeDesc_RelativeMouse": {
+    "en": "The older joystick mouse mode, kept for configurations that already use it.",
+    "ru": "Предыдущая версия режима джойстика с функциями мыши, сохранена для конфигураций, в которых он используется."
+  },
+  "ControllerConfigurator_Actions_MouseRow": {
+    "en": "Mouse",
+    "ru": "Мышь"
+  },
+  "ControllerConfigurator_Actions_QualifiedTitle_2": {
+    "en": "%1$s (%2$s)",
+    "ru": "%1$s (%2$s)"
+  },
+  "ControllerConfigurator_Actions_RemoveBinding": {
+    "en": "Remove Control",
+    "ru": "Удалить элемент управления"
+  },
+  "ControllerConfigurator_Actions_ShowUnboundOnly": {
+    "en": "Show only unbound actions",
+    "ru": "Показать только действия без привязки"
+  },
+  "ControllerConfigurator_Actions_Unbound": {
+    "en": "Unbound",
+    "ru": "Привязки нет"
+  },
+  "ControllerConfigurator_Activator_AdjustTimings": {
+    "en": "Adjust Timings",
+    "ru": "Изменить интервалы"
+  },
+  "ControllerConfigurator_Activator_AdjustTimings_Desc": {
+    "en": "Multi-bindings can be visualized and adjusted in the dedicated editor screen.",
+    "ru": "Множественные привязки можно визуализировать и настраивать на специальной странице редактора."
+  },
   "ControllerConfigurator_Activator_Command_Cycles_Desc": {
     "en": "Command %1$s (Cycles)",
     "ru": "Команда %1$s (работает циклами)"
@@ -16299,9 +16556,17 @@
     "en": "Add command",
     "ru": "Добавить команду"
   },
+  "ControllerConfigurator_Activator_ContextMenuItem_AddExtraBinding_Button": {
+    "en": "Add",
+    "ru": "Добавить"
+  },
   "ControllerConfigurator_Activator_ContextMenuItem_AddExtraBinding_Title": {
     "en": "Add sub command",
     "ru": "Добавить подкоманду"
+  },
+  "ControllerConfigurator_Activator_ContextMenuItem_MultiBindingTiming_Title": {
+    "en": "Edit multi-binding timing",
+    "ru": "Изменить интервал для множественной привязки"
   },
   "ControllerConfigurator_Activator_ContextMenuItem_RemoveActivator_Title": {
     "en": "Delete extra command",
@@ -16311,9 +16576,13 @@
     "en": "Delete all commands",
     "ru": "Удалить все команды"
   },
+  "ControllerConfigurator_Activator_ContextMenuItem_RemoveCommand_Button": {
+    "en": "Remove",
+    "ru": "Удалить"
+  },
   "ControllerConfigurator_Activator_ContextMenuItem_RemoveCommand_Title": {
-    "en": "Remove command",
-    "ru": "Удалить команду"
+    "en": "Remove this command",
+    "ru": "Удалить эту команду"
   },
   "ControllerConfigurator_Activator_ContextMenuItem_RemoveExtraBinding_Title": {
     "en": "Delete sub command",
@@ -16355,6 +16624,10 @@
     "en": "Executes %1$s Commands",
     "ru": "Выполняет команды (%1$s)"
   },
+  "ControllerConfigurator_Activators_SubCommands_Desc": {
+    "en": "Executes %1$s Sub Commands",
+    "ru": "Выполняет подкоманды (%1$s)"
+  },
   "ControllerConfigurator_ChooseBinding_ActionSet": {
     "en": "Action Sets",
     "ru": "Наборы действий"
@@ -16388,8 +16661,12 @@
     "ru": "Клавиатура"
   },
   "ControllerConfigurator_ChooseBinding_Listener": {
-    "en": "Press a key to bind or long-hold %1$s or Escape to cancel",
-    "ru": "Нажмите на кнопку, которую хотите привязать, или зажмите %1$s или Escape для отмены"
+    "en": "Press a key to bind it or long-hold %1$s / Escape to exit",
+    "ru": "Нажмите клавишу для привязки или удерживайте %1$s/Escape для выхода"
+  },
+  "ControllerConfigurator_ChooseBinding_Listener_Desc": {
+    "en": "Steam is now listening to your mouse, keyboard, and gamepad for inputs.",
+    "ru": "В Steam теперь можно привязать ввод мыши, клавиатуры и геймпада."
   },
   "ControllerConfigurator_ChooseBinding_Mouse": {
     "en": "Mouse",
@@ -16526,6 +16803,18 @@
   "ControllerConfigurator_ConfigInfo_Title": {
     "en": "Developer Info",
     "ru": "Информация для разработчиков"
+  },
+  "ControllerConfigurator_ConfigLoadFailed_ChooseNew": {
+    "en": "Choose a Different Layout",
+    "ru": "Выберите другую раскладку"
+  },
+  "ControllerConfigurator_ConfigLoadFailed_Description": {
+    "en": "The selected controller layout could not be loaded from disk. Choose a different layout to continue.",
+    "ru": "Нельзя загрузить выбранную раскладку контроллера с диска. Чтобы продолжить, выберите другую раскладку."
+  },
+  "ControllerConfigurator_ConfigLoadFailed_Title": {
+    "en": "Controller Layout Failed to Load",
+    "ru": "Не удалось загрузить раскладку контроллера"
   },
   "ControllerConfigurator_CreateVirtualMenuDialog_Description_1": {
     "en": "Enter a name for this new Virtual Menu",
@@ -17017,7 +17306,7 @@
   },
   "ControllerConfigurator_Interstitial_NonVerified_DescA2": {
     "en": "Our default templates work for most games, but otherwise we always suggest checking the game's Community Layouts to see if another player has published a custom layout.",
-    "ru": "Наши шаблоны по умолчанию должны работать в большинстве игр. Если нет, загляните в Мастерскую: возможно, другой игрок уже загрузил более оптимальную раскладку."
+    "ru": "Наши шаблоны по умолчанию должны работать в большинстве игр. Если нет, загляните в мастерскую: возможно, другой игрок уже загрузил более оптимальную раскладку."
   },
   "ControllerConfigurator_Interstitial_NonVerified_DescB1": {
     "en": "These games may ask you to press keys or buttons. In those cases, you’ll need to assign those commands to your device’s physical controls.",
@@ -17127,6 +17416,102 @@
     "en": "Layout Options",
     "ru": "Настройки раскладки"
   },
+  "ControllerConfigurator_MultiBinding_Collapse": {
+    "en": "Collapse",
+    "ru": "Свернуть"
+  },
+  "ControllerConfigurator_MultiBinding_Delay_1": {
+    "en": "+%1$s ms",
+    "ru": "+%1$s мс"
+  },
+  "ControllerConfigurator_MultiBinding_Desc": {
+    "en": "Each bar is one command this control produces, over a single press. Times are in milliseconds. Move a bar's start and end handles to change when that command fires and when it lets go.",
+    "ru": "Каждая строка соответствует одной команде, выполняемой за одно нажатие элемента управления. Время указано в миллисекундах. Перемещайте начальную и конечную отметки, чтобы изменить время начала и окончания действия команды."
+  },
+  "ControllerConfigurator_MultiBinding_EndDelay": {
+    "en": "End",
+    "ru": "Конец"
+  },
+  "ControllerConfigurator_MultiBinding_Expand": {
+    "en": "Expand",
+    "ru": "Развернуть"
+  },
+  "ControllerConfigurator_MultiBinding_FireDelay": {
+    "en": "Fire",
+    "ru": "Начало"
+  },
+  "ControllerConfigurator_MultiBinding_Hold": {
+    "en": "Simulated Button Press Length",
+    "ru": "Длительность имитированного нажатия кнопки"
+  },
+  "ControllerConfigurator_MultiBinding_Hold_Desc": {
+    "en": "How long the press is held in this preview. Commands that respond to the release move with it.",
+    "ru": "Как долго удерживается нажатие. Команды, которые реагируют на отпускание, будут изменены соответствующим образом."
+  },
+  "ControllerConfigurator_MultiBinding_Milliseconds_1": {
+    "en": "%1$s ms",
+    "ru": "%1$s мс"
+  },
+  "ControllerConfigurator_MultiBinding_NamedSummary_2": {
+    "en": "%1$s (%2$s)",
+    "ru": "%1$s (%2$s)"
+  },
+  "ControllerConfigurator_MultiBinding_Percent_1": {
+    "en": "%1$s%",
+    "ru": "%1$s%"
+  },
+  "ControllerConfigurator_MultiBinding_Press": {
+    "en": "Press",
+    "ru": "Нажатие"
+  },
+  "ControllerConfigurator_MultiBinding_RangeEnd": {
+    "en": "End",
+    "ru": "Окончание"
+  },
+  "ControllerConfigurator_MultiBinding_RangeStart": {
+    "en": "Start",
+    "ru": "Начало"
+  },
+  "ControllerConfigurator_MultiBinding_Release": {
+    "en": "Release",
+    "ru": "Отпускание"
+  },
+  "ControllerConfigurator_MultiBinding_Section_Bindings": {
+    "en": "Commands",
+    "ru": "Команды"
+  },
+  "ControllerConfigurator_MultiBinding_Section_Timeline": {
+    "en": "Timeline",
+    "ru": "Интервал"
+  },
+  "ControllerConfigurator_MultiBinding_SingleBinding": {
+    "en": "This control only produces one command, so there is no timing between commands to set. Its delays are still listed below.",
+    "ru": "Элемент управления выполняет только одну команду, поэтому между командами нельзя установить интервалы. Задержки для неё перечислены внизу."
+  },
+  "ControllerConfigurator_MultiBinding_Sort": {
+    "en": "Sort",
+    "ru": "Сортировать"
+  },
+  "ControllerConfigurator_MultiBinding_SortByTime": {
+    "en": "Reorder the inputs by start time",
+    "ru": "Сортировать элементы ввода по времени начала действия"
+  },
+  "ControllerConfigurator_MultiBinding_Title": {
+    "en": "Multi-Binding Timing",
+    "ru": "Интервал для множественной привязки"
+  },
+  "ControllerConfigurator_MultiBinding_Unnamed": {
+    "en": "Unnamed Multi-Binding",
+    "ru": "Множественная привязка без названия"
+  },
+  "ControllerConfigurator_MultiBinding_WontFire_Interrupted_1": {
+    "en": "%1$s activates on this press, and this command is set to be interruptible, so it is skipped.",
+    "ru": "При нажатии этой кнопки активируется %1$s. Эта команда — прерываема, поэтому она будет пропущена."
+  },
+  "ControllerConfigurator_MultiBinding_WontFire_TooShort_1": {
+    "en": "The press has to be held at least %1$s for this to activate.",
+    "ru": "Для активации необходимо удерживать не менее %1$s."
+  },
   "ControllerConfigurator_Options": {
     "en": "Options",
     "ru": "Опции"
@@ -17134,6 +17519,10 @@
   "ControllerConfigurator_Section_ActionSets": {
     "en": "Action Sets",
     "ru": "Наборы действий"
+  },
+  "ControllerConfigurator_Section_Actions": {
+    "en": "Game Actions",
+    "ru": "Действия в игре"
   },
   "ControllerConfigurator_Section_Buttons": {
     "en": "Buttons",
@@ -17290,6 +17679,10 @@
   "ControllerConfigurator_Setting_Section_TriggerDampening": {
     "en": "Trigger Dampening",
     "ru": "Замедление триггером"
+  },
+  "ControllerConfigurator_SkipCloudSyncWait": {
+    "en": "Continue Without Waiting",
+    "ru": "Продолжить, не дожидаясь"
   },
   "ControllerConfigurator_SourceMode_2DScrollwheel_Title": {
     "en": "Directional Swipe",
@@ -17634,6 +18027,10 @@
   "ControllerConfigurator_Source_Switches_Title": {
     "en": "Buttons",
     "ru": "Кнопки"
+  },
+  "ControllerConfigurator_SyncingCloudFiles": {
+    "en": "Syncing controller configuration cloud files",
+    "ru": "Синхронизация облачных файлов конфигурации контроллера"
   },
   "ControllerConfigurator_VirtualMenu_AddBindingSlot": {
     "en": "Add Virtual Menu Entry",
@@ -18799,13 +19196,21 @@
     "en": "Next",
     "ru": "Дальше"
   },
-  "ControllerWelcome_PlugInController_Body_KnownHardware": {
+  "ControllerWelcome_PlugInController_BodyWithPuck_KnownHardware": {
     "en": "Plug your Steam Controller into your %1$s with a USB-C cable. You can unplug your Puck and use that USB-C cable to connect your controller.",
     "ru": "Подключите Steam Controller к %1$s с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера."
   },
-  "ControllerWelcome_PlugInController_Body_UnknownHardware": {
+  "ControllerWelcome_PlugInController_BodyWithPuck_UnknownHardware": {
     "en": "Plug your Steam Controller into your PC with a USB-C cable. You can unplug your Puck and use that USB-C cable to connect your controller.",
     "ru": "Подключите Steam Controller к компьютеру с помощью кабеля USB-C. Вы можете отключить устройство Puck и использовать кабель USB-C для подключения контроллера."
+  },
+  "ControllerWelcome_PlugInController_Body_KnownHardware": {
+    "en": "Plug your Steam Controller into your %1$s with a USB-C cable.",
+    "ru": "Подключите Steam Controller к устройству %1$s с помощью кабеля USB-C."
+  },
+  "ControllerWelcome_PlugInController_Body_UnknownHardware": {
+    "en": "Plug your Steam Controller into your PC with a USB-C cable.",
+    "ru": "Подключите Steam Controller к компьютеру с помощью кабеля USB-C."
   },
   "ControllerWelcome_PlugInController_Title": {
     "en": "Plug in Steam Controller",
@@ -19135,6 +19540,10 @@
     "en": "Play Aperture Desk Job",
     "ru": "Играть в Aperture Desk Job"
   },
+  "DesktopStream": {
+    "en": "Desktop Stream",
+    "ru": "Трансляция рабочего стола"
+  },
   "Developer_SLS_Devcoredump_Enabled": {
     "en": "Enable Driver Crash Report Collection",
     "ru": "Включить сбор отчётов о сбоях драйвера"
@@ -19403,13 +19812,25 @@
     "en": "Download Failed",
     "ru": "Ошибка загрузки"
   },
+  "DisplayStatus_DownloadFailed_Remote": {
+    "en": "Download Failed on %1$s",
+    "ru": "Сбой загрузки на %1$s"
+  },
   "DisplayStatus_DownloadPaused": {
     "en": "Download Paused",
     "ru": "Загрузка приостановлена"
   },
+  "DisplayStatus_DownloadPaused_Remote": {
+    "en": "Download Paused on %1$s",
+    "ru": "Загрузка на %1$s приостановлена"
+  },
   "DisplayStatus_DownloadQueued": {
     "en": "Download Queued",
     "ru": "Загрузка в очереди"
+  },
+  "DisplayStatus_DownloadQueued_Remote": {
+    "en": "Download Queued on %1$s",
+    "ru": "Загрузка в очереди на %1$s"
   },
   "DisplayStatus_DownloadRequired": {
     "en": "Download Required",
@@ -19419,9 +19840,17 @@
     "en": "Downloading",
     "ru": "Загрузка"
   },
+  "DisplayStatus_Downloading_Remote": {
+    "en": "Downloading on %1$s",
+    "ru": "Идёт загрузка на %1$s"
+  },
   "DisplayStatus_Installing": {
     "en": "Installing",
     "ru": "Установка"
+  },
+  "DisplayStatus_Installing_Remote": {
+    "en": "Installing on %1$s",
+    "ru": "Идёт установка на %1$s"
   },
   "DisplayStatus_InvalidPlatform": {
     "en": "Available for",
@@ -19430,6 +19859,10 @@
   "DisplayStatus_Launching": {
     "en": "Launching",
     "ru": "Запуск"
+  },
+  "DisplayStatus_Launching_Remote": {
+    "en": "Launching on %1$s",
+    "ru": "Идёт запуск на %1$s"
   },
   "DisplayStatus_LicenseExpired": {
     "en": "License Expired",
@@ -19442,6 +19875,10 @@
   "DisplayStatus_NotLaunchable": {
     "en": "Installed",
     "ru": "Установлено"
+  },
+  "DisplayStatus_NotLaunchable_Remote": {
+    "en": "Installed on %1$s",
+    "ru": "Установлено на %1$s"
   },
   "DisplayStatus_OwnerLocked": {
     "en": "This game is not currently available for Family Sharing",
@@ -19463,6 +19900,10 @@
     "en": "Preload Complete",
     "ru": "Предзагрузка завершена"
   },
+  "DisplayStatus_PreloadComplete_Remote": {
+    "en": "Preload Complete on %1$s",
+    "ru": "Предзагрузка на %1$s завершена"
+  },
   "DisplayStatus_PresaleOnly": {
     "en": "This item is not yet available",
     "ru": "Этот продукт ещё недоступен"
@@ -19475,13 +19916,25 @@
     "en": "Ready to Install",
     "ru": "Готово к установке"
   },
+  "DisplayStatus_ReadyToInstall_Remote": {
+    "en": "Ready to Install on %1$s",
+    "ru": "Готово к установке на %1$s"
+  },
   "DisplayStatus_ReadyToLaunch": {
     "en": "Ready to Launch",
     "ru": "Готово к запуску"
   },
+  "DisplayStatus_ReadyToLaunch_Remote": {
+    "en": "Ready to Launch on %1$s",
+    "ru": "Готово к запуску на %1$s"
+  },
   "DisplayStatus_ReadyToPreload": {
     "en": "Ready to Preload",
     "ru": "Готово к предзагрузке"
+  },
+  "DisplayStatus_ReadyToPreload_Remote": {
+    "en": "Ready to Preload on %1$s",
+    "ru": "Готово к предзагрузке на %1$s"
   },
   "DisplayStatus_RegionRestricted": {
     "en": "Unavailable in current region",
@@ -19495,6 +19948,10 @@
     "en": "Running",
     "ru": "Запущено"
   },
+  "DisplayStatus_Running_Remote": {
+    "en": "Running on %1$s",
+    "ru": "Запущено на %1$s"
+  },
   "DisplayStatus_Synchronizing": {
     "en": "Synchronizing with Steam Cloud",
     "ru": "Синхронизация со Steam Cloud"
@@ -19503,6 +19960,10 @@
     "en": "Stopping",
     "ru": "Остановка"
   },
+  "DisplayStatus_Terminating_Remote": {
+    "en": "Stopping on %1$s",
+    "ru": "Остановка на %1$s"
+  },
   "DisplayStatus_Unavailable": {
     "en": "Unavailable",
     "ru": "Недоступно"
@@ -19510,6 +19971,10 @@
   "DisplayStatus_Uninstalling": {
     "en": "Uninstalling",
     "ru": "Удаление"
+  },
+  "DisplayStatus_Uninstalling_Remote": {
+    "en": "Uninstalling on %1$s",
+    "ru": "Идёт удаление на %1$s"
   },
   "DisplayStatus_UpdateAvailableButDisabledByApp": {
     "en": "Update disabled",
@@ -19523,25 +19988,49 @@
     "en": "Update Failed",
     "ru": "Ошибка обновления"
   },
+  "DisplayStatus_UpdateFailed_Remote": {
+    "en": "Update Failed on %1$s",
+    "ru": "Сбой обновления на %1$s"
+  },
   "DisplayStatus_UpdatePaused": {
     "en": "Update Paused",
     "ru": "Обновление приостановлено"
+  },
+  "DisplayStatus_UpdatePaused_Remote": {
+    "en": "Update Paused on %1$s",
+    "ru": "Обновление на %1$s приостановлено"
   },
   "DisplayStatus_UpdateQueued": {
     "en": "Update Queued",
     "ru": "Обновление в очереди"
   },
+  "DisplayStatus_UpdateQueued_Remote": {
+    "en": "Update Queued on %1$s",
+    "ru": "Обновление в очереди на %1$s"
+  },
   "DisplayStatus_UpdateRequired": {
     "en": "Update Required",
     "ru": "Требуется обновление"
+  },
+  "DisplayStatus_UpdateRequired_Remote": {
+    "en": "Update Required on %1$s",
+    "ru": "Требуется обновление на %1$s"
   },
   "DisplayStatus_Updating": {
     "en": "Updating",
     "ru": "Обновление"
   },
+  "DisplayStatus_Updating_Remote": {
+    "en": "Updating on %1$s",
+    "ru": "Идёт обновление на %1$s"
+  },
   "DisplayStatus_Validating": {
     "en": "Validating",
     "ru": "Проверка"
+  },
+  "DisplayStatus_Validating_Remote": {
+    "en": "Validating on %1$s",
+    "ru": "Идёт проверка на %1$s"
   },
   "DownloadSettings_AllowDownloadDuringGameplay": {
     "en": "Allow downloads during gameplay",
@@ -19800,8 +20289,7 @@
     "ru": "Установка файлов"
   },
   "Downloads_DetailedState_None": {
-    "en": " ",
-    "ru": " "
+    "en": " "
   },
   "Downloads_DetailedState_Patching": {
     "en": "Patching files",
@@ -19909,7 +20397,7 @@
   },
   "Downloads_ManageDownloadsFor": {
     "en": "MANAGING DOWNLOADS FOR",
-    "ru": "УПРАВЛЕНИЕ ЗАГРУЗКАМИ ДЛЯ"
+    "ru": "УПРАВЛЕНИЕ ЗАГРУЗКАМИ:"
   },
   "Downloads_MoveToTop_Tooltip": {
     "en": "Download now",
@@ -20015,25 +20503,40 @@
     "en": "Downloading",
     "ru": "Загрузка"
   },
+  "Downloads_State_Downloading_Remote": {
+    "en": "Downloading on %1$s",
+    "ru": "Идёт загрузка на %1$s"
+  },
   "Downloads_State_Finalizing": {
     "en": "Finalizing",
     "ru": "Завершение"
+  },
+  "Downloads_State_Finalizing_Remote": {
+    "en": "Finalizing on %1$s",
+    "ru": "Финализация загрузки на %1$s"
   },
   "Downloads_State_Hosting": {
     "en": "Hosting Network Transfer",
     "ru": "Передача по сети"
   },
+  "Downloads_State_Hosting_Remote": {
+    "en": "Hosting Network Transfer on %1$s",
+    "ru": "Передача по сети на %1$s"
+  },
   "Downloads_State_Installing": {
     "en": "Installing",
     "ru": "Установка"
+  },
+  "Downloads_State_Installing_Remote": {
+    "en": "Installing on %1$s",
+    "ru": "Идёт установка на %1$s"
   },
   "Downloads_State_MinutesRemaining": {
     "en": "%1$s min remaining",
     "ru": "Ещё %1$s мин."
   },
   "Downloads_State_None": {
-    "en": " ",
-    "ru": " "
+    "en": " "
   },
   "Downloads_State_NotQueued": {
     "en": "Not Queued",
@@ -20042,6 +20545,10 @@
   "Downloads_State_Patching": {
     "en": "Patching",
     "ru": "Внесение изменений"
+  },
+  "Downloads_State_Patching_Remote": {
+    "en": "Patching on %1$s",
+    "ru": "Внесение изменений на %1$s"
   },
   "Downloads_State_Paused": {
     "en": "Paused",
@@ -20055,17 +20562,24 @@
     "en": "Reserving Space",
     "ru": "Выделение места"
   },
+  "Downloads_State_Preallocating_Remote": {
+    "en": "Reserving Space on %1$s",
+    "ru": "Выделение места на %1$s"
+  },
   "Downloads_State_Preloading": {
     "en": "Preloading",
     "ru": "Предзагрузка"
+  },
+  "Downloads_State_Preloading_Remote": {
+    "en": "Preloading on %1$s",
+    "ru": "Идёт предзагрузка на %1$s"
   },
   "Downloads_State_Queued": {
     "en": "Queued",
     "ru": "В очереди"
   },
   "Downloads_State_Running": {
-    "en": " ",
-    "ru": " "
+    "en": " "
   },
   "Downloads_State_SecondsRemaining": {
     "en": "%1$s sec remaining",
@@ -20075,17 +20589,33 @@
     "en": "Starting Download",
     "ru": "Начало загрузки"
   },
+  "Downloads_State_Starting_Remote": {
+    "en": "Starting Download on %1$s",
+    "ru": "Начинается загрузка на %1$s"
+  },
   "Downloads_State_Stopping": {
     "en": "Stopping Download",
     "ru": "Остановка загрузки"
+  },
+  "Downloads_State_Stopping_Remote": {
+    "en": "Stopping Download on %1$s",
+    "ru": "Остановка загрузки на %1$s"
   },
   "Downloads_State_Transferring": {
     "en": "Transferring",
     "ru": "Приём"
   },
+  "Downloads_State_Transferring_Remote": {
+    "en": "Transferring from %1$s",
+    "ru": "Передача с %1$s"
+  },
   "Downloads_State_Unpacking": {
     "en": "Unpacking",
     "ru": "Распаковка"
+  },
+  "Downloads_State_Unpacking_Remote": {
+    "en": "Unpacking on %1$s",
+    "ru": "Идёт распаковка на %1$s"
   },
   "Downloads_State_UpNext": {
     "en": "Next",
@@ -20103,17 +20633,33 @@
     "en": "Updating",
     "ru": "Обновление"
   },
+  "Downloads_State_Updating_Remote": {
+    "en": "Updating on %1$s",
+    "ru": "Идёт обновление на %1$s"
+  },
   "Downloads_State_Validating": {
     "en": "Validating",
     "ru": "Проверка"
+  },
+  "Downloads_State_Validating_Remote": {
+    "en": "Validating on %1$s",
+    "ru": "Идёт проверка на %1$s"
   },
   "Downloads_State_Verifying": {
     "en": "Verifying",
     "ru": "Проверка"
   },
+  "Downloads_State_Verifying_Remote": {
+    "en": "Verifying on %1$s",
+    "ru": "Идёт проверка на %1$s"
+  },
   "Downloads_State_WaitingForPrevious": {
     "en": "Stopping Previous Download",
     "ru": "Остановка предыдущей загрузки"
+  },
+  "Downloads_State_WaitingForPrevious_Remote": {
+    "en": "Stopping Previous Download on %1$s",
+    "ru": "Остановка предыдущей загрузки на %1$s"
   },
   "Downloads_Stats_CurrentRate": {
     "en": "Current",
@@ -20133,11 +20679,11 @@
   },
   "Downloads_ThisDevice": {
     "en": "This Device",
-    "ru": "Этого устройства"
+    "ru": "Это устройство"
   },
   "Downloads_ThisDeviceUppercase": {
     "en": "THIS DEVICE",
-    "ru": "ЭТОГО УСТРОЙСТВА"
+    "ru": "ЭТО УСТРОЙСТВО"
   },
   "Downloads_Throttle": {
     "en": "Downloads limited to:",
@@ -20943,6 +21489,18 @@
     "en": "Verified On Deck",
     "ru": "Полностью совместимые с Deck"
   },
+  "FilterElement_SteamFramePlayable": {
+    "en": "Verified and Playable on Frame",
+    "ru": "Полностью совместимые и играбельные на Frame"
+  },
+  "FilterElement_SteamFrameUnknown": {
+    "en": "Verified, Playable, and Untested on Frame",
+    "ru": "Все, кроме неподдерживаемых на Frame"
+  },
+  "FilterElement_SteamFrameVerified": {
+    "en": "Verified On Frame",
+    "ru": "Полностью совместимые с Frame"
+  },
   "FilterElement_SteamInputAPI": {
     "en": "Steam Input API",
     "ru": "API системы ввода Steam"
@@ -20984,16 +21542,16 @@
     "ru": "Включить игры, поддерживающие функцию семейной библиотеки"
   },
   "FilterElement_Tooltip_FriendLibrary": {
-    "en": "Include games owned by %1$s",
-    "ru": "Игры, которые есть у %1$s"
+    "en": "Include games from %1$s",
+    "ru": "Игры друга: %1$s"
   },
   "FilterElement_Tooltip_FriendLibrary_AccessDenied": {
     "en": "Access to this user's library is denied. Check that it is shared with you, or try again later.",
     "ru": "У вас нет доступа к библиотеке этого пользователя. Убедитесь, что этот пользователь делится с вами библиотекой, и повторите попытку."
   },
   "FilterElement_Tooltip_FriendLibrary_Offline": {
-    "en": "Include games owned by a friend. Friends' info may not be available in offline mode.",
-    "ru": "Игры, которые есть у друга. Информация о друзьях может быть недоступна без подключения к сети."
+    "en": "Include games in a friend's library. Friends' info may not be available in offline mode.",
+    "ru": "Игры из библиотеки друга. Информация о друзьях может быть недоступна в автономном режиме."
   },
   "FilterElement_Tooltip_FullControllerSupport": {
     "en": "Include games that can be played entirely with a game controller.",
@@ -21111,6 +21669,18 @@
     "en": "Include games that fully pass the Steam Deck Verified testing process.",
     "ru": "Игры, которые прошли проверку и полностью совместимы со Steam Deck."
   },
+  "FilterElement_Tooltip_SteamFramePlayable": {
+    "en": "Include all Steam Frame Verified titles, plus games that are playable but might require extra effort to interact with or configure.",
+    "ru": "Игры, полностью совместимые со Steam Frame, и те, которым может потребоваться дополнительная настройка."
+  },
+  "FilterElement_Tooltip_SteamFrameUnknown": {
+    "en": "Include all Steam Frame Verified and Playable titles, plus games that haven't yet been tested for Frame compatibility.",
+    "ru": "Игры, имеющие полную или частичную совместимость со Steam Frame, а также ещё не проверенные."
+  },
+  "FilterElement_Tooltip_SteamFrameVerified": {
+    "en": "Include games that fully pass the Steam Frame Verified testing process.",
+    "ru": "Игры, которые прошли проверку и полностью совместимы со Steam Frame."
+  },
   "FilterElement_Tooltip_SteamInputAPI": {
     "en": "Include games that make full use of Steam Input API, which means it will work well with any of over 300 devices you connect.",
     "ru": "Игры, использующие все возможности API ввода Steam (а значит, хорошо работающие с более чем 300 периферийными устройствами)."
@@ -21198,6 +21768,26 @@
   "FilterToolTip_SearchText": {
     "en": "Contains \"%1$s\"",
     "ru": "Содержит «%1$s»"
+  },
+  "FrameVerified_FilterDescription_AllGames": {
+    "en": "Show all games in your library, including those that Frame Deck doesn't run well.",
+    "ru": "Показывать все игры из библиотеки, даже если они не поддерживаются на Steam Frame."
+  },
+  "FrameVerified_FilterDescription_Verified": {
+    "en": "Show only games that work naturally with your Frame's built-in controls and display.",
+    "ru": "Показывать только игры, которые отлично работают со встроенным управлением и экраном Steam Frame."
+  },
+  "FrameVerified_FilterDescription_Verified_NotOnFrame": {
+    "en": "Show only games that work naturally with Steam Frame's built-in controls and display.",
+    "ru": "Показывать только игры, которые отлично работают со встроенным управлением и экраном Steam Frame."
+  },
+  "FrameVerified_FilterDescription_Verified_Playable": {
+    "en": "Show all Verified titles, plus games that are playable but might require extra effort to interact with or configure.",
+    "ru": "Показывать игры, полностью совместимые со Steam Machine, и те, которым может потребоваться дополнительная настройка."
+  },
+  "FrameVerified_FilterDescription_Verified_Playable_Unknown": {
+    "en": "Show all Verified and Playable titles, plus games that haven't yet been tested for Frame compatibility.",
+    "ru": "Показывать игры, имеющие полную или частичную совместимость со Steam Frame, а также ещё не проверенные."
   },
   "FriendContextMenu_OpenFriends": {
     "en": "Open Friends & Chat",
@@ -21567,6 +22157,10 @@
     "en": "Download",
     "ru": "Загрузить"
   },
+  "GameAction_DownloadOnRemote": {
+    "en": "Download <1>on %1$s</1>",
+    "ru": "Загрузить <1>на %1$s</1>"
+  },
   "GameAction_FamilyMenu": {
     "en": "Family",
     "ru": "Семейная группа"
@@ -21582,6 +22176,10 @@
   "GameAction_Install": {
     "en": "Install",
     "ru": "Установить"
+  },
+  "GameAction_InstallOnRemote": {
+    "en": "Install <1>on %1$s</1>",
+    "ru": "Установить <1>на %1$s</1>"
   },
   "GameAction_Launch": {
     "en": "Launch",
@@ -21691,6 +22289,10 @@
     "en": "Preload",
     "ru": "Предзагрузить"
   },
+  "GameAction_PreloadOnRemote": {
+    "en": "Preload <1>on %1$s</1>",
+    "ru": "Предзагрузить <1>на %1$s</1>"
+  },
   "GameAction_PurchaseApp": {
     "en": "Purchase",
     "ru": "Купить"
@@ -21779,6 +22381,10 @@
     "en": "Stream",
     "ru": "Транслировать"
   },
+  "GameAction_StreamOnRemote": {
+    "en": "Stream <1>from %1$s</1>",
+    "ru": "Транслировать <1>с %1$s</1>"
+  },
   "GameAction_Terminating": {
     "en": "Stopping",
     "ru": "Остановка"
@@ -21794,6 +22400,10 @@
   "GameAction_Uninstall": {
     "en": "Uninstall",
     "ru": "Удалить с устройства"
+  },
+  "GameAction_UninstallOnRemote": {
+    "en": "Uninstall <1>from %1$s</1>",
+    "ru": "Удалить <1>с %1$s</1>"
   },
   "GameAction_UnmarkAsPrivate": {
     "en": "Unmark as Private",
@@ -22595,6 +23205,10 @@
     "en": "Your Steam Frame is now paired with <1></1> and ready to stream.",
     "ru": "Устройство Steam Frame привязано к <1></1> и готово к трансляции."
   },
+  "GuidedTour_FramePairingWith": {
+    "en": "Your Steam Frame is pairing with <1></1>.",
+    "ru": "Steam Frame выполняет привязку к <1></1>."
+  },
   "GuidedTour_FrameUnknownPCName": {
     "en": "Unknown",
     "ru": "неизвестному компьютеру"
@@ -22608,12 +23222,20 @@
     "ru": "Вы уверены, что хотите пропустить инструкции по использованию Steam Frame?"
   },
   "GuidedTour_Frame_ConfirmSkipDongleDesc": {
-    "en": "Are you sure you want to skip pairing the Wireless Adapter to a computer? You can pair at anytime from Steam->Settings.",
-    "ru": "Вы точно хотите пропустить шаг привязки беспроводного адаптера к компьютеру? Вы можете выполнить привязку в любое время в разделе Steam -> «Настройки»."
+    "en": "Are you sure you want to skip pairing the Wireless Adapter to a computer? You can pair at anytime from Steam->Settings->Remote Play.",
+    "ru": "Вы точно хотите пропустить шаг привязки беспроводного адаптера к компьютеру? Её можно выполнить в любое время в разделе Steam -> «Настройки» -> Remote Play."
+  },
+  "GuidedTour_Frame_Continue": {
+    "en": "Continue",
+    "ru": "Продолжить"
   },
   "GuidedTour_Frame_Finish": {
     "en": "Finish",
     "ru": "Готово"
+  },
+  "GuidedTour_Frame_GamepadModeToggle": {
+    "en": "Gamepad Mode",
+    "ru": "Режим геймпада"
   },
   "GuidedTour_Frame_HealthAndSafety": {
     "en": "For important Health and Safety information",
@@ -22622,6 +23244,42 @@
   "GuidedTour_Frame_HealthAndSafetyClickHere": {
     "en": "CLICK HERE",
     "ru": "НАЖМИТЕ ЗДЕСЬ"
+  },
+  "GuidedTour_Frame_HealthAndSafetyTitle": {
+    "en": "Health and Safety information",
+    "ru": "Информация о здоровье и безопасности"
+  },
+  "GuidedTour_Frame_LaserMouseToggle": {
+    "en": "Laser Mouse",
+    "ru": "Лазерная мышь"
+  },
+  "GuidedTour_Frame_LaserMouseToggleOff": {
+    "en": "OFF",
+    "ru": "ВЫКЛ."
+  },
+  "GuidedTour_Frame_LaserMouseToggleOn": {
+    "en": "ON",
+    "ru": "ВКЛ."
+  },
+  "GuidedTour_Frame_LaserMouseToggleTitle": {
+    "en": "Laser Mouse & Gamepad Mode Toggle",
+    "ru": "Переключение между лазерной мышью и режимом геймпада"
+  },
+  "GuidedTour_Frame_LaserMouse_ChooseDesired": {
+    "en": "Please choose the desired input mode you want to continue the guided tour in.",
+    "ru": "Выберите режим ввода, в котором хотите продолжить прохождение инструкции."
+  },
+  "GuidedTour_Frame_LaserMouse_ClickNextDesc": {
+    "en": " <1>Click Next</1> to Continue.",
+    "ru": " <1>Нажмите «Дальше»</1>, чтобы продолжить."
+  },
+  "GuidedTour_Frame_LaserMouse_Desc": {
+    "en": "Click the grip button on either controller to toggle between Laser Mouse and Gamepad mode. You can toggle input modes at anytime.",
+    "ru": "Нажмите кнопку хвата на любом из контроллеров для переключения между лазерной мышью и режимом геймпада. Переключаться между режимами ввода можно в любое время."
+  },
+  "GuidedTour_Frame_LaserMouse_PressADesc": {
+    "en": " <1>Press A</1> to Continue.",
+    "ru": " <1>Нажмите A</1>, чтобы продолжить."
   },
   "GuidedTour_Frame_Next": {
     "en": "Next",
@@ -22660,8 +23318,44 @@
     "ru": "Кнопка Steam"
   },
   "GuidedTour_Frame_SystemButtonDesc": {
-    "en": "Use the Steam button to show or hide the Steam dashboard. To center your view press and hold the Steam button.",
-    "ru": "Используйте кнопку Steam, чтобы показать или скрыть панель управления Steam. Нажмите и удерживайте эту кнопку, чтобы отцентрировать изображение."
+    "en": "Use the Steam button to show or hide the Steam dashboard. To recenter your view press and hold the Steam button.",
+    "ru": "Используйте кнопку Steam, чтобы показать или скрыть панель управления Steam. Нажмите и удерживайте эту кнопку, чтобы повторно центрировать изображение."
+  },
+  "GuidedTour_Frame_TutorailVideos": {
+    "en": "To view Steam Frame How-To videos <1>click here</1>.",
+    "ru": "Для просмотра видеоинструкций по использованию Steam Frame <1>нажмите здесь</1>."
+  },
+  "GuidedTour_Frame_TutorialVideos_ErgonomicAccessory": {
+    "en": "Ergonomic Accessory Kit",
+    "ru": "Набор эргономичных аксессуаров"
+  },
+  "GuidedTour_Frame_TutorialVideos_FitComfort": {
+    "en": "Fit & Comfort",
+    "ru": "Посадка и комфорт"
+  },
+  "GuidedTour_Frame_TutorialVideos_IPDAdjustment": {
+    "en": "IPD Adjustment",
+    "ru": "Регулировка межзрачкового расстояния"
+  },
+  "GuidedTour_Frame_TutorialVideos_InstallingControllerHandstrap": {
+    "en": "Installing Controller Handstraps",
+    "ru": "Закрепление ремешков контроллеров"
+  },
+  "GuidedTour_Frame_TutorialVideos_InstallingHeadstrap": {
+    "en": "Installing Headstrap",
+    "ru": "Закрепление головного фиксатора"
+  },
+  "GuidedTour_Frame_TutorialVideos_SignIn": {
+    "en": "Signing into Steam",
+    "ru": "Вход в Steam"
+  },
+  "GuidedTour_Frame_TutorialVideos_Unboxing": {
+    "en": "Unboxing",
+    "ru": "Распаковка"
+  },
+  "GuidedTour_Frame_TutorialVideos_WirelessAdapter": {
+    "en": "Wireless Adapter",
+    "ru": "Беспроводной адаптер"
   },
   "GuidedTour_Frame_Welcome_Description": {
     "en": "Before you start playing, let's take a quick tour of your Steam Frame VR Headset.",
@@ -22694,6 +23388,10 @@
   "GuidedTour_PairingInstructions3": {
     "en": "Plug in the Steam Frame Wireless Adapter into an available USB 3 port on your host computer. It can take up to 30 seconds for your computer to detect the Wireless Adapter.",
     "ru": "Подключите беспроводной адаптер Steam Frame к доступному порту USB 3 на основном компьютере. Обнаружение адаптера может занять до 30 секунд."
+  },
+  "GuidedTour_PairingWithComputer": {
+    "en": "Pairing with a Computer",
+    "ru": "Привязка к компьютеру"
   },
   "GuidedTour_ParentalControlsSetup_Description": {
     "en": "Steam Parental Controls are enabled via Steam Families. Members of a Steam Family can have one of two roles: adult or child. Any adult can manage parental controls for any child accounts in the Steam Family.",
@@ -22896,8 +23594,8 @@
     "ru": "Вы точно хотите пропустить настройку границ игровой зоны? Её можно настроить в любое время после просмотра инструкции."
   },
   "GuidedTour_Welcome_PlayspaceSetupDesc": {
-    "en": "Use the brush by holding the trigger to add to your playspace boundary and adjust the floor height. When finished click Confirm.",
-    "ru": "Используйте кисть, удерживая триггер, чтобы расширить границы игрового пространства и отрегулировать высоту пола. После завершения нажмите «Подтвердить»."
+    "en": "Use the brush by holding the trigger to add to your playspace boundary and adjust the floor height. When finished click Accept.",
+    "ru": "Используйте кисть, удерживая триггер, чтобы расширить границы игрового пространства и отрегулировать высоту пола. После завершения нажмите «Принять»."
   },
   "GuidedTour_Welcome_PlayspaceSetupDesc2": {
     "en": "Brush interaction adds from the boundary edge by clicking on the grid floor.",
@@ -22942,6 +23640,86 @@
   "HardwareDeviceName_SteamController": {
     "en": "Steam Controller (2015)",
     "ru": "Steam Controller (2015)"
+  },
+  "HardwarePromo_FrameHLAlyx_Account_Desc": {
+    "en": "Each Steam Frame comes with a free copy of Half-Life: Alyx.",
+    "ru": "Каждое устройство Steam Frame поставляется с бесплатной копией игры Half-Life: Alyx."
+  },
+  "HardwarePromo_FrameHLAlyx_Account_Title": {
+    "en": "Redeem Half-Life: Alyx",
+    "ru": "Активировать Half-Life: Alyx"
+  },
+  "HardwarePromo_FrameHLAlyx_AlreadyOwned_Desc": {
+    "en": "You already have Half-Life: Alyx on this account and cannot redeem Half-Life: Alyx.",
+    "ru": "У вас уже есть Half-Life: Alyx на этом аккаунте, и вы не можете получить эту игру."
+  },
+  "HardwarePromo_FrameHLAlyx_Btn_GoToAlyx": {
+    "en": "Go To Half-Life: Alyx",
+    "ru": "Открыть Half-Life: Alyx"
+  },
+  "HardwarePromo_FrameHLAlyx_Btn_Owned": {
+    "en": "Already on Account",
+    "ru": "Уже есть на аккаунте"
+  },
+  "HardwarePromo_FrameHLAlyx_Btn_Redeem": {
+    "en": "Redeem Now",
+    "ru": "Получить"
+  },
+  "HardwarePromo_FrameHLAlyx_Btn_Redeemed": {
+    "en": "Redeemed",
+    "ru": "Получена"
+  },
+  "HardwarePromo_FrameHLAlyx_Btn_Redeeming": {
+    "en": "Redeeming",
+    "ru": "В процессе получения"
+  },
+  "HardwarePromo_FrameHLAlyx_ClaimedByOtherAccount_Desc": {
+    "en": "Another account has already redeemed Half-Life: Alyx for this device.",
+    "ru": "Игра Half-Life: Alyx уже получена для этого устройства с другого аккаунта."
+  },
+  "HardwarePromo_FrameHLAlyx_Claimed_Desc": {
+    "en": "Half-Life: Alyx has already been redeemed for this device.",
+    "ru": "Игра Half-Life: Alyx уже был получена для этого устройства."
+  },
+  "HardwarePromo_FrameHLAlyx_Ignore_Btn": {
+    "en": "Ignore Forever",
+    "ru": "Отказаться навсегда"
+  },
+  "HardwarePromo_FrameHLAlyx_Ignore_Desc": {
+    "en": "Are you sure you want to ignore this offer forever? You will not be able to redeem your free copy of Half-Life: Alyx from this account again.",
+    "ru": "Вы точно хотите навсегда отказаться от этого предложения? Вы больше не сможете получить бесплатную копию игры Half-Life: Alyx с этого аккаунта."
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_AccessDenied": {
+    "en": "Your account is currently locked and cannot redeem this free copy at this time.",
+    "ru": "В настоящее время ваш аккаунт заблокирован, и вы не можете получить эту бесплатную копию."
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_AlreadyOwn": {
+    "en": "You already have Half-Life: Alyx on this account.",
+    "ru": "У вас уже есть Half-Life: Alyx на этом аккаунте."
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_Confirm": {
+    "en": "Are you sure you want to redeem your free copy of Half-Life: Alyx on the current account \"%1$s\"?",
+    "ru": "Вы точно хотите получить бесплатную копию игры Half-Life: Alyx на этот аккаунт (%1$s)?"
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_Duplicate": {
+    "en": "It appears this Frame's free copy of Half-Life: Alyx has already been redeemed. If this is in error, please contact Steam Support with your device's serial number: %1$s",
+    "ru": "Похоже, бесплатная копия Half-Life: Alyx для этого Steam Frame уже получена. Если это не так, обратитесь в службу поддержки Steam и предоставьте серийный номер вашего устройства: %1$s"
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_Error": {
+    "en": "We enounted an unexpected error. Please try your redemption again later.",
+    "ru": "Произошла непредвиденная ошибка. Попробуйте получить свою копию позже."
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_InvalidParam": {
+    "en": "Invalid serial number provided. If this issue persists, please contact Steam Support with device serial number: %1$s",
+    "ru": "Указан недействительный серийный номер. Если проблема не решится, обратитесь в службу поддержки Steam и предоставьте серийный номер устройства: %1$s"
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_InvalidVersion": {
+    "en": "You must update to the latest SteamOS and Steam Client version before you can redeem your free copy of Half-Life: Alyx.",
+    "ru": "Для получения бесплатной копии Half-Life: Alyx нужно обновить SteamOS и клиент Steam до последней версии."
+  },
+  "HardwarePromo_FrameHLAlyx_Redeem_Success": {
+    "en": "Success! You have redeemed your free copy of Half-Life: Alyx.",
+    "ru": "Готово! Вы получили бесплатную копию Half-Life: Alyx."
   },
   "HardwareUpdateField_Button": {
     "en": "Update all devices now",
@@ -23592,8 +24370,7 @@
     "ru": "Win"
   },
   "KeyboardKey_0": {
-    "en": "0",
-    "ru": "0"
+    "en": "0"
   },
   "KeyboardKey_1": {
     "en": "1",
@@ -24009,11 +24786,11 @@
   },
   "KeyboardKey_VolDown": {
     "en": "Volume Down Key",
-    "ru": "Клавиша\\n«Громкость –»"
+    "ru": "Клавиша уменьшения громкости"
   },
   "KeyboardKey_VolUp": {
     "en": "Volume Up Key",
-    "ru": "Клавиша\\n«Громкость +»"
+    "ru": "Клавиша увеличения громкости"
   },
   "KeyboardKey_W": {
     "en": "W Key",
@@ -24623,9 +25400,13 @@
     "en": "Midweek Deal",
     "ru": "Акция посреди недели"
   },
+  "LibraryHome_Spotlight_NewGame": {
+    "en": "New Game",
+    "ru": "Новая игра"
+  },
   "LibraryHome_Spotlight_PlayNow": {
-    "en": "AVailable Now",
-    "ru": "Можно играть"
+    "en": "Available Now",
+    "ru": "Уже доступно"
   },
   "LibraryHome_Spotlight_PrePurchase": {
     "en": "Prepurchase",
@@ -24883,6 +25664,10 @@
     "en": "Steam Deck Compatibility:",
     "ru": "Совместимость со Steam Deck:"
   },
+  "Library_FilterCollectionDescription_SteamFrame": {
+    "en": "Steam Frame Compatibility:",
+    "ru": "Совместимость со Steam Frame:"
+  },
   "Library_FilterCollectionDescription_SteamMachine": {
     "en": "Steam Machine Compatibility:",
     "ru": "Совместимость со Steam Machine:"
@@ -25020,8 +25805,8 @@
     "ru": "Что-то новое"
   },
   "Library_FriendsActivity_UnownedHover": {
-    "en": "We're showing you this game because it's popular among your friends and you don't own it.",
-    "ru": "Вы видите эту игру, потому что она популярна среди ваших друзей, но вы ей не владеете."
+    "en": "We're showing you this game because it's popular among your friends and you don't have it.",
+    "ru": "Вы видите эту игру, потому что она популярна среди ваших друзей, но у вас её нет."
   },
   "Library_FriendsActivity_UnownedMenu_Discussions": {
     "en": "Discussions",
@@ -25965,7 +26750,7 @@
   },
   "Menu_Home": {
     "en": "Home",
-    "ru": "Домашняя страница"
+    "ru": "Главная страница"
   },
   "Menu_Inventory": {
     "en": "Inventory",
@@ -26371,6 +27156,10 @@
     "en": "Download Complete",
     "ru": "Загрузка завершена"
   },
+  "Notification_DownloadComplete_Title_RemoteClient": {
+    "en": "Download Complete on <1>%1$s</1>",
+    "ru": "Скачивание завершено на: <1>%1$s</1>"
+  },
   "Notification_FamilyGroup_PlaytimeWarning_Body": {
     "en": "Your playtime limit is approaching. You have %1$s minute remaining.",
     "ru": "Разрешённое игровое время закончится через %1$s мин."
@@ -26515,6 +27304,14 @@
     "en": "Clip Saved",
     "ru": "Ролик сохранён"
   },
+  "Notification_LoggedInAsUser_Body": {
+    "en": "Press %1$s to switch",
+    "ru": "Нажмите %1$s, чтобы сменить аккаунт"
+  },
+  "Notification_LoggedInAsUser_Title": {
+    "en": "Logged in as %1$s",
+    "ru": "Вы вошли как %1$s"
+  },
   "Notification_NewOfflineMessagesPinned_Body": {
     "en": "%1$s Unread Chat Message",
     "ru": "Непрочитанных сообщений: %1$s"
@@ -26555,6 +27352,14 @@
     "en": "Recording Finished",
     "ru": "Запись завершена"
   },
+  "Notification_RedeemFramePromo_Body": {
+    "en": "Each Steam Frame comes with a free copy of Half-Life: Alyx.",
+    "ru": "Каждое устройство Steam Frame поставляется с бесплатной копией игры Half-Life: Alyx."
+  },
+  "Notification_RedeemFramePromo_Title": {
+    "en": "Redeem Half-Life: Alyx",
+    "ru": "Получить Half-Life: Alyx"
+  },
   "Notification_RemoteClientConnected": {
     "en": "%1$s is available for streaming",
     "ru": "%1$s: устройство готово к трансляции"
@@ -26570,6 +27375,14 @@
   "Notification_RemotePlay_Title": {
     "en": "Steam Remote Play",
     "ru": "Steam Remote Play"
+  },
+  "Notification_RestartNeeded_Body": {
+    "en": "Steam must restart to apply the latest update",
+    "ru": "Для установки последнего обновления требуется перезапуск Steam"
+  },
+  "Notification_RestartNeeded_Title": {
+    "en": "Restart Required",
+    "ru": "Требуется перезапуск"
   },
   "Notification_SteamDeckRewards_Body": {
     "en": "You have unclaimed rewards!",
@@ -26710,6 +27523,10 @@
   "NotificationsSettings_Notification_GroupEvent": {
     "en": "Group events and announcements",
     "ru": "О событиях или объявлениях в группах"
+  },
+  "NotificationsSettings_Notification_LoggedInAsUser": {
+    "en": "On wake when multiple users are signed in",
+    "ru": "О выходе из спящего режима, если несколько пользователей вошли в систему"
   },
   "NotificationsSettings_Notification_UnlockAchievement": {
     "en": "When I unlock an achievement",
@@ -26968,8 +27785,7 @@
     "ru": "Отклонить приглашение в друзья?"
   },
   "Overlay_FriendInviteToCurrentGame_Body": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "Overlay_FriendInviteToCurrentGame_Title": {
     "en": "Choose Friend to Invite",
@@ -26980,8 +27796,7 @@
     "ru": "Принять приглашение"
   },
   "Overlay_FriendInviteToGame_Body": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "Overlay_FriendInviteToGame_Decline": {
     "en": "Decline Invite",
@@ -27020,8 +27835,7 @@
     "ru": "Голосовой чат"
   },
   "Overlay_FriendInviteToRemotePlayTogetherCurrentGame_Body": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "Overlay_FriendInviteToRemotePlayTogetherCurrentGame_Title": {
     "en": "Choose Friend to Invite",
@@ -27094,6 +27908,10 @@
   "PairControllerScreen_Explainer_Plural": {
     "en": "To pair your controller and use it wirelessly, push the highlighted buttons above to enter Bluetooth pairing mode",
     "ru": "Чтобы привязать контроллер и использовать его беспроводным способом, перейдите в режим привязки контроллера по Bluetooth, удерживая подсвеченные кнопки"
+  },
+  "PairControllerScreen_Explainer_SteamController": {
+    "en": "To put your Steam Controller into Bluetooth pairing mode, first turn off the controller, then hold R1, the B button, and the Steam button until the LED begins flashing blue",
+    "ru": "Чтобы перевести Steam Controller в режим привязки по Bluetooth, сначала выключите контроллер, затем удерживайте правый бампер R1, кнопку B и кнопку Steam, пока светоиндикатор не начнёт мигать синим."
   },
   "PairControllerScreen_Explainer_Switch": {
     "en": "To put your Nintendo Switch controller into Bluetooth pairing mode, press and hold the pairing button on the top of the controller until the LEDs begin sweeping from left to right",
@@ -27371,9 +28189,217 @@
     "en": "Reorder",
     "ru": "Изменить порядок"
   },
+  "QuickAccess_ReorderControllers_SIAPIHint": {
+    "en": "Controllers briefly disconnect from the game while reordering",
+    "ru": "При изменении порядка контроллеры на некоторое время отключаются от игры"
+  },
   "QuickAccess_ReorderControllers_StopReorder": {
     "en": "Stop reorder",
     "ru": "Остановить изменение порядка"
+  },
+  "QuickAccess_Streaming_2D_Active": {
+    "en": "2D Active",
+    "ru": "2D"
+  },
+  "QuickAccess_Streaming_Advanced": {
+    "en": "Advanced",
+    "ru": "Дополнительно"
+  },
+  "QuickAccess_Streaming_AvailableComputersWithCount": {
+    "en": "Available Computers (%1$s)",
+    "ru": "Доступные компьютеры (%1$s)"
+  },
+  "QuickAccess_Streaming_ConnectionInfo_PacketLoss": {
+    "en": "Packet Loss: %1$s%",
+    "ru": "Потеря пакетов: %1$s%"
+  },
+  "QuickAccess_Streaming_ConnectionInfo_Ping_Milliseconds": {
+    "en": "Ping: %1$s ms",
+    "ru": "Пинг: %1$s мс"
+  },
+  "QuickAccess_Streaming_Connection_Active": {
+    "en": "Active",
+    "ru": "Активно"
+  },
+  "QuickAccess_Streaming_Connection_Inactive": {
+    "en": "Inactive",
+    "ru": "Неактивно"
+  },
+  "QuickAccess_Streaming_HostComputerConnectedWirelesslyToRouter": {
+    "en": "Your host computer is connected wirelessly to your router.",
+    "ru": "Основной компьютер подключён к роутеру по беспроводному соединению."
+  },
+  "QuickAccess_Streaming_Host_Disabled": {
+    "en": "Streaming: Disabled on host",
+    "ru": "Трансляция: отключена на источнике"
+  },
+  "QuickAccess_Streaming_Host_InstallingSteamVR": {
+    "en": "Installing SteamVR...",
+    "ru": "Установка SteamVR..."
+  },
+  "QuickAccess_Streaming_Host_LocalWifiNotConnected": {
+    "en": "Local Wi-Fi: Not Connected",
+    "ru": "Локальный Wi-Fi: не подключён"
+  },
+  "QuickAccess_Streaming_Host_LocalWifiReady": {
+    "en": "Local Wi-Fi: Ready",
+    "ru": "Локальный Wi-Fi: готово"
+  },
+  "QuickAccess_Streaming_Host_None_Found": {
+    "en": "None found",
+    "ru": "Не найден"
+  },
+  "QuickAccess_Streaming_Host_NotReadyForVR": {
+    "en": "VR Streaming: Not Ready",
+    "ru": "VR-трансляция: не готово"
+  },
+  "QuickAccess_Streaming_Host_Ready": {
+    "en": "Streaming: Ready",
+    "ru": "Трансляция: готово"
+  },
+  "QuickAccess_Streaming_Host_ReadyFor2D": {
+    "en": "2D Streaming: Ready",
+    "ru": "2D-трансляция: готово"
+  },
+  "QuickAccess_Streaming_InstallSteamVR": {
+    "en": "Install SteamVR",
+    "ru": "Установить SteamVR"
+  },
+  "QuickAccess_Streaming_MultiLink_Active": {
+    "en": "Multi-Link Active",
+    "ru": "Несколько активных ссылок"
+  },
+  "QuickAccess_Streaming_MultiLink_Inactive": {
+    "en": "Multi-Link Inactive",
+    "ru": "Одна активная ссылка"
+  },
+  "QuickAccess_Streaming_MultiLink_Streaming": {
+    "en": "Multi-Link Streaming",
+    "ru": "Несколько активных ссылок"
+  },
+  "QuickAccess_Streaming_No_Available_Hosts": {
+    "en": "No Streaming Hosts Found",
+    "ru": "Источники трансляции не найдены"
+  },
+  "QuickAccess_Streaming_PairWirelessAdapter": {
+    "en": "Pair Wireless Adapter",
+    "ru": "Привязать беспроводной адаптер"
+  },
+  "QuickAccess_Streaming_SameSteamAccountExplainer": {
+    "en": "To stream, you need to be signed into two devices with the same Steam account.",
+    "ru": "Для трансляции вам нужно войти в один аккаунт Steam на двух устройствах."
+  },
+  "QuickAccess_Streaming_SelectGameToStream": {
+    "en": "Select game to stream...",
+    "ru": "Выберите игру для трансляции..."
+  },
+  "QuickAccess_Streaming_Spectating_HideIndicator": {
+    "en": "Hide Indicator",
+    "ru": "Скрыть индикатор"
+  },
+  "QuickAccess_Streaming_Spectating_NoSpectator": {
+    "en": "No spectator",
+    "ru": "Нет зрителя"
+  },
+  "QuickAccess_Streaming_Spectating_NotSharingView": {
+    "en": "Not sharing your view.",
+    "ru": "Вы не делитесь своим видом."
+  },
+  "QuickAccess_Streaming_Spectating_SharingView": {
+    "en": "You are currently sharing what you see to this device.",
+    "ru": "Вы предоставляете этому устройству доступ к своему виду."
+  },
+  "QuickAccess_Streaming_Spectating_ShowIndicator": {
+    "en": "Show Indicator",
+    "ru": "Показать индикатор"
+  },
+  "QuickAccess_Streaming_Spectating_StopSharing": {
+    "en": "Stop Sharing",
+    "ru": "Закрыть доступ"
+  },
+  "QuickAccess_Streaming_Spectating_Title": {
+    "en": "VR Spectating",
+    "ru": "Режим наблюдения в VR"
+  },
+  "QuickAccess_Streaming_StreamVRWithoutGame": {
+    "en": "Stream VR Without Game",
+    "ru": "Транслировать в VR без игры"
+  },
+  "QuickAccess_Streaming_Title": {
+    "en": "Streaming Status",
+    "ru": "Статус трансляции"
+  },
+  "QuickAccess_Streaming_Unknown_Host": {
+    "en": "Unknown Host",
+    "ru": "Неизвестный источник"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_Bad": {
+    "en": "Poor connection",
+    "ru": "Плохое"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_Excellent": {
+    "en": "Excellent connection",
+    "ru": "Отличное"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_Good": {
+    "en": "Good connection",
+    "ru": "Хорошее"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_Missing": {
+    "en": "Connection lost",
+    "ru": "Соединение потеряно"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_None": {
+    "en": "No connection",
+    "ru": "Нет соединения"
+  },
+  "QuickAccess_Streaming_VRLinkQuality_Searching": {
+    "en": "Searching...",
+    "ru": "Поиск..."
+  },
+  "QuickAccess_Streaming_VRLinkType_USB": {
+    "en": "Wired USB",
+    "ru": "Проводное USB-подключение"
+  },
+  "QuickAccess_Streaming_VRLinkType_Unknown": {
+    "en": "Unknown Connection Type (%1$s)",
+    "ru": "Неизвестный тип соединения (%1$s)"
+  },
+  "QuickAccess_Streaming_VRLinkType_WiFiConnection": {
+    "en": "Wi-Fi Connection",
+    "ru": "Подключение по Wi-Fi"
+  },
+  "QuickAccess_Streaming_VRLinkType_WirelessAdapter": {
+    "en": "Wireless Adapter",
+    "ru": "Беспроводной адаптер"
+  },
+  "QuickAccess_Streaming_VR_Active": {
+    "en": "VR Active",
+    "ru": "VR"
+  },
+  "QuickAccess_Streaming_WirelessAdapterConnectingInProgress": {
+    "en": "Wireless Adapter: Connecting...",
+    "ru": "Беспроводной адаптер: подключение..."
+  },
+  "QuickAccess_Streaming_WirelessAdapterNotDetected": {
+    "en": "Wireless Adapter: Not Detected",
+    "ru": "Беспроводной адаптер: не обнаружен"
+  },
+  "QuickAccess_Streaming_WirelessAdapterPairingInProgress": {
+    "en": "Wireless Adapter: Pairing...",
+    "ru": "Беспроводной адаптер: идёт привязка..."
+  },
+  "QuickAccess_Streaming_WirelessAdapterPairingNeeded": {
+    "en": "Wireless Adapter: Pairing Needed",
+    "ru": "Беспроводной адаптер: требуется привязка"
+  },
+  "QuickAccess_Streaming_WirelessAdapterReady": {
+    "en": "Wireless Adapter: Ready",
+    "ru": "Беспроводной адаптер: готов"
+  },
+  "QuickAccess_Streaming_WirelessAdapterWaiting": {
+    "en": "Wireless Adapter: Waiting...",
+    "ru": "Беспроводной адаптер: ожидание..."
   },
   "QuickAccess_Tab_Bluetooth_AddDevice": {
     "en": "Add Device",
@@ -27530,6 +28556,10 @@
   "QuickAccess_Tab_Help_Title": {
     "en": "Help",
     "ru": "Помощь"
+  },
+  "QuickAccess_Tab_Help_VRTutorialVideos": {
+    "en": "Show Frame Tutorial Videos",
+    "ru": "Показать обучающие видео о Steam Frame"
   },
   "QuickAccess_Tab_Help_ViewManual": {
     "en": "View Manual",
@@ -27744,8 +28774,7 @@
     "ru": "Частота граф. процессора"
   },
   "QuickAccess_Tab_Perf_GPUClockManualDescription": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "QuickAccess_Tab_Perf_GPUClockManual_Explainer": {
     "en": "Adjust this value to set a fixed clock for the system’s GPU, which can be useful for stabilizing a game’s framerate.\n\nNormally the GPU automatically adjusts clock frequency to balance battery consumption and performance. Some games have drastic transitions between low and high GPU usage, which sometimes hitch if the GPU does not ramp up the clocks fast enough. For these cases it can be useful to set a fixed clock to avoid a hitch due to an underclocked GPU.",
@@ -27812,8 +28841,7 @@
     "ru": "Ограничить частоту кадров до 30"
   },
   "QuickAccess_Tab_Perf_LimitFrameRate_Explainer": {
-    "en": "Change this value limit the maximum number of frames per second a game is allowed to render (framerate).\n\nSetting a framerate limit can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this case using a framerate limit that is low enough to produce a non-oscillating framerate can produce a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption.\n\nSome games can have adverse interactions when a framerate limit is enabled, including increased input lag and audio glitches. For these cases it may be desireable to disable the framerate limit.",
-    "ru": "Change this value limit the maximum number of frames per second a game is allowed to render (framerate).\n\nSetting a framerate limit can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this case using a framerate limit that is low enough to produce a non-oscillating framerate can produce a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption.\n\nSome games can have adverse interactions when a framerate limit is enabled, including increased input lag and audio glitches. For these cases it may be desireable to disable the framerate limit."
+    "en": "Change this value limit the maximum number of frames per second a game is allowed to render (framerate).\n\nSetting a framerate limit can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this case using a framerate limit that is low enough to produce a non-oscillating framerate can produce a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption.\n\nSome games can have adverse interactions when a framerate limit is enabled, including increased input lag and audio glitches. For these cases it may be desireable to disable the framerate limit."
   },
   "QuickAccess_Tab_Perf_LimitFrameRate_Off": {
     "en": "Off",
@@ -27888,8 +28916,7 @@
     "ru": "Частота обновления"
   },
   "QuickAccess_Tab_Perf_RefreshRate_Explainer": {
-    "en": "Change this value to set the display's refresh rate.\n\nAdjusting the display's refresh rate can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this lowering the refresh rate to a value that is low enough to produce a non-oscillating framerate can lead to a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption.",
-    "ru": "Change this value to set the display's refresh rate.\n\nAdjusting the display's refresh rate can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this lowering the refresh rate to a value that is low enough to produce a non-oscillating framerate can lead to a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption."
+    "en": "Change this value to set the display's refresh rate.\n\nAdjusting the display's refresh rate can be useful to stabilize a game's framerate. When a game quickly oscillates between framerates it can make gameplay feel choppy. In this lowering the refresh rate to a value that is low enough to produce a non-oscillating framerate can lead to a more enjoyable gameplay experience.\n\nLimiting the framerate can also be useful to reduce power consumption."
   },
   "QuickAccess_Tab_Perf_ResetToDefault": {
     "en": "Reset to Default",
@@ -28431,6 +29458,14 @@
     "en": "PIN Authorization Canceled",
     "ru": "Авторизация по ПИН-коду отменена"
   },
+  "RemotePlay_PairWifiAPResult_ConnectFailed": {
+    "en": "Paired, but the Steam Frame could not connect to the Wireless Adapter",
+    "ru": "Привязка выполнена, но Steam Frame не удалось подключиться к беспроводному адаптеру"
+  },
+  "RemotePlay_PairWifiAPResult_Connected": {
+    "en": "Connected",
+    "ru": "Подключено"
+  },
   "RemotePlay_PairWifiAPResult_Fail": {
     "en": "Pairing Failed",
     "ru": "Сбой привязки"
@@ -28459,9 +29494,25 @@
     "en": "PIN Authorization Failed",
     "ru": "Сбой авторизации по ПИН-коду"
   },
+  "RemotePlay_PairWifiAP_Connecting": {
+    "en": "Connecting...",
+    "ru": "Подключение…"
+  },
+  "RemotePlay_PairWifiAP_Paired": {
+    "en": "Paired",
+    "ru": "Привязано"
+  },
+  "RemotePlay_PairWifiAP_Pairing": {
+    "en": "Pairing...",
+    "ru": "Привязка..."
+  },
   "RemotePlay_Tip_Callout": {
     "en": "Tip: You can play this game remotely without installing",
     "ru": "Подсказка: эту игру можно запустить удалённо без установки"
+  },
+  "RemotePlay_Tip_CalloutFrameVerified": {
+    "en": "Tip: This game is Frame Verified so you can also play it locally.",
+    "ru": "Примечание: эта игра полностью совместима со Steam Frame, и в неё можно играть локально."
   },
   "RemotePlay_Tip_Text": {
     "en": "Now installing %1$s on your Steam Deck. This is also installed on %2$s, and you have the option of streaming gameplay directly from that computer. You can do this using the dropdown arrow next to the Install button.",
@@ -28583,9 +29634,33 @@
     "en": "Restore From Backup",
     "ru": "Начать восстановление"
   },
-  "Resuming": {
-    "en": "Resuming",
-    "ru": "Возобновление"
+  "Resume_ChangeAccountButton": {
+    "en": "Change account",
+    "ru": "Сменить аккаунт"
+  },
+  "Resume_Description": {
+    "en": "This account, %2$s, is currently playing %3$s on another device.\n\nResuming your game here will cause the other device to be disconnected from Steam.",
+    "ru": "Текущий аккаунт %2$s уже используется для игры в %3$s на другом устройстве.\n\nВозобновив игру здесь, вы выйдете из Steam на другом устройстве."
+  },
+  "Resume_Description_Plural": {
+    "en": "This account, %2$s, is currently playing %3$s on another device.\n\nResuming your games here will cause the other device to be disconnected from Steam.",
+    "ru": "Текущий аккаунт %2$s уже используется для игры в %3$s на другом устройстве.\n\nВозобновив игры здесь, вы выйдете из Steam на другом устройстве."
+  },
+  "Resume_ExitGameButton": {
+    "en": "Exit game here",
+    "ru": "Выйти из игры здесь"
+  },
+  "Resume_ExitGameButton_Plural": {
+    "en": "Exit games here",
+    "ru": "Выйти из игр здесь"
+  },
+  "Resume_ResumeButton": {
+    "en": "Resume anyway",
+    "ru": "Всё равно продолжить"
+  },
+  "Resume_Title": {
+    "en": "Account In Use",
+    "ru": "Аккаунт уже используется"
   },
   "SDCard_Format_State_Finalizing": {
     "en": "Finalizing",
@@ -28646,6 +29721,10 @@
   "SSA_Title": {
     "en": "Steam Subscriber Agreement",
     "ru": "Соглашение подписчика Steam"
+  },
+  "ScreenReader_Enabled_Alert": {
+    "en": "SCREEN READER ENABLED",
+    "ru": "ПРОГРАММА ЧТЕНИЯ С ЭКРАНА ВКЛЮЧЕНА"
   },
   "ScreenshotManager_UnknownApp": {
     "en": "Unknown App #%1$s",
@@ -29855,6 +30934,10 @@
     "en": "Game Rumble",
     "ru": "Вибрация в игре"
   },
+  "Settings_ControllerCalibration_RumbleIntensity": {
+    "en": "Rumble Intensity",
+    "ru": "Интенсивность вибрации"
+  },
   "Settings_ControllerCalibration_SWGyroCal": {
     "en": "Auto-Calibrate Gyro Drift when Stationary",
     "ru": "Автокалибровка дрифта гироскопа в стационарном состоянии"
@@ -30212,8 +31295,7 @@
     "ru": "Проверка завершена"
   },
   "Settings_ControllerDeviceSupport_TestingFreeMode": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "Settings_ControllerDeviceSupport_TestingLeftHaptics": {
     "en": "Press A when the left haptics buzz",
@@ -30294,6 +31376,10 @@
   "Settings_Controller_BaseConfigurations": {
     "en": "Non-Game Controller Layouts",
     "ru": "Неигровые раскладки контроллера"
+  },
+  "Settings_Controller_Battery": {
+    "en": "Battery",
+    "ru": "Батарея"
   },
   "Settings_Controller_BindInput": {
     "en": "Setup Device Inputs",
@@ -30511,6 +31597,10 @@
     "en": "Identify",
     "ru": "Найти контроллер"
   },
+  "Settings_Controller_Frame_Pairing_SameHandWarning": {
+    "en": "Warning: Both connected controllers are the same hand which is unsupported.",
+    "ru": "Предупреждение: оба подключённых контроллера предназначены для одной и той же руки, а такая конфигурация не поддерживается."
+  },
   "Settings_Controller_Frame_Pairing_Searching": {
     "en": "Searching for Steam Frame Controllers...",
     "ru": "Поиск контроллеров Steam Frame..."
@@ -30537,7 +31627,15 @@
   },
   "Settings_Controller_IdentifyController_Click": {
     "en": "Ping",
-    "ru": "Сигнал"
+    "ru": "Отправить сигнал"
+  },
+  "Settings_Controller_IdentifyLeftController_Click": {
+    "en": "Ping Left",
+    "ru": "Сигнал на левый контроллер"
+  },
+  "Settings_Controller_IdentifyRightController_Click": {
+    "en": "Ping Right",
+    "ru": "Сигнал на правый контроллер"
   },
   "Settings_Controller_InternalPuckDetectedNoIbex": {
     "en": "Steam Controller Wireless Adapter Detected. Connect a Steam Controller via USB to pair.",
@@ -30590,6 +31688,14 @@
   "Settings_Controller_PairingInfo_Forget": {
     "en": "Forget",
     "ru": "Забыть"
+  },
+  "Settings_Controller_PairingInfo_ForgetLeft": {
+    "en": "Forget Left",
+    "ru": "Забыть левый контроллер"
+  },
+  "Settings_Controller_PairingInfo_ForgetRight": {
+    "en": "Forget Right",
+    "ru": "Забыть правый контроллер"
   },
   "Settings_Controller_PairingInfo_Inactive": {
     "en": "Inactive",
@@ -30646,6 +31752,38 @@
   "Settings_Controller_ResetInput": {
     "en": "Reset Device Inputs",
     "ru": "Сброс ввода устройств"
+  },
+  "Settings_Controller_RumbleIntensity_8bit": {
+    "en": "8-bit",
+    "ru": "8 бит"
+  },
+  "Settings_Controller_RumbleIntensity_ExtraHigh": {
+    "en": "Extra High",
+    "ru": "Очень высокая"
+  },
+  "Settings_Controller_RumbleIntensity_ExtraLow": {
+    "en": "Extra Low",
+    "ru": "Очень низкая"
+  },
+  "Settings_Controller_RumbleIntensity_High": {
+    "en": "High",
+    "ru": "Высокая"
+  },
+  "Settings_Controller_RumbleIntensity_Low": {
+    "en": "Low",
+    "ru": "Низкая"
+  },
+  "Settings_Controller_RumbleIntensity_Medium": {
+    "en": "Medium (default)",
+    "ru": "Умеренная (по умолчанию)"
+  },
+  "Settings_Controller_RumbleIntensity_MediumHigh": {
+    "en": "Medium High",
+    "ru": "Умеренно высокая"
+  },
+  "Settings_Controller_RumbleIntensity_MediumLow": {
+    "en": "Medium Low",
+    "ru": "Умеренно низкая"
   },
   "Settings_Controller_SCPairing": {
     "en": "Pair a new Steam Controller (2015)",
@@ -30742,6 +31880,82 @@
   "Settings_Customization_ChatRadialMenu": {
     "en": "Quick Chat Options",
     "ru": "Опции быстрых сообщений"
+  },
+  "Settings_Customization_CurrentScreensaver": {
+    "en": "Current Screensaver",
+    "ru": "Текущий скринсейвер"
+  },
+  "Settings_Customization_HomeScreen": {
+    "en": "Home Screen",
+    "ru": "Главная страница"
+  },
+  "Settings_Customization_HomeScreen_BigArt": {
+    "en": "Big Art Mode",
+    "ru": "Режим крупной иллюстрации"
+  },
+  "Settings_Customization_HomeScreen_BigArt_Desc": {
+    "en": "Turns on an alternate layout for the home screen that highlights background art for the selected title in Recent Games.",
+    "ru": "Изменяет оформление главной страницы: фоновые изображения игр, выбранных в разделе «Недавние игры», будут больше и ярче."
+  },
+  "Settings_Customization_Preview": {
+    "en": "Test your screensaver selection",
+    "ru": "Протестировать выбранный скринсейвер"
+  },
+  "Settings_Customization_PreviewButton": {
+    "en": "Preview",
+    "ru": "Предпросмотр"
+  },
+  "Settings_Customization_Screensaver": {
+    "en": "Screensaver",
+    "ru": "Скринсейвер"
+  },
+  "Settings_Customization_ScreensaverBouncingLogo": {
+    "en": "Bouncing Logo",
+    "ru": "Отскакивающий от краёв логотип"
+  },
+  "Settings_Customization_ScreensaverGameSlideshow": {
+    "en": "Game Slideshow",
+    "ru": "Игровое слайд-шоу"
+  },
+  "Settings_Customization_ScreensaverUser": {
+    "en": "%1$s (User Created)",
+    "ru": "%1$s (пользовательский)"
+  },
+  "Settings_Customization_Screensaver_ConfigureTimeouts": {
+    "en": "Configure screensaver timeouts",
+    "ru": "Настроить время ожидания скринсейвера"
+  },
+  "Settings_Customization_Screensaver_GameArtwork": {
+    "en": "Include artwork from recently played games",
+    "ru": "Включить иллюстрации из недавно запущенных игр"
+  },
+  "Settings_Customization_Screensaver_Idle": {
+    "en": "When idle, start screensaver after",
+    "ru": "При бездействии запускать скринсейвер через"
+  },
+  "Settings_Customization_Screensaver_Screenshots": {
+    "en": "Include my recent screenshots",
+    "ru": "Включить мои недавние скриншоты"
+  },
+  "Settings_Customization_Screensaver_Screenshots_All": {
+    "en": "All Games",
+    "ru": "Из всех игр"
+  },
+  "Settings_Customization_Screensaver_Screenshots_General": {
+    "en": "General Audience",
+    "ru": "Из игр для всех возрастов"
+  },
+  "Settings_Customization_Screensaver_Screenshots_None": {
+    "en": "None",
+    "ru": "Не включать"
+  },
+  "Settings_Customization_Screensaver_ViewPowerSettings": {
+    "en": "View Power Settings",
+    "ru": "Открыть настройки питания"
+  },
+  "Settings_Customization_Screensaver_WhileInGame": {
+    "en": "Show screensavers when playing a game",
+    "ru": "Показывать скринсейверы во время игры"
   },
   "Settings_Customization_StartupVideo": {
     "en": "Startup Movie",
@@ -30967,6 +32181,14 @@
     "en": "Ignore previously published per-app HDR compatibility information",
     "ru": "Игнорировать ранее опубликованную информацию о совместимости приложений с HDR"
   },
+  "Settings_Developer_KeyboardNavGlyphs": {
+    "en": "Keyboard Glyphs",
+    "ru": "Иконки кнопок клавиатуры"
+  },
+  "Settings_Developer_KeyboardNavGlyphs_Desc": {
+    "en": "Show keyboard keys in place of controller button glyphs while navigating with a keyboard",
+    "ru": "При использовании клавиатуры показывать иконки клавиш клавиатуры вместо кнопок контроллера"
+  },
   "Settings_Developer_Logging_Title": {
     "en": "Logging",
     "ru": "Ведение журнала"
@@ -31172,11 +32394,11 @@
     "ru": "Больше контента"
   },
   "Settings_Display_DisplayScaling_Scaling": {
-    "en": "Display scaling",
+    "en": "Display Scaling",
     "ru": "Масштабирование экрана"
   },
   "Settings_Display_DisplayScaling_ScalingForTVName": {
-    "en": "%1$s display scaling",
+    "en": "%1$s Display Scaling",
     "ru": "Масштабирование экрана %1$s"
   },
   "Settings_Display_DisplayScaling_Slider_Label": {
@@ -31316,8 +32538,7 @@
     "ru": "Насыщенность теней"
   },
   "Settings_Display_NightMode_Desc": {
-    "en": "",
-    "ru": ""
+    "en": ""
   },
   "Settings_Display_PreferredMonitor": {
     "en": "Preferred Display",
@@ -31414,6 +32635,10 @@
   "Settings_Display_VR_TheaterBrightness": {
     "en": "Theater Brightness",
     "ru": "Яркость в режиме кинотеатра"
+  },
+  "Settings_Display_VirtualDisplay_DefaultName": {
+    "en": "Virtual",
+    "ru": "Виртуальный"
   },
   "Settings_DockUpdate_Error_Generic_KnownHardware": {
     "en": "%1$s lost connection with the Dock during the update. Please plug %1$s into the Dock, and restart the firmware update to continue.",
@@ -31838,6 +33063,10 @@
   "Settings_Interface_StartInBigPicture": {
     "en": "Start Steam in Big Picture Mode",
     "ru": "Запускать Steam в режиме Big Picture"
+  },
+  "Settings_Interface_StartInBigPicture_SteamOS": {
+    "en": "Start Steam in Big Picture, when in Desktop Mode",
+    "ru": "Запускать Steam в режиме Big Picture, находясь в режиме рабочего стола"
   },
   "Settings_Interface_StartPage": {
     "en": "Start Up Location",
@@ -32563,6 +33792,10 @@
     "en": "Finish downloads with display off before sleeping",
     "ru": "Завершать скачивание с выключенным экраном перед переходом в спящий режим"
   },
+  "Settings_LowPowerDownloads_Section": {
+    "en": "Finish Downloads Before Sleep",
+    "ru": "Завершить загрузки перед переходом в спящий режим"
+  },
   "Settings_Miscellaneous_Title": {
     "en": "Miscellaneous",
     "ru": "Разное"
@@ -33147,6 +34380,26 @@
     "en": "Extremely high bandwidth, low latency video stream",
     "ru": "Высокоскоростная трансляция видео с низкой задержкой"
   },
+  "Settings_RemotePlay_Pyrowave_AutomaticBitrate": {
+    "en": "Automatic Bitrate",
+    "ru": "Автоматический битрейт"
+  },
+  "Settings_RemotePlay_Pyrowave_CustomBitrate": {
+    "en": "Custom Bitrate (Mbit/s)",
+    "ru": "Собственный битрейт (Мбит/с)"
+  },
+  "Settings_RemotePlay_Pyrowave_QualityModifier": {
+    "en": "Quality Modifier",
+    "ru": "Модификатор качества"
+  },
+  "Settings_RemotePlay_Pyrowave_Settings": {
+    "en": "Pyrowave Settings",
+    "ru": "Настройки PyroWave"
+  },
+  "Settings_RemotePlay_Pyrowave_YUV444": {
+    "en": "YUV 4:4:4",
+    "ru": "YUV 4:4:4"
+  },
   "Settings_RemotePlay_RemoteClientConfig": {
     "en": "Advanced Client Options",
     "ru": "Расширенные настройки клиента"
@@ -33591,6 +34844,10 @@
     "en": "Enable Wi-Fi debug data collection",
     "ru": "Включить сбор отладочных данных Wi-Fi"
   },
+  "Settings_SteamPlay_Advanced": {
+    "en": "Advanced",
+    "ru": "Дополнительно"
+  },
   "Settings_SteamPlay_ChooseTool": {
     "en": "Select Compatibility Tool",
     "ru": "Выбрать инструмент совместимости"
@@ -33598,6 +34855,14 @@
   "Settings_SteamPlay_DefaultTool": {
     "en": "Default compatibility tool: ",
     "ru": "Стандартный инструмент совместимости: "
+  },
+  "Settings_SteamPlay_DefaultToolEntry": {
+    "en": "Default (%1$s)",
+    "ru": "По умолчанию (%1$s)"
+  },
+  "Settings_SteamPlay_DefaultToolEntry_Fallback": {
+    "en": "Default",
+    "ru": "По умолчанию"
   },
   "Settings_SteamPlay_Enable": {
     "en": "Enable Steam Play for supported titles",
@@ -33638,6 +34903,10 @@
   "Settings_SteamPlay_RunOtherTitlesWith": {
     "en": "Run other titles with: ",
     "ru": "Запускать другие игры с помощью: "
+  },
+  "Settings_SteamPlay_ShowAll": {
+    "en": "Show all compatibility tools",
+    "ru": "Показать все инструменты совместимости"
   },
   "Settings_SteamPlay_SteamPlay": {
     "en": "Steam Play",
@@ -33795,17 +35064,13 @@
     "en": "BIOS Version",
     "ru": "Версия BIOS"
   },
-  "Settings_System_BacklightDimTimeNotPlugged_Label": {
-    "en": "On battery power, dim after",
-    "ru": "При работе от батареи через"
-  },
-  "Settings_System_BacklightDimTimePlugged_Label": {
-    "en": "When plugged in, dim after",
-    "ru": "При работе от сети через"
-  },
   "Settings_System_BacklightDimTime_Label": {
     "en": "Dim Display",
     "ru": "Затемнять экран"
+  },
+  "Settings_System_CPUAvailableLogicalCores": {
+    "en": "CPU Available Logical Cores",
+    "ru": "Доступные логические ядра ЦП"
   },
   "Settings_System_CPUFrequency": {
     "en": "CPU Frequency",
@@ -33886,6 +35151,10 @@
   "Settings_System_DeckSerialNumber": {
     "en": "Steam Deck Serial Number",
     "ru": "Серийный номер Steam Deck"
+  },
+  "Settings_System_DesktopModeDefault": {
+    "en": "Default to Desktop Mode on startup",
+    "ru": "Включать режим рабочего стола при запуске"
   },
   "Settings_System_Devkit": {
     "en": "Development Kit",
@@ -34035,17 +35304,29 @@
     "en": "Disabled",
     "ru": "Режим отключён"
   },
-  "Settings_System_Idle_AC_Section": {
-    "en": "AC Idle",
-    "ru": "Период бездействия при работе от сети"
+  "Settings_System_Idle_Dim_Label": {
+    "en": "Dim display after",
+    "ru": "Затемнять экран через"
   },
-  "Settings_System_Idle_Battery_Section": {
-    "en": "Battery Idle",
-    "ru": "Период бездействия при работе от батареи"
+  "Settings_System_Idle_NoBattery_Section": {
+    "en": "When Idle",
+    "ru": "При бездействии"
   },
-  "Settings_System_Idle_Dim": {
-    "en": "Dim Display",
-    "ru": "Приглушать экран"
+  "Settings_System_Idle_OnBattery_Section": {
+    "en": "When On Battery and Idle",
+    "ru": "При работе от батареи и бездействии"
+  },
+  "Settings_System_Idle_PluggedIn_Section": {
+    "en": "When Plugged In and Idle",
+    "ru": "При работе от сети и бездействии"
+  },
+  "Settings_System_Idle_Screensaver_Label": {
+    "en": "Start screensaver after",
+    "ru": "Запускать скринсейвер через"
+  },
+  "Settings_System_Idle_Sleep_Label": {
+    "en": "Sleep after",
+    "ru": "Переходить в спящий режим через"
   },
   "Settings_System_KernalVersion": {
     "en": "Kernel Version",
@@ -34138,18 +35419,6 @@
   "Settings_System_SteamWebBuildDate": {
     "en": "Steam Web Build Date",
     "ru": "Дата сборки веб-компонентов Steam"
-  },
-  "Settings_System_SuspendTimeNotPlugged_Label": {
-    "en": "On battery power, sleep after",
-    "ru": "При работе от батареи через"
-  },
-  "Settings_System_SuspendTimePlugged_Label": {
-    "en": "When plugged in, sleep after",
-    "ru": "При работе от сети через"
-  },
-  "Settings_System_SuspendTime_Label": {
-    "en": "Sleep",
-    "ru": "Переводить в спящий режим"
   },
   "Settings_System_TrimAll_Description": {
     "en": "Runs maintenance tasks for storage devices immediately. Normally these are run on a schedule.",
@@ -34577,7 +35846,7 @@
   },
   "Settings_VRBattery_Percentage_Desc": {
     "en": "Show battery percentage on dashboard bar",
-    "ru": "Показывать процент заряда батареи на верхней панели"
+    "ru": "Показывать процент заряда батареи в VR-меню"
   },
   "ShareDialog_Title": {
     "en": "Share",
@@ -34726,10 +35995,6 @@
   "Shutdown": {
     "en": "Shutdown",
     "ru": "Завершение работы"
-  },
-  "ShuttingDown": {
-    "en": "Shutting down...",
-    "ru": "Завершение работы..."
   },
   "SignInHelp_Title": {
     "en": "Help signing in",
@@ -35739,6 +37004,10 @@
     "en": "Game Display Settings",
     "ru": "Настройки экрана для игры"
   },
+  "SteamUI_ValveSurvey_Summary_GlibcVersion": {
+    "en": "glibc Version:  %1$s",
+    "ru": "Версия glibc:  %1$s"
+  },
   "SteamUI_ValveSurvey_Summary_HDAvail": {
     "en": "Total Hard Disk Space Available:  %1$s MB",
     "ru": "Суммарное место на диске:  %1$s МБ"
@@ -36531,13 +37800,13 @@
     "en": "OK",
     "ru": "OK"
   },
-  "Steam_ErrorCondition_Offline": {
-    "en": "This operation cannot be completed while Steam is offline.",
-    "ru": "Данная операция не может быть выполнена, когда Steam находится в автономном режиме."
-  },
   "Steam_ErrorCondition_RefreshLogin": {
     "en": "You will need to re-login to continue.",
     "ru": "Войдите в аккаунт заново, чтобы продолжить."
+  },
+  "Steam_ErrorCondition_RestartNeeded": {
+    "en": "Steam must now be restarted in order to receive the latest update.\n\nYou won't be able to continue using Steam until it has restarted.",
+    "ru": "Необходимо перезапустить Steam для получения обновлений.\n\nБез перезапуска использование Steam невозможно."
   },
   "Steam_ErrorCondition_SteamGuard": {
     "en": "This computer was deauthorized. You must login again and enter a new Steam Guard code to re-authorize it.",
@@ -36546,10 +37815,6 @@
   "Steam_ErrorCondition_Title": {
     "en": "Error",
     "ru": "Ошибка"
-  },
-  "Steam_ErrorCondition_UnhandledMailTo": {
-    "en": "Sending an email is not currently supported on Steam Deck.",
-    "ru": "Отправка электронных писем со Steam Deck в настоящее время не поддерживается."
   },
   "Steam_IncorrectVRSDKWarning_Desc": {
     "en": "%1$s does not appear to support your current headset. Press OK to launch it anyway.",
@@ -36647,10 +37912,6 @@
     "en": "This account is currently playing a game elsewhere.",
     "ru": "Этот аккаунт уже используется в игре на другом устройстве."
   },
-  "Steam_RefreshLogin_AccountAlreadyLoggedReAuth": {
-    "en": "In order to continue we need to confirm your account credentials for security purposes.",
-    "ru": "Чтобы продолжить, необходимо подтвердить данные для входа в аккаунт в целях безопасности."
-  },
   "Steam_RefreshLogin_InfoTicketExpired": {
     "en": "Your Steam ticket has expired.",
     "ru": "Время вашей сессии Steam истекло."
@@ -36718,6 +37979,10 @@
   "Steam_Shutdown_Waiting_For_Game": {
     "en": "Waiting for %1$s to shut down...",
     "ru": "Ожидание завершения работы %1$s..."
+  },
+  "Steam_Shutdown_Waiting_For_Hardware_Update": {
+    "en": "Finishing firmware update...",
+    "ru": "Завершается обновление прошивки..."
   },
   "Steam_Shutdown_Waiting_For_Logoff": {
     "en": "Logging off...",
@@ -36834,6 +38099,10 @@
   "StreamingClient_AnotherDevice": {
     "en": "Play on: another device",
     "ru": "Играть на другом устройстве"
+  },
+  "StreamingClient_InstallOn": {
+    "en": "Install on: %1$s",
+    "ru": "Установить на: %1$s"
   },
   "StreamingClient_LinkDesc_Generic": {
     "en": "Play this game remotely using the Steam Link App...",
@@ -37763,6 +39032,10 @@
     "en": "Would you like to uninstall %1$s from this device? It will remain in your Games Library, but to play it in the future, you will need to first redownload all of its content.",
     "ru": "Вы точно хотите удалить %1$s с этого устройства? Игра останется в библиотеке, но, чтобы поиграть в неё в будущем, её придётся загрузить заново."
   },
+  "UninstallDialog_Confirmation_SingleRemote": {
+    "en": "Would you like to uninstall %1$s from device %2$s? It will remain in your Games Library, but to play it in the future, you will need to first redownload all of its content.",
+    "ru": "Вы точно хотите удалить %1$s с устройства %2$s? Игра останется в библиотеке, но, чтобы поиграть в неё в будущем, её придётся загрузить заново."
+  },
   "UninstallDialog_ErrorMessage": {
     "en": "Failed to uninstall %1$s due to:",
     "ru": "Не удалось удалить %1$s:"
@@ -38015,6 +39288,30 @@
     "en": "Streaming",
     "ru": "Трансляция"
   },
+  "VRDashboardBar_StreamingFromHost_Tooltip": {
+    "en": "Streaming from %1$s",
+    "ru": "Трансляция с %1$s"
+  },
+  "VRDashboardBar_StreamingFromHost_Tooltip_Generic": {
+    "en": "Streaming from another device",
+    "ru": "Трансляция с другого устройства"
+  },
+  "VRDashboardBar_StreamingInboundAndOutbound_Tooltip": {
+    "en": "%1$s. %2$s.",
+    "ru": "%1$s. %2$s."
+  },
+  "VRDashboardBar_StreamingStatus": {
+    "en": "Streaming Status",
+    "ru": "Статус трансляции"
+  },
+  "VRDashboardBar_StreamingVRView_Tooltip": {
+    "en": "Streaming to %1$s",
+    "ru": "Трансляция на %1$s"
+  },
+  "VRDashboardBar_StreamingVRView_Tooltip_Generic": {
+    "en": "Streaming to another device",
+    "ru": "Трансляция на другое устройство"
+  },
   "VRDashboardBar_TundraTracker": {
     "en": "Tundra Tracker",
     "ru": "Трекер Tundra"
@@ -38083,6 +39380,10 @@
     "en": "Jump to %1$s",
     "ru": "Перейти: %1$s"
   },
+  "VRDashboard_HideLaserMouse": {
+    "en": "Hide Laser Mouse",
+    "ru": "Скрыть лазерную мышь"
+  },
   "VRDashboard_LaunchNonSteamApp": {
     "en": "Launch Program",
     "ru": "Запустить программу"
@@ -38095,117 +39396,9 @@
     "en": "Dashboard",
     "ru": "Панель управления"
   },
-  "VRLinkQuality_Bad": {
-    "en": "Poor connection",
-    "ru": "Плохое"
-  },
-  "VRLinkQuality_Excellent": {
-    "en": "Excellent connection",
-    "ru": "Отличное"
-  },
-  "VRLinkQuality_Good": {
-    "en": "Good connection",
-    "ru": "Хорошее"
-  },
-  "VRLinkQuality_Missing": {
-    "en": "Connection lost",
-    "ru": "Соединение потеряно"
-  },
-  "VRLinkQuality_None": {
-    "en": "No connection",
-    "ru": "Отсутствует"
-  },
-  "VRLinkQuality_Searching": {
-    "en": "Searching...",
-    "ru": "Поиск..."
-  },
-  "VRLinkType_RemoteConnection": {
-    "en": "Remote Connection",
-    "ru": "Удалённое подключение"
-  },
-  "VRLinkType_USB": {
-    "en": "Wired USB",
-    "ru": "Проводное USB-подключение"
-  },
-  "VRLinkType_Unknown": {
-    "en": "Unknown Connection Type (%1$s)",
-    "ru": "Неизвестный тип соединения (%1$s)"
-  },
-  "VRLinkType_WiFiConnection": {
-    "en": "Wi-Fi Connection",
-    "ru": "Подключение по Wi-Fi"
-  },
-  "VRLinkType_WiredToRouter": {
-    "en": "Wired Connection",
-    "ru": "Проводное подключение"
-  },
-  "VRLinkType_WirelessAdapter": {
-    "en": "Wireless Adapter",
-    "ru": "Беспроводной адаптер"
-  },
-  "VRLink_Advanced": {
-    "en": "Advanced"
-  },
-  "VRLink_AvailableComputers": {
-    "en": "Available Computers"
-  },
-  "VRLink_ChooseAGame": {
-    "en": "Choose a game to start streaming."
-  },
-  "VRLink_ConnectionInfo_PacketLoss": {
-    "en": "Packet Loss: %1$s%",
-    "ru": "Потеря пакетов: %1$s%"
-  },
-  "VRLink_ConnectionInfo_Ping_Milliseconds": {
-    "en": "Ping: %1$s ms",
-    "ru": "Пинг: %1$s мс"
-  },
-  "VRLink_Connection_Active": {
-    "en": "Active",
-    "ru": "Активные"
-  },
-  "VRLink_Connection_Inactive": {
-    "en": "Inactive",
-    "ru": "Неактивные"
-  },
-  "VRLink_Host_NotReadyForVR": {
-    "en": "Not ready for VR"
-  },
-  "VRLink_Host_ReadyForVR": {
-    "en": "Ready for VR"
-  },
-  "VRLink_MultiLink_Active": {
-    "en": "Multi-Link Active",
-    "ru": "Несколько активных ссылок"
-  },
-  "VRLink_MultiLink_Inactive": {
-    "en": "Multi-Link Inactive",
-    "ru": "Одна активная ссылка"
-  },
-  "VRLink_No_Available_Hosts": {
-    "en": "No VR Streaming Hosts Found",
-    "ru": "Источники VR-трансляции не найдены"
-  },
-  "VRLink_No_Available_Hosts_Info": {
-    "en": "Log into another device with the same Steam Account.",
-    "ru": "Чтобы начать трансляцию, войдите в тот же аккаунт Steam на ПК или Steam Machine."
-  },
-  "VRLink_No_Available_Hosts_Info_More": {
-    "en": "Those machines will appear here.",
-    "ru": "Эти устройства появятся здесь."
-  },
-  "VRLink_StartDirectVRStream": {
-    "en": "Start Direct VR Stream"
-  },
-  "VRLink_StreamDesktop": {
-    "en": "Stream Desktop"
-  },
-  "VRLink_Unknown_Host": {
-    "en": "Unknown Host",
-    "ru": "Неизвестный источник"
-  },
-  "VRLink_WirelessAdapterAvailable": {
-    "en": "Wireless Adapter Available"
+  "VRDashboard_ShowLaserMouse": {
+    "en": "Laser Mouse",
+    "ru": "Лазерная мышь"
   },
   "VR_Error_ComponentBusy": {
     "en": "SteamVR is not available while the SteamVR tool is being updated, uninstalled, validated, etc.",
@@ -38401,7 +39594,7 @@
   },
   "WhatsNew_EAAccessCollection_Description_2": {
     "en": "Would you like to add a shelf to your library home screen for the EA Play collection?",
-    "ru": "Хотите добавить раздел для коллекции EA Play на домашнюю страницу библиотеки?"
+    "ru": "Хотите добавить раздел для коллекции EA Play на главную страницу библиотеки?"
   },
   "WhatsNew_EAAccessCollection_Description_3": {
     "en": "Enjoy the new EA Play collection and shelf! You can remove them at any time.",
@@ -38417,7 +39610,7 @@
   },
   "WhatsNew_PlayNext_Description": {
     "en": "Now available on your library home screen, the new Play Next shelf uses technology developed in Steam Labs to recommend unplayed games from your library to try next.",
-    "ru": "Теперь на домашней странице библиотеки расположен раздел «Во что сыграть?», рекомендующий игры из вашей библиотеки, которые вы пока не запускали. Разработано в лабораториях Steam."
+    "ru": "Теперь на главной странице библиотеки расположен раздел «Во что сыграть?», рекомендующий игры из вашей библиотеки, которые вы пока не запускали. Разработано в лабораториях Steam."
   },
   "WhatsNew_PlayNext_Title": {
     "en": "Play Next",

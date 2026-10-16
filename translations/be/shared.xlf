@@ -615,8 +615,8 @@
         <target state="needs-review-translation">Усе падзеі</target>
       </trans-unit>
       <trans-unit id="BreadCrumbs_GameEvents" xml:space="preserve">
-        <source>События <ph id="1">%1$s</ph></source>
-        <target state="needs-review-translation">Падзеі <ph id="1">%1$s</ph></target>
+        <source><ph id="1">%1$s</ph></source>
+        <target state="translated"><ph id="1">%1$s</ph></target>
       </trans-unit>
       <trans-unit id="BroadcastChat_AddModeratorFailed" xml:space="preserve">
         <source>Не удалось добавить <ph id="1">%1$s</ph> как модератора!</source>
@@ -1654,6 +1654,14 @@
         <source>Сообщество</source>
         <target state="needs-review-translation">Супольнасць</target>
       </trans-unit>
+      <trans-unit id="Community_RemoveLink_BeWary" xml:space="preserve">
+        <source>{ССЫЛКА УДАЛЕНА}</source>
+        <target state="translated">{СПАСЫЛКА ВЫДАЛЕНА}</target>
+      </trans-unit>
+      <trans-unit id="Community_RemoveLink_Tooltip" xml:space="preserve">
+        <source>Эта ссылка удалена нашими фильтрами. Как правило, это делается для защиты от фишинга и вредоносных программ.</source>
+        <target state="translated">Гэтая спасылка выдалена нашымі фільтрамі. Як правіла, гэта робіцца для абароны ад фішынгу і шкодных праграм.</target>
+      </trans-unit>
       <trans-unit id="ConnectionTrouble_FailedToConnect" xml:space="preserve">
         <source>Не удалось соединиться со Steam</source>
         <target state="needs-review-translation">Не ўдалося злучыцца са Steam</target>
@@ -2605,6 +2613,50 @@
       <trans-unit id="Duration_WrittenNegation" xml:space="preserve">
         <source><ph id="1">%1$s</ph> назад</source>
         <target state="translated"><ph id="1">%1$s</ph> таму</target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_Art" xml:space="preserve">
+        <source>Иллюстрация от сообщества к <ph id="1">%1$s</ph></source>
+        <target state="translated">Ілюстрацыя ад суполкі да <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_GreenlightConcept" xml:space="preserve">
+        <source>Концепт из Greenlight</source>
+        <target state="translated">Канцэпт з Greenlight</target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_GreenlightGame" xml:space="preserve">
+        <source>Игра из Greenlight</source>
+        <target state="translated">Гульня з Greenlight</target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_GreenlightSoftware" xml:space="preserve">
+        <source>Программа из Greenlight</source>
+        <target state="translated">Праграма з Greenlight</target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_Screenshot" xml:space="preserve">
+        <source>Скриншот из <ph id="1">%1$s</ph></source>
+        <target state="translated">Здымак экрана з <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_Video" xml:space="preserve">
+        <source>Видео из <ph id="1">%1$s</ph></source>
+        <target state="translated">Відэа з <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_WebGuide" xml:space="preserve">
+        <source>Руководство по <ph id="1">%1$s</ph></source>
+        <target state="translated">Кіраўніцтва па <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_WorkshopItem" xml:space="preserve">
+        <source>Работа из мастерской для <ph id="1">%1$s</ph></source>
+        <target state="translated">Праца з майстэрні для <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_YouTubeVideo" xml:space="preserve">
+        <source>Видео с YouTube™</source>
+        <target state="translated">Відэа з YouTube™</target>
+      </trans-unit>
+      <trans-unit id="DynamicLinkType_YouTubeVideo_Views" xml:space="preserve">
+        <source>Просмотров: <ph id="1">%1$s</ph></source>
+        <target state="translated">Праглядаў: <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="DynamicLink_Banned" xml:space="preserve">
+        <source>{ССЫЛКА НА ЗАБЛОКИРОВАННЫЙ КОНТЕНТ УДАЛЕНА}</source>
+        <target state="translated">{СПАСЫЛКА НА ЗАБЛАКАВАНАЕ ЗМЕСЦІВА ВЫДАЛЕНА}</target>
       </trans-unit>
       <trans-unit id="EVentCalendar_Hide_EventType" xml:space="preserve">
         <source>Скрыть все публикации типа «<ph id="1">%1$s</ph>»</source>
@@ -3579,8 +3631,9 @@
         <target state="needs-review-translation">Старонка гульні ў бібліятэцы</target>
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_LibraryHome" xml:space="preserve">
-        <source>Домашняя страница библиотеки</source>
+        <source>Главная страница библиотеки</source>
         <target state="translated">Галоўная старонка бібліятэкі</target>
+        <note>Source changed, was: «Домашняя страница библиотеки»</note>
       </trans-unit>
       <trans-unit id="EventDashBoard_Location_ModerationTitle" xml:space="preserve">
         <source>О модерации события</source>
@@ -3833,6 +3886,26 @@
       <trans-unit id="EventDisplay_NoEventsToSee" xml:space="preserve">
         <source>Событий не найдено</source>
         <target state="translated">Падзей не знойдзена</target>
+      </trans-unit>
+      <trans-unit id="EventDisplay_NotPublic_Draft" xml:space="preserve">
+        <source>Это событие не опубликовано. Эту страницу могут открыть только пользователи с доступом к его редактированию.</source>
+        <target state="translated">Гэта падзея не апублікавана. Гэтую старонку могуць адкрыць толькі карыстальнікі з доступам да яе рэдагавання.</target>
+      </trans-unit>
+      <trans-unit id="EventDisplay_NotPublic_Header" xml:space="preserve">
+        <source>Не показывается пользователям</source>
+        <target state="translated">Не паказваецца карыстальнікам</target>
+      </trans-unit>
+      <trans-unit id="EventDisplay_NotPublic_Hidden" xml:space="preserve">
+        <source>Это событие скрыто. Эту страницу могут открыть только пользователи с доступом к его редактированию.</source>
+        <target state="translated">Гэта падзея схавана. Гэтую старонку могуць адкрыць толькі карыстальнікі з доступам да яе рэдагавання.</target>
+      </trans-unit>
+      <trans-unit id="EventDisplay_NotPublic_Staged" xml:space="preserve">
+        <source>Это событие станет видимым для всех <ph id="1">%1$s</ph>. До этого момента страницу смогут открыть только пользователи с доступом к редактированию события.</source>
+        <target state="translated">Гэта падзея стане бачнай для ўсіх <ph id="1">%1$s</ph>. Да гэтага моманту старонку змогуць адкрыць толькі карыстальнікі з доступам да рэдагавання падзеі.</target>
+      </trans-unit>
+      <trans-unit id="EventDisplay_NotPublic_Unlisted" xml:space="preserve">
+        <source>Доступ к этому событию ограничен. Оно не отображается в списках, и только пользователи с прямой ссылкой смогут открыть эту страницу.</source>
+        <target state="translated">Доступ да гэтай падзеі абмежаваны. Яна не адлюстроўваецца ў спісах, і гэтую старонку змогуць адкрыць толькі карыстальнікі з прамой спасылкай.</target>
       </trans-unit>
       <trans-unit id="EventDisplay_OnWishlist" xml:space="preserve">
         <source>В списке желаемого</source>
@@ -4937,8 +5010,8 @@
         <target state="translated">У чарнавіку ёсць змены. Аўтар змен: <ph id="1">%1$s</ph>. Апошняе захаванне: <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="FAQViewer_GoToHomepage" xml:space="preserve">
-        <source>Вернуться на домашнюю страницу сообщества</source>
-        <target state="needs-review-translation">Вярнуцца на хатнюю старонку супольнасці</target>
+        <source>Вернуться на главную страницу сообщества</source>
+        <target state="translated">Вярнуцца на галоўную старонку суполкі</target>
       </trans-unit>
       <trans-unit id="FAQViewer_GotoEditor" xml:space="preserve">
         <source>Редактировать статью</source>
@@ -5448,6 +5521,10 @@
         <source>Маркированный список</source>
         <target state="translated">Маркіраваны спіс</target>
       </trans-unit>
+      <trans-unit id="FormattingToolbar_ClearFloat" xml:space="preserve">
+        <source>Убрать выравнивание</source>
+        <target state="translated">Прыбраць выраўноўванне</target>
+      </trans-unit>
       <trans-unit id="FormattingToolbar_CodeBlock" xml:space="preserve">
         <source>Блок кода</source>
         <target state="needs-review-translation">Блок кода</target>
@@ -5732,9 +5809,17 @@
         <source>Судя по отчётам, средняя частота кадров для <ph id="1">%1$s</ph> на Steam Deck составляет <ph id="2">%2$s</ph></source>
         <target state="translated">Судзячы па справаздачах, сярэдняя частата кадраў для <ph id="1">%1$s</ph> на Steam Deck складае <ph id="2">%2$s</ph></target>
       </trans-unit>
+      <trans-unit id="GamePerformanceStats_AverageFrameRate_Device" xml:space="preserve">
+        <source>Судя по отчётам, средняя частота кадров для <ph id="1">%1$s</ph> на <ph id="2">%2$s</ph> составляет <ph id="3">%3$s</ph></source>
+        <target state="translated">Паводле справаздач, сярэдняя частата кадраў для <ph id="1">%1$s</ph> на <ph id="2">%2$s</ph> складае <ph id="3">%3$s</ph></target>
+      </trans-unit>
       <trans-unit id="GamePerformanceStats_AverageFrameRate_ThisGame" xml:space="preserve">
         <source>Судя по отчётам, средняя частота кадров для этой игры на Steam Deck составляет <ph id="1">%1$s</ph></source>
         <target state="needs-review-translation">Судзячы па справаздачах, сярэдняя частата кадраў для гэтай гульні на Steam Deck складае <ph id="1">%1$s</ph></target>
+      </trans-unit>
+      <trans-unit id="GamePerformanceStats_AverageFrameRate_ThisGame_Device" xml:space="preserve">
+        <source>Судя по отчётам, средняя частота кадров для этой игры на <ph id="1">%1$s</ph> составляет <ph id="2">%2$s</ph></source>
+        <target state="translated">Паводле справаздач, сярэдняя частата кадраў для гэтай гульні на <ph id="1">%1$s</ph> складае <ph id="2">%2$s</ph></target>
       </trans-unit>
       <trans-unit id="GamePerformanceStats_AverageFrameRate_Title" xml:space="preserve">
         <source>Средняя частота кадров Steam Deck</source>
@@ -6528,6 +6613,22 @@
         <source>Превышен максимум символов (<ph id="1">%1$s</ph>).</source>
         <target state="needs-review-translation">Перавышаны максімум сімвалаў (<ph id="1">%1$s</ph>).</target>
       </trans-unit>
+      <trans-unit id="InstallApp_Failed" xml:space="preserve">
+        <source>Не удалось установить приложение.</source>
+        <target state="translated">Не атрымалася ўсталяваць дадатак.</target>
+      </trans-unit>
+      <trans-unit id="InstallApp_Failed_AlreadyInstalled" xml:space="preserve">
+        <source>Приложение, которое вы пытаетесь установить, уже установлено на удалённом устройстве. Перезапустите Steam, чтобы обновить статус приложения.</source>
+        <target state="translated">Дадатак, які вы спрабуеце ўсталяваць, ужо ўсталяваны на аддаленай прыладзе. Перазапусціце Steam, каб абнавіць статус дадатка.</target>
+      </trans-unit>
+      <trans-unit id="InstallApp_Failed_Title" xml:space="preserve">
+        <source>Не удалось удалённо установить приложение</source>
+        <target state="translated">Не атрымалася ўсталяваць дадатак аддалена</target>
+      </trans-unit>
+      <trans-unit id="InstallApp_Timeout" xml:space="preserve">
+        <source>Время ожидания начала установки истекло.</source>
+        <target state="translated">Час чакання пачатку ўсталёўкі скончыўся.</target>
+      </trans-unit>
       <trans-unit id="Kilobits" xml:space="preserve">
         <source><ph id="1">%1$s</ph> Кбит</source>
         <target state="needs-review-translation"><ph id="1">%1$s</ph> Кбіт</target>
@@ -6569,116 +6670,116 @@
         <target state="needs-review-translation">&lt;none&gt;</target>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_1" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_2" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_21" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_22" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_23" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_3" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_31" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_32" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_33" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_41" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_42" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_43" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_51" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_52" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_53" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_61" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_62" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_63" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_71" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_72" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_73" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_81" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_82" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_83" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_91" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>st</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_92" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>nd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_93" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>rd</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LOC_Ordinal_Suffix_Default" xml:space="preserve">
-        <source>[empty string]</source>
-        <target state="needs-review-translation">[empty string]</target>
+        <source>th</source>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="LanguageGroup_Supported" xml:space="preserve">
         <source>Поддерживаемые языки</source>
@@ -7497,8 +7598,8 @@
         <target state="needs-review-translation">УВАГА: спасылка дзейнічае 30 дзён, але выкарыстоўваць яе можна толькі адзін раз.</target>
       </trans-unit>
       <trans-unit id="ManageFriends_SendInvite" xml:space="preserve">
-        <source>Отправьте приглашение</source>
-        <target state="needs-review-translation">Адпраўце запрашэнне</target>
+        <source>Отправить приглашение</source>
+        <target state="translated">Адправіць запрашэнне</target>
       </trans-unit>
       <trans-unit id="ManageFriends_YourFriendCode" xml:space="preserve">
         <source>Ваш код дружбы</source>
@@ -7556,6 +7657,14 @@
         <source>При обработке медиа произошла ошибка. Перекодируйте файл и повторите попытку.</source>
         <target state="needs-review-translation">Пры апрацоўцы медыя адбылася памылка. Перакадуйце файл і паспрабуйце яшчэ раз.</target>
       </trans-unit>
+      <trans-unit id="MediaConvert_InputError_AnimationNotAllowed" xml:space="preserve">
+        <source>Это изображение нельзя анимировать. Загрузите статичный вариант.</source>
+        <target state="translated">Гэтую выяву нельга анімаваць. Запампуйце статычны варыянт.</target>
+      </trans-unit>
+      <trans-unit id="MediaConvert_InputError_AnimationTooSmall" xml:space="preserve">
+        <source>Анимация или видео слишком маленькие. Размер должен быть не менее 16 на 16 пикселей.</source>
+        <target state="translated">Анімацыя або відэа занадта малыя. Памер павінен быць не менш за 16 на 16 пікселяў.</target>
+      </trans-unit>
       <trans-unit id="MediaConvert_InputError_DimensionsDontMatchRequirements" xml:space="preserve">
         <source>Входной медиафайл не соответствует требуемым размерам</source>
         <target state="needs-review-translation">Уваходны медыяфайл не адпавядае патрабаваным памерам</target>
@@ -7563,6 +7672,22 @@
       <trans-unit id="MediaConvert_InputError_GifParsingError" xml:space="preserve">
         <source>Не удалось обработать GIF. Перекодируйте файл или измените его формат и повторите попытку.</source>
         <target state="needs-review-translation">Не атрымалася апрацаваць GIF. Перакадуйце файл ці зменіце яго фармат і паспрабуйце яшчэ раз.</target>
+      </trans-unit>
+      <trans-unit id="MediaConvert_InputError_ImageTooSmall" xml:space="preserve">
+        <source>Изображение слишком маленькое. Размер должен быть не менее 16 на 16 пикселей.</source>
+        <target state="translated">Выява занадта малая. Памер павінен быць не менш за 16 на 16 пікселяў.</target>
+      </trans-unit>
+      <trans-unit id="MediaConvert_InputError_ImageTypeWithAudio" xml:space="preserve">
+        <source>В файлах изображений не может быть звуковой дорожки.</source>
+        <target state="translated">У файлах выяў не можа быць гукавой дарожкі.</target>
+      </trans-unit>
+      <trans-unit id="MediaConvert_InputError_MultipleVideoStreams" xml:space="preserve">
+        <source>Файл содержит несколько видеодорожек. Загрузите файл с одной видеодорожкой.</source>
+        <target state="translated">Файл змяшчае некалькі відэадарожак. Запампуйце файл з адной відэадарожкай.</target>
+      </trans-unit>
+      <trans-unit id="MediaConvert_InputError_NoAvif_NotSupported_WithVideo" xml:space="preserve">
+        <source>Вывод в формате AVIF не поддерживается для источников видео.</source>
+        <target state="translated">Вывад у фармаце AVIF не падтрымліваецца для крыніц відэа.</target>
       </trans-unit>
       <trans-unit id="MediaConvert_InputError_NonAudio_Input" xml:space="preserve">
         <source>Во входном файле нет аудиоданных. Предоставьте файл со звуковой дорожкой.</source>
@@ -8994,10 +9119,6 @@
         <source>Недостаточно места для подготовки и сохранения роликов. Измените настройки.</source>
         <target state="needs-review-translation">Недастаткова месца для падрыхтоўкі і захавання ролікаў. Зменіце налады.</target>
       </trans-unit>
-      <trans-unit id="RecordingState_ForeverRec_Tooltip" xml:space="preserve">
-        <source>Запись и сохранение всего контента</source>
-        <target state="translated">Запіс і захаванне ўсяго змесціва</target>
-      </trans-unit>
       <trans-unit id="RecordingState_LowDiskSpace_CTA" xml:space="preserve">
         <source>Открыть настройки</source>
         <target state="needs-review-translation">Адкрыць налады</target>
@@ -9731,18 +9852,22 @@
       <trans-unit id="Sale_BrowserSortOption_MLPlaytime" xml:space="preserve">
         <source>ML Playtime Recommender</source>
         <target state="translated">Рэкамендацыі ML па часе гульні</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_MLPlaytime_ttip" xml:space="preserve">
         <source>Orders games by per-person recommendations based on playtime behavior of people like them. Falls back to &#34;Popular based on sales rank&#34; if not logged in or model not available.</source>
         <target state="translated">Сартуе гульні па персанальных рэкамендацыях на аснове паводзін гульцоў з падобнай гісторыяй часу гульні. Калі вы не ўвайшлі ў сістэму або мадэль недаступная, выкарыстоўваецца сартаванне «Папулярнае па рэйтынгу продажаў».</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_MLWishlist" xml:space="preserve">
         <source>ML Wishlist Recommender</source>
         <target state="translated">Рэкамендацыі ML па спісе жаданага</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_MLWishlist_ttip" xml:space="preserve">
         <source>Orders games by per-person recommendations based on wishlist behavior of people like them. Falls back to &#34;Trending Upcoming&#34; (wishlists) if not logged in or model not available.</source>
         <target state="translated">Сартуе гульні па персанальных рэкамендацыях на аснове паводзін гульцоў з падобнымі спісамі жаданага. Калі вы не ўвайшлі ў сістэму або мадэль недаступная, выкарыстоўваецца сартаванне «Растучая папулярнасць» (спісы жаданага).</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_BrowserSortOption_MostPlayedDemo" xml:space="preserve">
         <source>Самые популярные демоверсии</source>
@@ -10279,6 +10404,7 @@
       <trans-unit id="Sale_Reservation_AfterQuarter_ThreeMonths" xml:space="preserve">
         <source>After <ph id="1">%1$s</ph> (<ph id="2">%2$s</ph> <ph id="3">%3$s</ph> or later)</source>
         <target state="translated">Пасля <ph id="1">%1$s</ph> (<ph id="2">%2$s</ph> <ph id="3">%3$s</ph> або пазней)</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_Reservation_AfterYear" xml:space="preserve">
         <source>После: <ph id="1">%1$s</ph></source>
@@ -10479,6 +10605,7 @@
       <trans-unit id="Sale_Reservation_Quarter_ThreeMonths" xml:space="preserve">
         <source><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph> - <ph id="3">%3$s</ph>) <ph id="4">%4$s</ph></source>
         <target state="needs-review-translation"><ph id="1">%1$s</ph> (<ph id="2">%2$s</ph> - <ph id="3">%3$s</ph>) <ph id="4">%4$s</ph></target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="Sale_Reservation_RelativeMonthly" xml:space="preserve">
         <source>~<ph id="1">%1$s</ph> мес.</source>
@@ -11660,6 +11787,10 @@
         <source>Последние новинки</source>
         <target state="needs-review-translation">Апошнія навінкі</target>
       </trans-unit>
+      <trans-unit id="Sale_default_label_282" xml:space="preserve">
+        <source>Без VR</source>
+        <target state="translated">Без VR</target>
+      </trans-unit>
       <trans-unit id="Sale_default_label_29" xml:space="preserve">
         <source>Ограниченное время: установите игру и получите её навсегда</source>
         <target state="needs-review-translation">Абмежаваны час: усталюйце гульню і атрымаеце яе назаўжды</target>
@@ -12123,6 +12254,14 @@
       <trans-unit id="Sale_default_subtitle_7" xml:space="preserve">
         <source>Присоединяйтесь к тестированию</source>
         <target state="translated">Далучайцеся да тэставання</target>
+      </trans-unit>
+      <trans-unit id="Sale_default_subtitle_8" xml:space="preserve">
+        <source>Игры, полностью совместимые со Steam Frame</source>
+        <target state="translated">Гульні, цалкам сумяшчальныя са Steam Frame</target>
+      </trans-unit>
+      <trans-unit id="Sale_default_subtitle_9" xml:space="preserve">
+        <source>Играбельные на Steam Frame и полностью совместимые с ним</source>
+        <target state="translated">Гульні, у якія можна гуляць на Steam Frame і якія цалкам з ім сумяшчальныя</target>
       </trans-unit>
       <trans-unit id="Sale_default_subtitle_custom" xml:space="preserve">
         <source>(свой подзаголовок)</source>
@@ -13667,6 +13806,10 @@
       <trans-unit id="SteamMachine_TestResult_AudioOutputHasNonblockingIssues" xml:space="preserve">
         <source>У этой игры есть незначительные проблемы со звуком на Steam Machine</source>
         <target state="translated">У гэтай гульні ёсць малаважныя праблемы з гукам на Steam Machine</target>
+      </trans-unit>
+      <trans-unit id="SteamMachine_TestResult_CloudSavesNotEnabledByDefault" xml:space="preserve">
+        <source>Для этой игры нужно вручную включить в настройках синхронизацию сохранений со Steam Cloud</source>
+        <target state="translated">Для гэтай гульні трэба ўручную ўключыць у наладах сінхранізацыю захаванняў са Steam Cloud</target>
       </trans-unit>
       <trans-unit id="SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice" xml:space="preserve">
         <source>В этой игре иногда отображается курсор мыши, клавиатура или иконки сторонних контроллеров</source>
@@ -16637,6 +16780,7 @@
       <trans-unit id="shared_dummy" xml:space="preserve">
         <source>dont translate</source>
         <target state="needs-review-translation">dont translate</target>
+        <note>Steam has no Russian text for this string; the source is English.</note>
       </trans-unit>
       <trans-unit id="standard_shipping_estimate" xml:space="preserve">
         <source>Ориентировочный срок доставки: 4–8 рабочих дней</source>
