@@ -1,13 +1,14 @@
 # Belarusian UI for Steam
 
+**English** | [Беларуская](README.be.md)
+
 A [Millennium](https://steambrew.app) plugin that shows the Steam client in Belarusian.
 
 ## Why this plugin exists
 
 Steam's client has no Belarusian language. This plugin fills the gap: it works on top of whichever
-language Steam is set to, and makes the client's own interface strings (menus, friends list,
-settings, dialogs) appear in Belarusian. A string without a translation shows as Steam wrote it,
-in the language Steam is set to.
+language Steam is set to, and makes the client's own interface strings appear in Belarusian. A
+string without a translation stays in the language Steam is set to.
 
 <p align="center">
   <img src="docs/screenshots/library.webp" alt="Game library page in Belarusian" width="720">
